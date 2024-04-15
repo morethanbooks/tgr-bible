@@ -1,0 +1,218 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titus (Greek)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="3"/><measure commodity="verses" quantity="46"/><measure commodity="bytes" quantity="287254"/><measure commodity="characters" quantity="158831"/><measure commodity="tokens" quantity="26444"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>ΠΡΟΣ ΤΙΤΟΝ</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q131493">Q131493</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4075944-1">4075944-1</idno></bibl><bibl type="BibleTranslation">Neophytos Vamvas Translation<date when="1850">1850</date></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="el">Greek<idno type="iso639">gre</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Greek</term>
+              <term type="languageFamiliy">Indo-European</term>
+              <term type="languageGenus">Greek</term>
+              <term type="languageSubgenus">Attic</term>
+              <term type="languageSpeakers">13,000,000</term>
+           <term type="testament">new</term><term type="genre">letter</term><term type="division">Letters</term><term type="genre-multilabel">letter</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.48">Modern Greek language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="el"><div xml:id="b.TIT" type="book">
+				<head>ΠΡΟΣ ΤΙΤΟΝ</head><div xml:id="b.TIT.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.TIT.001.001" type="verse">
+						Παυλος, δουλος Θεου, αποστολος δε Ιησου Χριστου κατα την πιστιν των εκλεκτων του Θεου και την επιγνωσιν της αληθειας της κατ' ευσεβειαν
+					</ab>
+					<ab xml:id="b.TIT.001.002" type="verse">
+						επ' ελπιδι ζωης αιωνιου, την οποιαν υπεσχεθη ο αψευδης Θεος προ χρονων αιωνιων,
+					</ab>
+					<ab xml:id="b.TIT.001.003" type="verse">
+						εφανερωσε δε εν καιροις ωρισμενοις τον λογον αυτου δια του κηρυγματος, το οποιον ενεπιστευθην εγω κατ' επιταγην του σωτηρος ημων Θεου,
+					</ab>
+					<ab xml:id="b.TIT.001.004" type="verse">
+						προς Τιτον, γνησιον τεκνον κατα κοινην ημων πιστιν ειη χαρις, ελεος, ειρηνη απο Θεου Πατρος και Κυριου Ιησου Χριστου του Σωτηρος ημων.
+					</ab>
+					<ab xml:id="b.TIT.001.005" type="verse">
+						Δια τουτο σε αφηκα εν Κρητη, δια να διορθωσης τα ελλειποντα και να καταστησης εν παση πολει πρεσβυτερους, καθως εγω σε διεταξα,
+					</ab>
+					<ab xml:id="b.TIT.001.006" type="verse">
+						οστις ειναι ανεγκλητος, μιας γυναικος ανηρ, εχων τεκνα πιστα, μη κατηγορουμενα ως ασωτα η ανυποτακτα.
+					</ab>
+					<ab xml:id="b.TIT.001.007" type="verse">
+						Διοτι πρεπει ο επισκοπος να ηναι ανεγκλητος, ως οικονομος Θεου, μη αυθαδης, μη οργιλος, μη μεθυσος, μη πληκτης, μη αισχροκερδης,
+					</ab>
+					<ab xml:id="b.TIT.001.008" type="verse">
+						αλλα φιλοξενος, φιλαγαθος, σωφρων, δικαιος, οσιος, εγκρατης,
+					</ab>
+					<ab xml:id="b.TIT.001.009" type="verse">
+						προσκεκολλημενος εις τον πιστον λογον της διδασκαλιας, δια να ηναι δυνατος και να προτρεπη δια της υγιαινουσης διδασκαλιας και να εξελεγχη τους αντιλεγοντας.
+					</ab>
+					<ab xml:id="b.TIT.001.010" type="verse">
+						Διοτι υπαρχουσι πολλοι και ανυποτακτοι ματαιολογοι και φρενοπλανοι, μαλιστα οι εκ της περιτομης,
+					</ab>
+					<ab xml:id="b.TIT.001.011" type="verse">
+						τους οποιους πρεπει να αποστομονωμεν, οιτινες ανατρεπουσιν ολοκληρους οικους, διδασκοντες οσα δεν πρεπει, χαριν αισχρου κερδους.
+					</ab>
+					<ab xml:id="b.TIT.001.012" type="verse">
+						Ειπε τις αυτων προφητης ιδιος αυτων Οι Κρητες ειναι παντοτε ψευσται, κακα θηρια, γαστερες αργαι.
+					</ab>
+					<ab xml:id="b.TIT.001.013" type="verse">
+						Η μαρτυρια αυτη ειναι αληθινη. Δια την οποιαν αιτιαν ελεγχε αυτους αποτομως, δια να υγιαινωσιν εν τη πιστει,
+					</ab>
+					<ab xml:id="b.TIT.001.014" type="verse">
+						και να μη προσεχωσιν εις Ιουδαικους μυθους και εντολας ανθρωπων αποστρεφομενων την αληθειαν.
+					</ab>
+					<ab xml:id="b.TIT.001.015" type="verse">
+						Εις μεν τους καθαρους παντα ειναι καθαρα εις δε τους μεμιασμενους και απιστους ουδεν καθαρον, αλλα και ο νους αυτων και η συνειδησις ειναι μεμιασμενα.
+					</ab>
+					<ab xml:id="b.TIT.001.016" type="verse">
+						Ομολογουσιν οτι γνωριζουσι τον Θεον, με τα εργα ομως αρνουνται, βδελυκτοι οντες και απειθεις και εις παν εργον αγαθον αδοκιμοι.
+					</ab>
+				</div>
+				<div xml:id="b.TIT.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.TIT.002.001" type="verse">
+						Συ ομως λαλει οσα πρεπουσιν εις την υγιαινουσαν διδασκαλιαν.
+					</ab>
+					<ab xml:id="b.TIT.002.002" type="verse">
+						Οι γεροντες να ηναι αγρυπνοι, σεμνοι, σωφρονες, υγιαινοντες εν τη πιστει, τη αγαπη, τη υπομονη.
+					</ab>
+					<ab xml:id="b.TIT.002.003" type="verse">
+						Αι γραιαι ωσαυτως να εχωσι τροπον ιεροπρεπη, μη καταλαλοι, μη δεδουλωμεναι εις πολλην οινοποσιαν, να ηναι διδασκαλοι των καλων,
+					</ab>
+					<ab xml:id="b.TIT.002.004" type="verse">
+						δια να νουθετωσι τας νεας να ηναι φιλανδροι, φιλοτεκνοι,
+					</ab>
+					<ab xml:id="b.TIT.002.005" type="verse">
+						σωφρονες, καθαραι, οικοφυλακες, αγαθαι, ευπειθεις εις τους ιδιους αυτων ανδρας, δια να μη βλασφημηται ο λογος του Θεου.
+					</ab>
+					<ab xml:id="b.TIT.002.006" type="verse">
+						Τους νεωτερους ωσαυτως νουθετει να σωφρονωσι,
+					</ab>
+					<ab xml:id="b.TIT.002.007" type="verse">
+						δεικνυων κατα παντα σεαυτον τυπον των καλων εργων, φυλαττων εν τη διδασκαλια αδιαφθοριαν, σεμνοτητα,
+					</ab>
+					<ab xml:id="b.TIT.002.008" type="verse">
+						λογον υγιη και ακατακριτον, δια να εντραπη ο εναντιος, μη εχων να λεγη δια σας μηδεν κακον.
+					</ab>
+					<ab xml:id="b.TIT.002.009" type="verse">
+						Τους δουλους να υποτασσωνται εις τους εαυτων δεσποτας, να ευαρεστωσιν εις αυτους κατα παντα, να μη αντιλεγωσι,
+					</ab>
+					<ab xml:id="b.TIT.002.010" type="verse">
+						να μη σφετεριζωνται τα αλλοτρια, αλλα να δεικνυωσι πασαν πιστιν αγαθην, δια να στολιζωσι κατα παντα την διδασκαλιαν του σωτηρος ημων Θεου.
+					</ab>
+					<ab xml:id="b.TIT.002.011" type="verse">
+						Διοτι εφανερωθη η χαρις του Θεου η σωτηριος εις παντας ανθρωπους,
+					</ab>
+					<ab xml:id="b.TIT.002.012" type="verse">
+						διδασκουσα ημας να αρνηθωμεν την ασεβειαν και τας κοσμικας επιθυμιας και να ζησωμεν σωφρονως και δικαιως και ευσεβως εν τω παροντι αιωνι,
+					</ab>
+					<ab xml:id="b.TIT.002.013" type="verse">
+						προσμενοντες την μακαριαν ελπιδα και επιφανειαν της δοξης του μεγαλου Θεου και Σωτηρος ημων Ιησου Χριστου,
+					</ab>
+					<ab xml:id="b.TIT.002.014" type="verse">
+						οστις εδωκεν εαυτον υπερ ημων, δια να μας λυτρωση απο πασης ανομιας και να μας καθαριση εις εαυτον λαον εκλεκτον, ζηλωτην καλων εργων.
+					</ab>
+					<ab xml:id="b.TIT.002.015" type="verse">
+						Ταυτα λαλει και προτρεπε και ελεγχε μετα πασης εξουσιας ας μη σε περιφρονη μηδεις.
+					</ab>
+				</div>
+				<div xml:id="b.TIT.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.TIT.003.001" type="verse">
+						Υπενθυμιζε αυτους να υποτασσωνται εις τας αρχας και εξουσιας, να πειθαρχωσι, να ηναι ετοιμοι εις παν εργον αγαθον,
+					</ab>
+					<ab xml:id="b.TIT.003.002" type="verse">
+						να μη βλασφημωσι μηδενα, να ηναι αμαχοι, συμβιβαστικοι, να δεικνυωσι προς παντας ανθρωπους πασαν πραοτητα.
+					</ab>
+					<ab xml:id="b.TIT.003.003" type="verse">
+						Διοτι ημεθα ποτε και ημεις ανοητοι, απειθεις, πλανωμενοι, δουλευοντες εις διαφορους επιθυμιας και ηδονας, ζωντες εν κακια και φθονω, μισητοι και μισουντες αλληλους.
+					</ab>
+					<ab xml:id="b.TIT.003.004" type="verse">
+						Αλλ' οτε εφανερωθη η χρηστοτης και η φιλανθρωπια του Σωτηρος ημων Θεου,
+					</ab>
+					<ab xml:id="b.TIT.003.005" type="verse">
+						ουχι εξ εργων δικαιοσυνης τα οποια επραξαμεν ημεις, αλλα κατα το ελεος αυτου εσωσεν ημας δια λουτρου παλιγγενεσιας και ανακαινισεως του Αγιου Πνευματος,
+					</ab>
+					<ab xml:id="b.TIT.003.006" type="verse">
+						το οποιον εξεχεε πλουσιως εφ' ημας δια Ιησου Χριστου του Σωτηρος ημων,
+					</ab>
+					<ab xml:id="b.TIT.003.007" type="verse">
+						ινα δικαιωθεντες δια της χαριτος εκεινου, γεινωμεν κληρονομοι κατα την ελπιδα της αιωνιου ζωης.
+					</ab>
+					<ab xml:id="b.TIT.003.008" type="verse">
+						Πιστος ο λογος, και θελω ταυτα να διαβεβαιοις, δια να φροντιζωσιν οι πιστευσαντες εις τον Θεον να προιστανται καλων εργων. Ταυτα ειναι τα καλα και ωφελιμα εις τους ανθρωπους
+					</ab>
+					<ab xml:id="b.TIT.003.009" type="verse">
+						μωρας δε φιλονεικιας και γενεαλογιας και εριδας και μαχας νομικας φευγε, διοτι ειναι ανωφελεις και ματαιαι.
+					</ab>
+					<ab xml:id="b.TIT.003.010" type="verse">
+						Αιρετικον ανθρωπον μετα μιαν και δευτεραν νουθεσιαν παραιτου,
+					</ab>
+					<ab xml:id="b.TIT.003.011" type="verse">
+						εξευρων οτι διεφθαρη ο τοιουτος και αμαρτανει, ων αυτοκατακριτος.
+					</ab>
+					<ab xml:id="b.TIT.003.012" type="verse">
+						Οταν πεμψω προς σε τον Αρτεμαν η τον Τυχικον, σπουδασον να ελθης προς με εις Νικοπολιν διοτι εκει απεφασισα να παραχειμασω.
+					</ab>
+					<ab xml:id="b.TIT.003.013" type="verse">
+						Ζηναν τον νομικον και τον Απολλω προπεμψον επιμελως, δια να μη λειπη εις αυτους μηδεν.
+					</ab>
+					<ab xml:id="b.TIT.003.014" type="verse">
+						Ας μανθανωσι δε και οι ημετεροι να προιστανται καλων εργων εις τας αναγκαιας χρειας, δια να μη ηναι ακαρποι.
+					</ab>
+					<ab xml:id="b.TIT.003.015" type="verse">
+						Ασπαζονται σε παντες οι μετ' εμου ασπασθητι τους αγαπωντας ημας εν πιστει. Η χαρις ειη μετα παντων υμων. Αμην.
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

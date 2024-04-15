@@ -1,0 +1,131 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jonah (Latin)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="4"/><measure commodity="verses" quantity="48"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>BibleGateway</title>
+               <ref target="https://www.biblegateway.com"/>
+            </bibl>
+         <bibl type="work"><title>Ionas</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q178819">Q178819</idno><author><name>Jonah</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q2468262">Q2468262</idno></author></bibl><bibl type="BibleTranslation">Biblia Sacra Vulgata Latina<date when="405">405</date></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction status="medium" method="silent"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="la">Latin<idno type="iso639">lat</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Latin</term>
+              <term type="languageFamiliy">Indo-European</term>
+              <term type="languageGenus">Italic</term>
+              <term type="languageSubgenus">Latino-Faliscan</term>
+              <term type="languageSpeakers">Extinct</term>
+           <term type="testament">old</term><term type="genre">historical</term><term type="division">Prophetic</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.44">Latin language</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     </revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="la"><div xml:id="b.JON" type="book">
+				<head>Ionas</head><div xml:id="b.JON.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.JON.001.001" type="verse">et factum est verbum Domini ad Ionam filium Amathi dicens</ab>
+					<ab xml:id="b.JON.001.002" type="verse">surge vade in Nineven civitatem grandem et praedica in ea quia ascendit malitia eius coram me</ab>
+					<ab xml:id="b.JON.001.003" type="verse">et surrexit Iona ut fugeret in Tharsis a facie Domini et descendit Ioppen et invenit navem euntem in Tharsis et dedit naulum eius et descendit in eam ut iret cum eis in Tharsis a facie Domini</ab>
+					<ab xml:id="b.JON.001.004" type="verse">Dominus autem misit ventum magnum in mari et facta est tempestas magna in mari et navis periclitabatur conteri</ab>
+					<ab xml:id="b.JON.001.005" type="verse">et timuerunt nautae et clamaverunt viri ad deum suum et miserunt vasa quae erant in navi in mare ut adleviaretur ab eis et Iona descendit ad interiora navis et dormiebat sopore gravi</ab>
+					<ab xml:id="b.JON.001.006" type="verse">et accessit ad eum gubernator et dixit ei quid tu sopore deprimeris surge invoca Deum tuum si forte recogitet Deus de nobis et non pereamus</ab>
+					<ab xml:id="b.JON.001.007" type="verse">et dixit vir ad collegam suum venite et mittamus sortes et sciamus quare hoc malum sit nobis et miserunt sortes et cecidit sors super Ionam</ab>
+					<ab xml:id="b.JON.001.008" type="verse">et dixerunt ad eum indica nobis cuius causa malum istud sit nobis quod est opus tuum quae terra tua et quo vel ex quo populo es tu</ab>
+					<ab xml:id="b.JON.001.009" type="verse">et dixit ad eos Hebraeus ego sum et Dominum Deum caeli ego timeo qui fecit mare et aridam</ab>
+					<ab xml:id="b.JON.001.010" type="verse">et timuerunt viri timore magno et dixerunt ad eum quid hoc fecisti cognoverunt enim viri quod a facie Domini fugeret quia indicaverat eis</ab>
+					<ab xml:id="b.JON.001.011" type="verse">et dixerunt ad eum quid faciemus tibi et cessabit mare a nobis quia mare ibat et intumescebat</ab>
+					<ab xml:id="b.JON.001.012" type="verse">et dixit ad eos tollite me et mittite in mare et cessabit mare a vobis scio enim ego quoniam propter me tempestas grandis haec super vos</ab>
+					<ab xml:id="b.JON.001.013" type="verse">et remigabant viri ut reverterentur ad aridam et non valebant quia mare ibat et intumescebat super eos</ab>
+					<ab xml:id="b.JON.001.014" type="verse">et clamaverunt ad Dominum et dixerunt quaesumus Domine ne pereamus in anima viri istius et ne des super nos sanguinem innocentem quia tu Domine sicut voluisti fecisti</ab>
+					<ab xml:id="b.JON.001.015" type="verse">et tulerunt Ionam et miserunt in mare et stetit mare a fervore suo</ab>
+					<ab xml:id="b.JON.001.016" type="verse">et timuerunt viri timore magno Dominum et immolaverunt hostias Domino et voverunt vota</ab>
+				</div>
+				<div xml:id="b.JON.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.JON.002.001" type="verse">et praeparavit Dominus piscem grandem ut degluttiret Ionam et erat Iona in ventre piscis tribus diebus et tribus noctibus</ab>
+					<ab xml:id="b.JON.002.002" type="verse">et oravit Iona ad Dominum Deum suum de utero piscis</ab>
+					<ab xml:id="b.JON.002.003" type="verse">et dixit clamavi de tribulatione mea ad Dominum et exaudivit me de ventre inferni clamavi et exaudisti vocem meam</ab>
+					<ab xml:id="b.JON.002.004" type="verse">et proiecisti me in profundum in corde maris et flumen circumdedit me omnes gurgites tui et fluctus tui super me transierunt</ab>
+					<ab xml:id="b.JON.002.005" type="verse">et ego dixi abiectus sum a conspectu oculorum tuorum verumtamen rursus videbo templum sanctum tuum</ab>
+					<ab xml:id="b.JON.002.006" type="verse">circumdederunt me aquae usque ad animam abyssus vallavit me pelagus operuit caput meum</ab>
+					<ab xml:id="b.JON.002.007" type="verse">ad extrema montium descendi terrae vectes concluserunt me in aeternum et sublevabis de corruptione vitam meam Domine Deus meus</ab>
+					<ab xml:id="b.JON.002.008" type="verse">cum angustiaretur in me anima mea Domini recordatus sum ut veniat ad te oratio mea ad templum sanctum tuum</ab>
+					<ab xml:id="b.JON.002.009" type="verse">qui custodiunt vanitates frustra misericordiam suam derelinquunt</ab>
+					<ab xml:id="b.JON.002.010" type="verse">ego autem in voce laudis immolabo tibi quaecumque vovi reddam pro salute Domino</ab>
+					<ab xml:id="b.JON.002.011" type="verse">et dixit Dominus pisci et evomuit Ionam in aridam</ab>
+				</div>
+				<div xml:id="b.JON.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.JON.003.001" type="verse">et factum est verbum Domini ad Ionam secundo dicens</ab>
+					<ab xml:id="b.JON.003.002" type="verse">surge vade ad Nineven civitatem magnam et praedica in ea praedicationem quam ego loquor ad te</ab>
+					<ab xml:id="b.JON.003.003" type="verse">et surrexit Iona et abiit in Nineven iuxta verbum Domini et Nineve erat civitas magna Dei itinere dierum trium</ab>
+					<ab xml:id="b.JON.003.004" type="verse">et coepit Iona introire in civitatem itinere diei unius et clamavit et dixit adhuc quadraginta dies et Nineve subvertetur</ab>
+					<ab xml:id="b.JON.003.005" type="verse">et crediderunt viri ninevitae in Deo et praedicaverunt ieiunium et vestiti sunt saccis a maiore usque ad minorem</ab>
+					<ab xml:id="b.JON.003.006" type="verse">et pervenit verbum ad regem Nineve et surrexit de solio suo et abiecit vestimentum suum a se et indutus est sacco et sedit in cinere</ab>
+					<ab xml:id="b.JON.003.007" type="verse">et clamavit et dixit in Nineve ex ore regis et principum eius dicens homines et iumenta et boves et pecora non gustent quicquam nec pascantur et aquam non bibant</ab>
+					<ab xml:id="b.JON.003.008" type="verse">et operiantur saccis homines et iumenta et clament ad Dominum in fortitudine et convertatur vir a via sua mala et ab iniquitate quae est in manibus eorum</ab>
+					<ab xml:id="b.JON.003.009" type="verse">quis scit si convertatur et ignoscat Deus et revertatur a furore irae suae et non peribimus</ab>
+					<ab xml:id="b.JON.003.010" type="verse">et vidit Deus opera eorum quia conversi sunt a via sua mala et misertus est Deus super malitiam quam locutus fuerat ut faceret eis et non fecit</ab>
+				</div>
+				<div xml:id="b.JON.004" type="chapter">
+				<head>4</head>
+					<ab xml:id="b.JON.004.001" type="verse">et adflictus est Iona adflictione magna et iratus est</ab>
+					<ab xml:id="b.JON.004.002" type="verse">et oravit ad Dominum et dixit obsecro Domine numquid non hoc est verbum meum cum adhuc essem in terra mea propter hoc praeoccupavi ut fugerem in Tharsis scio enim quia tu Deus clemens et misericors es patiens et multae miserationis et ignoscens super malitia</ab>
+					<ab xml:id="b.JON.004.003" type="verse">et nunc Domine tolle quaeso animam meam a me quia melior est mihi mors quam vita</ab>
+					<ab xml:id="b.JON.004.004" type="verse">et dixit Dominus putasne bene irasceris tu</ab>
+					<ab xml:id="b.JON.004.005" type="verse">et egressus est Iona de civitate et sedit contra orientem civitatis et fecit sibimet ibi umbraculum et sedebat subter eum in umbra donec videret quid accideret civitati</ab>
+					<ab xml:id="b.JON.004.006" type="verse">et praeparavit Dominus Deus hederam et ascendit super caput Ionae ut esset umbra super caput eius et protegeret eum laboraverat enim et laetatus est Iona super hedera laetitia magna</ab>
+					<ab xml:id="b.JON.004.007" type="verse">et paravit Deus vermem ascensu diluculo in crastinum et percussit hederam et exaruit</ab>
+					<ab xml:id="b.JON.004.008" type="verse">et cum ortus fuisset sol praecepit Dominus vento calido et urenti et percussit sol super caput Ionae et aestuabat et petivit animae suae ut moreretur et dixit melius est mihi mori quam vivere</ab>
+					<ab xml:id="b.JON.004.009" type="verse">et dixit Dominus ad Ionam putasne bene irasceris tu super hederam et dixit bene irascor ego usque ad mortem</ab>
+					<ab xml:id="b.JON.004.010" type="verse">et dixit Dominus tu doles super hederam in qua non laborasti neque fecisti ut cresceret quae sub una nocte nata est et una nocte periit</ab>
+					<ab xml:id="b.JON.004.011" type="verse">et ego non parcam Nineve civitati magnae in qua sunt plus quam centum viginti milia hominum qui nesciunt quid sit inter dexteram et sinistram suam et iumenta multa</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

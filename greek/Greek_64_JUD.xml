@@ -1,0 +1,149 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jude (Greek)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="1"/><measure commodity="verses" quantity="25"/><measure commodity="bytes" quantity="118102"/><measure commodity="characters" quantity="65588"/><measure commodity="tokens" quantity="11274"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>ΙΟΥΔΑ</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q131466">Q131466</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4028807-9">4028807-9</idno><author><name>Jude the Apostle</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q43945">Q43945</idno><idno type="gnd" corresp="https://d-nb.info/gnd/118713337">118713337</idno></author></bibl><bibl type="BibleTranslation">Neophytos Vamvas Translation<date when="1850">1850</date></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="el">Greek<idno type="iso639">gre</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Greek</term>
+              <term type="languageFamiliy">Indo-European</term>
+              <term type="languageGenus">Greek</term>
+              <term type="languageSubgenus">Attic</term>
+              <term type="languageSpeakers">13,000,000</term>
+           <term type="testament">new</term><term type="genre">letter</term><term type="division">Letters</term><term type="genre-multilabel">letter</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.48">Modern Greek language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="el"><div xml:id="b.JUD" type="book">
+				<head>ΙΟΥΔΑ</head><div xml:id="b.JUD.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.JUD.001.001" type="verse">
+						Ιουδας, δουλος Ιησου Χριστου, αδελφος δε Ιακωβου, προς τους κλητους τους ηγιασμενους υπο Θεου Πατρος, και τετηρημενους υπο του Ιησου Χριστου
+					</ab>
+					<ab xml:id="b.JUD.001.002" type="verse">
+						ελεος πληθυνθειη εις εσας και ειρηνη και αγαπη.
+					</ab>
+					<ab xml:id="b.JUD.001.003" type="verse">
+						Αγαπητοι, επειδη καταβαλλω πασαν σπουδην να σας γραφω περι της κοινης σωτηριας, ελαβον αναγκην να σας γραψω, προτρεπων εις το να αγωνιζησθε δια την πιστιν, ητις απαξ παρεδοθη εις τους αγιους.
+					</ab>
+					<ab xml:id="b.JUD.001.004" type="verse">
+						Διοτι εισεχωρησαν λαθραιως τινες ανθρωποι, οιτινες ησαν παλαιοθεν προγεγραμμενοι εις ταυτην την καταδικην, ασεβεις, μεταστρεφοντες την χαριν του Θεου ημων εις ασελγειαν, και αρνουμενοι τον μονον Δεσποτην Θεον και Κυριον ημων Ιησουν Χριστον.
+					</ab>
+					<ab xml:id="b.JUD.001.005" type="verse">
+						Θελω δε να σας υπενθυμισω, αν και σεις εγνωρισατε ηδη τουτο, οτι ο Κυριος, αφου εσωσε τον λαον εκ γης Αιγυπτου, απωλεσεν υστερον τους μη πιστευσαντας.
+					</ab>
+					<ab xml:id="b.JUD.001.006" type="verse">
+						Και αγγελους, οιτινες δεν εφυλαξαν την εαυτων αξιαν αλλα κατελιπον το ιδιον αυτων κατοικητηριον, εφυλαξε με παντοτεινα δεσμα υποκατω του σκοτους δια την κρισιν της μεγαλης ημερας
+					</ab>
+					<ab xml:id="b.JUD.001.007" type="verse">
+						καθως τα Σοδομα και τα Γομορρα και αι περιξ αυτων πολεις, εις την πορνειαν παραδοθεισαι κατα τον ομοιον με τουτους τροπον και ακολουθουσαι οπισω αλλης σαρκος, προκεινται παραδειγμα, τιμωρουμεναι με το αιωνιον πυρ.
+					</ab>
+					<ab xml:id="b.JUD.001.008" type="verse">
+						Ομοιως και ουτοι ενυπνιαζομενοι την μεν σαρκα μιαινουσι, την δε εξουσιαν καταφρονουσι και τα αξιωματα βλασφημουσιν.
+					</ab>
+					<ab xml:id="b.JUD.001.009" type="verse">
+						Ο δε Μιχαηλ ο αρχαγγελος, οτε αγωνιζομενος με τον διαβολον εφιλονεικει περι του σωματος του Μωυσεως, δεν ετολμησε να επιφερη εναντιον αυτου κατηγοριαν βλασφημον, αλλ' ειπεν Ο Κυριος να σε επιτιμηση.
+					</ab>
+					<ab xml:id="b.JUD.001.010" type="verse">
+						Ουτοι δε οσα μεν δεν εξευρουσι βλασφημουσιν, οσα δε φυσικως ως τα αλογα ζωα εξευρουσιν, εις ταυτα φθειρονται.
+					</ab>
+					<ab xml:id="b.JUD.001.011" type="verse">
+						Ουαι εις αυτους, διοτι περιεπατησαν εις την οδον του Καιν και χαριν μισθου εξεχυθησαν εις την πλανην του Βαλααμ, και απωλεσθησαν εις την αντιλογιαν του Κορε.
+					</ab>
+					<ab xml:id="b.JUD.001.012" type="verse">
+						Ουτοι ειναι κηλιδες εις τας αγαπας σας, συμποσιαζοντες αφοβως, βοσκοντες εαυτους, νεφελαι ανυδροι υπο ανεμων περιφερομεναι, δενδρα φθινοπωρινα ακαρπα, δις αποθανοντα, εκριζωθεντα,
+					</ab>
+					<ab xml:id="b.JUD.001.013" type="verse">
+						κυματα αγρια θαλασσης επαφριζοντα τας ιδιας αυτων αισχυνας, αστερες πλανηται, δια τους οποιους το ζοφερον σκοτος ειναι τετηρημενον εις τον αιωνα.
+					</ab>
+					<ab xml:id="b.JUD.001.014" type="verse">
+						Προεφητευσε δε περι τουτων και ο Ενωχ, εβδομος απο Αδαμ, λεγων Ιδου, ηλθεν ο Κυριος με μυριαδας αγιων αυτου,
+					</ab>
+					<ab xml:id="b.JUD.001.015" type="verse">
+						δια να καμη κρισιν κατα παντων και να ελεγξη παντας τους ασεβεις εξ αυτων δια παντα τα εργα της ασεβειας αυτων, τα οποια επραξαν και δια παντα τα σκληρα, τα οποια ελαλησαν κατ' αυτου αμαρτωλοι ασεβεις.
+					</ab>
+					<ab xml:id="b.JUD.001.016" type="verse">
+						Ουτοι ειναι γογγυσται, μεμψιμοιροι, περιπατουντες κατα τας επιθυμιας αυτων, και το στομα αυτων λαλει υπερηφανα, και κολακευουσι προσωπα χαριν ωφελειας.
+					</ab>
+					<ab xml:id="b.JUD.001.017" type="verse">
+						Αλλα σεις, αγαπητοι, ενθυμηθητε τους λογους τους προειρημενους υπο των αποστολων του Κυριου ημων Ιησου Χριστου,
+					</ab>
+					<ab xml:id="b.JUD.001.018" type="verse">
+						οτι σας ελεγον οτι εν εσχατω καιρω θελουσιν εισθαι εμπαικται, περιπατουντες κατα τας ασεβεις επιθυμιας αυτων.
+					</ab>
+					<ab xml:id="b.JUD.001.019" type="verse">
+						Ουτοι ειναι οι αποχωριζοντες εαυτους, ζωωδεις, Πνευμα μη εχοντες.
+					</ab>
+					<ab xml:id="b.JUD.001.020" type="verse">
+						Σεις ομως, αγαπητοι, εποικοδομουντες εαυτους επι την αγιωτατην πιστιν σας, προσευχομενοι εν Πνευματι Αγιω,
+					</ab>
+					<ab xml:id="b.JUD.001.021" type="verse">
+						φυλαξατε εαυτους εις την αγαπην του Θεου, προσμενοντες το ελεος του Κυριου ημων Ιησου Χριστου, εις ζωην αιωνιον.
+					</ab>
+					<ab xml:id="b.JUD.001.022" type="verse">
+						Και αλλους μεν ελεειτε, καμνοντες διακρισιν,
+					</ab>
+					<ab xml:id="b.JUD.001.023" type="verse">
+						αλλους δε σωζετε μετα φοβου, αρπαζοντες αυτους εκ του πυρος, μισουντες και τον χιτωνα τον μεμολυσμενον απο της σαρκος.
+					</ab>
+					<ab xml:id="b.JUD.001.024" type="verse">
+						Εις δε τον δυναμενον να σας φυλαξη απταιστους και να σας στηση κατενωπιον της δοξης αυτου αμωμους εν αγαλλιασει,
+					</ab>
+					<ab xml:id="b.JUD.001.025" type="verse">
+						εις τον μονον σοφον Θεον τον σωτηρα ημων, ειη δοξα και μεγαλωσυνη, κρατος και εξουσια και νυν και εις παντας τους αιωνας αμην.
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

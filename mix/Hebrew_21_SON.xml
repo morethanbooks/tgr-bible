@@ -1,0 +1,446 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Song of Solomon (Hebrew)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="8"/><measure commodity="verses" quantity="117"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>שיר השירים</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q51670">Q51670</idno></bibl><bibl type="BibleTranslation">Westminster Leningrad Codex and The Bible Society in Israel<date when="1977">1977</date></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="he">Hebrew<idno type="iso639">heb</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Hebrew</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">5,300,000</term>
+           <term type="testament">old</term><term type="genre">lyric</term><term type="division">Wisdom</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.75">Hebrew language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     </revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="he"><div xml:id="b.SON" type="book">
+				<head>שיר השירים</head><div xml:id="b.SON.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.SON.001.001" type="verse">
+						שיר השירים אשר לשלמה׃
+					</ab>
+					<ab xml:id="b.SON.001.002" type="verse">
+						ישקני מנשיקות פיהו כי טובים דדיך מיין׃
+					</ab>
+					<ab xml:id="b.SON.001.003" type="verse">
+						לריח שמניך טובים שמן תורק שמך על כן עלמות אהבוך׃
+					</ab>
+					<ab xml:id="b.SON.001.004" type="verse">
+						משכני אחריך נרוצה הביאני המלך חדריו נגילה ונשמחה בך נזכירה דדיך מיין מישרים אהבוך׃
+					</ab>
+					<ab xml:id="b.SON.001.005" type="verse">
+						שחורה אני ונאוה בנות ירושלם כאהלי קדר כיריעות שלמה׃
+					</ab>
+					<ab xml:id="b.SON.001.006" type="verse">
+						אל תראוני שאני שחרחרת ששזפתני השמש בני אמי נחרו בי שמני נטרה את הכרמים כרמי שלי לא נטרתי׃
+					</ab>
+					<ab xml:id="b.SON.001.007" type="verse">
+						הגידה לי שאהבה נפשי איכה תרעה איכה תרביץ בצהרים שלמה אהיה כעטיה על עדרי חבריך׃
+					</ab>
+					<ab xml:id="b.SON.001.008" type="verse">
+						אם לא תדעי לך היפה בנשים צאי לך בעקבי הצאן ורעי את גדיתיך על משכנות הרעים׃
+					</ab>
+					<ab xml:id="b.SON.001.009" type="verse">
+						לססתי ברכבי פרעה דמיתיך רעיתי׃
+					</ab>
+					<ab xml:id="b.SON.001.010" type="verse">
+						נאוו לחייך בתרים צוארך בחרוזים׃
+					</ab>
+					<ab xml:id="b.SON.001.011" type="verse">
+						תורי זהב נעשה לך עם נקדות הכסף׃
+					</ab>
+					<ab xml:id="b.SON.001.012" type="verse">
+						עד שהמלך במסבו נרדי נתן ריחו׃
+					</ab>
+					<ab xml:id="b.SON.001.013" type="verse">
+						צרור המר דודי לי בין שדי ילין׃
+					</ab>
+					<ab xml:id="b.SON.001.014" type="verse">
+						אשכל הכפר דודי לי בכרמי עין גדי׃
+					</ab>
+					<ab xml:id="b.SON.001.015" type="verse">
+						הנך יפה רעיתי הנך יפה עיניך יונים׃
+					</ab>
+					<ab xml:id="b.SON.001.016" type="verse">
+						הנך יפה דודי אף נעים אף ערשנו רעננה׃
+					</ab>
+					<ab xml:id="b.SON.001.017" type="verse">
+						קרות בתינו ארזים רחיטנו ברותים׃
+					</ab>
+				</div>
+				<div xml:id="b.SON.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.SON.002.001" type="verse">
+						אני חבצלת השרון שושנת העמקים׃
+					</ab>
+					<ab xml:id="b.SON.002.002" type="verse">
+						כשושנה בין החוחים כן רעיתי בין הבנות׃
+					</ab>
+					<ab xml:id="b.SON.002.003" type="verse">
+						כתפוח בעצי היער כן דודי בין הבנים בצלו חמדתי וישבתי ופריו מתוק לחכי׃
+					</ab>
+					<ab xml:id="b.SON.002.004" type="verse">
+						הביאני אל בית היין ודגלו עלי אהבה׃
+					</ab>
+					<ab xml:id="b.SON.002.005" type="verse">
+						סמכוני באשישות רפדוני בתפוחים כי חולת אהבה אני׃
+					</ab>
+					<ab xml:id="b.SON.002.006" type="verse">
+						שמאלו תחת לראשי וימינו תחבקני׃
+					</ab>
+					<ab xml:id="b.SON.002.007" type="verse">
+						השבעתי אתכם בנות ירושלם בצבאות או באילות השדה אם תעירו ואם תעוררו את האהבה עד שתחפץ׃
+					</ab>
+					<ab xml:id="b.SON.002.008" type="verse">
+						קול דודי הנה זה בא מדלג על ההרים מקפץ על הגבעות׃
+					</ab>
+					<ab xml:id="b.SON.002.009" type="verse">
+						דומה דודי לצבי או לעפר האילים הנה זה עומד אחר כתלנו משגיח מן החלנות מציץ מן החרכים׃
+					</ab>
+					<ab xml:id="b.SON.002.010" type="verse">
+						ענה דודי ואמר לי קומי לך רעיתי יפתי ולכי לך׃
+					</ab>
+					<ab xml:id="b.SON.002.011" type="verse">
+						כי הנה הסתו עבר הגשם חלף הלך לו׃
+					</ab>
+					<ab xml:id="b.SON.002.012" type="verse">
+						הנצנים נראו בארץ עת הזמיר הגיע וקול התור נשמע בארצנו׃
+					</ab>
+					<ab xml:id="b.SON.002.013" type="verse">
+						התאנה חנטה פגיה והגפנים סמדר נתנו ריח קומי לכי רעיתי יפתי ולכי לך׃
+					</ab>
+					<ab xml:id="b.SON.002.014" type="verse">
+						יונתי בחגוי הסלע בסתר המדרגה הראיני את מראיך השמיעיני את קולך כי קולך ערב ומראיך נאוה׃
+					</ab>
+					<ab xml:id="b.SON.002.015" type="verse">
+						אחזו לנו שועלים שועלים קטנים מחבלים כרמים וכרמינו סמדר׃
+					</ab>
+					<ab xml:id="b.SON.002.016" type="verse">
+						דודי לי ואני לו הרעה בשושנים׃
+					</ab>
+					<ab xml:id="b.SON.002.017" type="verse">
+						עד שיפוח היום ונסו הצללים סב דמה לך דודי לצבי או לעפר האילים על הרי בתר׃
+					</ab>
+				</div>
+				<div xml:id="b.SON.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.SON.003.001" type="verse">
+						על משכבי בלילות בקשתי את שאהבה נפשי בקשתיו ולא מצאתיו׃
+					</ab>
+					<ab xml:id="b.SON.003.002" type="verse">
+						אקומה נא ואסובבה בעיר בשוקים וברחבות אבקשה את שאהבה נפשי בקשתיו ולא מצאתיו׃
+					</ab>
+					<ab xml:id="b.SON.003.003" type="verse">
+						מצאוני השמרים הסבבים בעיר את שאהבה נפשי ראיתם׃
+					</ab>
+					<ab xml:id="b.SON.003.004" type="verse">
+						כמעט שעברתי מהם עד שמצאתי את שאהבה נפשי אחזתיו ולא ארפנו עד שהביאתיו אל בית אמי ואל חדר הורתי׃
+					</ab>
+					<ab xml:id="b.SON.003.005" type="verse">
+						השבעתי אתכם בנות ירושלם בצבאות או באילות השדה אם תעירו ואם תעוררו את האהבה עד שתחפץ׃
+					</ab>
+					<ab xml:id="b.SON.003.006" type="verse">
+						מי זאת עלה מן המדבר כתימרות עשן מקטרת מור ולבונה מכל אבקת רוכל׃
+					</ab>
+					<ab xml:id="b.SON.003.007" type="verse">
+						הנה מטתו שלשלמה ששים גברים סביב לה מגברי ישראל׃
+					</ab>
+					<ab xml:id="b.SON.003.008" type="verse">
+						כלם אחזי חרב מלמדי מלחמה איש חרבו על ירכו מפחד בלילות׃
+					</ab>
+					<ab xml:id="b.SON.003.009" type="verse">
+						אפריון עשה לו המלך שלמה מעצי הלבנון׃
+					</ab>
+					<ab xml:id="b.SON.003.010" type="verse">
+						עמודיו עשה כסף רפידתו זהב מרכבו ארגמן תוכו רצוף אהבה מבנות ירושלם׃
+					</ab>
+					<ab xml:id="b.SON.003.011" type="verse">
+						צאינה וראינה בנות ציון במלך שלמה בעטרה שעטרה לו אמו ביום חתנתו וביום שמחת לבו׃
+					</ab>
+				</div>
+				<div xml:id="b.SON.004" type="chapter">
+				<head>4</head>
+					<ab xml:id="b.SON.004.001" type="verse">
+						הנך יפה רעיתי הנך יפה עיניך יונים מבעד לצמתך שערך כעדר העזים שגלשו מהר גלעד׃
+					</ab>
+					<ab xml:id="b.SON.004.002" type="verse">
+						שניך כעדר הקצובות שעלו מן הרחצה שכלם מתאימות ושכלה אין בהם׃
+					</ab>
+					<ab xml:id="b.SON.004.003" type="verse">
+						כחוט השני שפתתיך ומדבריך נאוה כפלח הרמון רקתך מבעד לצמתך׃
+					</ab>
+					<ab xml:id="b.SON.004.004" type="verse">
+						כמגדל דויד צוארך בנוי לתלפיות אלף המגן תלוי עליו כל שלטי הגבורים׃
+					</ab>
+					<ab xml:id="b.SON.004.005" type="verse">
+						שני שדיך כשני עפרים תאומי צביה הרועים בשושנים׃
+					</ab>
+					<ab xml:id="b.SON.004.006" type="verse">
+						עד שיפוח היום ונסו הצללים אלך לי אל הר המור ואל גבעת הלבונה׃
+					</ab>
+					<ab xml:id="b.SON.004.007" type="verse">
+						כלך יפה רעיתי ומום אין בך׃
+					</ab>
+					<ab xml:id="b.SON.004.008" type="verse">
+						אתי מלבנון כלה אתי מלבנון תבואי תשורי מראש אמנה מראש שניר וחרמון ממענות אריות מהררי נמרים׃
+					</ab>
+					<ab xml:id="b.SON.004.009" type="verse">
+						לבבתני אחתי כלה לבבתיני באחד מעיניך באחד ענק מצורניך׃
+					</ab>
+					<ab xml:id="b.SON.004.010" type="verse">
+						מה יפו דדיך אחתי כלה מה טבו דדיך מיין וריח שמניך מכל בשמים׃
+					</ab>
+					<ab xml:id="b.SON.004.011" type="verse">
+						נפת תטפנה שפתותיך כלה דבש וחלב תחת לשונך וריח שלמתיך כריח לבנון׃
+					</ab>
+					<ab xml:id="b.SON.004.012" type="verse">
+						גן נעול אחתי כלה גל נעול מעין חתום׃
+					</ab>
+					<ab xml:id="b.SON.004.013" type="verse">
+						שלחיך פרדס רמונים עם פרי מגדים כפרים עם נרדים׃
+					</ab>
+					<ab xml:id="b.SON.004.014" type="verse">
+						נרד וכרכם קנה וקנמון עם כל עצי לבונה מר ואהלות עם כל ראשי בשמים׃
+					</ab>
+					<ab xml:id="b.SON.004.015" type="verse">
+						מעין גנים באר מים חיים ונזלים מן לבנון׃
+					</ab>
+					<ab xml:id="b.SON.004.016" type="verse">
+						עורי צפון ובואי תימן הפיחי גני יזלו בשמיו יבא דודי לגנו ויאכל פרי מגדיו׃
+					</ab>
+				</div>
+				<div xml:id="b.SON.005" type="chapter">
+				<head>5</head>
+					<ab xml:id="b.SON.005.001" type="verse">
+						באתי לגני אחתי כלה אריתי מורי עם בשמי אכלתי יערי עם דבשי שתיתי ייני עם חלבי אכלו רעים שתו ושכרו דודים׃
+					</ab>
+					<ab xml:id="b.SON.005.002" type="verse">
+						אני ישנה ולבי ער קול דודי דופק פתחי לי אחתי רעיתי יונתי תמתי שראשי נמלא טל קוצותי רסיסי לילה׃
+					</ab>
+					<ab xml:id="b.SON.005.003" type="verse">
+						פשטתי את כתנתי איככה אלבשנה רחצתי את רגלי איככה אטנפם׃
+					</ab>
+					<ab xml:id="b.SON.005.004" type="verse">
+						דודי שלח ידו מן החר ומעי המו עליו׃
+					</ab>
+					<ab xml:id="b.SON.005.005" type="verse">
+						קמתי אני לפתח לדודי וידי נטפו מור ואצבעתי מור עבר על כפות המנעול׃
+					</ab>
+					<ab xml:id="b.SON.005.006" type="verse">
+						פתחתי אני לדודי ודודי חמק עבר נפשי יצאה בדברו בקשתיהו ולא מצאתיהו קראתיו ולא ענני׃
+					</ab>
+					<ab xml:id="b.SON.005.007" type="verse">
+						מצאני השמרים הסבבים בעיר הכוני פצעוני נשאו את רדידי מעלי שמרי החמות׃
+					</ab>
+					<ab xml:id="b.SON.005.008" type="verse">
+						השבעתי אתכם בנות ירושלם אם תמצאו את דודי מה תגידו לו שחולת אהבה אני׃
+					</ab>
+					<ab xml:id="b.SON.005.009" type="verse">
+						מה דודך מדוד היפה בנשים מה דודך מדוד שככה השבעתנו׃
+					</ab>
+					<ab xml:id="b.SON.005.010" type="verse">
+						דודי צח ואדום דגול מרבבה׃
+					</ab>
+					<ab xml:id="b.SON.005.011" type="verse">
+						ראשו כתם פז קוצותיו תלתלים שחרות כעורב׃
+					</ab>
+					<ab xml:id="b.SON.005.012" type="verse">
+						עיניו כיונים על אפיקי מים רחצות בחלב ישבות על מלאת׃
+					</ab>
+					<ab xml:id="b.SON.005.013" type="verse">
+						לחיו כערוגת הבשם מגדלות מרקחים שפתותיו שושנים נטפות מור עבר׃
+					</ab>
+					<ab xml:id="b.SON.005.014" type="verse">
+						ידיו גלילי זהב ממלאים בתרשיש מעיו עשת שן מעלפת ספירים׃
+					</ab>
+					<ab xml:id="b.SON.005.015" type="verse">
+						שוקיו עמודי שש מיסדים על אדני פז מראהו כלבנון בחור כארזים׃
+					</ab>
+					<ab xml:id="b.SON.005.016" type="verse">
+						חכו ממתקים וכלו מחמדים זה דודי וזה רעי בנות ירושלם׃
+					</ab>
+				</div>
+				<div xml:id="b.SON.006" type="chapter">
+				<head>6</head>
+					<ab xml:id="b.SON.006.001" type="verse">
+						אנה הלך דודך היפה בנשים אנה פנה דודך ונבקשנו עמך׃
+					</ab>
+					<ab xml:id="b.SON.006.002" type="verse">
+						דודי ירד לגנו לערוגות הבשם לרעות בגנים וללקט שושנים׃
+					</ab>
+					<ab xml:id="b.SON.006.003" type="verse">
+						אני לדודי ודודי לי הרעה בשושנים׃
+					</ab>
+					<ab xml:id="b.SON.006.004" type="verse">
+						יפה את רעיתי כתרצה נאוה כירושלם אימה כנדגלות׃
+					</ab>
+					<ab xml:id="b.SON.006.005" type="verse">
+						הסבי עיניך מנגדי שהם הרהיבני שערך כעדר העזים שגלשו מן הגלעד׃
+					</ab>
+					<ab xml:id="b.SON.006.006" type="verse">
+						שניך כעדר הרחלים שעלו מן הרחצה שכלם מתאימות ושכלה אין בהם׃
+					</ab>
+					<ab xml:id="b.SON.006.007" type="verse">
+						כפלח הרמון רקתך מבעד לצמתך׃
+					</ab>
+					<ab xml:id="b.SON.006.008" type="verse">
+						ששים המה מלכות ושמנים פילגשים ועלמות אין מספר׃
+					</ab>
+					<ab xml:id="b.SON.006.009" type="verse">
+						אחת היא יונתי תמתי אחת היא לאמה ברה היא ליולדתה ראוה בנות ויאשרוה מלכות ופילגשים ויהללוה׃
+					</ab>
+					<ab xml:id="b.SON.006.010" type="verse">
+						מי זאת הנשקפה כמו שחר יפה כלבנה ברה כחמה אימה כנדגלות׃
+					</ab>
+					<ab xml:id="b.SON.006.011" type="verse">
+						אל גנת אגוז ירדתי לראות באבי הנחל לראות הפרחה הגפן הנצו הרמנים׃
+					</ab>
+					<ab xml:id="b.SON.006.012" type="verse">
+						לא ידעתי נפשי שמתני מרכבות עמי נדיב׃
+					</ab>
+					<ab xml:id="b.SON.006.013" type="verse">
+						שובי שובי השולמית שובי שובי ונחזה בך מה תחזו בשולמית כמחלת המחנים׃
+					</ab>
+				</div>
+				<div xml:id="b.SON.007" type="chapter">
+				<head>7</head>
+					<ab xml:id="b.SON.007.001" type="verse">
+						מה יפו פעמיך בנעלים בת נדיב חמוקי ירכיך כמו חלאים מעשה ידי אמן׃
+					</ab>
+					<ab xml:id="b.SON.007.002" type="verse">
+						שררך אגן הסהר אל יחסר המזג בטנך ערמת חטים סוגה בשושנים׃
+					</ab>
+					<ab xml:id="b.SON.007.003" type="verse">
+						שני שדיך כשני עפרים תאמי צביה׃
+					</ab>
+					<ab xml:id="b.SON.007.004" type="verse">
+						צוארך כמגדל השן עיניך ברכות בחשבון על שער בת רבים אפך כמגדל הלבנון צופה פני דמשק׃
+					</ab>
+					<ab xml:id="b.SON.007.005" type="verse">
+						ראשך עליך ככרמל ודלת ראשך כארגמן מלך אסור ברהטים׃
+					</ab>
+					<ab xml:id="b.SON.007.006" type="verse">
+						מה יפית ומה נעמת אהבה בתענוגים׃
+					</ab>
+					<ab xml:id="b.SON.007.007" type="verse">
+						זאת קומתך דמתה לתמר ושדיך לאשכלות׃
+					</ab>
+					<ab xml:id="b.SON.007.008" type="verse">
+						אמרתי אעלה בתמר אחזה בסנסניו ויהיו נא שדיך כאשכלות הגפן וריח אפך כתפוחים׃
+					</ab>
+					<ab xml:id="b.SON.007.009" type="verse">
+						וחכך כיין הטוב הולך לדודי למישרים דובב שפתי ישנים׃
+					</ab>
+					<ab xml:id="b.SON.007.010" type="verse">
+						אני לדודי ועלי תשוקתו׃
+					</ab>
+					<ab xml:id="b.SON.007.011" type="verse">
+						לכה דודי נצא השדה נלינה בכפרים׃
+					</ab>
+					<ab xml:id="b.SON.007.012" type="verse">
+						נשכימה לכרמים נראה אם פרחה הגפן פתח הסמדר הנצו הרמונים שם אתן את דדי לך׃
+					</ab>
+					<ab xml:id="b.SON.007.013" type="verse">
+						הדודאים נתנו ריח ועל פתחינו כל מגדים חדשים גם ישנים דודי צפנתי לך׃
+					</ab>
+				</div>
+				<div xml:id="b.SON.008" type="chapter">
+				<head>8</head>
+					<ab xml:id="b.SON.008.001" type="verse">
+						מי יתנך כאח לי יונק שדי אמי אמצאך בחוץ אשקך גם לא יבוזו לי׃
+					</ab>
+					<ab xml:id="b.SON.008.002" type="verse">
+						אנהגך אביאך אל בית אמי תלמדני אשקך מיין הרקח מעסיס רמני׃
+					</ab>
+					<ab xml:id="b.SON.008.003" type="verse">
+						שמאלו תחת ראשי וימינו תחבקני׃
+					</ab>
+					<ab xml:id="b.SON.008.004" type="verse">
+						השבעתי אתכם בנות ירושלם מה תעירו ומה תעררו את האהבה עד שתחפץ׃
+					</ab>
+					<ab xml:id="b.SON.008.005" type="verse">
+						מי זאת עלה מן המדבר מתרפקת על דודה תחת התפוח עוררתיך שמה חבלתך אמך שמה חבלה ילדתך׃
+					</ab>
+					<ab xml:id="b.SON.008.006" type="verse">
+						שימני כחותם על לבך כחותם על זרועך כי עזה כמות אהבה קשה כשאול קנאה רשפיה רשפי אש שלהבתיה׃
+					</ab>
+					<ab xml:id="b.SON.008.007" type="verse">
+						מים רבים לא יוכלו לכבות את האהבה ונהרות לא ישטפוה אם יתן איש את כל הון ביתו באהבה בוז יבוזו לו׃
+					</ab>
+					<ab xml:id="b.SON.008.008" type="verse">
+						אחות לנו קטנה ושדים אין לה מה נעשה לאחתנו ביום שידבר בה׃
+					</ab>
+					<ab xml:id="b.SON.008.009" type="verse">
+						אם חומה היא נבנה עליה טירת כסף ואם דלת היא נצור עליה לוח ארז׃
+					</ab>
+					<ab xml:id="b.SON.008.010" type="verse">
+						אני חומה ושדי כמגדלות אז הייתי בעיניו כמוצאת שלום׃
+					</ab>
+					<ab xml:id="b.SON.008.011" type="verse">
+						כרם היה לשלמה בבעל המון נתן את הכרם לנטרים איש יבא בפריו אלף כסף׃
+					</ab>
+					<ab xml:id="b.SON.008.012" type="verse">
+						כרמי שלי לפני האלף לך שלמה ומאתים לנטרים את פריו׃
+					</ab>
+					<ab xml:id="b.SON.008.013" type="verse">
+						היושבת בגנים חברים מקשיבים לקולך השמיעיני׃
+					</ab>
+					<ab xml:id="b.SON.008.014" type="verse">
+						ברח דודי ודמה לך לצבי או לעפר האילים על הרי בשמים׃
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

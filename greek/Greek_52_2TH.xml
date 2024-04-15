@@ -1,0 +1,221 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>2 Thessalonians (Greek)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="3"/><measure commodity="verses" quantity="47"/><measure commodity="bytes" quantity="336421"/><measure commodity="characters" quantity="185894"/><measure commodity="tokens" quantity="30748"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>ΠΡΟΣ ΘΕΣΣΑΛΟΝΙΚΕΙΣ Β΄</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q131107">Q131107</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4115517-8">4115517-8</idno></bibl><bibl type="BibleTranslation">Neophytos Vamvas Translation<date when="1850">1850</date></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="el">Greek<idno type="iso639">gre</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Greek</term>
+              <term type="languageFamiliy">Indo-European</term>
+              <term type="languageGenus">Greek</term>
+              <term type="languageSubgenus">Attic</term>
+              <term type="languageSpeakers">13,000,000</term>
+           <term type="testament">new</term><term type="genre">letter</term><term type="division">Letters</term><term type="genre-multilabel">letter</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.48">Modern Greek language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="el"><div xml:id="b.2TH" type="book">
+				<head>ΠΡΟΣ ΘΕΣΣΑΛΟΝΙΚΕΙΣ Β΄</head><div xml:id="b.2TH.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.2TH.001.001" type="verse">
+						Παυλος και Σιλουανος και Τιμοθεος προς την εκκλησιαν των Θεσσαλονικεων εν Θεω τω Πατρι ημων και Κυριω Ιησου Χριστω
+					</ab>
+					<ab xml:id="b.2TH.001.002" type="verse">
+						χαρις ειη υμιν και ειρηνη απο Θεου Πατρος ημων και Κυριου Ιησου Χριστου.
+					</ab>
+					<ab xml:id="b.2TH.001.003" type="verse">
+						Οφειλομεν να ευχαριστωμεν παντοτε τον Θεον δια σας, αδελφοι, καθως ειναι αξιον, διοτι υπεραυξανει η πιστις σας και πλεοναζει η αγαπη ενος εκαστου παντων υμων εις αλληλους,
+					</ab>
+					<ab xml:id="b.2TH.001.004" type="verse">
+						ωστε ημεις αυτοι καυχωμεθα δια σας εν ταις εκκλησιαις του Θεου δια την υπομονην σας και πιστιν εν πασι τοις διωγμοις υμων και ταις θλιψεσι, τας οποιας υποφερετε,
+					</ab>
+					<ab xml:id="b.2TH.001.005" type="verse">
+						το οποιον ειναι ενδειξις της δικαιας κρισεως του Θεου, δια να αξιωθητε της βασιλειας του Θεου, υπερ της οποιας και πασχετε,
+					</ab>
+					<ab xml:id="b.2TH.001.006" type="verse">
+						επειδη ειναι δικαιον ενωπιον του Θεου να ανταποδωση θλιψιν εις τους οσοι σας θλιβουσιν,
+					</ab>
+					<ab xml:id="b.2TH.001.007" type="verse">
+						εις εσας δε τους θλιβομενους ανεσιν μεθ' ημων, οταν ο Κυριος Ιησους αποκαλυφθη απ' ουρανου μετα των αγγελων της δυναμεως αυτου
+					</ab>
+					<ab xml:id="b.2TH.001.008" type="verse">
+						εν πυρι φλογος, καμνων εκδικησιν εις τους μη γνωριζοντας Θεον και εις τους μη υπακουοντας εις το ευαγγελιον του Κυριου ημων Ιησου Χριστου,
+					</ab>
+					<ab xml:id="b.2TH.001.009" type="verse">
+						οιτινες θελουσι τιμωρηθη με ολεθρον αιωνιον απο προσωπου του Κυριου και απο της δοξης της δυναμεως αυτου,
+					</ab>
+					<ab xml:id="b.2TH.001.010" type="verse">
+						οταν ελθη να ενδοξασθη εν τοις αγιοις αυτου, και να θαυμασθη εν πασι τοις πιστευουσιν, επειδη σεις επιστευσατε εις την μαρτυριαν ημων, εν τη ημερα εκεινη.
+					</ab>
+					<ab xml:id="b.2TH.001.011" type="verse">
+						Δια το οποιον και προσευχομεθα παντοτε δια σας, δια να σας καταστηση ο Θεος ημων αξιους της κλησεως αυτου, και να εκπληρωση πασαν ευδοκιαν αγαθωσυνης και το εργον της πιστεως εν δυναμει,
+					</ab>
+					<ab xml:id="b.2TH.001.012" type="verse">
+						δια να ενδοξασθη το ονομα του Κυριου ημων Ιησου Χριστου εν υμιν, και υμεις εν αυτω, κατα την χαριν του Θεου ημων και Κυριου Ιησου Χριστου.
+					</ab>
+				</div>
+				<div xml:id="b.2TH.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.2TH.002.001" type="verse">
+						Σας παρακαλουμεν δε, αδελφοι, περι της παρουσιας του Κυριου ημων Ιησου Χριστου και της εις αυτον επισυναξεως ημων,
+					</ab>
+					<ab xml:id="b.2TH.002.002" type="verse">
+						να μη σαλευθητε ταχεως απο του φρονηματος σας, μηδε να θορυβησθε, μητε δια πνευματος μητε δια λογου μητε δι' επιστολης ως γραφομενης υφ' ημων, οτι ταχα επλησιασεν ημερα του Χριστου.
+					</ab>
+					<ab xml:id="b.2TH.002.003" type="verse">
+						Ας μη σας εξαπατηση τις κατ' ουδενα τροπον διοτι δεν θελει ελθει η ημερα εκεινη, εαν δεν ελθη πρωτον η αποστασια και αποκαλυφθη ο ανθρωπος της αμαρτιας, ο υιος της απωλειας,
+					</ab>
+					<ab xml:id="b.2TH.002.004" type="verse">
+						ο αντικειμενος και υπεραιρομενος εναντιον εις παντα λεγομενον Θεον η σεβασμα, ωστε να καθηση εις τον ναον του Θεου ως Θεος, αποδεικνυων εαυτον οτι ειναι Θεος.
+					</ab>
+					<ab xml:id="b.2TH.002.005" type="verse">
+						Δεν ενθυμεισθε οτι ενω ημην ετι παρ' υμιν σας ελεγον ταυτα;
+					</ab>
+					<ab xml:id="b.2TH.002.006" type="verse">
+						Και τωρα γνωριζετε εκεινο, το οποιον κωλυει αυτον, ωστε να αποκαλυφθη εν τω εαυτου καιρω
+					</ab>
+					<ab xml:id="b.2TH.002.007" type="verse">
+						διοτι το μυστηριον της ανομιας ηδη ενεργειται, μονον εως να εκβληθη εκ μεσου ο κωλυων τωρα
+					</ab>
+					<ab xml:id="b.2TH.002.008" type="verse">
+						και τοτε θελει αποκαλυφθη ο ανομος, τον οποιον ο Κυριος θελει απολεσει με το πνευμα του στοματος αυτου και θελει εξαφανισει με την επιφανειαν της παρουσιας αυτου
+					</ab>
+					<ab xml:id="b.2TH.002.009" type="verse">
+						οστις θελει ελθει κατ' ενεργειαν του Σατανα εν παση δυναμει και σημειοις και τερασι ψευδους
+					</ab>
+					<ab xml:id="b.2TH.002.010" type="verse">
+						και εν παση απατη της αδικιας μεταξυ των απολλυμενων, διοτι δεν εδεχθησαν την αγαπην της αληθειας δια να σωθωσι
+					</ab>
+					<ab xml:id="b.2TH.002.011" type="verse">
+						και δια τουτο θελει πεμψει επ' αυτους ο Θεος ενεργειαν πλανης, ωστε να πιστευσωσιν εις το ψευδος,
+					</ab>
+					<ab xml:id="b.2TH.002.012" type="verse">
+						δια να κατακριθωσι παντες οι μη πιστευσαντες εις την αληθειαν, αλλ' ευαρεστηθεντες εις την αδικιαν.
+					</ab>
+					<ab xml:id="b.2TH.002.013" type="verse">
+						ημεις ομως οφειλομεν να ευχαριστωμεν παντοτε τον Θεον δια σας, αδελφοι ηγαπημενοι υπο του Κυριου, οτι σας εξελεξεν ο Θεος απ' αρχης εις σωτηριαν δια του αγιασμου του Πνευματος και της πιστεως της αληθειας,
+					</ab>
+					<ab xml:id="b.2TH.002.014" type="verse">
+						εις τον οποιον σας εκαλεσε δια του ευαγγελιου ημων προς απολαυσιν της δοξης του Κυριου ημων Ιησου Χριστου.
+					</ab>
+					<ab xml:id="b.2TH.002.015" type="verse">
+						Λοιπον, αδελφοι, μενετε σταθεροι και κρατειτε τας παραδοσεις, τας οποιας εδιδαχθητε ειτε δια λογου ειτε δι' επιστολης ημων.
+					</ab>
+					<ab xml:id="b.2TH.002.016" type="verse">
+						Αυτος δε ο Κυριος ημων Ιησους Χριστος και ο Θεος και Πατηρ ημων, οστις μας ηγαπησε και εδωκεν αιωνιαν παρηγοριαν και αγαθην ελπιδα δια της χαριτος,
+					</ab>
+					<ab xml:id="b.2TH.002.017" type="verse">
+						ειθε να παρηγορηση τας καρδιας σας και να σας στηριξη εις παντα λογον και εργον αγαθον.
+					</ab>
+				</div>
+				<div xml:id="b.2TH.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.2TH.003.001" type="verse">
+						Το λοιπον προσευχεσθε, αδελφοι, περι ημων, δια να τρεχη ο λογος του Κυριου και να δοξαζηται, καθως και εις εσας,
+					</ab>
+					<ab xml:id="b.2TH.003.002" type="verse">
+						και δια να ελευθερωθωμεν απο των παραλογων και πονηρων ανθρωπων διοτι η πιστις δεν υπαρχει εις παντας.
+					</ab>
+					<ab xml:id="b.2TH.003.003" type="verse">
+						Πιστος ομως ειναι ο Κυριος, οστις θελει σας στηριξει και φυλαξει απο του πονηρου.
+					</ab>
+					<ab xml:id="b.2TH.003.004" type="verse">
+						Εχομεν δε πεποιθησιν δια του Κυριου εφ' υμας οτι εκεινα, τα οποια σας παραγγελλομεν, και πραττετε και θελετε πραττει.
+					</ab>
+					<ab xml:id="b.2TH.003.005" type="verse">
+						Ο δε Κυριος ειθε να κατευθυνη τας καρδιας σας εις την αγαπην του Θεου και εις την προσδοκιαν του Χριστου.
+					</ab>
+					<ab xml:id="b.2TH.003.006" type="verse">
+						Σας παραγγελλομεν δε, αδελφοι, εν ονοματι του Κυριου ημων Ιησου Χριστου, να απομακρυνησθε απο παντος αδελφου ατακτως περιπατουντος και ουχι κατα την παραδοσιν, την οποιαν παρελαβε παρ' ημων.
+					</ab>
+					<ab xml:id="b.2TH.003.007" type="verse">
+						Επειδη σεις εξευρετε πως πρεπει να μιμησθε ημας, διοτι δεν εφερθημεν ατακτως μεταξυ σας,
+					</ab>
+					<ab xml:id="b.2TH.003.008" type="verse">
+						ουδε εφαγομεν δωρεαν αρτον παρα τινος, αλλα μετα κοπου και μοχθου, νυκτα και ημεραν εργαζομενοι, δια να μη επιβαρυνωμεν μηδενα υμων
+					</ab>
+					<ab xml:id="b.2TH.003.009" type="verse">
+						ουχι διοτι δεν εχομεν εξουσιαν, αλλα δια να σας δωσωμεν εαυτους τυπον εις το να μιμησθε ημας.
+					</ab>
+					<ab xml:id="b.2TH.003.010" type="verse">
+						Διοτι και οτε ημεθα παρ' υμιν, τουτο σας παρηγγελλομεν, οτι εαν τις δεν θελη να εργαζηται, μηδε ας τρωγη.
+					</ab>
+					<ab xml:id="b.2TH.003.011" type="verse">
+						Επειδη ακουομεν τινας οτι περιπατουσι μεταξυ σας ατακτως, μη εργαζομενοι μηδεν, αλλα περιεργαζομενοι
+					</ab>
+					<ab xml:id="b.2TH.003.012" type="verse">
+						παραγγελλομεν δε εις τους τοιουτους και προτρεπομεν δια του Κυριου ημων Ιησου Χριστου, να τρωγωσι τον αρτον αυτων εργαζομενοι μετα ησυχιας.
+					</ab>
+					<ab xml:id="b.2TH.003.013" type="verse">
+						Σεις δε, αδελφοι, μη αποκαμητε πραττοντες το καλον.
+					</ab>
+					<ab xml:id="b.2TH.003.014" type="verse">
+						Και εαν τις δεν υπακουη εις τον λογον ημων τον δια της επιστολης, τουτον σημειονετε και μη συναναστρεφεσθε μετ' αυτου, δια να εντραπη
+					</ab>
+					<ab xml:id="b.2TH.003.015" type="verse">
+						πλην μη θεωρειτε αυτον ως εχθρον, αλλα νουθετειτε ως αδελφον.
+					</ab>
+					<ab xml:id="b.2TH.003.016" type="verse">
+						Αυτος δε ο Κυριος της ειρηνης ειθε να σας δωση την ειρηνην διαπαντος εν παντι τροπω. Ο Κυριος ειη μετα παντων υμων.
+					</ab>
+					<ab xml:id="b.2TH.003.017" type="verse">
+						Ο ασπασμος εγραφη με την χειρα εμου του Παυλου, το οποιον ειναι σημειον εν παση επιστολη ουτω γραφω.
+					</ab>
+					<ab xml:id="b.2TH.003.018" type="verse">
+						Η χαρις του Κυριου ημων Ιησου Χριστου ειη μετα παντων υμων αμην.
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

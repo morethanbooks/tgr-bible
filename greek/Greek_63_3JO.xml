@@ -1,0 +1,116 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>3 John (Greek)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="1"/><measure commodity="verses" quantity="14"/><measure commodity="bytes" quantity="120926"/><measure commodity="characters" quantity="67151"/><measure commodity="tokens" quantity="11532"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Γ΄ ΙΩΑΝΝΟΥ</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q131462">Q131462</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4073056-6">4073056-6</idno><author><name>John the Evangelist</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q328804">Q328804</idno><idno type="gnd" corresp="https://d-nb.info/gnd/118557815">118557815</idno></author></bibl><bibl type="BibleTranslation">Neophytos Vamvas Translation<date when="1850">1850</date></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="el">Greek<idno type="iso639">gre</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Greek</term>
+              <term type="languageFamiliy">Indo-European</term>
+              <term type="languageGenus">Greek</term>
+              <term type="languageSubgenus">Attic</term>
+              <term type="languageSpeakers">13,000,000</term>
+           <term type="testament">new</term><term type="genre">letter</term><term type="division">Letters</term><term type="genre-multilabel">letter</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.48">Modern Greek language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="el"><div xml:id="b.3JO" type="book">
+				<head>Γ΄ ΙΩΑΝΝΟΥ</head><div xml:id="b.3JO.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.3JO.001.001" type="verse">
+						Ο πρεσβυτερος προς Γαιον τον αγαπητον, τον οποιον εγω αγαπω εν αληθεια.
+					</ab>
+					<ab xml:id="b.3JO.001.002" type="verse">
+						Αγαπητε, κατα παντα ευχομαι να ευδουσαι και να υγιαινης, καθως ευοδουται η ψυχη σου.
+					</ab>
+					<ab xml:id="b.3JO.001.003" type="verse">
+						Διοτι εχαρην κατα πολλα οτι ερχονται αδελφοι και μαρτυρουσιν εις την αληθειαν σου, καθως συ περιπατεις εν τη αληθεια.
+					</ab>
+					<ab xml:id="b.3JO.001.004" type="verse">
+						Μεγαλητεραν χαραν δεν εχω παρα τουτο, να ακουω οτι τα τεκνα μου περιπατουσιν εν τη αληθεια.
+					</ab>
+					<ab xml:id="b.3JO.001.005" type="verse">
+						Αγαπητε, εργον αξιον πιστου πραττεις ο, τι καμης εις τους αδελφους και εις τους ξενους,
+					</ab>
+					<ab xml:id="b.3JO.001.006" type="verse">
+						οιτινες εμαρτυρησαν περι της αγαπης σου ενωπιον της εκκλησιας, τους οποιους καλως θελεις πραξει προπεμψας αξιως του Θεου.
+					</ab>
+					<ab xml:id="b.3JO.001.007" type="verse">
+						Διοτι υπερ του ονοματος αυτου εξηλθον, χωρις να λαμβανωσι μηδεν απο των εθνων.
+					</ab>
+					<ab xml:id="b.3JO.001.008" type="verse">
+						ημεις λοιπον χρεωστουμεν να υποδεχωμεθα τους τοιουτους, δια να γινωμεθα συνεργοι εις την αληθειαν.
+					</ab>
+					<ab xml:id="b.3JO.001.009" type="verse">
+						Εγραψα προς την εκκλησιαν αλλ' ο φιλοπρωτευων αυτων Διοτρεφης δεν δεχεται ημας.
+					</ab>
+					<ab xml:id="b.3JO.001.010" type="verse">
+						Δια τουτο, εαν ελθω, θελω υπενθυμισει τα εργα αυτου, τα οποια καμνει, φλυαρων εναντιον ημων με λογους πονηρους και μη αρκουμενος εις τουτους, ουτε αυτος δεχεται τους αδελφους, αλλα και τους θελοντας να δεχθωσιν εμποδιζει και απο της εκκλησιας εκβαλλει.
+					</ab>
+					<ab xml:id="b.3JO.001.011" type="verse">
+						Αγαπητε, μη μιμου το κακον, αλλα το αγαθον. Ο αγαθοποιων εκ του Θεου ειναι, ο δε κακοποιων δεν ειδε τον Θεον.
+					</ab>
+					<ab xml:id="b.3JO.001.012" type="verse">
+						Εις τον Δημητριον διδεται καλη μαρτυρια υπο παντων και υπ' αυτης της αληθειας και ημεις δε μαρτυρουμεν, και εξευρετε οτι η μαρτυρια ημων ειναι αληθης.
+					</ab>
+					<ab xml:id="b.3JO.001.013" type="verse">
+						Πολλα ειχον να γραφω, αλλα δεν θελω να σοι γραψω δια μελανης και καλαμου,
+					</ab>
+					<ab xml:id="b.3JO.001.014" type="verse">
+						αλλ' ελπιζω ταχεως να σε ιδω, και θελομεν λαλησει στομα προς στομα. Ειρηνη εις σε Ασπαζονται σε οι φιλοι. Ασπαζου τους φιλους κατ' ονομα.
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>
