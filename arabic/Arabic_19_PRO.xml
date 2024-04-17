@@ -1,0 +1,2909 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Proverbs (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="31"/><measure commodity="verses" quantity="915"/><measure commodity="bytes" quantity="2015049"/><measure commodity="characters" quantity="1120369"/><measure commodity="tokens" quantity="210004"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Proverbs</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q4579">Q4579</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4077752-2">4077752-2</idno></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">old</term><term type="genre">wisdom</term><term type="division">Wisdom</term><term type="genre-multilabel">wisdom</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.PRO" type="book">
+				<div xml:id="b.PRO.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.PRO.001.001" type="verse">
+						امثال سليمان بن داود ملك اسرائيل.
+					</ab>
+					<ab xml:id="b.PRO.001.002" type="verse">
+						لمعرفة حكمة وأدب لادراك اقوال الفهم.
+					</ab>
+					<ab xml:id="b.PRO.001.003" type="verse">
+						لقبول تأديب المعرفة والعدل والحق والاستقامة.
+					</ab>
+					<ab xml:id="b.PRO.001.004" type="verse">
+						لتعطي الجهال ذكاء والشاب معرفة وتدبّرا.
+					</ab>
+					<ab xml:id="b.PRO.001.005" type="verse">
+						يسمعها الحكيم فيزداد علما والفهيم يكتسب تدبيرا.
+					</ab>
+					<ab xml:id="b.PRO.001.006" type="verse">
+						لفهم المثل واللغز اقوال الحكماء وغوامضهم.
+					</ab>
+					<ab xml:id="b.PRO.001.007" type="verse">
+						مخافة الرب راس المعرفة. اما الجاهلون فيحتقرون الحكمة والادب
+					</ab>
+					<ab xml:id="b.PRO.001.008" type="verse">
+						اسمع يا ابني تأديب ابيك ولا ترفض شريعة امك.
+					</ab>
+					<ab xml:id="b.PRO.001.009" type="verse">
+						لانهما اكليل نعمة لراسك وقلائد لعنقك
+					</ab>
+					<ab xml:id="b.PRO.001.010" type="verse">
+						يا ابني ان تملقك الخطاة فلا ترض.
+					</ab>
+					<ab xml:id="b.PRO.001.011" type="verse">
+						ان قالوا هلم معنا لنكمن للدم لنختف للبريء باطلا.
+					</ab>
+					<ab xml:id="b.PRO.001.012" type="verse">
+						لنبتلعهم احياء كالهاوية وصحاحا كالهابطين في الجب.
+					</ab>
+					<ab xml:id="b.PRO.001.013" type="verse">
+						فنجد كل قنية فاخرة نملأ بيوتنا غنيمة.
+					</ab>
+					<ab xml:id="b.PRO.001.014" type="verse">
+						تلقي قرعتك وسطنا. يكون لنا جميعا كيس واحد.
+					</ab>
+					<ab xml:id="b.PRO.001.015" type="verse">
+						يا ابني لا تسلك في الطريق معهم. امنع رجلك عن مسالكهم.
+					</ab>
+					<ab xml:id="b.PRO.001.016" type="verse">
+						لان ارجلهم تجري الى الشر وتسرع الى سفك الدم.
+					</ab>
+					<ab xml:id="b.PRO.001.017" type="verse">
+						لانه باطلا تنصب الشبكة في عيني كل ذي جناح.
+					</ab>
+					<ab xml:id="b.PRO.001.018" type="verse">
+						اما هم فيكمنون لدم انفسهم. يختفون لانفسهم.
+					</ab>
+					<ab xml:id="b.PRO.001.019" type="verse">
+						هكذا طرق كل مولع بكسب. يأخذ نفس مقتنيه
+					</ab>
+					<ab xml:id="b.PRO.001.020" type="verse">
+						الحكمة تنادي في الخارج. في الشوارع تعطي صوتها.
+					</ab>
+					<ab xml:id="b.PRO.001.021" type="verse">
+						تدعو في رؤوس الاسواق في مداخل الابواب. في المدينة تبدي كلامها
+					</ab>
+					<ab xml:id="b.PRO.001.022" type="verse">
+						قائلة الى متى ايها الجهال تحبون الجهل والمستهزئون يسرّون بالاستهزاء والحمقى يبغضون العلم.
+					</ab>
+					<ab xml:id="b.PRO.001.023" type="verse">
+						ارجعوا عند توبيخي. هانذا افيض لكم روحي. اعلمكم كلماتي
+					</ab>
+					<ab xml:id="b.PRO.001.024" type="verse">
+						لاني دعوت فابيتم ومددت يدي وليس من يبالي
+					</ab>
+					<ab xml:id="b.PRO.001.025" type="verse">
+						بل رفضتم كل مشورتي ولم ترضوا توبيخي
+					</ab>
+					<ab xml:id="b.PRO.001.026" type="verse">
+						فانا ايضا اضحك عند بليتكم. اشمت عند مجيء خوفكم
+					</ab>
+					<ab xml:id="b.PRO.001.027" type="verse">
+						اذا جاء خوفكم كعاصفة وأتت بليتكم كالزوبعة اذا جاءت عليكم شدة وضيق.
+					</ab>
+					<ab xml:id="b.PRO.001.028" type="verse">
+						حينئذ يدعونني فلا استجيب. يبكرون اليّ فلا يجدونني.
+					</ab>
+					<ab xml:id="b.PRO.001.029" type="verse">
+						لانهم ابغضوا العلم ولم يختاروا مخافة الرب.
+					</ab>
+					<ab xml:id="b.PRO.001.030" type="verse">
+						لم يرضوا مشورتي. رذلوا كل توبيخي.
+					</ab>
+					<ab xml:id="b.PRO.001.031" type="verse">
+						فلذلك ياكلون من ثمر طريقهم ويشبعون من مؤامراتهم.
+					</ab>
+					<ab xml:id="b.PRO.001.032" type="verse">
+						لان ارتداد الحمقى يقتلهم وراحة الجهال تبيدهم.
+					</ab>
+					<ab xml:id="b.PRO.001.033" type="verse">
+						اما المستمع لي فيسكن آمنا ويستريح من خوف الشر
+					</ab>
+				</div>
+				<div xml:id="b.PRO.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.PRO.002.001" type="verse">
+						يا ابني ان قبلت كلامي وخبأت وصاياي عندك
+					</ab>
+					<ab xml:id="b.PRO.002.002" type="verse">
+						حتى تميل اذنك الى الحكمة وتعطّف قلبك على الفهم
+					</ab>
+					<ab xml:id="b.PRO.002.003" type="verse">
+						ان دعوت المعرفة ورفعت صوتك الى الفهم
+					</ab>
+					<ab xml:id="b.PRO.002.004" type="verse">
+						ان طلبتها كالفضة وبحثت عنها كالكنوز
+					</ab>
+					<ab xml:id="b.PRO.002.005" type="verse">
+						فحينئذ تفهم مخافة الرب وتجد معرفة الله.
+					</ab>
+					<ab xml:id="b.PRO.002.006" type="verse">
+						لان الرب يعطي حكمة. من فمه المعرفة والفهم.
+					</ab>
+					<ab xml:id="b.PRO.002.007" type="verse">
+						يذخر معونة للمستقيمين. هو مجنّ للسالكين بالكمال.
+					</ab>
+					<ab xml:id="b.PRO.002.008" type="verse">
+						لنصر مسالك الحق وحفظ طريق اتقيائه.
+					</ab>
+					<ab xml:id="b.PRO.002.009" type="verse">
+						حينئذ تفهم العدل والحق والاستقامة. كل سبيل صالح
+					</ab>
+					<ab xml:id="b.PRO.002.010" type="verse">
+						اذا دخلت الحكمة قلبك ولذّت المعرفة لنفسك
+					</ab>
+					<ab xml:id="b.PRO.002.011" type="verse">
+						فالعقل يحفظك والفهم ينصرك
+					</ab>
+					<ab xml:id="b.PRO.002.012" type="verse">
+						لانقاذك من طريق الشرير ومن الانسان المتكلم بالاكاذيب
+					</ab>
+					<ab xml:id="b.PRO.002.013" type="verse">
+						التاركين سبل الاستقامة للسلوك في مسالك الظلمة
+					</ab>
+					<ab xml:id="b.PRO.002.014" type="verse">
+						الفرحين بفعل السوء المبتهجين باكاذيب الشر
+					</ab>
+					<ab xml:id="b.PRO.002.015" type="verse">
+						الذين طرقهم معوجة وهم ملتوون في سبلهم.
+					</ab>
+					<ab xml:id="b.PRO.002.016" type="verse">
+						لانقاذك من المرأة الاجنبية من الغريبة المتملقة بكلامها
+					</ab>
+					<ab xml:id="b.PRO.002.017" type="verse">
+						التاركة اليف صباها والناسية عهد الهها.
+					</ab>
+					<ab xml:id="b.PRO.002.018" type="verse">
+						لان بيتها يسوخ الى الموت وسبلها الى الأخيلة.
+					</ab>
+					<ab xml:id="b.PRO.002.019" type="verse">
+						كل من دخل اليها لا يؤوب ولا يبلغون سبل الحياة.
+					</ab>
+					<ab xml:id="b.PRO.002.020" type="verse">
+						حتى تسلك في طريق الصالحين وتحفظ سبل الصديقين.
+					</ab>
+					<ab xml:id="b.PRO.002.021" type="verse">
+						لان المستقيمين يسكنون الارض والكاملين يبقون فيها.
+					</ab>
+					<ab xml:id="b.PRO.002.022" type="verse">
+						اما الاشرار فينقرضون من الارض والغادرون يستأصلون منها
+					</ab>
+				</div>
+				<div xml:id="b.PRO.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.PRO.003.001" type="verse">
+						يا ابني لا تنس شريعتي بل ليحفظ قلبك وصاياي.
+					</ab>
+					<ab xml:id="b.PRO.003.002" type="verse">
+						فانها تزيدك طول ايام وسني حياة وسلامة.
+					</ab>
+					<ab xml:id="b.PRO.003.003" type="verse">
+						لا تدع الرحمة والحق يتركانك. تقلدهما على عنقك. اكتبهما على لوح قلبك
+					</ab>
+					<ab xml:id="b.PRO.003.004" type="verse">
+						فتجد نعمة وفطنة صالحة في اعين الله والناس
+					</ab>
+					<ab xml:id="b.PRO.003.005" type="verse">
+						توكل على الرب بكل قلبك وعلى فهمك لا تعتمد.
+					</ab>
+					<ab xml:id="b.PRO.003.006" type="verse">
+						في كل طرقك اعرفه وهو يقوم سبلك
+					</ab>
+					<ab xml:id="b.PRO.003.007" type="verse">
+						لا تكن حكيما في عيني نفسك. اتّق الرب وابعد عن الشر
+					</ab>
+					<ab xml:id="b.PRO.003.008" type="verse">
+						فيكون شفاء لسرّتك وسقاء لعظامك.
+					</ab>
+					<ab xml:id="b.PRO.003.009" type="verse">
+						اكرم الرب من مالك ومن كل باكورات غلتك
+					</ab>
+					<ab xml:id="b.PRO.003.010" type="verse">
+						فتمتلئ خزائنك شبعا وتفيض معاصرك مسطارا
+					</ab>
+					<ab xml:id="b.PRO.003.011" type="verse">
+						يا ابني لا تحتقر تأديب الرب ولا تكره توبيخه.
+					</ab>
+					<ab xml:id="b.PRO.003.012" type="verse">
+						لان الذي يحبه الرب يؤدبه وكأب بابن يسرّ به
+					</ab>
+					<ab xml:id="b.PRO.003.013" type="verse">
+						طوبى للانسان الذي يجد الحكمة وللرجل الذي ينال الفهم.
+					</ab>
+					<ab xml:id="b.PRO.003.014" type="verse">
+						لان تجارتها خير من تجارة الفضة وربحها خير من الذهب الخالص.
+					</ab>
+					<ab xml:id="b.PRO.003.015" type="verse">
+						هي اثمن من اللآلئ وكل جواهرك لا تساويها.
+					</ab>
+					<ab xml:id="b.PRO.003.016" type="verse">
+						في يمينها طول ايام وفي يسارها الغنى والمجد.
+					</ab>
+					<ab xml:id="b.PRO.003.017" type="verse">
+						طرقها طرق نعم وكل مسالكها سلام.
+					</ab>
+					<ab xml:id="b.PRO.003.018" type="verse">
+						هي شجرة حياة لممسكيها والمتمسك بها مغبوط.
+					</ab>
+					<ab xml:id="b.PRO.003.019" type="verse">
+						الرب بالحكمة اسس الارض. اثبت السموات بالفهم.
+					</ab>
+					<ab xml:id="b.PRO.003.020" type="verse">
+						بعلمه انشقت اللجج وتقطر السحاب ندى
+					</ab>
+					<ab xml:id="b.PRO.003.021" type="verse">
+						يا ابني لا تبرح هذه من عينيك. احفظ الرأي والتدبير
+					</ab>
+					<ab xml:id="b.PRO.003.022" type="verse">
+						فيكونا حياة لنفسك ونعمة لعنقك.
+					</ab>
+					<ab xml:id="b.PRO.003.023" type="verse">
+						حينئذ تسلك في طريقك آمنا ولا تعثر رجلك.
+					</ab>
+					<ab xml:id="b.PRO.003.024" type="verse">
+						اذا اضطجعت فلا تخاف بل تضطجع ويلذ نومك.
+					</ab>
+					<ab xml:id="b.PRO.003.025" type="verse">
+						لا تخش من خوف باغت ولا من خراب الاشرار اذا جاء.
+					</ab>
+					<ab xml:id="b.PRO.003.026" type="verse">
+						لان الرب يكون معتمدك ويصون رجلك من ان تؤخذ
+					</ab>
+					<ab xml:id="b.PRO.003.027" type="verse">
+						لا تمنع الخير عن اهله حين يكون في طاقة يدك ان تفعله.
+					</ab>
+					<ab xml:id="b.PRO.003.028" type="verse">
+						لا تقل لصاحبك اذهب وعد فاعطيك غدا وموجود عندك.
+					</ab>
+					<ab xml:id="b.PRO.003.029" type="verse">
+						لا تخترع شرا على صاحبك وهو ساكن لديك آمنا.
+					</ab>
+					<ab xml:id="b.PRO.003.030" type="verse">
+						لا تخاصم انسانا بدون سبب. ان لم يكن قد صنع معك شرا
+					</ab>
+					<ab xml:id="b.PRO.003.031" type="verse">
+						لا تحسد الظالم ولا تختر شيئا من طرقه.
+					</ab>
+					<ab xml:id="b.PRO.003.032" type="verse">
+						لان الملتوي رجس عند الرب. اما سره فعند المستقيمين.
+					</ab>
+					<ab xml:id="b.PRO.003.033" type="verse">
+						لعنة الرب في بيت الشرير لكنه يبارك مسكن الصديقين.
+					</ab>
+					<ab xml:id="b.PRO.003.034" type="verse">
+						كما انه يستهزئ بالمستهزئين هكذا يعطي نعمة للمتواضعين.
+					</ab>
+					<ab xml:id="b.PRO.003.035" type="verse">
+						الحكماء يرثون مجدا والحمقى يحملون هوانا
+					</ab>
+				</div>
+				<div xml:id="b.PRO.004" type="chapter">
+				<head>4</head>
+					<ab xml:id="b.PRO.004.001" type="verse">
+						اسمعوا ايها البنون تأديب الاب واصغوا لاجل معرفة الفهم.
+					</ab>
+					<ab xml:id="b.PRO.004.002" type="verse">
+						لاني اعطيكم تعليما صالحا فلا تتركوا شريعتي.
+					</ab>
+					<ab xml:id="b.PRO.004.003" type="verse">
+						فاني كنت ابنا لابي غضّا ووحيدا عند امي.
+					</ab>
+					<ab xml:id="b.PRO.004.004" type="verse">
+						وكان يريني ويقول لي ليضبط قلبك كلامي. احفظ وصاياي فتحيا.
+					</ab>
+					<ab xml:id="b.PRO.004.005" type="verse">
+						اقتن الحكمة. اقتن الفهم. لا تنس ولا تعرض عن كلمات فمي.
+					</ab>
+					<ab xml:id="b.PRO.004.006" type="verse">
+						لا تتركها فتحفظك أحببها فتصونك.
+					</ab>
+					<ab xml:id="b.PRO.004.007" type="verse">
+						الحكمة هي الراس. فاقتن الحكمة وبكل مقتناك اقتن الفهم.
+					</ab>
+					<ab xml:id="b.PRO.004.008" type="verse">
+						ارفعها فتعلّيك. تمجدك اذا اعتنقتها.
+					</ab>
+					<ab xml:id="b.PRO.004.009" type="verse">
+						تعطي راسك اكليل نعمة. تاج جمال تمنحك
+					</ab>
+					<ab xml:id="b.PRO.004.010" type="verse">
+						اسمع يا ابني واقبل اقوالي فتكثر سنو حياتك.
+					</ab>
+					<ab xml:id="b.PRO.004.011" type="verse">
+						اريتك طريق الحكمة. هديتك سبل الاستقامة.
+					</ab>
+					<ab xml:id="b.PRO.004.012" type="verse">
+						اذا سرت فلا تضيق خطواتك واذا سعيت فلا تعثر.
+					</ab>
+					<ab xml:id="b.PRO.004.013" type="verse">
+						تمسك بالأدب لا ترخه. احفظه فانه هو حياتك.
+					</ab>
+					<ab xml:id="b.PRO.004.014" type="verse">
+						لا تدخل في سبيل الاشرار ولا تسر في طريق الاثمة.
+					</ab>
+					<ab xml:id="b.PRO.004.015" type="verse">
+						تنكب عنه. لا تمر به. حد عنه واعبر.
+					</ab>
+					<ab xml:id="b.PRO.004.016" type="verse">
+						لانهم لا ينامون ان لم يفعلوا سوءا وينزع نومهم ان لم يسقطوا احدا.
+					</ab>
+					<ab xml:id="b.PRO.004.017" type="verse">
+						لانهم يطعمون خبز الشر ويشربون خمر الظلم.
+					</ab>
+					<ab xml:id="b.PRO.004.018" type="verse">
+						اما سبيل الصديقين فكنور مشرق يتزايد وينير الى النهار الكامل.
+					</ab>
+					<ab xml:id="b.PRO.004.019" type="verse">
+						اما طريق الاشرار فكالظلام. لا يعلمون ما يعثرون به
+					</ab>
+					<ab xml:id="b.PRO.004.020" type="verse">
+						يابني اصغ الى كلامي. امل اذنك الى اقوالي.
+					</ab>
+					<ab xml:id="b.PRO.004.021" type="verse">
+						لا تبرح عن عينيك. احفظها في وسط قلبك.
+					</ab>
+					<ab xml:id="b.PRO.004.022" type="verse">
+						لانها هي حياة للذين يجدونها ودواء لكل الجسد.
+					</ab>
+					<ab xml:id="b.PRO.004.023" type="verse">
+						فوق كل تحفظ احفظ قلبك لان منه مخارج الحياة.
+					</ab>
+					<ab xml:id="b.PRO.004.024" type="verse">
+						انزع عنك التواء الفم وابعد عنك انحراف الشفتين.
+					</ab>
+					<ab xml:id="b.PRO.004.025" type="verse">
+						لتنظر عيناك الى قدامك واجفانك الى امامك مستقيما.
+					</ab>
+					<ab xml:id="b.PRO.004.026" type="verse">
+						مهد سبيل رجليك فتثبت كل طرقك.
+					</ab>
+					<ab xml:id="b.PRO.004.027" type="verse">
+						لا تمل يمنى ولا يسرة. باعد رجلك عن الشر
+					</ab>
+				</div>
+				<div xml:id="b.PRO.005" type="chapter">
+				<head>5</head>
+					<ab xml:id="b.PRO.005.001" type="verse">
+						يا ابني اصغ الى حكمتي. امل اذنك الى فهمي
+					</ab>
+					<ab xml:id="b.PRO.005.002" type="verse">
+						لحفظ التدابير ولتحفظ شفتاك معرفة.
+					</ab>
+					<ab xml:id="b.PRO.005.003" type="verse">
+						لان شفتي المرأة الاجنبية تقطران عسلا وحنكها انعم من الزيت.
+					</ab>
+					<ab xml:id="b.PRO.005.004" type="verse">
+						لكن عاقبتها مرة كالافسنتين حادة كسيف ذي حدين.
+					</ab>
+					<ab xml:id="b.PRO.005.005" type="verse">
+						قدماها تنحدران الى الموت. خطواتها تتمسك بالهاوية.
+					</ab>
+					<ab xml:id="b.PRO.005.006" type="verse">
+						لئلا تتأمل طريق الحياة تمايلت خطواتها ولا تشعر
+					</ab>
+					<ab xml:id="b.PRO.005.007" type="verse">
+						والآن ايها البنون اسمعوا لي ولا ترتدوا عن كلمات فمي.
+					</ab>
+					<ab xml:id="b.PRO.005.008" type="verse">
+						ابعد طريقك عنها ولا تقرب الى باب بيتها.
+					</ab>
+					<ab xml:id="b.PRO.005.009" type="verse">
+						لئلا تعطي زهرك لآخرين وسنينك للقاسي.
+					</ab>
+					<ab xml:id="b.PRO.005.010" type="verse">
+						لئلا تشبع الاجانب من قوتك وتكون اتعابك في بيت غريب.
+					</ab>
+					<ab xml:id="b.PRO.005.011" type="verse">
+						فتنوح في اواخرك عند فناء لحمك وجسمك
+					</ab>
+					<ab xml:id="b.PRO.005.012" type="verse">
+						فتقول كيف اني ابغضت الادب ورذل قلبي التوبيخ
+					</ab>
+					<ab xml:id="b.PRO.005.013" type="verse">
+						ولم اسمع لصوت مرشدي ولم امل اذني الى معلميّ.
+					</ab>
+					<ab xml:id="b.PRO.005.014" type="verse">
+						لولا قليل لكنت في كل شر في وسط الزمرة والجماعة
+					</ab>
+					<ab xml:id="b.PRO.005.015" type="verse">
+						اشرب مياها من جبك ومياها جارية من بئرك.
+					</ab>
+					<ab xml:id="b.PRO.005.016" type="verse">
+						لا تفض ينابيعك الى الخارج سواقي مياه في الشوارع.
+					</ab>
+					<ab xml:id="b.PRO.005.017" type="verse">
+						لتكن لك وحدك وليس لاجانب معك.
+					</ab>
+					<ab xml:id="b.PRO.005.018" type="verse">
+						ليكن ينبوعك مباركا وافرح بامرأة شبابك
+					</ab>
+					<ab xml:id="b.PRO.005.019" type="verse">
+						الظبية المحبوبة والوعلة الزهية. ليروك ثدياها في كل وقت وبمحبتها اسكر دائما.
+					</ab>
+					<ab xml:id="b.PRO.005.020" type="verse">
+						فلم تفتن يا ابني باجنبية وتحتضن غريبة.
+					</ab>
+					<ab xml:id="b.PRO.005.021" type="verse">
+						لان طرق الانسان امام عيني الرب وهو يزن كل سبله.
+					</ab>
+					<ab xml:id="b.PRO.005.022" type="verse">
+						الشرير تأخذه آثامه وبحبال خطيته يمسك.
+					</ab>
+					<ab xml:id="b.PRO.005.023" type="verse">
+						انه يموت من عدم الادب وبفرط حمقه يتهور
+					</ab>
+				</div>
+				<div xml:id="b.PRO.006" type="chapter">
+				<head>6</head>
+					<ab xml:id="b.PRO.006.001" type="verse">
+						يا ابني ان ضمنت صاحبك ان صفقت كفك لغريب
+					</ab>
+					<ab xml:id="b.PRO.006.002" type="verse">
+						ان علقت في كلام فمك ان اخذت في كلام فيك
+					</ab>
+					<ab xml:id="b.PRO.006.003" type="verse">
+						اذا فافعل هذا يا ابني ونج نفسك اذا صرت في يد صاحبك. اذهب ترام والحّ على صاحبك.
+					</ab>
+					<ab xml:id="b.PRO.006.004" type="verse">
+						لا تعط عينيك نوما ولا اجفانك نعاسا.
+					</ab>
+					<ab xml:id="b.PRO.006.005" type="verse">
+						نج نفسك كالضبي من اليد كالعصفور من يد الصياد
+					</ab>
+					<ab xml:id="b.PRO.006.006" type="verse">
+						اذهب الى النملة ايها الكسلان. تأمل طرقها وكن حكيما.
+					</ab>
+					<ab xml:id="b.PRO.006.007" type="verse">
+						التي ليس لها قائد او عريف او متسلط
+					</ab>
+					<ab xml:id="b.PRO.006.008" type="verse">
+						وتعد في الصيف طعامها وتجمع في الحصاد اكلها.
+					</ab>
+					<ab xml:id="b.PRO.006.009" type="verse">
+						الى متى تنام ايها الكسلان. متى تنهض من نومك.
+					</ab>
+					<ab xml:id="b.PRO.006.010" type="verse">
+						قليل نوم بعد قليل نعاس وطي اليدين قليلا للرقود.
+					</ab>
+					<ab xml:id="b.PRO.006.011" type="verse">
+						فياتي فقرك كساع وعوزك كغاز
+					</ab>
+					<ab xml:id="b.PRO.006.012" type="verse">
+						الرجل اللئيم الرجل الاثيم يسعى باعوجاج الفم.
+					</ab>
+					<ab xml:id="b.PRO.006.013" type="verse">
+						يغمز بعينيه يقول برجله يشير باصابعه.
+					</ab>
+					<ab xml:id="b.PRO.006.014" type="verse">
+						في قلبه اكاذيب. يخترع الشر في كل حين. يزرع خصومات.
+					</ab>
+					<ab xml:id="b.PRO.006.015" type="verse">
+						لاجل ذلك بغتة تفاجئه بليته. في لحظة ينكسر ولا شفاء
+					</ab>
+					<ab xml:id="b.PRO.006.016" type="verse">
+						هذه الستة يبغضها الرب وسبعة هي مكرهة نفسه.
+					</ab>
+					<ab xml:id="b.PRO.006.017" type="verse">
+						عيون متعالية لسان كاذب ايد سافكة دما بريئا
+					</ab>
+					<ab xml:id="b.PRO.006.018" type="verse">
+						قلب ينشئ افكارا رديئة ارجل سريعة الجريان الى السوء
+					</ab>
+					<ab xml:id="b.PRO.006.019" type="verse">
+						شاهد زور يفوه بالاكاذيب وزارع خصومات بين اخوة
+					</ab>
+					<ab xml:id="b.PRO.006.020" type="verse">
+						يا ابني احفظ وصايا ابيك ولا تترك شريعة امك.
+					</ab>
+					<ab xml:id="b.PRO.006.021" type="verse">
+						اربطها على قلبك دائما. قلّد بها عنقك.
+					</ab>
+					<ab xml:id="b.PRO.006.022" type="verse">
+						اذا ذهبت تهديك. اذا نمت تحرسك واذا استيقظت فهي تحدّثك.
+					</ab>
+					<ab xml:id="b.PRO.006.023" type="verse">
+						لان الوصية مصباح والشريعة نور وتوبيخات الادب طريق الحياة.
+					</ab>
+					<ab xml:id="b.PRO.006.024" type="verse">
+						لحفظك من المرأة الشريرة من ملق لسان الاجنبية.
+					</ab>
+					<ab xml:id="b.PRO.006.025" type="verse">
+						لا تشتهين جمالها بقلبك ولا تأخذك بهدبها.
+					</ab>
+					<ab xml:id="b.PRO.006.026" type="verse">
+						لانه بسبب امرأة زانية يفتقر المرء الى رغيف خبز وامرأة رجل آخر تقتنص النفس الكريمة.
+					</ab>
+					<ab xml:id="b.PRO.006.027" type="verse">
+						أيأخذ انسان نارا في حضنه ولا تحترق ثيابه.
+					</ab>
+					<ab xml:id="b.PRO.006.028" type="verse">
+						او يمشي انسان على الجمر ولا تكتوي رجلاه.
+					</ab>
+					<ab xml:id="b.PRO.006.029" type="verse">
+						هكذا من يدخل على امرأة صاحبه. كل من يمسّها لا يكون بريئا.
+					</ab>
+					<ab xml:id="b.PRO.006.030" type="verse">
+						لا يستخفون بالسارق ولو سرق ليشبع نفسه وهو جوعان.
+					</ab>
+					<ab xml:id="b.PRO.006.031" type="verse">
+						ان وجد يرد سبعة اضعاف ويعطي كل قنية بيته.
+					</ab>
+					<ab xml:id="b.PRO.006.032" type="verse">
+						اما الزاني بامرأة فعديم العقل. المهلك نفسه هو يفعله.
+					</ab>
+					<ab xml:id="b.PRO.006.033" type="verse">
+						ضربا وخزيا يجد وعاره لا يمحى.
+					</ab>
+					<ab xml:id="b.PRO.006.034" type="verse">
+						لان الغيرة هي حمية الرجل فلا يشفق في يوم الانتقام.
+					</ab>
+					<ab xml:id="b.PRO.006.035" type="verse">
+						لا ينظر الى فدية ما ولا يرضى ولو اكثرت الرشوة
+					</ab>
+				</div>
+				<div xml:id="b.PRO.007" type="chapter">
+				<head>7</head>
+					<ab xml:id="b.PRO.007.001" type="verse">
+						يا ابني احفظ كلامي واذخر وصاياي عندك.
+					</ab>
+					<ab xml:id="b.PRO.007.002" type="verse">
+						احفظ وصاياي فتحيا وشريعتي كحدقة عينك.
+					</ab>
+					<ab xml:id="b.PRO.007.003" type="verse">
+						اربطها على اصابعك اكتبها على لوح قلبك.
+					</ab>
+					<ab xml:id="b.PRO.007.004" type="verse">
+						قل للحكمة انت اختي وادع الفهم ذا قرابة.
+					</ab>
+					<ab xml:id="b.PRO.007.005" type="verse">
+						لتحفظك من المرأة الاجنبية من الغريبة الملقة بكلامها
+					</ab>
+					<ab xml:id="b.PRO.007.006" type="verse">
+						لاني من كوة بيتي من وراء شباكي تطلعت
+					</ab>
+					<ab xml:id="b.PRO.007.007" type="verse">
+						فرايت بين الجهال لاحظت بين البنين غلاما عديم الفهم
+					</ab>
+					<ab xml:id="b.PRO.007.008" type="verse">
+						عابرا في الشارع عند زاويتها وصاعدا في طريق بيتها
+					</ab>
+					<ab xml:id="b.PRO.007.009" type="verse">
+						في العشاء في مساء اليوم في حدقة الليل والظلام.
+					</ab>
+					<ab xml:id="b.PRO.007.010" type="verse">
+						واذ بامرأة استقبلته في زي زانية وخبيثة القلب.
+					</ab>
+					<ab xml:id="b.PRO.007.011" type="verse">
+						صخّابة هي وجامحة. في بيتها لا تستقر قدماها.
+					</ab>
+					<ab xml:id="b.PRO.007.012" type="verse">
+						تارة في الخارج واخرى في الشوارع. وعند كل زاوية تكمن.
+					</ab>
+					<ab xml:id="b.PRO.007.013" type="verse">
+						فامسكته وقبّلته. اوقحت وجهها وقالت له
+					</ab>
+					<ab xml:id="b.PRO.007.014" type="verse">
+						عليّ ذبائح السلامة. اليوم اوفيت نذوري.
+					</ab>
+					<ab xml:id="b.PRO.007.015" type="verse">
+						فلذلك خرجت للقائك لاطلب وجهك حتى اجدك.
+					</ab>
+					<ab xml:id="b.PRO.007.016" type="verse">
+						بالديباج فرشت سريري بموشّى كتان من مصر.
+					</ab>
+					<ab xml:id="b.PRO.007.017" type="verse">
+						عطرت فراشي بمرّ وعود وقرفة.
+					</ab>
+					<ab xml:id="b.PRO.007.018" type="verse">
+						هلم نرتو ودّا الى الصباح. نتلذذ بالحب.
+					</ab>
+					<ab xml:id="b.PRO.007.019" type="verse">
+						لان الرجل ليس في البيت. ذهب في طريق بعيدة.
+					</ab>
+					<ab xml:id="b.PRO.007.020" type="verse">
+						اخذ صرّة الفضة بيده. يوم الهلال ياتي الى بيته.
+					</ab>
+					<ab xml:id="b.PRO.007.021" type="verse">
+						اغوته بكثرة فنونها بملث شفتيها طوحته.
+					</ab>
+					<ab xml:id="b.PRO.007.022" type="verse">
+						ذهب وراءها لوقته كثور يذهب الى الذبح او كالغبي الى قيد القصاص
+					</ab>
+					<ab xml:id="b.PRO.007.023" type="verse">
+						حتى يشق سهم كبده. كطير يسرع الى الفخ ولا يدري انه لنفسه
+					</ab>
+					<ab xml:id="b.PRO.007.024" type="verse">
+						والآن ايها الابناء اسمعوا لي واصغوا لكلمات فمي.
+					</ab>
+					<ab xml:id="b.PRO.007.025" type="verse">
+						لا يمل قلبك الى طرقها ولا تشرد في مسالكها.
+					</ab>
+					<ab xml:id="b.PRO.007.026" type="verse">
+						لانها طرحت كثيرين جرحى وكل قتلاها اقوياء.
+					</ab>
+					<ab xml:id="b.PRO.007.027" type="verse">
+						طرق الهاوية بيتها هابطة الى خدور الموت
+					</ab>
+				</div>
+				<div xml:id="b.PRO.008" type="chapter">
+				<head>8</head>
+					<ab xml:id="b.PRO.008.001" type="verse">
+						ألعل الحكمة لا تنادي والفهم ألا يعطي صوته.
+					</ab>
+					<ab xml:id="b.PRO.008.002" type="verse">
+						عند رؤوس الشواهق عند الطريق بين المسالك تقف.
+					</ab>
+					<ab xml:id="b.PRO.008.003" type="verse">
+						بجانب الابواب عند ثغر المدينة عند مدخل الابواب تصرّح.
+					</ab>
+					<ab xml:id="b.PRO.008.004" type="verse">
+						لكم ايها الناس انادي وصوتي الى بني آدم.
+					</ab>
+					<ab xml:id="b.PRO.008.005" type="verse">
+						ايها الحمقى تعلموا ذكاء ويا جهال تعلموا فهما.
+					</ab>
+					<ab xml:id="b.PRO.008.006" type="verse">
+						اسمعوا فاني اتكلم بامور شريفة وافتتاح شفتيّ استقامة.
+					</ab>
+					<ab xml:id="b.PRO.008.007" type="verse">
+						لان حنكي يلهج بالصدق ومكرهة شفتيّ الكذب.
+					</ab>
+					<ab xml:id="b.PRO.008.008" type="verse">
+						كل كلمات فمي بالحق. ليس فيها عوج ولا التواء.
+					</ab>
+					<ab xml:id="b.PRO.008.009" type="verse">
+						كلها واضحة لدى الفهيم ومستقيمة لدى الذين يجدون المعرفة.
+					</ab>
+					<ab xml:id="b.PRO.008.010" type="verse">
+						خذوا تاديبي لا الفضة. والمعرفة اكثر من الذهب المختار.
+					</ab>
+					<ab xml:id="b.PRO.008.011" type="verse">
+						لان الحكمة خير من اللآلئ وكل الجواهر لا تساويها
+					</ab>
+					<ab xml:id="b.PRO.008.012" type="verse">
+						انا الحكمة اسكن الذكاء واجد معرفة التدابير.
+					</ab>
+					<ab xml:id="b.PRO.008.013" type="verse">
+						مخافة الرب بغض الشر. الكبرياء والتعظم وطريق الشر وفم الاكاذيب ابغضت.
+					</ab>
+					<ab xml:id="b.PRO.008.014" type="verse">
+						لي المشورة والرأي. انا الفهم. لي القدرة.
+					</ab>
+					<ab xml:id="b.PRO.008.015" type="verse">
+						بي تملك الملوك وتقضي العظماء عدلا.
+					</ab>
+					<ab xml:id="b.PRO.008.016" type="verse">
+						بي تترأس الرؤساء والشرفاء. كل قضاة الارض.
+					</ab>
+					<ab xml:id="b.PRO.008.017" type="verse">
+						انا احب الذين يحبونني والذين يبكّرون اليّ يجدونني.
+					</ab>
+					<ab xml:id="b.PRO.008.018" type="verse">
+						عندي الغنى والكرامة. قنية فاخرة وحظ.
+					</ab>
+					<ab xml:id="b.PRO.008.019" type="verse">
+						ثمري خير من الذهب ومن الابريز وغلتي خير من الفضة المختارة.
+					</ab>
+					<ab xml:id="b.PRO.008.020" type="verse">
+						في طريق العدل اتمشى في وسط سبل الحق
+					</ab>
+					<ab xml:id="b.PRO.008.021" type="verse">
+						فاورّث محبيّ رزقا واملأ خزائنهم
+					</ab>
+					<ab xml:id="b.PRO.008.022" type="verse">
+						الرب قناني اول طريقه من قبل اعماله منذ القدم.
+					</ab>
+					<ab xml:id="b.PRO.008.023" type="verse">
+						منذ الازل مسحت منذ البدء منذ اوائل الارض.
+					</ab>
+					<ab xml:id="b.PRO.008.024" type="verse">
+						اذ لم يكن غمر أبدئت اذ لم تكن ينابيع كثيرة المياه.
+					</ab>
+					<ab xml:id="b.PRO.008.025" type="verse">
+						من قبل ان تقررت الجبال قبل التلال أبدئت.
+					</ab>
+					<ab xml:id="b.PRO.008.026" type="verse">
+						اذ لم يكن قد صنع الارض بعد ولا البراري ولا اول اعفار المسكونة.
+					</ab>
+					<ab xml:id="b.PRO.008.027" type="verse">
+						لما ثبت السموات كنت هناك انا. لما رسم دائرة على وجه الغمر.
+					</ab>
+					<ab xml:id="b.PRO.008.028" type="verse">
+						لما اثبت السحب من فوق لما تشددت ينابيع الغمر.
+					</ab>
+					<ab xml:id="b.PRO.008.029" type="verse">
+						لما وضع للبحر حده فلا تتعدى المياه تخمه لما رسم أسس الارض.
+					</ab>
+					<ab xml:id="b.PRO.008.030" type="verse">
+						كنت عنده صانعا وكنت كل يوم لذّته فرحة دائما قدامه.
+					</ab>
+					<ab xml:id="b.PRO.008.031" type="verse">
+						فرحة في مسكونة ارضه ولذّاتي مع بني آدم
+					</ab>
+					<ab xml:id="b.PRO.008.032" type="verse">
+						فالآن ايها البنون اسمعوا لي. فطوبى للذين يحفظون طرقي.
+					</ab>
+					<ab xml:id="b.PRO.008.033" type="verse">
+						اسمعوا التعليم وكونوا حكماء ولا ترفضوه.
+					</ab>
+					<ab xml:id="b.PRO.008.034" type="verse">
+						طوبى للانسان الذي يسمع لي ساهرا كل يوم عند مصاريعي حافظا قوائم ابوابي.
+					</ab>
+					<ab xml:id="b.PRO.008.035" type="verse">
+						لانه من يجدني يجد الحياة وينال رضى من الرب.
+					</ab>
+					<ab xml:id="b.PRO.008.036" type="verse">
+						ومن يخطئ عني يضر نفسه. كل مبغضي يحبون الموت
+					</ab>
+				</div>
+				<div xml:id="b.PRO.009" type="chapter">
+				<head>9</head>
+					<ab xml:id="b.PRO.009.001" type="verse">
+						الحكمة بنت بيتها. نحتت اعمدتها السبعة.
+					</ab>
+					<ab xml:id="b.PRO.009.002" type="verse">
+						ذبحت ذبحها مزجت خمرها. ايضا رتبت مائدتها.
+					</ab>
+					<ab xml:id="b.PRO.009.003" type="verse">
+						ارسلت جواريها تنادي على ظهور اعالي المدينة.
+					</ab>
+					<ab xml:id="b.PRO.009.004" type="verse">
+						من هو جاهل فليمل الى هنا. والناقص الفهم قالت له
+					</ab>
+					<ab xml:id="b.PRO.009.005" type="verse">
+						هلموا كلوا من طعامي واشربوا من الخمر التي مزجتها.
+					</ab>
+					<ab xml:id="b.PRO.009.006" type="verse">
+						اتركوا الجهالات فتحيوا وسيروا في طريق الفهم
+					</ab>
+					<ab xml:id="b.PRO.009.007" type="verse">
+						من يوبخ مستهزئا يكسب لنفسه هوانا ومن ينذر شريرا يكسب عيبا.
+					</ab>
+					<ab xml:id="b.PRO.009.008" type="verse">
+						لا توبخ مستهزئا لئلا يبغضك. وبخ حكيما فيحبك.
+					</ab>
+					<ab xml:id="b.PRO.009.009" type="verse">
+						اعط حكيما فيكون اوفر حكمة. علّم صدّيقا فيزداد علما.
+					</ab>
+					<ab xml:id="b.PRO.009.010" type="verse">
+						بدء الحكمة مخافة الرب ومعرفة القدوس فهم.
+					</ab>
+					<ab xml:id="b.PRO.009.011" type="verse">
+						لانه بي تكثر ايامك وتزداد لك سنو حياة.
+					</ab>
+					<ab xml:id="b.PRO.009.012" type="verse">
+						ان كنت حكيما فانت حكيم لنفسك وان استهزأت فانت وحدك تتحمل
+					</ab>
+					<ab xml:id="b.PRO.009.013" type="verse">
+						المرأة الجاهلة صخّابة حمقاء ولا تدري شيئا.
+					</ab>
+					<ab xml:id="b.PRO.009.014" type="verse">
+						فتقعد عند باب بيتها على كرسي في اعالي المدينة
+					</ab>
+					<ab xml:id="b.PRO.009.015" type="verse">
+						لتنادي عابري السبيل المقوّمين طرقهم.
+					</ab>
+					<ab xml:id="b.PRO.009.016" type="verse">
+						من هو جاهل فليمل الى هنا. والناقص الفهم تقول له
+					</ab>
+					<ab xml:id="b.PRO.009.017" type="verse">
+						المياه المسروقة حلوة وخبز الخفية لذيذ.
+					</ab>
+					<ab xml:id="b.PRO.009.018" type="verse">
+						ولا يعلم ان الاخيلة هناك وان في اعماق الهاوية ضيوفها
+					</ab>
+				</div>
+				<div xml:id="b.PRO.010" type="chapter">
+				<head>10</head>
+					<ab xml:id="b.PRO.010.001" type="verse">
+						امثال سليمان-الابن الحكيم يسرّ اباه والابن الجاهل حزن امه.
+					</ab>
+					<ab xml:id="b.PRO.010.002" type="verse">
+						كنوز الشر لا تنفع. اما البر فينجي من الموت.
+					</ab>
+					<ab xml:id="b.PRO.010.003" type="verse">
+						الرب لا يجيع نفس الصدّيق ولكنه يدفع هوى الاشرار.
+					</ab>
+					<ab xml:id="b.PRO.010.004" type="verse">
+						العامل بيد رخوة يفتقر. اما يد المجتهدين فتغني.
+					</ab>
+					<ab xml:id="b.PRO.010.005" type="verse">
+						من يجمع في الصيف فهو ابن عاقل ومن ينام في الحصاد فهو ابن مخز
+					</ab>
+					<ab xml:id="b.PRO.010.006" type="verse">
+						بركات على راس الصدّيق. اما فم الاشرار فيغشاه ظلم.
+					</ab>
+					<ab xml:id="b.PRO.010.007" type="verse">
+						ذكر الصدّيق للبركة واسم الاشرار ينخر.
+					</ab>
+					<ab xml:id="b.PRO.010.008" type="verse">
+						حكيم القلب يقبل الوصايا وغبي الشفتين يصرع.
+					</ab>
+					<ab xml:id="b.PRO.010.009" type="verse">
+						من يسلك بالاستقامة يسلك بالامان ومن يعوج طرقه يعرّف.
+					</ab>
+					<ab xml:id="b.PRO.010.010" type="verse">
+						من يغمز بالعين يسبب حزنا والغبي الشفتين يصرع
+					</ab>
+					<ab xml:id="b.PRO.010.011" type="verse">
+						فم الصدّيق ينبوع حياة وفم الاشرار يغشاه ظلم.
+					</ab>
+					<ab xml:id="b.PRO.010.012" type="verse">
+						البغضة تهيج خصومات والمحبة تستر كل الذنوب.
+					</ab>
+					<ab xml:id="b.PRO.010.013" type="verse">
+						في شفتي العاقل توجد حكمة. والعصا لظهر الناقص الفهم.
+					</ab>
+					<ab xml:id="b.PRO.010.014" type="verse">
+						الحكماء يذخرون معرفة. اما فم الغبي فهلاك قريب.
+					</ab>
+					<ab xml:id="b.PRO.010.015" type="verse">
+						ثروة الغني مدينته الحصينة هلاك المساكين فقرهم.
+					</ab>
+					<ab xml:id="b.PRO.010.016" type="verse">
+						عمل الصديق للحياة. ربح الشرير للخطية.
+					</ab>
+					<ab xml:id="b.PRO.010.017" type="verse">
+						حافظ التعليم هو في طريق الحياة ورافض التأديب ضال.
+					</ab>
+					<ab xml:id="b.PRO.010.018" type="verse">
+						من يخفي البغضة فشفتاه كاذبتان ومشيع المذمة هو جاهل.
+					</ab>
+					<ab xml:id="b.PRO.010.019" type="verse">
+						كثرة الكلام لا تخلو من معصية. اما الضابط شفتيه فعاقل.
+					</ab>
+					<ab xml:id="b.PRO.010.020" type="verse">
+						لسان الصدّيق فضة مختارة. قلب الاشرار كشيء زهيد.
+					</ab>
+					<ab xml:id="b.PRO.010.021" type="verse">
+						شفتا الصدّيق تهديان كثيرين. اما الاغبياء فيموتون من نقص الفهم.
+					</ab>
+					<ab xml:id="b.PRO.010.022" type="verse">
+						بركة الرب هي تغني ولا يزيد معها تعبا.
+					</ab>
+					<ab xml:id="b.PRO.010.023" type="verse">
+						فعل الرذيلة عند الجاهل كالضحك. اما الحكمة فلذي فهم.
+					</ab>
+					<ab xml:id="b.PRO.010.024" type="verse">
+						خوف الشرير هو يأتيه وشهوة الصدّيقين تمنح.
+					</ab>
+					<ab xml:id="b.PRO.010.025" type="verse">
+						كعبور الزوبعة فلا يكون الشرير. اما الصدّيق فاساس مؤبّد.
+					</ab>
+					<ab xml:id="b.PRO.010.026" type="verse">
+						كالخل للاسنان وكالدخان للعينين كذلك الكسلان للذين ارسلوه.
+					</ab>
+					<ab xml:id="b.PRO.010.027" type="verse">
+						مخافة الرب تزيد الايام. اما سنو الاشرار فتقصر.
+					</ab>
+					<ab xml:id="b.PRO.010.028" type="verse">
+						منتظر الصدّيقين مفرح. اما رجاء الاشرار فيبيد.
+					</ab>
+					<ab xml:id="b.PRO.010.029" type="verse">
+						حصن للاستقامة طريق الرب. والهلاك لفاعلي الاثم.
+					</ab>
+					<ab xml:id="b.PRO.010.030" type="verse">
+						الصدّيق لن يزحزح ابدا والاشرار لن يسكنوا الارض.
+					</ab>
+					<ab xml:id="b.PRO.010.031" type="verse">
+						فم الصدّيق ينبت الحكمة. اما لسان الاكاذيب فيقطع.
+					</ab>
+					<ab xml:id="b.PRO.010.032" type="verse">
+						شفتا الصدّيق تعرفان المرضي وفم الاشرار اكاذيب
+					</ab>
+				</div>
+				<div xml:id="b.PRO.011" type="chapter">
+				<head>11</head>
+					<ab xml:id="b.PRO.011.001" type="verse">
+						موازين غش مكرهة الرب والوزن الصحيح رضاه.
+					</ab>
+					<ab xml:id="b.PRO.011.002" type="verse">
+						تأتي الكبرياء فيأتي الهوان. ومع المتواضعين حكمة.
+					</ab>
+					<ab xml:id="b.PRO.011.003" type="verse">
+						استقامة المستقيمين تهديهم واعوجاج الغادرين يخربهم.
+					</ab>
+					<ab xml:id="b.PRO.011.004" type="verse">
+						لا ينفع الغنى في يوم السخط. اما البر فينجي من الموت.
+					</ab>
+					<ab xml:id="b.PRO.011.005" type="verse">
+						بر الكامل يقوّم طريقه. اما الشرير فيسقط بشرّه.
+					</ab>
+					<ab xml:id="b.PRO.011.006" type="verse">
+						بر المستقيمين ينجيهم اما الغادرون فيؤخذون بفسادهم.
+					</ab>
+					<ab xml:id="b.PRO.011.007" type="verse">
+						عند موت انسان شرير يهلك رجاؤه ومنتظر الاثمة يبيد.
+					</ab>
+					<ab xml:id="b.PRO.011.008" type="verse">
+						الصدّيق ينجو من الضيق ويأتي الشرير مكانه.
+					</ab>
+					<ab xml:id="b.PRO.011.009" type="verse">
+						بالفم يخرب المنافق صاحبه وبالمعرفة ينجو الصدّيقون.
+					</ab>
+					<ab xml:id="b.PRO.011.010" type="verse">
+						بخير الصدّيقين تفرح المدينة وعند هلاك الاشرار هتاف.
+					</ab>
+					<ab xml:id="b.PRO.011.011" type="verse">
+						ببركة المستقيمين تعلو المدينة وبفم الاشرار تهدم
+					</ab>
+					<ab xml:id="b.PRO.011.012" type="verse">
+						المحتقر صاحبه هو ناقص الفهم. اما ذو الفهم فيسكت.
+					</ab>
+					<ab xml:id="b.PRO.011.013" type="verse">
+						الساعي بالوشاية يفشي السر والامين الروح يكتم الامر.
+					</ab>
+					<ab xml:id="b.PRO.011.014" type="verse">
+						حيث لا تدبير يسقط الشعب. اما الخلاص فبكثرة المشيرين.
+					</ab>
+					<ab xml:id="b.PRO.011.015" type="verse">
+						ضررا يضر من يضمن غريبا. ومن يبغض صفق الايدي مطمئن.
+					</ab>
+					<ab xml:id="b.PRO.011.016" type="verse">
+						المرأة ذات النعمة تحصّل كرامة والاشدّاء يحصّلون غنى.
+					</ab>
+					<ab xml:id="b.PRO.011.017" type="verse">
+						الرجل الرحيم يحسن الى نفسه والقاسي يكدر لحمه.
+					</ab>
+					<ab xml:id="b.PRO.011.018" type="verse">
+						الشرير يكسب اجرة غش والزارع البر اجرة امانة.
+					</ab>
+					<ab xml:id="b.PRO.011.019" type="verse">
+						كما ان البر يؤول الى الحياة كذلك من يتبع الشر فالى موته.
+					</ab>
+					<ab xml:id="b.PRO.011.020" type="verse">
+						كراهة الرب ملتوو القلب ورضاه مستقيمو الطريق.
+					</ab>
+					<ab xml:id="b.PRO.011.021" type="verse">
+						يد ليد لا يتبرر الشرير. اما نسل الصدّيقين فينجو.
+					</ab>
+					<ab xml:id="b.PRO.011.022" type="verse">
+						خزامة ذهب في فنطيسة خنزيرة المرأة الجميلة العديمة العقل.
+					</ab>
+					<ab xml:id="b.PRO.011.023" type="verse">
+						شهوة الابرار خير فقط. رجاء الاشرار سخط.
+					</ab>
+					<ab xml:id="b.PRO.011.024" type="verse">
+						يوجد من يفرق فيزداد ايضا ومن يمسك اكثر من اللائق وانما الى الفقر.
+					</ab>
+					<ab xml:id="b.PRO.011.025" type="verse">
+						النفس السخية تسمّن والمروي هو ايضا يروى.
+					</ab>
+					<ab xml:id="b.PRO.011.026" type="verse">
+						محتكر الحنطة يلعنه الشعب والبركة على راس البائع.
+					</ab>
+					<ab xml:id="b.PRO.011.027" type="verse">
+						من يطلب الخير يلتمس الرضا ومن يطلب الشر فالشر ياتيه.
+					</ab>
+					<ab xml:id="b.PRO.011.028" type="verse">
+						من يتكل على غناه يسقط. اما الصديقون فيزهون كالورق.
+					</ab>
+					<ab xml:id="b.PRO.011.029" type="verse">
+						من يكدر بيته يرث الريح والغبي خادم لحكيم القلب.
+					</ab>
+					<ab xml:id="b.PRO.011.030" type="verse">
+						ثمر الصدّيق شجرة حياة ورابح النفوس حكيم.
+					</ab>
+					<ab xml:id="b.PRO.011.031" type="verse">
+						هوذا الصدّيق يجازى في الارض فكم بالحري الشرير والخاطئ
+					</ab>
+				</div>
+				<div xml:id="b.PRO.012" type="chapter">
+				<head>12</head>
+					<ab xml:id="b.PRO.012.001" type="verse">
+						من يحب التأديب يحب المعرفة ومن يبغض التوبيخ فهو بليد.
+					</ab>
+					<ab xml:id="b.PRO.012.002" type="verse">
+						الصالح ينال رضى من قبل الرب اما رجل المكايد فيحكم عليه.
+					</ab>
+					<ab xml:id="b.PRO.012.003" type="verse">
+						لا يثبت الانسان بالشر. اما اصل الصدّيقين فلا يتقلقل.
+					</ab>
+					<ab xml:id="b.PRO.012.004" type="verse">
+						المرأة الفاضلة تاج لبعلها. اما المخزية فكنخر في عظامه.
+					</ab>
+					<ab xml:id="b.PRO.012.005" type="verse">
+						افكار الصدّيقين عدل. تدابير الاشرار غش.
+					</ab>
+					<ab xml:id="b.PRO.012.006" type="verse">
+						كلام الاشرار كمون للدم اما فم المستقيمين فينجيهم.
+					</ab>
+					<ab xml:id="b.PRO.012.007" type="verse">
+						تنقلب الاشرار ولا يكونون. اما بيت الصدّيقين فيثبت.
+					</ab>
+					<ab xml:id="b.PRO.012.008" type="verse">
+						بحسب فطنته يحمد الانسان. اما الملتوي القلب فيكون للهوان.
+					</ab>
+					<ab xml:id="b.PRO.012.009" type="verse">
+						الحقير وله عبد خير من المتمجد ويعوزه الخبز.
+					</ab>
+					<ab xml:id="b.PRO.012.010" type="verse">
+						الصدّيق يراعي نفس بهيمته. اما مراحم الاشرار فقاسية.
+					</ab>
+					<ab xml:id="b.PRO.012.011" type="verse">
+						من يشتغل بحقله يشبع خبزا. اما تابع البطّالين فهو عديم الفهم.
+					</ab>
+					<ab xml:id="b.PRO.012.012" type="verse">
+						اشتهى الشرير صيد الاشرار واصل الصدّيقين يجدي.
+					</ab>
+					<ab xml:id="b.PRO.012.013" type="verse">
+						في معصية الشفتين شرك الشرير. اما الصدّيق فيخرج من الضيق.
+					</ab>
+					<ab xml:id="b.PRO.012.014" type="verse">
+						الانسان يشبع خيرا من ثمر فمه ومكافأة يدي الانسان ترد له.
+					</ab>
+					<ab xml:id="b.PRO.012.015" type="verse">
+						طريق الجاهل مستقيم في عينيه. اما سامع المشورة فهو حكيم.
+					</ab>
+					<ab xml:id="b.PRO.012.016" type="verse">
+						غضب الجاهل يعرف في يومه. اما ساتر الهوان فهو ذكي.
+					</ab>
+					<ab xml:id="b.PRO.012.017" type="verse">
+						من يتفوه بالحق يظهر العدل والشاهد الكاذب يظهر غشا.
+					</ab>
+					<ab xml:id="b.PRO.012.018" type="verse">
+						يوجد من يهذر مثل طعن السيف. اما لسان الحكماء فشفاء.
+					</ab>
+					<ab xml:id="b.PRO.012.019" type="verse">
+						شفة الصدّيق تثبت الى الابد ولسان الكذب انما هو الى طرفة العين.
+					</ab>
+					<ab xml:id="b.PRO.012.020" type="verse">
+						الغش في قلب الذين يفكرون في الشر اما المشيرون بالسلام فلهم فرح
+					</ab>
+					<ab xml:id="b.PRO.012.021" type="verse">
+						لا يصيب الصدّيق شر. اما الاشرار فيمتلئون سوءا.
+					</ab>
+					<ab xml:id="b.PRO.012.022" type="verse">
+						كراهة الرب شفتا كذب. اما العاملون بالصدق فرضاه
+					</ab>
+					<ab xml:id="b.PRO.012.023" type="verse">
+						الرجل الذكي يستر المعرفة. وقلب الجاهل ينادي بالحمق.
+					</ab>
+					<ab xml:id="b.PRO.012.024" type="verse">
+						يد المجتهدين تسود. اما الرخوة فتكون تحت الجزية.
+					</ab>
+					<ab xml:id="b.PRO.012.025" type="verse">
+						الغم في قلب الرجل يحنيه والكلمة الطيبة تفرّحه.
+					</ab>
+					<ab xml:id="b.PRO.012.026" type="verse">
+						الصدّيق يهدي صاحبه. اما طريق الاشرار فتضلهم.
+					</ab>
+					<ab xml:id="b.PRO.012.027" type="verse">
+						الرخاوة لا تمسك صيدا. اما ثروة الانسان الكريمة فهي الاجتهاد.
+					</ab>
+					<ab xml:id="b.PRO.012.028" type="verse">
+						في سبيل البر حياة وفي طريق مسلكه لا موت.
+					</ab>
+				</div>
+				<div xml:id="b.PRO.013" type="chapter">
+				<head>13</head>
+					<ab xml:id="b.PRO.013.001" type="verse">
+						الابن الحكيم يقبل تأديب ابيه والمستهزئ لا يسمع انتهارا.
+					</ab>
+					<ab xml:id="b.PRO.013.002" type="verse">
+						من ثمرة فمه ياكل الانسان خيرا ومرام الغادرين ظلم.
+					</ab>
+					<ab xml:id="b.PRO.013.003" type="verse">
+						من يحفظ فمه يحفظ نفسه. ومن يشحر شفتيه فله هلاك.
+					</ab>
+					<ab xml:id="b.PRO.013.004" type="verse">
+						نفس الكسلان تشتهي ولا شيء لها ونفس المجتهدين تسمن.
+					</ab>
+					<ab xml:id="b.PRO.013.005" type="verse">
+						الصدّيق يبغض كلام كذب والشرير يخزي ويخجل.
+					</ab>
+					<ab xml:id="b.PRO.013.006" type="verse">
+						البر يحفظ الكامل طريقه والشر يقلب الخاطئ.
+					</ab>
+					<ab xml:id="b.PRO.013.007" type="verse">
+						يوجد من يتغانى ولا شيء عنده ومن يتفاقر وعنده غنى جزيل.
+					</ab>
+					<ab xml:id="b.PRO.013.008" type="verse">
+						فدية نفس رجل غناه. اما الفقير فلا يسمع انتهارا.
+					</ab>
+					<ab xml:id="b.PRO.013.009" type="verse">
+						نور الصدّيقين يفرح وسراج الاشرار ينطفئ.
+					</ab>
+					<ab xml:id="b.PRO.013.010" type="verse">
+						الخصام انما يصير بالكبرياء ومع المتشاورين حكمة.
+					</ab>
+					<ab xml:id="b.PRO.013.011" type="verse">
+						غنى البطل يقل والجامع بيده يزداد.
+					</ab>
+					<ab xml:id="b.PRO.013.012" type="verse">
+						الرجاء المماطل يمرض القلب والشهوة المتممة شجرة حياة.
+					</ab>
+					<ab xml:id="b.PRO.013.013" type="verse">
+						من ازدرى بالكلمة يخرب نفسه ومن خشي الوصية يكافأ.
+					</ab>
+					<ab xml:id="b.PRO.013.014" type="verse">
+						شريعة الحكيم ينبوع حياة للحيدان عن اشراك الموت.
+					</ab>
+					<ab xml:id="b.PRO.013.015" type="verse">
+						الفطنة الجيدة تمنح نعمة. اما طريق الغادرين فاوعر.
+					</ab>
+					<ab xml:id="b.PRO.013.016" type="verse">
+						كل ذكي يعمل بالمعرفة والجاهل ينشر حمقا.
+					</ab>
+					<ab xml:id="b.PRO.013.017" type="verse">
+						الرسول الشرير يقع في الشر والسفير الامين شفاء.
+					</ab>
+					<ab xml:id="b.PRO.013.018" type="verse">
+						فقر وهوان لمن يرفض التأديب. ومن يلاحظ التوبيخ يكرم.
+					</ab>
+					<ab xml:id="b.PRO.013.019" type="verse">
+						الشهوة الحاصلة تلذ النفس. اما كراهة الجهال فهي الحيدان عن الشر
+					</ab>
+					<ab xml:id="b.PRO.013.020" type="verse">
+						المساير الحكماء يصير حكيما ورفيق الجهال يضر.
+					</ab>
+					<ab xml:id="b.PRO.013.021" type="verse">
+						الشر يتبع الخاطئين والصدّيقون يجازون خيرا.
+					</ab>
+					<ab xml:id="b.PRO.013.022" type="verse">
+						الصالح يورث بني البنين وثروة الخاطئ تذخر للصدّيق.
+					</ab>
+					<ab xml:id="b.PRO.013.023" type="verse">
+						في حرث الفقراء طعام كثير ويوجد هالك من عدم الحق.
+					</ab>
+					<ab xml:id="b.PRO.013.024" type="verse">
+						من يمنع عصاه يمقت ابنه ومن احبه يطلب له التأديب.
+					</ab>
+					<ab xml:id="b.PRO.013.025" type="verse">
+						الصدّيق يأكل لشبع نفسه. اما بطن الاشرار فيحتاج
+					</ab>
+				</div>
+				<div xml:id="b.PRO.014" type="chapter">
+				<head>14</head>
+					<ab xml:id="b.PRO.014.001" type="verse">
+						حكمة المرأة تبني بيتها والحماقة تهدمه بيدها.
+					</ab>
+					<ab xml:id="b.PRO.014.002" type="verse">
+						السالك باستقامته يتقي الرب والمعوج طرقه يحتقره.
+					</ab>
+					<ab xml:id="b.PRO.014.003" type="verse">
+						في فم الجاهل قضيب لكبريائه. اما شفاه الحكماء فتحفظهم.
+					</ab>
+					<ab xml:id="b.PRO.014.004" type="verse">
+						حيث لا بقر فالمعلف فارغ. وكثرة الغلة بقوة الثور.
+					</ab>
+					<ab xml:id="b.PRO.014.005" type="verse">
+						الشاهد الامين لن يكذب والشاهد الزور يتفوه بالاكاذيب.
+					</ab>
+					<ab xml:id="b.PRO.014.006" type="verse">
+						المستهزئ يطلب الحكمة ولا يجدها. والمعرفة هينة للفهيم.
+					</ab>
+					<ab xml:id="b.PRO.014.007" type="verse">
+						اذهب من قدام رجل جاهل اذ لا تشعر بشفتي معرفة.
+					</ab>
+					<ab xml:id="b.PRO.014.008" type="verse">
+						حكمة الذكي فهم طريقه وغباوة الجهال غش.
+					</ab>
+					<ab xml:id="b.PRO.014.009" type="verse">
+						الجهال يستهزئون بالاثم. وبين المستقيمين رضى.
+					</ab>
+					<ab xml:id="b.PRO.014.010" type="verse">
+						القلب يعرف مرارة نفسه. وبفرحه لا يشاركه غريب
+					</ab>
+					<ab xml:id="b.PRO.014.011" type="verse">
+						بيت الاشرار يخرب وخيمة المستقيمين تزهر.
+					</ab>
+					<ab xml:id="b.PRO.014.012" type="verse">
+						توجد طريق تظهر للانسان مستقيمة وعاقبتها طرق الموت.
+					</ab>
+					<ab xml:id="b.PRO.014.013" type="verse">
+						ايضا في الضحك يكتئب القلب وعاقبة الفرح حزن.
+					</ab>
+					<ab xml:id="b.PRO.014.014" type="verse">
+						المرتد في القلب يشبع من طرقه والرجل الصالح مما عنده.
+					</ab>
+					<ab xml:id="b.PRO.014.015" type="verse">
+						الغبي يصدق كل كلمة والذكي ينتبه الى خطواته.
+					</ab>
+					<ab xml:id="b.PRO.014.016" type="verse">
+						الحكيم يخشى ويحيد عن الشر والجاهل يتصلف ويثق.
+					</ab>
+					<ab xml:id="b.PRO.014.017" type="verse">
+						السريع الغضب يعمل بالحمق وذو المكايد يشنأ.
+					</ab>
+					<ab xml:id="b.PRO.014.018" type="verse">
+						الاغبياء يرثون الحماقة والاذكياء يتوجون بالمعرفة.
+					</ab>
+					<ab xml:id="b.PRO.014.019" type="verse">
+						الاشرار ينحنون امام الاخيار والاثمة لدى ابواب الصدّيق.
+					</ab>
+					<ab xml:id="b.PRO.014.020" type="verse">
+						ايضا من قريبه يبغض الفقير ومحبو الغني كثيرون.
+					</ab>
+					<ab xml:id="b.PRO.014.021" type="verse">
+						من يحتقر قريبه يخطئ ومن يرحم المساكين فطوبى له
+					</ab>
+					<ab xml:id="b.PRO.014.022" type="verse">
+						اما يضل مخترعو الشر. اما الرحمة والحق فيهديان مخترعي الخير
+					</ab>
+					<ab xml:id="b.PRO.014.023" type="verse">
+						في كل تعب منفعة. وكلام الشفتين انما هو الى الفقر.
+					</ab>
+					<ab xml:id="b.PRO.014.024" type="verse">
+						تاج الحكماء غناهم. تقدم الجهال حماقة.
+					</ab>
+					<ab xml:id="b.PRO.014.025" type="verse">
+						الشاهد الامين منجي النفوس. ومن يتفوه بالاكاذيب فغش.
+					</ab>
+					<ab xml:id="b.PRO.014.026" type="verse">
+						في مخافة الرب ثقة شديدة ويكون لبنيه ملجأ.
+					</ab>
+					<ab xml:id="b.PRO.014.027" type="verse">
+						مخافة الرب ينبوع حياة للحيدان عن اشراك الموت.
+					</ab>
+					<ab xml:id="b.PRO.014.028" type="verse">
+						في كثرة الشعب زينة الملك. وفي عدم القوم هلاك الامير.
+					</ab>
+					<ab xml:id="b.PRO.014.029" type="verse">
+						بطيء الغضب كثير الفهم. وقصير الروح معلي الحمق.
+					</ab>
+					<ab xml:id="b.PRO.014.030" type="verse">
+						حياة الجسد هدوء القلب ونخر العظام الحسد.
+					</ab>
+					<ab xml:id="b.PRO.014.031" type="verse">
+						ظالم الفقير يعير خالقه ويمجده راحم المسكين.
+					</ab>
+					<ab xml:id="b.PRO.014.032" type="verse">
+						الشرير يطرد بشره. اما الصدّيق فواثق عند موته.
+					</ab>
+					<ab xml:id="b.PRO.014.033" type="verse">
+						في قلب الفهيم تستقر الحكمة وما في داخل الجهال يعرف.
+					</ab>
+					<ab xml:id="b.PRO.014.034" type="verse">
+						البر يرفع شان الامة وعار الشعوب الخطية.
+					</ab>
+					<ab xml:id="b.PRO.014.035" type="verse">
+						رضوان الملك على العبد الفطن وسخطه يكون على المخزي
+					</ab>
+				</div>
+				<div xml:id="b.PRO.015" type="chapter">
+				<head>15</head>
+					<ab xml:id="b.PRO.015.001" type="verse">
+						الجواب الليّن يصرف الغضب والكلام الموجع يهيج السخط.
+					</ab>
+					<ab xml:id="b.PRO.015.002" type="verse">
+						لسان الحكماء يحسن المعرفة وفم الجهال ينبع حماقة.
+					</ab>
+					<ab xml:id="b.PRO.015.003" type="verse">
+						في كل مكان عينا الرب مراقبتين الطالحين والصالحين.
+					</ab>
+					<ab xml:id="b.PRO.015.004" type="verse">
+						هدوء اللسان شجرة حياة واعوجاجه سحق في الروح.
+					</ab>
+					<ab xml:id="b.PRO.015.005" type="verse">
+						الاحمق يستهين بتأديب ابيه اما مراعي التوبيخ فيذكى.
+					</ab>
+					<ab xml:id="b.PRO.015.006" type="verse">
+						في بيت الصدّيق كنز عظيم وفي دخل الاشرار كدر.
+					</ab>
+					<ab xml:id="b.PRO.015.007" type="verse">
+						شفاه الحكماء تذر معرفة. اما قلب الجهال فليس كذلك
+					</ab>
+					<ab xml:id="b.PRO.015.008" type="verse">
+						ذبيحة الاشرار مكرهة الرب وصلاة المستقيمين مرضاته.
+					</ab>
+					<ab xml:id="b.PRO.015.009" type="verse">
+						مكرهة الرب طريق الشرير. وتابع البر يحبه.
+					</ab>
+					<ab xml:id="b.PRO.015.010" type="verse">
+						تأديب شر لتارك الطريق. مبغض التوبيخ يموت.
+					</ab>
+					<ab xml:id="b.PRO.015.011" type="verse">
+						الهاوية والهلاك امام الرب. كم بالحري قلوب بني آدم.
+					</ab>
+					<ab xml:id="b.PRO.015.012" type="verse">
+						المستهزئ لا يحب موبخه. الى الحكماء لا يذهب.
+					</ab>
+					<ab xml:id="b.PRO.015.013" type="verse">
+						القلب الفرحان يجعل الوجه طلقا وبحزن القلب تنسحق الروح.
+					</ab>
+					<ab xml:id="b.PRO.015.014" type="verse">
+						قلب الفهيم يطلب معرفة وفم الجهال يرعى حماقة.
+					</ab>
+					<ab xml:id="b.PRO.015.015" type="verse">
+						كل ايام الحزين شقية. اما طيب القلب فوليمة دائمة.
+					</ab>
+					<ab xml:id="b.PRO.015.016" type="verse">
+						القليل مع مخافة الرب خير من كنز عظيم مع همّ.
+					</ab>
+					<ab xml:id="b.PRO.015.017" type="verse">
+						اكلة من البقول حيث تكون المحبة خير من ثور معلوف ومعه بغضة.
+					</ab>
+					<ab xml:id="b.PRO.015.018" type="verse">
+						الرجل الغضوب يهيج الخصومة وبطيء الغضب يسكّن الخصام.
+					</ab>
+					<ab xml:id="b.PRO.015.019" type="verse">
+						طريق الكسلان كسياج من شوك وطريق المستقيمين منهج.
+					</ab>
+					<ab xml:id="b.PRO.015.020" type="verse">
+						الابن الحكيم يسرّ اباه والرجل الجاهل يحتقر امه.
+					</ab>
+					<ab xml:id="b.PRO.015.021" type="verse">
+						الحماقة فرح لناقص الفهم. اما ذو الفهم فيقوّم سلوكه.
+					</ab>
+					<ab xml:id="b.PRO.015.022" type="verse">
+						مقاصد بغير مشورة تبطل وبكثرة المشيرين تقوم.
+					</ab>
+					<ab xml:id="b.PRO.015.023" type="verse">
+						للانسان فرح بجواب فمه والكلمة في وقتها ما احسنها.
+					</ab>
+					<ab xml:id="b.PRO.015.024" type="verse">
+						طريق الحياة للفطن الى فوق للحيدان عن الهاوية من تحت.
+					</ab>
+					<ab xml:id="b.PRO.015.025" type="verse">
+						الرب يقلع بيت المتكبرين ويوطد تخم الارملة.
+					</ab>
+					<ab xml:id="b.PRO.015.026" type="verse">
+						مكرهة الرب افكار الشرير وللاطهار كلام حسن.
+					</ab>
+					<ab xml:id="b.PRO.015.027" type="verse">
+						المولع بالكسب يكدر بيته. والكاره الهدايا يعيش.
+					</ab>
+					<ab xml:id="b.PRO.015.028" type="verse">
+						قلب الصدّيق يتفكر بالجواب وفم الاشرار ينبع شرورا
+					</ab>
+					<ab xml:id="b.PRO.015.029" type="verse">
+						الرب بعيد عن الاشرار ويسمع صلاة الصدّيقين.
+					</ab>
+					<ab xml:id="b.PRO.015.030" type="verse">
+						نور العينين يفرّح القلب. الخبر الطيب يسمن العظام.
+					</ab>
+					<ab xml:id="b.PRO.015.031" type="verse">
+						الاذن السامعة توبيخ الحياة تستقر بين الحكماء.
+					</ab>
+					<ab xml:id="b.PRO.015.032" type="verse">
+						من يرفض التأديب يرذل نفسه ومن يسمع للتوبيخ يقتني فهما.
+					</ab>
+					<ab xml:id="b.PRO.015.033" type="verse">
+						مخافة الرب ادب وحكمة وقبل الكرامة التواضع
+					</ab>
+				</div>
+				<div xml:id="b.PRO.016" type="chapter">
+				<head>16</head>
+					<ab xml:id="b.PRO.016.001" type="verse">
+						للانسان تدابير القلب ومن الرب جواب اللسان.
+					</ab>
+					<ab xml:id="b.PRO.016.002" type="verse">
+						كل طرق الانسان نقية في عيني نفسه. والرب وازن الارواح.
+					</ab>
+					<ab xml:id="b.PRO.016.003" type="verse">
+						الق على الرب اعمالك فتثبت افكارك.
+					</ab>
+					<ab xml:id="b.PRO.016.004" type="verse">
+						الرب صنع الكل لغرضه والشرير ايضا ليوم الشر.
+					</ab>
+					<ab xml:id="b.PRO.016.005" type="verse">
+						مكرهة الرب كل متشامخ القلب. يدا ليد لا يتبرأ.
+					</ab>
+					<ab xml:id="b.PRO.016.006" type="verse">
+						بالرحمة والحق يستر الاثم وفي مخافة الرب الحيدان عن الشر.
+					</ab>
+					<ab xml:id="b.PRO.016.007" type="verse">
+						اذا ارضت الرب طرق انسان جعل اعداءه ايضا يسالمونه.
+					</ab>
+					<ab xml:id="b.PRO.016.008" type="verse">
+						القليل مع العدل خير من دخل جزيل بغير حق.
+					</ab>
+					<ab xml:id="b.PRO.016.009" type="verse">
+						قلب الانسان يفكر في طريقه والرب يهدي خطوته.
+					</ab>
+					<ab xml:id="b.PRO.016.010" type="verse">
+						في شفتي الملك وحي. في القضاء فمه لا يخون
+					</ab>
+					<ab xml:id="b.PRO.016.011" type="verse">
+						قبّان الحق وموازينه للرب. كل معايير الكيس عمله.
+					</ab>
+					<ab xml:id="b.PRO.016.012" type="verse">
+						مكرهة الملوك فعل الشر لان الكرسي يثبت بالبر.
+					</ab>
+					<ab xml:id="b.PRO.016.013" type="verse">
+						مرضاة الملوك شفتا حق والمتكلم بالمستقيمات يحب.
+					</ab>
+					<ab xml:id="b.PRO.016.014" type="verse">
+						غضب الملك رسل الموت والانسان الحكيم يستعطفه.
+					</ab>
+					<ab xml:id="b.PRO.016.015" type="verse">
+						في نور وجه الملك حياة ورضاه كسحاب المطر المتأخر.
+					</ab>
+					<ab xml:id="b.PRO.016.016" type="verse">
+						قنية الحكمة كم هي خير من الذهب وقنية الفهم تختار على الفضة.
+					</ab>
+					<ab xml:id="b.PRO.016.017" type="verse">
+						منهج المستقيمين الحيدان عن الشر. حافظ نفسه حافظ طريقه
+					</ab>
+					<ab xml:id="b.PRO.016.018" type="verse">
+						قبل الكسر الكبرياء وقبل السقوط تشامخ الروح.
+					</ab>
+					<ab xml:id="b.PRO.016.019" type="verse">
+						تواضع الروح مع الودعاء خير من قسم الغنيمة مع المتكبرين.
+					</ab>
+					<ab xml:id="b.PRO.016.020" type="verse">
+						الفطن من جهة امر يجد خيرا. ومن يتكل على الرب فطوبى له.
+					</ab>
+					<ab xml:id="b.PRO.016.021" type="verse">
+						حكيم القلب يدعى فهيما وحلاوة الشفتين تزيد علما.
+					</ab>
+					<ab xml:id="b.PRO.016.022" type="verse">
+						الفطنة ينبوع حياة لصاحبها وتأديب الحمقى حماقة.
+					</ab>
+					<ab xml:id="b.PRO.016.023" type="verse">
+						قلب الحكيم يرشد فمه ويزيد شفتيه علما.
+					</ab>
+					<ab xml:id="b.PRO.016.024" type="verse">
+						الكلام الحسن شهد عسل حلو للنفس وشفاء للعظام.
+					</ab>
+					<ab xml:id="b.PRO.016.025" type="verse">
+						توجد طريق تظهر للانسان مستقيمة وعاقبتها طرق الموت.
+					</ab>
+					<ab xml:id="b.PRO.016.026" type="verse">
+						نفس التعب تتعب له لان فمه يحثّه.
+					</ab>
+					<ab xml:id="b.PRO.016.027" type="verse">
+						الرجل اللئيم ينبش الشر وعلى شفتيه كالنار المتقدة.
+					</ab>
+					<ab xml:id="b.PRO.016.028" type="verse">
+						رجل الاكاذيب يطلق الخصومة والنمّام يفرّق الاصدقاء.
+					</ab>
+					<ab xml:id="b.PRO.016.029" type="verse">
+						الرجل الظالم يغوي صاحبه ويسوقه الى طريق غير صالحة.
+					</ab>
+					<ab xml:id="b.PRO.016.030" type="verse">
+						من يغمض عينيه ليفكر في الاكاذيب ومن يعض شفتيه فقد اكمل شرا.
+					</ab>
+					<ab xml:id="b.PRO.016.031" type="verse">
+						تاج جمال شيبة توجد في طريق البر.
+					</ab>
+					<ab xml:id="b.PRO.016.032" type="verse">
+						البطيء الغضب خير من الجبار ومالك روحه خير ممن يأخذ مدينة.
+					</ab>
+					<ab xml:id="b.PRO.016.033" type="verse">
+						القرعة تلقى في الحضن ومن الرب كل حكمها
+					</ab>
+				</div>
+				<div xml:id="b.PRO.017" type="chapter">
+				<head>17</head>
+					<ab xml:id="b.PRO.017.001" type="verse">
+						لقمة يابسة ومعها سلامة خير من بيت ملآن ذبائح مع خصام.
+					</ab>
+					<ab xml:id="b.PRO.017.002" type="verse">
+						العبد الفطن يتسلط على الابن المخزي ويقاسم الاخوة الميراث.
+					</ab>
+					<ab xml:id="b.PRO.017.003" type="verse">
+						البوطة للفضة والكور للذهب وممتحن القلوب الرب.
+					</ab>
+					<ab xml:id="b.PRO.017.004" type="verse">
+						الفاعل الشر يصغى الى شفة الاثم والكاذب يأذن للسان فساد.
+					</ab>
+					<ab xml:id="b.PRO.017.005" type="verse">
+						المستهزئ بالفقير يعيّر خالقه. الفرحان ببلية لا يتبرأ.
+					</ab>
+					<ab xml:id="b.PRO.017.006" type="verse">
+						تاج الشيوخ بنو البنين وفخر البنين آباؤهم.
+					</ab>
+					<ab xml:id="b.PRO.017.007" type="verse">
+						لا تليق بالاحمق شفة السودد. كم بالاحرى شفة الكذب بالشريف.
+					</ab>
+					<ab xml:id="b.PRO.017.008" type="verse">
+						الهدية حجر كريم في عيني قابلها. حيثما تتوجه تفلح.
+					</ab>
+					<ab xml:id="b.PRO.017.009" type="verse">
+						من يستر معصية يطلب المحبة ومن يكرر أمرا يفرق بين الاصدقاء
+					</ab>
+					<ab xml:id="b.PRO.017.010" type="verse">
+						الانتهار يؤثر في الحكيم اكثر من مئة جلدة في الجاهل.
+					</ab>
+					<ab xml:id="b.PRO.017.011" type="verse">
+						الشرير انما يطلب التمرد فيطلق عليه رسول قاس.
+					</ab>
+					<ab xml:id="b.PRO.017.012" type="verse">
+						ليصادف الانسان دبة ثكول ولا جاهل في حماقته.
+					</ab>
+					<ab xml:id="b.PRO.017.013" type="verse">
+						من يجازي عن خير بشر لن يبرح الشر من بيته.
+					</ab>
+					<ab xml:id="b.PRO.017.014" type="verse">
+						ابتداء الخصام اطلاق الماء. فقبل ان تدفق المخاصمة اتركها.
+					</ab>
+					<ab xml:id="b.PRO.017.015" type="verse">
+						مبرّئ المذنب ومذنّب البريء كلاهما مكرهة الرب.
+					</ab>
+					<ab xml:id="b.PRO.017.016" type="verse">
+						لماذا في يد الجاهل ثمن. ألاقتناء الحكمة وليس له فهم.
+					</ab>
+					<ab xml:id="b.PRO.017.017" type="verse">
+						الصدّيق يحب في كل وقت. اما الاخ فللشدة يولد.
+					</ab>
+					<ab xml:id="b.PRO.017.018" type="verse">
+						الانسان الناقص الفهم يصفق كفا ويضمن صاحبه ضمانا.
+					</ab>
+					<ab xml:id="b.PRO.017.019" type="verse">
+						محب المعصية محب الخصام. المعلي بابه يطلب الكسر.
+					</ab>
+					<ab xml:id="b.PRO.017.020" type="verse">
+						الملتوي القلب لا يجد خيرا والمتقلب اللسان يقع في السوء.
+					</ab>
+					<ab xml:id="b.PRO.017.021" type="verse">
+						من يلد جاهلا فلحزنه. ولا يفرح ابو الاحمق.
+					</ab>
+					<ab xml:id="b.PRO.017.022" type="verse">
+						القلب الفرحان يطيّب الجسم والروح المنسحقة تجفف العظم.
+					</ab>
+					<ab xml:id="b.PRO.017.023" type="verse">
+						الشرير يأخذ الرشوة من الحضن ليعوّج طرق القضاء.
+					</ab>
+					<ab xml:id="b.PRO.017.024" type="verse">
+						الحكمة عند الفهيم وعينا الجاهل في اقصى الارض.
+					</ab>
+					<ab xml:id="b.PRO.017.025" type="verse">
+						الابن الجاهل غم لابيه ومرارة للتي ولدته.
+					</ab>
+					<ab xml:id="b.PRO.017.026" type="verse">
+						ايضا تغريم البريء ليس بحسن وكذلك ضرب الشرفاء لاجل الاستقامة.
+					</ab>
+					<ab xml:id="b.PRO.017.027" type="verse">
+						ذو المعرفة يبقي كلامه وذو الفهم وقور الروح.
+					</ab>
+					<ab xml:id="b.PRO.017.028" type="verse">
+						بل الاحمق اذا سكت يحسب حكيما ومن ضم شفتيه فهيما
+					</ab>
+				</div>
+				<div xml:id="b.PRO.018" type="chapter">
+				<head>18</head>
+					<ab xml:id="b.PRO.018.001" type="verse">
+						المعتزل يطلب شهوته. بكل مشورة يغتاظ.
+					</ab>
+					<ab xml:id="b.PRO.018.002" type="verse">
+						الجاهل لا يسرّ بالفهم بل بكشف قلبه.
+					</ab>
+					<ab xml:id="b.PRO.018.003" type="verse">
+						اذا جاء الشرير جاء الاحتقار ايضا ومع الهوان عار.
+					</ab>
+					<ab xml:id="b.PRO.018.004" type="verse">
+						كلمات فم الانسان مياه عميقة. نبع الحكمة نهر مندفق.
+					</ab>
+					<ab xml:id="b.PRO.018.005" type="verse">
+						رفع وجه الشرير ليس حسنا لاخطاء الصدّيق في القضاء.
+					</ab>
+					<ab xml:id="b.PRO.018.006" type="verse">
+						شفتا الجاهل تداخلان في الخصومة وفمه يدعو بضربات.
+					</ab>
+					<ab xml:id="b.PRO.018.007" type="verse">
+						فم الجاهل مهلكة له وشفتاه شرك لنفسه.
+					</ab>
+					<ab xml:id="b.PRO.018.008" type="verse">
+						كلام النمّام مثل لقم حلوة وهو ينزل الى مخادع البطن.
+					</ab>
+					<ab xml:id="b.PRO.018.009" type="verse">
+						ايضا المتراخي في عمله هو اخو المسرف
+					</ab>
+					<ab xml:id="b.PRO.018.010" type="verse">
+						اسم الرب برج حصين. يركض اليه الصدّيق ويتمنّع.
+					</ab>
+					<ab xml:id="b.PRO.018.011" type="verse">
+						ثروة الغني مدينته الحصينة ومثل سور عال في تصوره.
+					</ab>
+					<ab xml:id="b.PRO.018.012" type="verse">
+						قبل الكسر يتكبر قلب الانسان وقبل الكرامة التواضع.
+					</ab>
+					<ab xml:id="b.PRO.018.013" type="verse">
+						من يجيب عن امر قبل ان يسمعه فله حماقة وعار.
+					</ab>
+					<ab xml:id="b.PRO.018.014" type="verse">
+						روح الانسان تحتمل مرضه. اما الروح المكسورة فمن يحملها.
+					</ab>
+					<ab xml:id="b.PRO.018.015" type="verse">
+						قلب الفهيم يقتني معرفة واذن الحكماء تطلب علما.
+					</ab>
+					<ab xml:id="b.PRO.018.016" type="verse">
+						هدية الانسان ترحب له وتهديه الى امام العظماء.
+					</ab>
+					<ab xml:id="b.PRO.018.017" type="verse">
+						الاول في دعواه محق. فياتي رفيقه ويفحصه.
+					</ab>
+					<ab xml:id="b.PRO.018.018" type="verse">
+						القرعة تبطل الخصومات وتفصل بين الاقوياء.
+					</ab>
+					<ab xml:id="b.PRO.018.019" type="verse">
+						الاخ امنع من مدينة حصينة والمخاصمات كعارضة قلعة
+					</ab>
+					<ab xml:id="b.PRO.018.020" type="verse">
+						من ثمر فم الانسان يشبع بطنه. من غلة شفتيه يشبع.
+					</ab>
+					<ab xml:id="b.PRO.018.021" type="verse">
+						الموت والحياة في يد اللسان واحباؤه ياكلون ثمره.
+					</ab>
+					<ab xml:id="b.PRO.018.022" type="verse">
+						من يجد زوجة يجد خيرا وينال رضى من الرب.
+					</ab>
+					<ab xml:id="b.PRO.018.023" type="verse">
+						بتضرعات يتكلم الفقير. والغني يجاوب بخشونة.
+					</ab>
+					<ab xml:id="b.PRO.018.024" type="verse">
+						المكثر الاصحاب يخرب نفسه. ولكن يوجد محب ألزق من الاخ
+					</ab>
+				</div>
+				<div xml:id="b.PRO.019" type="chapter">
+				<head>19</head>
+					<ab xml:id="b.PRO.019.001" type="verse">
+						الفقير السالك بكماله خير من ملتوي الشفتين وهو جاهل.
+					</ab>
+					<ab xml:id="b.PRO.019.002" type="verse">
+						ايضا كون النفس بلا معرفة ليس حسنا والمستعجل برجليه يخطأ.
+					</ab>
+					<ab xml:id="b.PRO.019.003" type="verse">
+						حماقة الرجل تعوّج طريقه وعلى الرب يحنق قلبه.
+					</ab>
+					<ab xml:id="b.PRO.019.004" type="verse">
+						الغنى يكثر الاصحاب والفقير منفصل عن قريبه.
+					</ab>
+					<ab xml:id="b.PRO.019.005" type="verse">
+						شاهد الزور لا يتبرأ والمتكلم بالاكاذيب لا ينجو.
+					</ab>
+					<ab xml:id="b.PRO.019.006" type="verse">
+						كثيرون يستعطفون وجه الشريف وكلّ صاحب لذي العطايا.
+					</ab>
+					<ab xml:id="b.PRO.019.007" type="verse">
+						كل اخوة الفقير يبغضونه. فكم بالحري اصدقاؤه يبتعدون عنه. من يتبع اقوالا فهي له.
+					</ab>
+					<ab xml:id="b.PRO.019.008" type="verse">
+						المقتني الحكمة يحب نفسه. الحافظ الفهم يجد خيرا.
+					</ab>
+					<ab xml:id="b.PRO.019.009" type="verse">
+						شاهد الزور لا يتبرأ والمتكلم بالاكاذيب يهلك.
+					</ab>
+					<ab xml:id="b.PRO.019.010" type="verse">
+						التنعم لا يليق بالجاهل كم بالاولى لا يليق بالعبد ان يتسلط على الرؤساء
+					</ab>
+					<ab xml:id="b.PRO.019.011" type="verse">
+						تعقل الانسان يبطئ غضبه وفخره الصفح عن معصية.
+					</ab>
+					<ab xml:id="b.PRO.019.012" type="verse">
+						كزمجرة الاسد حنق الملك وكالطل على العشب رضوانه.
+					</ab>
+					<ab xml:id="b.PRO.019.013" type="verse">
+						الابن الجاهل مصيبة على ابيه ومخاصمات الزوجة كالوكف المتتابع.
+					</ab>
+					<ab xml:id="b.PRO.019.014" type="verse">
+						البيت والثروة ميراث من الآباء. اما الزوجة المتعقلة فمن عند الرب.
+					</ab>
+					<ab xml:id="b.PRO.019.015" type="verse">
+						الكسل يلقي في السبات والنفس المتراخية تجوع.
+					</ab>
+					<ab xml:id="b.PRO.019.016" type="verse">
+						حافظ الوصية حافظ نفسه والمتهاون بطرقه يموت.
+					</ab>
+					<ab xml:id="b.PRO.019.017" type="verse">
+						من يرحم الفقير يقرض الرب وعن معروفه يجازيه.
+					</ab>
+					<ab xml:id="b.PRO.019.018" type="verse">
+						ادّب ابنك لان فيه رجاء ولكن على اماتته لا تحمل نفسك.
+					</ab>
+					<ab xml:id="b.PRO.019.019" type="verse">
+						الشديد الغضب يحمل عقوبة لانك اذا نجيته فبعد تعيد.
+					</ab>
+					<ab xml:id="b.PRO.019.020" type="verse">
+						اسمع المشورة واقبل التأديب لكي تكون حكيما في آخرتك.
+					</ab>
+					<ab xml:id="b.PRO.019.021" type="verse">
+						في قلب الانسان افكار كثيرة لكن مشورة الرب هي تثبت.
+					</ab>
+					<ab xml:id="b.PRO.019.022" type="verse">
+						زينة الانسان معروفه والفقير خير من الكذوب
+					</ab>
+					<ab xml:id="b.PRO.019.023" type="verse">
+						مخافة الرب للحياة. يبيت شبعان لا يتعهده شر.
+					</ab>
+					<ab xml:id="b.PRO.019.024" type="verse">
+						الكسلان يخفي يده في الصحفة وايضا الى فمه لا يردها.
+					</ab>
+					<ab xml:id="b.PRO.019.025" type="verse">
+						اضرب المستهزئ فيتذكى الاحمق ووبخ فهيما فيفهم معرفة.
+					</ab>
+					<ab xml:id="b.PRO.019.026" type="verse">
+						المخرب اباه والطارد امه هو ابن مخز ومخجل.
+					</ab>
+					<ab xml:id="b.PRO.019.027" type="verse">
+						كف يا ابني عن استماع التعليم للضلالة عن كلام المعرفة.
+					</ab>
+					<ab xml:id="b.PRO.019.028" type="verse">
+						الشاهد اللئيم يستهزئ بالحق وفم الاشرار يبلع الاثم.
+					</ab>
+					<ab xml:id="b.PRO.019.029" type="verse">
+						القصاص معد للمستهزئين والضرب لظهر الجهال
+					</ab>
+				</div>
+				<div xml:id="b.PRO.020" type="chapter">
+				<head>20</head>
+					<ab xml:id="b.PRO.020.001" type="verse">
+						الخمر مستهزئة. المسكر عجاج ومن يترنح بهما فليس بحكيم.
+					</ab>
+					<ab xml:id="b.PRO.020.002" type="verse">
+						رعب الملك كزمجرة الاسد. الذي يغيظه يخطئ الى نفسه.
+					</ab>
+					<ab xml:id="b.PRO.020.003" type="verse">
+						مجد الرجل ان يبتعد عن الخصام وكل احمق ينازع.
+					</ab>
+					<ab xml:id="b.PRO.020.004" type="verse">
+						الكسلان لا يحرث بسبب الشتاء فيستعطي في الحصاد ولا يعطى.
+					</ab>
+					<ab xml:id="b.PRO.020.005" type="verse">
+						المشورة في قلب الرجل مياه عميقة وذو الفطنة يستقيها.
+					</ab>
+					<ab xml:id="b.PRO.020.006" type="verse">
+						اكثر الناس ينادون كل واحد بصلاحه اما الرجل الامين فمن يجده.
+					</ab>
+					<ab xml:id="b.PRO.020.007" type="verse">
+						الصدّيق يسلك بكماله. طوبى لبنيه بعده.
+					</ab>
+					<ab xml:id="b.PRO.020.008" type="verse">
+						الملك الجالس على كرسي القضاء يذري بعينه كل شر.
+					</ab>
+					<ab xml:id="b.PRO.020.009" type="verse">
+						من يقول اني زكيت قلبي تطهرت من خطيتي
+					</ab>
+					<ab xml:id="b.PRO.020.010" type="verse">
+						معيار فمعيار مكيال فمكيال كلاهما مكرهة عند الرب.
+					</ab>
+					<ab xml:id="b.PRO.020.011" type="verse">
+						الولد ايضا يعرف بافعاله هل عمله نقي ومستقيم.
+					</ab>
+					<ab xml:id="b.PRO.020.012" type="verse">
+						الاذن السامعة والعين الباصرة الرب صنعهما كلتيهما.
+					</ab>
+					<ab xml:id="b.PRO.020.013" type="verse">
+						لا تحب النوم لئلا تفتقر. افتح عينيك تشبع خبزا.
+					</ab>
+					<ab xml:id="b.PRO.020.014" type="verse">
+						رديء رديء يقول المشتري واذا ذهب فحينئذ يفتخر.
+					</ab>
+					<ab xml:id="b.PRO.020.015" type="verse">
+						يوجد ذهب وكثرة لآلئ. اما شفاه المعرفة فمتاع ثمين.
+					</ab>
+					<ab xml:id="b.PRO.020.016" type="verse">
+						خذ ثوبه لانه ضمن غريبا ولاجل الاجانب ارتهن منه.
+					</ab>
+					<ab xml:id="b.PRO.020.017" type="verse">
+						خبز الكذب لذيذ للانسان ومن بعد يمتلئ فمه حصى.
+					</ab>
+					<ab xml:id="b.PRO.020.018" type="verse">
+						المقاصد تثبت بالمشورة وبالتدابير اعمل حربا.
+					</ab>
+					<ab xml:id="b.PRO.020.019" type="verse">
+						الساعي بالوشاية يفشي السر. فلا تخالط المفتّح شفتيه.
+					</ab>
+					<ab xml:id="b.PRO.020.020" type="verse">
+						من سبّ اباه او امه ينطفئ سراجه في حدقة الظلام
+					</ab>
+					<ab xml:id="b.PRO.020.021" type="verse">
+						ربّ ملك معجل في اوله. اما آخرته فلا تبارك.
+					</ab>
+					<ab xml:id="b.PRO.020.022" type="verse">
+						لا تقل اني اجازي شرا. انتظر الرب فيخلّصك.
+					</ab>
+					<ab xml:id="b.PRO.020.023" type="verse">
+						معيار فمعيار مكرهة الرب. وموازين الغش غير صالحة.
+					</ab>
+					<ab xml:id="b.PRO.020.024" type="verse">
+						من الرب خطوات الرجل. اما الانسان فكيف يفهم طريقه.
+					</ab>
+					<ab xml:id="b.PRO.020.025" type="verse">
+						هو شرك للانسان ان يلغو قائلا مقدس وبعد النذر ان يسأل.
+					</ab>
+					<ab xml:id="b.PRO.020.026" type="verse">
+						الملك الحكيم يشتت الاشرار ويرد عليهم النورج.
+					</ab>
+					<ab xml:id="b.PRO.020.027" type="verse">
+						نفس الانسان سراج الرب. يفتش كل مخادع البطن.
+					</ab>
+					<ab xml:id="b.PRO.020.028" type="verse">
+						الرحمة والحق يحفظان الملك وكرسيه يسند بالرحمة.
+					</ab>
+					<ab xml:id="b.PRO.020.029" type="verse">
+						فخر الشبان قوتهم وبهاء الشيوخ الشيب.
+					</ab>
+					<ab xml:id="b.PRO.020.030" type="verse">
+						حبر جرح منقية للشرير وضربات بالغة مخادع البطن
+					</ab>
+				</div>
+				<div xml:id="b.PRO.021" type="chapter">
+				<head>21</head>
+					<ab xml:id="b.PRO.021.001" type="verse">
+						قلب الملك في يد الرب كجداول مياه حيثما شاء يميله.
+					</ab>
+					<ab xml:id="b.PRO.021.002" type="verse">
+						كل طرق الانسان مستقيمة في عينيه والرب وازن القلوب.
+					</ab>
+					<ab xml:id="b.PRO.021.003" type="verse">
+						فعل العدل والحق افضل عند الرب من الذبيحة.
+					</ab>
+					<ab xml:id="b.PRO.021.004" type="verse">
+						طموح العينين وانتفاخ القلب نور الاشرار خطية.
+					</ab>
+					<ab xml:id="b.PRO.021.005" type="verse">
+						افكار المجتهد انما هي للخصب وكل عجول انما هو للعوز.
+					</ab>
+					<ab xml:id="b.PRO.021.006" type="verse">
+						جمع الكنوز بلسان كاذب هو بخار مطرود لطالبي الموت.
+					</ab>
+					<ab xml:id="b.PRO.021.007" type="verse">
+						اغتصاب الاشرار يجرفهم لانهم ابوا اجراء العدل.
+					</ab>
+					<ab xml:id="b.PRO.021.008" type="verse">
+						طريق رجل موزور هي ملتوية. اما الزكي فعمله مستقيم.
+					</ab>
+					<ab xml:id="b.PRO.021.009" type="verse">
+						السكنى في زاوية السطح خير من امرأة مخاصمة وبيت مشترك.
+					</ab>
+					<ab xml:id="b.PRO.021.010" type="verse">
+						نفس الشرير تشتهي الشر. قريبه لا يجد نعمة في عينيه.
+					</ab>
+					<ab xml:id="b.PRO.021.011" type="verse">
+						بمعاقبة المستهزئ يصير الاحمق حكيما والحكيم بالارشاد يقبل معرفة
+					</ab>
+					<ab xml:id="b.PRO.021.012" type="verse">
+						البار يتأمل بيت الشرير ويقلب الاشرار في الشر.
+					</ab>
+					<ab xml:id="b.PRO.021.013" type="verse">
+						من يسد اذنيه عن صراخ المسكين فهو ايضا يصرخ ولا يستجاب.
+					</ab>
+					<ab xml:id="b.PRO.021.014" type="verse">
+						الهدية في الخفاء تفثأ الغضب والرشوة في الحضن تفثأ السخط الشديد.
+					</ab>
+					<ab xml:id="b.PRO.021.015" type="verse">
+						اجراء الحق فرح للصدّيق والهلاك لفاعلي الاثم.
+					</ab>
+					<ab xml:id="b.PRO.021.016" type="verse">
+						الرجل الضال عن طريق المعرفة يسكن بين جماعة الأخيلة.
+					</ab>
+					<ab xml:id="b.PRO.021.017" type="verse">
+						محب الفرح انسان معوز. محب الخمر والدهن لا يستغني.
+					</ab>
+					<ab xml:id="b.PRO.021.018" type="verse">
+						الشرير فدية الصدّيق ومكان المستقيمين الغادر
+					</ab>
+					<ab xml:id="b.PRO.021.019" type="verse">
+						السكنى في ارض برية خير من امرأة مخاصمة حردة.
+					</ab>
+					<ab xml:id="b.PRO.021.020" type="verse">
+						كنز مشتهى وزيت في بيت الحكيم اما الرجل الجاهل فيتلفه.
+					</ab>
+					<ab xml:id="b.PRO.021.021" type="verse">
+						التابع العدل والرحمة يجد حياة حظا وكرامة.
+					</ab>
+					<ab xml:id="b.PRO.021.022" type="verse">
+						الحكيم يتسور مدينة الجبابرة ويسقط قوة معتمدها.
+					</ab>
+					<ab xml:id="b.PRO.021.023" type="verse">
+						من يحفظ فمه ولسانه يحفظ من الضيقات نفسه.
+					</ab>
+					<ab xml:id="b.PRO.021.024" type="verse">
+						المنتفخ المتكبر اسمه مستهزئ عامل بفيضان الكبرياء.
+					</ab>
+					<ab xml:id="b.PRO.021.025" type="verse">
+						شهوة الكسلان تقتله لان يديه تأبيان الشغل.
+					</ab>
+					<ab xml:id="b.PRO.021.026" type="verse">
+						اليوم كله يشتهي شهوة. اما الصدّيق فيعطي ولا يمسك.
+					</ab>
+					<ab xml:id="b.PRO.021.027" type="verse">
+						ذبيحة الشرير مكرهة فكم بالحري حين يقدمها بغش.
+					</ab>
+					<ab xml:id="b.PRO.021.028" type="verse">
+						شاهد الزور يهلك والرجل السامع للحق يتكلم.
+					</ab>
+					<ab xml:id="b.PRO.021.029" type="verse">
+						الشرير يوقح وجهه. اما المستقيم فيثبّت طرقه.
+					</ab>
+					<ab xml:id="b.PRO.021.030" type="verse">
+						ليس حكمة ولا فطنة ولا مشورة تجاه الرب.
+					</ab>
+					<ab xml:id="b.PRO.021.031" type="verse">
+						الفرس معد ليوم الحرب. اما النصرة فمن الرب
+					</ab>
+				</div>
+				<div xml:id="b.PRO.022" type="chapter">
+				<head>22</head>
+					<ab xml:id="b.PRO.022.001" type="verse">
+						الصيت افضل من الغنى العظيم والنعمة الصالحة افضل من الفضة والذهب.
+					</ab>
+					<ab xml:id="b.PRO.022.002" type="verse">
+						الغني والفقير يتلاقيان. صانعهما كليهما الرب.
+					</ab>
+					<ab xml:id="b.PRO.022.003" type="verse">
+						الذكي يبصر الشر فيتوارى والحمقى يعبرون فيعاقبون.
+					</ab>
+					<ab xml:id="b.PRO.022.004" type="verse">
+						ثواب التواضع ومخافة الرب هو غنى وكرامة وحياة.
+					</ab>
+					<ab xml:id="b.PRO.022.005" type="verse">
+						شوك وفخوخ في طريق الملتوي. من يحفظ نفسه يبتعد عنها.
+					</ab>
+					<ab xml:id="b.PRO.022.006" type="verse">
+						ربّ الولد في طريقه فمتى شاخ ايضا لا يحيد عنه.
+					</ab>
+					<ab xml:id="b.PRO.022.007" type="verse">
+						الغني يتسلط على الفقير والمقترض عبد للمقرض.
+					</ab>
+					<ab xml:id="b.PRO.022.008" type="verse">
+						الزارع اثما يحصد بليّة وعصا سخطه تفنى.
+					</ab>
+					<ab xml:id="b.PRO.022.009" type="verse">
+						الصالح العين هو يبارك لانه يعطي من خبزه للفقير
+					</ab>
+					<ab xml:id="b.PRO.022.010" type="verse">
+						اطرد المستهزئ فيخرج الخصام ويبطل النزاع والخزي.
+					</ab>
+					<ab xml:id="b.PRO.022.011" type="verse">
+						من احب طهارة القلب فلنعمة شفتيه يكون الملك صديقه.
+					</ab>
+					<ab xml:id="b.PRO.022.012" type="verse">
+						عينا الرب تحفظان المعرفة وهو يقلب كلام الغادرين.
+					</ab>
+					<ab xml:id="b.PRO.022.013" type="verse">
+						قال الكسلان الاسد في الخارج فأقتل في الشواع.
+					</ab>
+					<ab xml:id="b.PRO.022.014" type="verse">
+						فم الاجنبيات هوّة عميقة. ممقوت الرب يسقط فيها.
+					</ab>
+					<ab xml:id="b.PRO.022.015" type="verse">
+						الجهالة مرتبطة بقلب الولد. عصا التأديب تبعدها عنه.
+					</ab>
+					<ab xml:id="b.PRO.022.016" type="verse">
+						ظالم الفقير تكثيرا لما له ومعطي الغني انما هما للعوز.
+					</ab>
+					<ab xml:id="b.PRO.022.017" type="verse">
+						امل اذنك واسمع كلام الحكماء ووجّه قلبك الى معرفتي.
+					</ab>
+					<ab xml:id="b.PRO.022.018" type="verse">
+						لانه حسن ان حفظتها في جوفك. ان تتثبت جميعا على شفتيك.
+					</ab>
+					<ab xml:id="b.PRO.022.019" type="verse">
+						ليكون اتكالك على الرب عرّفتك انت اليوم.
+					</ab>
+					<ab xml:id="b.PRO.022.020" type="verse">
+						ألم اكتب لك أمورا شريفة من جهة مؤامرة ومعرفة.
+					</ab>
+					<ab xml:id="b.PRO.022.021" type="verse">
+						لاعلمك قسط كلام الحق لترد جواب الحق للذين ارسلوك
+					</ab>
+					<ab xml:id="b.PRO.022.022" type="verse">
+						لا تسلب الفقير لكونه فقيرا ولا تسحق المسكين في الباب.
+					</ab>
+					<ab xml:id="b.PRO.022.023" type="verse">
+						لان الرب يقيم دعواهم ويسلب سالبي انفسهم.
+					</ab>
+					<ab xml:id="b.PRO.022.024" type="verse">
+						لا تستصحب غضوبا ومع رجل ساخط لا تجئ
+					</ab>
+					<ab xml:id="b.PRO.022.025" type="verse">
+						لئلا تألف طرقه وتاخذ شركا الى نفسك.
+					</ab>
+					<ab xml:id="b.PRO.022.026" type="verse">
+						لا تكن من صافقي الكف ولا من ضامني الديون.
+					</ab>
+					<ab xml:id="b.PRO.022.027" type="verse">
+						ان لم يكن لك ما تفي فلماذا يأخذ فراشك من تحتك.
+					</ab>
+					<ab xml:id="b.PRO.022.028" type="verse">
+						لا تنقل التخم القديم الذي وضعه آباؤك.
+					</ab>
+					<ab xml:id="b.PRO.022.029" type="verse">
+						أرأيت رجلا مجتهدا في عمله. امام الملوك يقف لا يقف امام الرعاع
+					</ab>
+				</div>
+				<div xml:id="b.PRO.023" type="chapter">
+				<head>23</head>
+					<ab xml:id="b.PRO.023.001" type="verse">
+						اذا جلست تاكل مع متسلط فتامل ما هو امامك تاملا
+					</ab>
+					<ab xml:id="b.PRO.023.002" type="verse">
+						وضع سكينا لحنجرتك ان كنت شرها.
+					</ab>
+					<ab xml:id="b.PRO.023.003" type="verse">
+						لا تشته اطايبه لانها خبز اكاذيب.
+					</ab>
+					<ab xml:id="b.PRO.023.004" type="verse">
+						لا تتعب لكي تصير غنيا. كف عن فطنتك.
+					</ab>
+					<ab xml:id="b.PRO.023.005" type="verse">
+						هل تطيّر عينيك نحوه وليس هو. لانه انما يصنع لنفسه اجنحة. كالنسر يطير نحو السماء
+					</ab>
+					<ab xml:id="b.PRO.023.006" type="verse">
+						لا تأكل خبز ذي عين شريرة ولا تشته اطايبه.
+					</ab>
+					<ab xml:id="b.PRO.023.007" type="verse">
+						لانه كما شعر في نفسه هكذا هو. يقول لك كل واشرب وقلبه ليس معك.
+					</ab>
+					<ab xml:id="b.PRO.023.008" type="verse">
+						اللقمة التي اكلتها تتقيأها وتخسر كلماتك الحلوة.
+					</ab>
+					<ab xml:id="b.PRO.023.009" type="verse">
+						في اذني جاهل لا تتكلم لانه يحتقر حكمة كلامك.
+					</ab>
+					<ab xml:id="b.PRO.023.010" type="verse">
+						لا تنقل التخم القديم ولا تدخل حقول الايتام.
+					</ab>
+					<ab xml:id="b.PRO.023.011" type="verse">
+						لان وليهم قوي. هو يقيم دعواهم عليك
+					</ab>
+					<ab xml:id="b.PRO.023.012" type="verse">
+						وجّه قلبك الى الادب واذنيك الى كلمات المعرفة.
+					</ab>
+					<ab xml:id="b.PRO.023.013" type="verse">
+						لا تمنع التأديب عن الولد لانك ان ضربته بعصا لا يموت.
+					</ab>
+					<ab xml:id="b.PRO.023.014" type="verse">
+						تضربه انت بعصا فتنقذ نفسه من الهاوية.
+					</ab>
+					<ab xml:id="b.PRO.023.015" type="verse">
+						يا ابني ان كان قلبك حكيما يفرح قلبي انا ايضا
+					</ab>
+					<ab xml:id="b.PRO.023.016" type="verse">
+						وتبتهج كليتاي اذا تكلمت شفتاك بالمستقيمات.
+					</ab>
+					<ab xml:id="b.PRO.023.017" type="verse">
+						لا يحسدن قلبك الخاطئين بل كن في مخافة الرب اليوم كله.
+					</ab>
+					<ab xml:id="b.PRO.023.018" type="verse">
+						لانه لا بد من ثواب ورجاؤك لا يخيب.
+					</ab>
+					<ab xml:id="b.PRO.023.019" type="verse">
+						اسمع انت يا ابني وكن حكيما وارشد قلبك في الطريق.
+					</ab>
+					<ab xml:id="b.PRO.023.020" type="verse">
+						لا تكن بين شريبي الخمر بين المتلفين اجسادهم.
+					</ab>
+					<ab xml:id="b.PRO.023.021" type="verse">
+						لان السكير والمسرف يفتقران والنوم يكسو الخرق
+					</ab>
+					<ab xml:id="b.PRO.023.022" type="verse">
+						اسمع لابيك الذي ولدك ولا تحتقر امك اذا شاخت.
+					</ab>
+					<ab xml:id="b.PRO.023.023" type="verse">
+						اقتن الحق ولا تبعه والحكمة والادب والفهم.
+					</ab>
+					<ab xml:id="b.PRO.023.024" type="verse">
+						ابو الصدّيق يبتهج ابتهاجا ومن ولد حكيما يسرّ به.
+					</ab>
+					<ab xml:id="b.PRO.023.025" type="verse">
+						يفرح ابوك وامك وتبتهج التي ولدتك.
+					</ab>
+					<ab xml:id="b.PRO.023.026" type="verse">
+						يا ابني اعطني قلبك ولتلاحظ عيناك طرقي.
+					</ab>
+					<ab xml:id="b.PRO.023.027" type="verse">
+						لان الزانية هوة عميقة والاجنبية حفرة ضيّقة.
+					</ab>
+					<ab xml:id="b.PRO.023.028" type="verse">
+						هي ايضا كلص تكمن وتزيد الغادرين بين الناس
+					</ab>
+					<ab xml:id="b.PRO.023.029" type="verse">
+						لمن الويل لمن الشقاوة لمن المخاصمات لمن الكرب لمن الجروح بلا سبب لمن ازمهرار العينين.
+					</ab>
+					<ab xml:id="b.PRO.023.030" type="verse">
+						للذين يدمنون الخمر الذين يدخلون في طلب الشراب الممزوج.
+					</ab>
+					<ab xml:id="b.PRO.023.031" type="verse">
+						لا تنظر الى الخمر اذ احمرّت حين تظهر حبابها في الكاس وساغت مرقرقة.
+					</ab>
+					<ab xml:id="b.PRO.023.032" type="verse">
+						في الآخر تلسع كالحية وتلدغ كالافعوان.
+					</ab>
+					<ab xml:id="b.PRO.023.033" type="verse">
+						عيناك تنظران الاجنبيات وقلبك ينطق بأمور ملتوية.
+					</ab>
+					<ab xml:id="b.PRO.023.034" type="verse">
+						وتكون كمضطجع في قلب البحر او كمضطجع على راس سارية.
+					</ab>
+					<ab xml:id="b.PRO.023.035" type="verse">
+						يقول ضربوني ولم اتوجع. لقد لكأوني ولم اعرف. متى استيقظ. اعود اطلبها بعد
+					</ab>
+				</div>
+				<div xml:id="b.PRO.024" type="chapter">
+				<head>24</head>
+					<ab xml:id="b.PRO.024.001" type="verse">
+						لا تحسد اهل الشر ولا تشته ان تكون معهم.
+					</ab>
+					<ab xml:id="b.PRO.024.002" type="verse">
+						لان قلبهم يلهج بالاغتصاب وشفاههم تتكلم بالمشقة
+					</ab>
+					<ab xml:id="b.PRO.024.003" type="verse">
+						بالحكمة يبنى البيت وبالفهم يثبت
+					</ab>
+					<ab xml:id="b.PRO.024.004" type="verse">
+						وبالمعرفة تمتلئ المخادع من كل ثروة كريمة ونفيسة.
+					</ab>
+					<ab xml:id="b.PRO.024.005" type="verse">
+						الرجل الحكيم في عزّ وذو المعرفة متشدد القوة.
+					</ab>
+					<ab xml:id="b.PRO.024.006" type="verse">
+						لانك بالتدابير تعمل حربك والخلاص بكثرة المشيرين.
+					</ab>
+					<ab xml:id="b.PRO.024.007" type="verse">
+						الحكم عالية عن الاحمق. لا يفتح فمه في الباب.
+					</ab>
+					<ab xml:id="b.PRO.024.008" type="verse">
+						المفتكر في عمل الشر يدعى مفسدا.
+					</ab>
+					<ab xml:id="b.PRO.024.009" type="verse">
+						فكر الحماقة خطية. ومكرهة الناس المستهزئ.
+					</ab>
+					<ab xml:id="b.PRO.024.010" type="verse">
+						ان ارتخيت في يوم الضيق ضاقت قوتك.
+					</ab>
+					<ab xml:id="b.PRO.024.011" type="verse">
+						انقذ المنقادين الى الموت والممدودين للقتل. لا تمتنع.
+					</ab>
+					<ab xml:id="b.PRO.024.012" type="verse">
+						ان قلت هوذا لم نعرف هذا. أفلا يفهم وازن القلوب وحافظ نفسك ألا يعلم. فيرد على الانسان مثل عمله
+					</ab>
+					<ab xml:id="b.PRO.024.013" type="verse">
+						يا ابني كل عسلا لانه طيب وقطر العسل حلو في حنكك.
+					</ab>
+					<ab xml:id="b.PRO.024.014" type="verse">
+						كذلك معرفة الحكمة لنفسك. اذا وجدتها فلا بد من ثواب ورجاؤك لا يخيب.
+					</ab>
+					<ab xml:id="b.PRO.024.015" type="verse">
+						لا تكمن ايها الشرير لمسكن الصدّيق. لا تخرب ربعه.
+					</ab>
+					<ab xml:id="b.PRO.024.016" type="verse">
+						لان الصدّيق يسقط سبع مرات ويقوم. اما الاشرار فيعثرون بالشر.
+					</ab>
+					<ab xml:id="b.PRO.024.017" type="verse">
+						لا تفرح بسقوط عدوك ولا يبتهج قلبك اذا عثر.
+					</ab>
+					<ab xml:id="b.PRO.024.018" type="verse">
+						لئلا يرى الرب ويسوء ذلك في عينيه فيرد عنه غضبه.
+					</ab>
+					<ab xml:id="b.PRO.024.019" type="verse">
+						لا تغر من الاشرار ولا تحسد الاثمة.
+					</ab>
+					<ab xml:id="b.PRO.024.020" type="verse">
+						لانه لا يكون ثواب للاشرار. سراج الاثمة ينطفئ.
+					</ab>
+					<ab xml:id="b.PRO.024.021" type="verse">
+						يا ابني اخش الرب والملك. لا تخالط المتقلبين.
+					</ab>
+					<ab xml:id="b.PRO.024.022" type="verse">
+						لان بليتهم تقوم بغتة ومن يعلم بلاءهما كليهما
+					</ab>
+					<ab xml:id="b.PRO.024.023" type="verse">
+						هذه ايضا للحكماء---محاباة الوجوه في الحكم ليست صالحة.
+					</ab>
+					<ab xml:id="b.PRO.024.024" type="verse">
+						من يقول للشرير انت صدّيق تسبّه العامة. تلعنه الشعوب.
+					</ab>
+					<ab xml:id="b.PRO.024.025" type="verse">
+						اما الذين يؤدبون فينعمون وبركة خير تأتي عليهم.
+					</ab>
+					<ab xml:id="b.PRO.024.026" type="verse">
+						تقبّل شفتا من يجاوب بكلام مستقيم.
+					</ab>
+					<ab xml:id="b.PRO.024.027" type="verse">
+						هيّئ عملك في الخارج واعدّه في حقلك. بعد تبني بيتك.
+					</ab>
+					<ab xml:id="b.PRO.024.028" type="verse">
+						لا تكن شاهدا على قريبك بلا سبب. فهل تخادع بشفتيك.
+					</ab>
+					<ab xml:id="b.PRO.024.029" type="verse">
+						لا تقل كما فعل بي هكذا افعل به. ارد على الانسان مثل عمله
+					</ab>
+					<ab xml:id="b.PRO.024.030" type="verse">
+						عبرت بحقل الكسلان وبكرم الرجل الناقص الفهم
+					</ab>
+					<ab xml:id="b.PRO.024.031" type="verse">
+						فاذا هو قد علاه كله القريص وقد غطى العوسج وجهه وجدار حجارته انهدم.
+					</ab>
+					<ab xml:id="b.PRO.024.032" type="verse">
+						ثم نظرت ووجهت قلبي. رأيت وقبلت تعليما.
+					</ab>
+					<ab xml:id="b.PRO.024.033" type="verse">
+						نوم قليل بعد نعاس قليل وطي اليدين قليلا للرقود
+					</ab>
+					<ab xml:id="b.PRO.024.034" type="verse">
+						فيأتي فقرك كعدّاء وعوزك كغاز
+					</ab>
+				</div>
+				<div xml:id="b.PRO.025" type="chapter">
+				<head>25</head>
+					<ab xml:id="b.PRO.025.001" type="verse">
+						هذه ايضا امثال سليمان التي نقلها رجال حزقيا ملك يهوذا
+					</ab>
+					<ab xml:id="b.PRO.025.002" type="verse">
+						مجد الله اخفاء الامر ومجد الملوك فحص الامر.
+					</ab>
+					<ab xml:id="b.PRO.025.003" type="verse">
+						السماء للعلو والارض للعمق وقلوب الملوك لا تفحص.
+					</ab>
+					<ab xml:id="b.PRO.025.004" type="verse">
+						ازل الزغل من الفضة فيخرج اناء للصائغ.
+					</ab>
+					<ab xml:id="b.PRO.025.005" type="verse">
+						ازل الشرير من قدام الملك فيثبت كرسيه بالعدل.
+					</ab>
+					<ab xml:id="b.PRO.025.006" type="verse">
+						لا تتفاخر امام الملك ولا تقف في مكان العظماء.
+					</ab>
+					<ab xml:id="b.PRO.025.007" type="verse">
+						لانه خير ان يقال لك ارتفع الى هنا من ان تحط في حضرة الرئيس الذي رأته عيناك.
+					</ab>
+					<ab xml:id="b.PRO.025.008" type="verse">
+						لا تبرز عاجلا الى الخصام لئلا تفعل شيئا في الآخر حين يخزيك قريبك.
+					</ab>
+					<ab xml:id="b.PRO.025.009" type="verse">
+						اقم دعواك مع قريبك ولا تبح بسر غيرك
+					</ab>
+					<ab xml:id="b.PRO.025.010" type="verse">
+						لئلا يعيّرك السامع فلا تنصرف فضيحتك.
+					</ab>
+					<ab xml:id="b.PRO.025.011" type="verse">
+						تفاح من ذهب في مصوغ من فضة كلمة مقولة في محلها.
+					</ab>
+					<ab xml:id="b.PRO.025.012" type="verse">
+						قرط من ذهب وحلي من ابريز الموبخ الحكيم لاذن سامعة.
+					</ab>
+					<ab xml:id="b.PRO.025.013" type="verse">
+						كبرد الثلج في يوم الحصاد الرسول الامين لمرسليه لانه يرد نفس سادته.
+					</ab>
+					<ab xml:id="b.PRO.025.014" type="verse">
+						سحاب وريح بلا مطر الرجل المفتخر بهدية كذب
+					</ab>
+					<ab xml:id="b.PRO.025.015" type="verse">
+						ببطء الغضب يقنع الرئيس واللسان الليّن يكسر العظم.
+					</ab>
+					<ab xml:id="b.PRO.025.016" type="verse">
+						أوجدت عسلا فكل كفايتك لئلا تتخم فتتقيأه.
+					</ab>
+					<ab xml:id="b.PRO.025.017" type="verse">
+						اجعل رجلك عزيزة في بيت قريبك لئلا يمل منك فيبغضك.
+					</ab>
+					<ab xml:id="b.PRO.025.018" type="verse">
+						مقمعة وسيف وسهم حاد الرجل المجيب قريبه بشهادة زور.
+					</ab>
+					<ab xml:id="b.PRO.025.019" type="verse">
+						سن مهتومة ورجل مخلّعة الثقة بالخائن في يوم الضيق.
+					</ab>
+					<ab xml:id="b.PRO.025.020" type="verse">
+						كنزع الثوب في يوم البرد كخل على نطرون من يغني اغاني لقلب كئيب.
+					</ab>
+					<ab xml:id="b.PRO.025.021" type="verse">
+						ان جاع عدوك فاطعمه خبزا وان عطش فاسقه ماء
+					</ab>
+					<ab xml:id="b.PRO.025.022" type="verse">
+						فانك تجمع جمرا على راسه والرب يجازيك.
+					</ab>
+					<ab xml:id="b.PRO.025.023" type="verse">
+						ريح الشمال تطرد المطر والوجه المعبس يطرد لسانا ثالبا.
+					</ab>
+					<ab xml:id="b.PRO.025.024" type="verse">
+						السكنى في زاوية السطح خير من امرأة مخاصمة في بيت مشترك.
+					</ab>
+					<ab xml:id="b.PRO.025.025" type="verse">
+						مياه باردة لنفس عطشانة الخبر الطيب من ارض بعيدة.
+					</ab>
+					<ab xml:id="b.PRO.025.026" type="verse">
+						عين مكدرة وينبوع فاسد الصدّيق المنحني امام الشرير.
+					</ab>
+					<ab xml:id="b.PRO.025.027" type="verse">
+						اكل كثير من العسل ليس بحسن وطلب الناس مجد انفسهم ثقيل.
+					</ab>
+					<ab xml:id="b.PRO.025.028" type="verse">
+						مدينة منهدمة بلا سور الرجل الذي ليس له سلطان على روحه
+					</ab>
+				</div>
+				<div xml:id="b.PRO.026" type="chapter">
+				<head>26</head>
+					<ab xml:id="b.PRO.026.001" type="verse">
+						كالثلج في الصيف وكالمطر في الحصاد هكذا الكرامة غير لائقة بالجاهل.
+					</ab>
+					<ab xml:id="b.PRO.026.002" type="verse">
+						كالعصفور للفرار وكالسنونة للطيران كذلك لعنة بلا سبب لا تأتي.
+					</ab>
+					<ab xml:id="b.PRO.026.003" type="verse">
+						السوط للفرس واللجام للحمار والعصا لظهر الجهال.
+					</ab>
+					<ab xml:id="b.PRO.026.004" type="verse">
+						لا تجاوب الجاهل حسب حماقته لئلا تعدله انت.
+					</ab>
+					<ab xml:id="b.PRO.026.005" type="verse">
+						جاوب الجاهل حسب حماقته لئلا يكون حكيما في عيني نفسه.
+					</ab>
+					<ab xml:id="b.PRO.026.006" type="verse">
+						يقطع الرجلين يشرب ظلما من يرسل كلاما عن يد جاهل.
+					</ab>
+					<ab xml:id="b.PRO.026.007" type="verse">
+						ساقا الاعرج متدلدلتان وكذا المثل في فم الجهال.
+					</ab>
+					<ab xml:id="b.PRO.026.008" type="verse">
+						كصرّة حجارة كريمة في رجمة هكذا المعطي كرامة للجاهل.
+					</ab>
+					<ab xml:id="b.PRO.026.009" type="verse">
+						شوك مرتفع بيد سكران مثل المثل في فم الجهال.
+					</ab>
+					<ab xml:id="b.PRO.026.010" type="verse">
+						رام يطعن الكل هكذا من يستأجر الجاهل او يستأجر المحتالين.
+					</ab>
+					<ab xml:id="b.PRO.026.011" type="verse">
+						كما يعود الكلب الى قيئه هكذا الجاهل يعيد حماقته.
+					</ab>
+					<ab xml:id="b.PRO.026.012" type="verse">
+						أرأيت رجلا حكيما في عيني نفسه. الرجاء بالجاهل اكثر من الرجاء به
+					</ab>
+					<ab xml:id="b.PRO.026.013" type="verse">
+						قال الكسلان الاسد في الطريق الشبل في الشوارع.
+					</ab>
+					<ab xml:id="b.PRO.026.014" type="verse">
+						الباب يدور على صائره والكسلان على فراشه.
+					</ab>
+					<ab xml:id="b.PRO.026.015" type="verse">
+						الكسلان يخفي يده في الصحفة ويشق عليه ان يردها الى فمه.
+					</ab>
+					<ab xml:id="b.PRO.026.016" type="verse">
+						الكسلان اوفر حكمة في عيني نفسه من السبعة المجيبين بعقل.
+					</ab>
+					<ab xml:id="b.PRO.026.017" type="verse">
+						كممسك اذني كلب هكذا من يعبر ويتعرض لمشاجرة لا تعنيه.
+					</ab>
+					<ab xml:id="b.PRO.026.018" type="verse">
+						مثل المجنون الذي يرمي نارا وسهاما وموتا
+					</ab>
+					<ab xml:id="b.PRO.026.019" type="verse">
+						هكذا الرجل الخادع قريبه ويقول ألم العب انا.
+					</ab>
+					<ab xml:id="b.PRO.026.020" type="verse">
+						بعدم الحطب تنطفئ النار وحيث لا نمّام يهدأ الخصام.
+					</ab>
+					<ab xml:id="b.PRO.026.021" type="verse">
+						فحم للجمر وحطب للنار هكذا الرجل المخاصم لتهييج النزاع.
+					</ab>
+					<ab xml:id="b.PRO.026.022" type="verse">
+						كلام النمّام مثل لقم حلوة فينزل الى مخادع البطن
+					</ab>
+					<ab xml:id="b.PRO.026.023" type="verse">
+						فضة زغل تغشّي شقفة هكذا الشفتان المتوقدتان والقلب الشرير.
+					</ab>
+					<ab xml:id="b.PRO.026.024" type="verse">
+						بشفتيه يتنكر المبغض وفي جوفه يضع غشا.
+					</ab>
+					<ab xml:id="b.PRO.026.025" type="verse">
+						اذا حسّن صوته فلا تأتمنه. لان في قلبه سبع رجاسات.
+					</ab>
+					<ab xml:id="b.PRO.026.026" type="verse">
+						من يغطي بغضة بمكر يكشف خبثه بين الجماعة.
+					</ab>
+					<ab xml:id="b.PRO.026.027" type="verse">
+						من يحفر حفرة يسقط فيها ومن يدحرج حجرا يرجع عليه.
+					</ab>
+					<ab xml:id="b.PRO.026.028" type="verse">
+						اللسان الكاذب يبغض منسحقيه والفم الملق يعدّ خرابا
+					</ab>
+				</div>
+				<div xml:id="b.PRO.027" type="chapter">
+				<head>27</head>
+					<ab xml:id="b.PRO.027.001" type="verse">
+						لا تفتخر بالغد لانك لا تعلم ماذا يلده يوم.
+					</ab>
+					<ab xml:id="b.PRO.027.002" type="verse">
+						ليمدحك الغريب لا فمك. الاجنبي لا شفتاك.
+					</ab>
+					<ab xml:id="b.PRO.027.003" type="verse">
+						الحجر ثقيل والرمل ثقيل وغضب الجاهل اثقل منهما كليهما.
+					</ab>
+					<ab xml:id="b.PRO.027.004" type="verse">
+						الغضب قساوة والسخط جراف ومن يقف قدام الحسد.
+					</ab>
+					<ab xml:id="b.PRO.027.005" type="verse">
+						التوبيخ الظاهر خير من الحب المستتر.
+					</ab>
+					<ab xml:id="b.PRO.027.006" type="verse">
+						امينة هي جروح المحب وغاشة هي قبلات العدو.
+					</ab>
+					<ab xml:id="b.PRO.027.007" type="verse">
+						النفس الشبعانة تدوس العسل وللنفس الجائعة كل مر حلو.
+					</ab>
+					<ab xml:id="b.PRO.027.008" type="verse">
+						مثل العصفور التائه من عشه هكذا الرجل التائه من مكانه.
+					</ab>
+					<ab xml:id="b.PRO.027.009" type="verse">
+						الدهن والبخور يفرحان القلب وحلاوة الصديق من مشورة النفس.
+					</ab>
+					<ab xml:id="b.PRO.027.010" type="verse">
+						لا تترك صديقك وصديق ابيك ولا تدخل بيت اخيك في يوم بليتك. الجار القريب خير من الاخ البعيد
+					</ab>
+					<ab xml:id="b.PRO.027.011" type="verse">
+						يا ابني كن حكيما وفرّح قلبي فاجيب من يعيّرني كلمة.
+					</ab>
+					<ab xml:id="b.PRO.027.012" type="verse">
+						الذكي يبصر الشر فيتوارى. الاغبياء يعبرون فيعاقبون.
+					</ab>
+					<ab xml:id="b.PRO.027.013" type="verse">
+						خذ ثوبه لانه ضمن غريبا ولاجل الاجانب ارتهن منه.
+					</ab>
+					<ab xml:id="b.PRO.027.014" type="verse">
+						من يبارك قريبه بصوت عال في الصباح باكرا يحسب له لعنا.
+					</ab>
+					<ab xml:id="b.PRO.027.015" type="verse">
+						الوكف المتتابع في يوم ممطر والمرأة المخاصمة سيّان.
+					</ab>
+					<ab xml:id="b.PRO.027.016" type="verse">
+						من يخبئها يخبئ الريح ويمينه تقبض على زيت.
+					</ab>
+					<ab xml:id="b.PRO.027.017" type="verse">
+						الحديد بالحديد يحدّد والانسان يحدّد وجه صاحبه.
+					</ab>
+					<ab xml:id="b.PRO.027.018" type="verse">
+						من يحمي تينة ياكل ثمرتها وحافظ سيده يكرم.
+					</ab>
+					<ab xml:id="b.PRO.027.019" type="verse">
+						كما في الماء الوجه للوجه كذلك قلب الانسان للانسان.
+					</ab>
+					<ab xml:id="b.PRO.027.020" type="verse">
+						الهاوية والهلاك لا يشبعان وكذا عينا الانسان لا تشبعان.
+					</ab>
+					<ab xml:id="b.PRO.027.021" type="verse">
+						البوطة للفضة والكور للذهب كذا الانسان لفم مادحه.
+					</ab>
+					<ab xml:id="b.PRO.027.022" type="verse">
+						ان دققت الاحمق في هاون بين السميذ بمدقّ لا تبرح عنه حماقته.
+					</ab>
+					<ab xml:id="b.PRO.027.023" type="verse">
+						معرفة اعرف حال غنمك واجعل قلبك الى قطعانك.
+					</ab>
+					<ab xml:id="b.PRO.027.024" type="verse">
+						لان الغنى ليس بدائم ولا التاج لدور فدور.
+					</ab>
+					<ab xml:id="b.PRO.027.025" type="verse">
+						فني الحشيش وظهر العشب واجتمع نبات الجبال.
+					</ab>
+					<ab xml:id="b.PRO.027.026" type="verse">
+						الحملان للباسك وثمن حقل اعتدة.
+					</ab>
+					<ab xml:id="b.PRO.027.027" type="verse">
+						وكفاية من لبن المعز لطعامك لقوت بيتك ومعيشة فتاياتك
+					</ab>
+				</div>
+				<div xml:id="b.PRO.028" type="chapter">
+				<head>28</head>
+					<ab xml:id="b.PRO.028.001" type="verse">
+						الشرير يهرب ولا طارد اما الصدّيقون فكشبل ثبيت.
+					</ab>
+					<ab xml:id="b.PRO.028.002" type="verse">
+						لمعصية ارض تكثر رؤساؤها. لكن بذي فهم ومعرفة تدوم.
+					</ab>
+					<ab xml:id="b.PRO.028.003" type="verse">
+						الرجل الفقير الذي يظلم فقراء هو مطر جارف لا يبقي طعاما.
+					</ab>
+					<ab xml:id="b.PRO.028.004" type="verse">
+						تاركو الشريعة يمدحون الاشرار وحافظو الشريعة يخاصمونهم.
+					</ab>
+					<ab xml:id="b.PRO.028.005" type="verse">
+						الناس الاشرار لا يفهمون الحق وطالبو الرب يفهمون كل شيء.
+					</ab>
+					<ab xml:id="b.PRO.028.006" type="verse">
+						الفقير السالك باستقامته خير من معوج الطرق وهو غني.
+					</ab>
+					<ab xml:id="b.PRO.028.007" type="verse">
+						الحافظ الشريعة هو ابن فهيم وصاحب المسرفين يخجل اباه.
+					</ab>
+					<ab xml:id="b.PRO.028.008" type="verse">
+						المكثر ماله بالربا والمرابحة فلمن يرحم الفقراء يجمعه.
+					</ab>
+					<ab xml:id="b.PRO.028.009" type="verse">
+						من يحول اذنه عن سماع الشريعة فصلاته ايضا مكرهة
+					</ab>
+					<ab xml:id="b.PRO.028.010" type="verse">
+						من يضل المستقيمين في طريق رديئة ففي حفرته يسقط هو. اما الكملة فيمتلكون خيرا.
+					</ab>
+					<ab xml:id="b.PRO.028.011" type="verse">
+						الرجل الغني حكيم في عيني نفسه والفقير الفهيم يفحصه.
+					</ab>
+					<ab xml:id="b.PRO.028.012" type="verse">
+						اذا فرح الصدّيقون عظم الفخر وعند قيام الاشرار تختفي الناس.
+					</ab>
+					<ab xml:id="b.PRO.028.013" type="verse">
+						من يكتم خطاياه لا ينجح ومن يقرّ بها ويتركها يرحم.
+					</ab>
+					<ab xml:id="b.PRO.028.014" type="verse">
+						طوبى للانسان المتقي دائما. اما المقسي قلبه فيسقط في الشر.
+					</ab>
+					<ab xml:id="b.PRO.028.015" type="verse">
+						اسد زائر ودب ثائر المتسلط الشرير على شعب فقير.
+					</ab>
+					<ab xml:id="b.PRO.028.016" type="verse">
+						رئيس ناقص الفهم وكثير المظالم. مبغض الرشوة تطول ايامه
+					</ab>
+					<ab xml:id="b.PRO.028.017" type="verse">
+						الرجل المثقّل بدم نفس يهرب الى الجب. لا يمسكنه احد.
+					</ab>
+					<ab xml:id="b.PRO.028.018" type="verse">
+						السالك بالكمال يخلص والملتوي في طريقين يسقط في احداهما.
+					</ab>
+					<ab xml:id="b.PRO.028.019" type="verse">
+						المشتغل بارضه يشبع خبزا وتابع البطّالين يشبع فقرا.
+					</ab>
+					<ab xml:id="b.PRO.028.020" type="verse">
+						الرجل الامين كثير البركات والمستعجل الى الغنى لا يبرأ.
+					</ab>
+					<ab xml:id="b.PRO.028.021" type="verse">
+						محاباة الوجوه ليست صالحة فيذنب الانسان لاجل كسرة خبز.
+					</ab>
+					<ab xml:id="b.PRO.028.022" type="verse">
+						ذو العين الشريرة يعجل الى الغنى ولا يعلم ان الفقر ياتيه.
+					</ab>
+					<ab xml:id="b.PRO.028.023" type="verse">
+						من يوبخ انسانا يجد اخيرا نعمة اكثر من المطري باللسان.
+					</ab>
+					<ab xml:id="b.PRO.028.024" type="verse">
+						السالب اباه او امه وهو يقول لا بأس فهو رفيق لرجل مخرب.
+					</ab>
+					<ab xml:id="b.PRO.028.025" type="verse">
+						المنتفخ النفس يهيج الخصام والمتكل على الرب يسمن.
+					</ab>
+					<ab xml:id="b.PRO.028.026" type="verse">
+						المتكل على قلبه هو جاهل والسالك بحكمة هو ينجو.
+					</ab>
+					<ab xml:id="b.PRO.028.027" type="verse">
+						من يعطي الفقير لا يحتاج ولمن يحجب عنه عينيه لعنات كثيرة.
+					</ab>
+					<ab xml:id="b.PRO.028.028" type="verse">
+						عند قيام الاشرار تختبئ الناس. وبهلاكهم يكثر الصدّيقون
+					</ab>
+				</div>
+				<div xml:id="b.PRO.029" type="chapter">
+				<head>29</head>
+					<ab xml:id="b.PRO.029.001" type="verse">
+						الكثير التوبّخ المقسي عنقه بغتة يكسر ولا شفاء.
+					</ab>
+					<ab xml:id="b.PRO.029.002" type="verse">
+						اذا ساد الصدّيقون فرح الشعب واذا تسلط الشرير يئن الشعب.
+					</ab>
+					<ab xml:id="b.PRO.029.003" type="verse">
+						من يحب الحكمة يفرّح اباه ورفيق الزواني يبدد مالا.
+					</ab>
+					<ab xml:id="b.PRO.029.004" type="verse">
+						الملك بالعدل يثبت الارض والقابل الهدايا يدمرها.
+					</ab>
+					<ab xml:id="b.PRO.029.005" type="verse">
+						الرجل الذي يطري صاحبه يبسط شبكة لرجليه.
+					</ab>
+					<ab xml:id="b.PRO.029.006" type="verse">
+						في معصية رجل شرير شرك اما الصدّيق فيترنم ويفرح.
+					</ab>
+					<ab xml:id="b.PRO.029.007" type="verse">
+						الصدّيق يعرف دعوى الفقراء. اما الشرير فلا يفهم معرفة.
+					</ab>
+					<ab xml:id="b.PRO.029.008" type="verse">
+						الناس المستهزئون يفتنون المدينة. اما الحكماء فيصرفون الغضب.
+					</ab>
+					<ab xml:id="b.PRO.029.009" type="verse">
+						رجل حكيم ان حاكم رجلا احمق فان غضب وان ضحك فلا راحة.
+					</ab>
+					<ab xml:id="b.PRO.029.010" type="verse">
+						اهل الدماء يبغضون الكامل. اما المستقيمون فيسألون عن نفسه.
+					</ab>
+					<ab xml:id="b.PRO.029.011" type="verse">
+						الجاهل يظهر كل غيظه والحكيم يسكنه اخيرا
+					</ab>
+					<ab xml:id="b.PRO.029.012" type="verse">
+						الحاكم المصغي الى كلام كذب كل خدامه اشرار.
+					</ab>
+					<ab xml:id="b.PRO.029.013" type="verse">
+						الفقير والمربي يتلاقيان. الرب ينوّر اعين كليهما.
+					</ab>
+					<ab xml:id="b.PRO.029.014" type="verse">
+						الملك الحاكم بالحق للفقراء يثبت كرسيه الى الابد.
+					</ab>
+					<ab xml:id="b.PRO.029.015" type="verse">
+						العصا والتوبيخ يعطيان حكمة والصبي المطلق الى هواه يخجل امه.
+					</ab>
+					<ab xml:id="b.PRO.029.016" type="verse">
+						اذا ساد الاشرار كثرت المعاصي. اما الصدّيقون فينظرون سقوطهم.
+					</ab>
+					<ab xml:id="b.PRO.029.017" type="verse">
+						ادّب ابنك فيريحك ويعطي نفسك لذّات.
+					</ab>
+					<ab xml:id="b.PRO.029.018" type="verse">
+						بلا رؤية يجمح الشعب. اما حافظ الشريعة فطوباه‎.
+					</ab>
+					<ab xml:id="b.PRO.029.019" type="verse">
+						بالكلام لا يؤدب العبد لانه يفهم ولا يعنى.
+					</ab>
+					<ab xml:id="b.PRO.029.020" type="verse">
+						أرأيت انسان عجولا في كلامه. الرجاء بالجاهل اكثر من الرجاء به.
+					</ab>
+					<ab xml:id="b.PRO.029.021" type="verse">
+						من فنّق عبده من حداثته ففي آخرته يصير منونا.
+					</ab>
+					<ab xml:id="b.PRO.029.022" type="verse">
+						الرجل الغضوب يهيج الخصام والرجل السخوط كثير المعاصي.
+					</ab>
+					<ab xml:id="b.PRO.029.023" type="verse">
+						كبرياء الانسان تضعه والوضيع الروح ينال مجدا.
+					</ab>
+					<ab xml:id="b.PRO.029.024" type="verse">
+						من يقاسم سارقا يبغض نفسه. يسمع اللعن ولا يقرّ.
+					</ab>
+					<ab xml:id="b.PRO.029.025" type="verse">
+						خشية الانسان تضع شركا والمتكل على الرب يرفع.
+					</ab>
+					<ab xml:id="b.PRO.029.026" type="verse">
+						كثيرون يطلبون وجه المتسلط. اما حق الانسان فمن الرب.
+					</ab>
+					<ab xml:id="b.PRO.029.027" type="verse">
+						الرجل الظالم مكرهة الصدّيقين والمستقيم الطريق مكرهة الشرير
+					</ab>
+				</div>
+				<div xml:id="b.PRO.030" type="chapter">
+				<head>30</head>
+					<ab xml:id="b.PRO.030.001" type="verse">
+						كلام اجور ابن متقية مسّا. وحي هذا الرجل الى ايثيئيل. الى ايثيئيل وأكّال
+					</ab>
+					<ab xml:id="b.PRO.030.002" type="verse">
+						اني ابلد من كل انسان وليس لي فهم انسان.
+					</ab>
+					<ab xml:id="b.PRO.030.003" type="verse">
+						ولم اتعلّم الحكمة ولم اعرف معرفة القدوس.
+					</ab>
+					<ab xml:id="b.PRO.030.004" type="verse">
+						من صعد الى السموات ونزل. من جمع الريح في حفنتيه. من صرّ المياه في ثوب. من ثبت جميع اطراف الارض. ما اسمه وما اسم ابنه ان عرفت.
+					</ab>
+					<ab xml:id="b.PRO.030.005" type="verse">
+						كل كلمة من الله نقية. ترس هو للمحتمين به.
+					</ab>
+					<ab xml:id="b.PRO.030.006" type="verse">
+						لا تزد على كلماته لئلا يوبخك فتكذّب
+					</ab>
+					<ab xml:id="b.PRO.030.007" type="verse">
+						اثنتين سألت منك فلا تمنعهما عني قبل ان اموت.
+					</ab>
+					<ab xml:id="b.PRO.030.008" type="verse">
+						ابعد عني الباطل والكذب. لا تعطني فقرا ولا غنى. اطعمني خبز فريضتي.
+					</ab>
+					<ab xml:id="b.PRO.030.009" type="verse">
+						لئلا اشبع واكفر واقول من هو الرب. او لئلا افتقر واسرق واتخذ اسم الهي باطلا
+					</ab>
+					<ab xml:id="b.PRO.030.010" type="verse">
+						لا تشك عبدا الى سيده لئلا يلعنك فتأثم.
+					</ab>
+					<ab xml:id="b.PRO.030.011" type="verse">
+						جيل يلعن اباه ولا يبارك امه.
+					</ab>
+					<ab xml:id="b.PRO.030.012" type="verse">
+						جيل طاهر في عيني نفسه وهو لم يغتسل من قذره.
+					</ab>
+					<ab xml:id="b.PRO.030.013" type="verse">
+						جيل ما ارفع عينيه وحواجبه مرتفعة.
+					</ab>
+					<ab xml:id="b.PRO.030.014" type="verse">
+						جيل اسنانه سيوف واضراسه سكاكين لأكل المساكين عن الارض والفقراء من بين الناس
+					</ab>
+					<ab xml:id="b.PRO.030.015" type="verse">
+						للعلوقة بنتان هات هات. ثلاثة لا تشبع. اربعة لا تقول كفا
+					</ab>
+					<ab xml:id="b.PRO.030.016" type="verse">
+						الهاوية والرحم العقيم وارض لا تشبع ماء والنار لا تقول كفا
+					</ab>
+					<ab xml:id="b.PRO.030.017" type="verse">
+						العين المستهزئة بابيها والمحتقرة اطاعة امها تقوّرها غربان الوادي وتأكلها فراخ النسر
+					</ab>
+					<ab xml:id="b.PRO.030.018" type="verse">
+						ثلاثة عجيبة فوقي واربعة لا اعرفها.
+					</ab>
+					<ab xml:id="b.PRO.030.019" type="verse">
+						طريق نسر في السموات وطريق حيّة على صخر وطريق سفينة في قلب البحر وطريق رجل بفتاة.
+					</ab>
+					<ab xml:id="b.PRO.030.020" type="verse">
+						كذلك طريق المرأة الزانية. اكلت ومسحت فمها وقالت ما عملت اثما
+					</ab>
+					<ab xml:id="b.PRO.030.021" type="verse">
+						تحت ثلاثة تضطرب الارض واربعة لا تستطيع احتمالها.
+					</ab>
+					<ab xml:id="b.PRO.030.022" type="verse">
+						تحت عبد اذا ملك واحمق اذا شبع خبزا
+					</ab>
+					<ab xml:id="b.PRO.030.023" type="verse">
+						تحت شنيعة اذا تزوجت وأمة اذا ورثت سيدتها
+					</ab>
+					<ab xml:id="b.PRO.030.024" type="verse">
+						اربعة هي الاصغر في الارض ولكنها حكيمة جدا.
+					</ab>
+					<ab xml:id="b.PRO.030.025" type="verse">
+						النمل طائفة غير قوية ولكنه يعدّ طعامه في الصيف.
+					</ab>
+					<ab xml:id="b.PRO.030.026" type="verse">
+						الوبار طائفة ضعيفة ولكنها تضع بيوتها في الصخر.
+					</ab>
+					<ab xml:id="b.PRO.030.027" type="verse">
+						الجراد ليس له ملك ولكنه يخرج كله فرقا فرقا.
+					</ab>
+					<ab xml:id="b.PRO.030.028" type="verse">
+						العنكبوت تمسك بيديها وهي في قصور الملوك
+					</ab>
+					<ab xml:id="b.PRO.030.029" type="verse">
+						ثلاثة هي حسنة التخطي واربعة مشيها مستحسن
+					</ab>
+					<ab xml:id="b.PRO.030.030" type="verse">
+						الاسد جبار الوحوش ولا يرجع من قدام احد
+					</ab>
+					<ab xml:id="b.PRO.030.031" type="verse">
+						ضامر الشاكلة والتيس والملك الذي لا يقاوم
+					</ab>
+					<ab xml:id="b.PRO.030.032" type="verse">
+						ان حمقت بالترفع وان تآمرت فضع يدك على فمك.
+					</ab>
+					<ab xml:id="b.PRO.030.033" type="verse">
+						لان عصر اللبن يخرج جبنا وعصر الانف يخرج دما وعصر الغضب يخرج خصاما
+					</ab>
+				</div>
+				<div xml:id="b.PRO.031" type="chapter">
+				<head>31</head>
+					<ab xml:id="b.PRO.031.001" type="verse">
+						كلام لموئيل ملك مسّا. علّمته اياه امه.
+					</ab>
+					<ab xml:id="b.PRO.031.002" type="verse">
+						ماذا يا ابني ثم ماذا يا ابن رحمي ثم ماذا يا ابن نذوري ـــ
+					</ab>
+					<ab xml:id="b.PRO.031.003" type="verse">
+						لا تعطي حيلك للنساء ولا طرقك لمهلكات الملوك.
+					</ab>
+					<ab xml:id="b.PRO.031.004" type="verse">
+						ليس للملوك يا لموئيل ليس للملوك ان يشربوا خمرا ولا للعظماء المسكر.
+					</ab>
+					<ab xml:id="b.PRO.031.005" type="verse">
+						لئلا يشربوا وينسوا المفروض ويغيّروا حجة كل بني المذلة.
+					</ab>
+					<ab xml:id="b.PRO.031.006" type="verse">
+						اعطوا مسكرا لهالك وخمرا لمرّي النفس.
+					</ab>
+					<ab xml:id="b.PRO.031.007" type="verse">
+						يشرب وينسى فقره ولا يذكر تعبه بعد
+					</ab>
+					<ab xml:id="b.PRO.031.008" type="verse">
+						افتح فمك لاجل الاخرس في دعوى كل يتيم.
+					</ab>
+					<ab xml:id="b.PRO.031.009" type="verse">
+						افتح فمك. اقض بالعدل وحام عن الفقير والمسكين
+					</ab>
+					<ab xml:id="b.PRO.031.010" type="verse">
+						امرأة فاضلة من يجدها لان ثمنها يفوق اللآلئ.
+					</ab>
+					<ab xml:id="b.PRO.031.011" type="verse">
+						بها يثق قلب زوجها فلا يحتاج الى غنيمة.
+					</ab>
+					<ab xml:id="b.PRO.031.012" type="verse">
+						تصنع له خيرا لا شرا كل ايام حياتها.
+					</ab>
+					<ab xml:id="b.PRO.031.013" type="verse">
+						تطلب صوفا وكتانا وتشتغل بيدين راضيتين.
+					</ab>
+					<ab xml:id="b.PRO.031.014" type="verse">
+						هي كسفن التاجر. تجلب طعامها من بعيد.
+					</ab>
+					<ab xml:id="b.PRO.031.015" type="verse">
+						وتقوم اذ الليل بعد وتعطي اكلا لاهل بيتها وفريضة لفتياتها.
+					</ab>
+					<ab xml:id="b.PRO.031.016" type="verse">
+						تتأمل حقلا فتأخذه وبثمر يديها تغرس كرما.
+					</ab>
+					<ab xml:id="b.PRO.031.017" type="verse">
+						تنطّق حقويها بالقوة وتشدد ذراعيها.
+					</ab>
+					<ab xml:id="b.PRO.031.018" type="verse">
+						تشعر ان تجارتها جيدة. سراجها لا ينطفئ في الليل.
+					</ab>
+					<ab xml:id="b.PRO.031.019" type="verse">
+						تمد يديها الى المغزل وتمسك كفّاها بالفلكة.
+					</ab>
+					<ab xml:id="b.PRO.031.020" type="verse">
+						تبسط كفيها للفقير وتمد يديها الى المسكين.
+					</ab>
+					<ab xml:id="b.PRO.031.021" type="verse">
+						لا تخشى على بيتها من الثلج لان كل اهل بيتها لابسون حللا.
+					</ab>
+					<ab xml:id="b.PRO.031.022" type="verse">
+						تعمل لنفسها موشيات. لبسها بوص وارجوان.
+					</ab>
+					<ab xml:id="b.PRO.031.023" type="verse">
+						زوجها معروف في الابواب حين يجلس بين مشايخ الارض.
+					</ab>
+					<ab xml:id="b.PRO.031.024" type="verse">
+						تصنع قمصانا وتبيعها وتعرض مناطق على الكنعاني.
+					</ab>
+					<ab xml:id="b.PRO.031.025" type="verse">
+						العزّ والبهاء لباسها وتضحك على الزمن الآتي.
+					</ab>
+					<ab xml:id="b.PRO.031.026" type="verse">
+						تفتح فمها بالحكمة وفي لسانها سنّة المعروف.
+					</ab>
+					<ab xml:id="b.PRO.031.027" type="verse">
+						تراقب طرق اهل بيتها ولا تأكل خبز الكسل.
+					</ab>
+					<ab xml:id="b.PRO.031.028" type="verse">
+						يقوم اولادها ويطوّبونها. زوجها ايضا فيمدحها.
+					</ab>
+					<ab xml:id="b.PRO.031.029" type="verse">
+						بنات كثيرات عملن فضلا اما انت ففقت عليهنّ جميعا.
+					</ab>
+					<ab xml:id="b.PRO.031.030" type="verse">
+						الحسن غش والجمال باطل. اما المرأة المتقية الرب فهي تمدح.
+					</ab>
+					<ab xml:id="b.PRO.031.031" type="verse">
+						اعطوها من ثمر يديها ولتمدحها اعمالها في الابواب
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

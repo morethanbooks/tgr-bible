@@ -1,0 +1,446 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Song of Solomon (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="8"/><measure commodity="verses" quantity="117"/><measure commodity="bytes" quantity="1906099"/><measure commodity="characters" quantity="1059647"/><measure commodity="tokens" quantity="198712"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Song of Solomon</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q51670">Q51670</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4072593-5">4072593-5</idno></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">old</term><term type="genre">lyric</term><term type="division">Wisdom</term><term type="genre-multilabel">lyric</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.SON" type="book">
+				<div xml:id="b.SON.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.SON.001.001" type="verse">
+						نشيد الانشاد الذي لسليمان
+					</ab>
+					<ab xml:id="b.SON.001.002" type="verse">
+						ليقبلني بقبلات فمه لان حبك اطيب من الخمر.
+					</ab>
+					<ab xml:id="b.SON.001.003" type="verse">
+						لرائحة ادهانك الطيبة اسمك دهن مهراق. لذلك احبتك العذارى.
+					</ab>
+					<ab xml:id="b.SON.001.004" type="verse">
+						اجذبني وراءك فنجري . ادخلني الملك الى حجاله. نبتهج ونفرح بك. نذكر حبك اكثر من الخمر. بالحق يحبونك
+					</ab>
+					<ab xml:id="b.SON.001.005" type="verse">
+						انا سوداء وجميلة يا بنات اورشليم كخيام قيدار كشقق سليمان.
+					</ab>
+					<ab xml:id="b.SON.001.006" type="verse">
+						لا تنظرن اليّ لكوني سوداء لان الشمس قد لوحتني. بنو امي غضبوا عليّ. جعلوني ناطورة الكروم . ‎اما كرمي فلم انطره.
+					</ab>
+					<ab xml:id="b.SON.001.007" type="verse">
+						أخبرني يا من تحبه نفسي اين ترعى اين تربض عند الظهيرة. لماذا انا اكون كمقنّعة عند قطعان اصحابك
+					</ab>
+					<ab xml:id="b.SON.001.008" type="verse">
+						ان لم تعرفي ايتها الجميلة بين النساء فاخرجي على آثار الغنم وارعي جداءك عند مساكن الرعاة
+					</ab>
+					<ab xml:id="b.SON.001.009" type="verse">
+						لقد شبهتك يا حبيبتي بفرس في مركبات فرعون.
+					</ab>
+					<ab xml:id="b.SON.001.010" type="verse">
+						ما اجمل خديك بسموط وعنقك بقلائد.
+					</ab>
+					<ab xml:id="b.SON.001.011" type="verse">
+						نصنع لك سلاسل من ذهب مع جمان من فضة
+					</ab>
+					<ab xml:id="b.SON.001.012" type="verse">
+						ما دام الملك في مجلسه افاح نارديني رائحته.
+					</ab>
+					<ab xml:id="b.SON.001.013" type="verse">
+						صرة المرّ حبيبي لي. بين ثديي يبيت.
+					</ab>
+					<ab xml:id="b.SON.001.014" type="verse">
+						طاقة فاغية حبيبي لي في كروم عين جدي
+					</ab>
+					<ab xml:id="b.SON.001.015" type="verse">
+						ها انت جميلة يا حبيبتي ها انت جميلة. عيناك حمامتان
+					</ab>
+					<ab xml:id="b.SON.001.016" type="verse">
+						ها انت جميل يا حبيبي وحلو وسريرنا اخضر.
+					</ab>
+					<ab xml:id="b.SON.001.017" type="verse">
+						جوائز بيتنا ارز وروافدنا سرو
+					</ab>
+				</div>
+				<div xml:id="b.SON.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.SON.002.001" type="verse">
+						انا نرجس شارون سوسنة الاودية
+					</ab>
+					<ab xml:id="b.SON.002.002" type="verse">
+						كالسوسنة بين الشوك كذلك حبيبتي بين البنات
+					</ab>
+					<ab xml:id="b.SON.002.003" type="verse">
+						كالتفاح بين شجر الوعر كذلك حبيبي بين البنين. تحت ظله اشتهيت ان اجلس وثمرته حلوة لحلقي.
+					</ab>
+					<ab xml:id="b.SON.002.004" type="verse">
+						ادخلني الى بيت الخمر وعلمه فوقي محبة.
+					</ab>
+					<ab xml:id="b.SON.002.005" type="verse">
+						اسندوني باقراص الزبيب انعشوني بالتفاح فاني مريضة حبا.
+					</ab>
+					<ab xml:id="b.SON.002.006" type="verse">
+						شماله تحت راسي ويمينه تعانقني.
+					</ab>
+					<ab xml:id="b.SON.002.007" type="verse">
+						احلفكن يا بنات اورشليم بالظباء وبأيائل الحقول ألا تيقظن ولا تنبهن الحبيب حتى يشاء
+					</ab>
+					<ab xml:id="b.SON.002.008" type="verse">
+						صوت حبيبي. هوذا آت طافرا على الجبال قافزا على التلال.
+					</ab>
+					<ab xml:id="b.SON.002.009" type="verse">
+						حبيبي هو شبيه بالظبي او بغفر الأيائل. هوذا واقف وراء حائطنا يتطلع من الكوى يوصوص من الشبابيك.
+					</ab>
+					<ab xml:id="b.SON.002.010" type="verse">
+						اجاب حبيبي وقال لي قومي يا حبيبتي يا جميلتي وتعالي.
+					</ab>
+					<ab xml:id="b.SON.002.011" type="verse">
+						لان الشتاء قد مضى والمطر مرّ وزال.
+					</ab>
+					<ab xml:id="b.SON.002.012" type="verse">
+						الزهور ظهرت في الارض. بلغ اوان القضب وصوت اليمامة سمع في ارضنا.
+					</ab>
+					<ab xml:id="b.SON.002.013" type="verse">
+						التينة اخرجت فجّها وقعال الكروم تفيح رائحتها. قومي يا حبيبتي يا جميلتي وتعالي.
+					</ab>
+					<ab xml:id="b.SON.002.014" type="verse">
+						يا حمامتي في محاجئ الصخر في ستر المعاقل أريني وجهك اسمعيني صوتك لان صوتك لطيف ووجهك جميل
+					</ab>
+					<ab xml:id="b.SON.002.015" type="verse">
+						خذوا لنا الثعالب الثعالب الصغار المفسدة الكروم لان كرومنا قد أقعلت
+					</ab>
+					<ab xml:id="b.SON.002.016" type="verse">
+						حبيبي لي وانا له الراعي بين السوسن.
+					</ab>
+					<ab xml:id="b.SON.002.017" type="verse">
+						الى ان يفيح النهار وتنهزم الظلال ارجع واشبه يا حبيبي الظبي او غفر الأيائل على الجبال المشعّبة
+					</ab>
+				</div>
+				<div xml:id="b.SON.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.SON.003.001" type="verse">
+						في الليل على فراشي طلبت من تحبه نفسي طلبته فما وجدته.
+					</ab>
+					<ab xml:id="b.SON.003.002" type="verse">
+						اني اقوم واطوف في المدينة في الاسواق وفي الشوارع اطلب من تحبه نفسي. طلبته فما وجدته.
+					</ab>
+					<ab xml:id="b.SON.003.003" type="verse">
+						وجدني الحرس الطائف في المدينة فقلت أرأيتم من تحبه نفسي.
+					</ab>
+					<ab xml:id="b.SON.003.004" type="verse">
+						فما جاوزتهم الا قليلا حتى وجدت من تحبه نفسي فامسكته ولم ارخه حتى ادخلته بيت امي وحجرة من حبلت بي.
+					</ab>
+					<ab xml:id="b.SON.003.005" type="verse">
+						احلفكن يا بنات اورشليم بالظباء وبأيائل الحقل ألا تيقظن ولا تنبهن الحبيب حتى يشاء
+					</ab>
+					<ab xml:id="b.SON.003.006" type="verse">
+						من هذه الطالعة من البرية كاعمدة من دخان معطرة بالمر واللبان وبكل اذرّة التاجر
+					</ab>
+					<ab xml:id="b.SON.003.007" type="verse">
+						هوذا تخت سليمان حوله ستون جبارا من جبابرة اسرائيل.
+					</ab>
+					<ab xml:id="b.SON.003.008" type="verse">
+						كلهم قابضون سيوفا ومتعلمون الحرب. كل رجل سيفه على فخذه من هول الليل
+					</ab>
+					<ab xml:id="b.SON.003.009" type="verse">
+						الملك سليمان عمل لنفسه تختا من خشب لبنان.
+					</ab>
+					<ab xml:id="b.SON.003.010" type="verse">
+						عمل اعمدته فضة وروافده ذهبا ومقعده ارجوانا ووسطه مرصوفا محبة من بنات اورشليم
+					</ab>
+					<ab xml:id="b.SON.003.011" type="verse">
+						اخرجن يا بنات صهيون وانظرن الملك سليمان بالتاج الذي توجته به امه في يوم عرسه وفي يوم فرح قلبه
+					</ab>
+				</div>
+				<div xml:id="b.SON.004" type="chapter">
+				<head>4</head>
+					<ab xml:id="b.SON.004.001" type="verse">
+						ها انت جميلة يا حبيبتي ها انت جميلة عيناك حمامتان من تحت نقابك. شعرك كقطيع معز رابض على جبل جلعاد.
+					</ab>
+					<ab xml:id="b.SON.004.002" type="verse">
+						اسنانك كقطيع الجزائز الصادرة من الغسل اللواتي كل واحدة متئم وليس فيهنّ عقيم.
+					</ab>
+					<ab xml:id="b.SON.004.003" type="verse">
+						شفتاك كسلكة من القرمز. وفمك حلو. خدك كفلقة رمانة تحت نقابك.
+					</ab>
+					<ab xml:id="b.SON.004.004" type="verse">
+						عنقك كبرج داود المبني للاسلحة. الف مجن علق عليه كلها اتراس الجبابرة.
+					</ab>
+					<ab xml:id="b.SON.004.005" type="verse">
+						ثدياك كخشفتي ظبية توأمين يرعيان بين السوسن.
+					</ab>
+					<ab xml:id="b.SON.004.006" type="verse">
+						الى ان يفيح النهار وتنهزم الظلال اذهب الى جبل المرّ والى تل اللبان.
+					</ab>
+					<ab xml:id="b.SON.004.007" type="verse">
+						كلك جميل يا حبيبتي ليس فيك عيبة
+					</ab>
+					<ab xml:id="b.SON.004.008" type="verse">
+						هلمي معي من لبنان يا عروس معي من لبنان. انظري من راس امانة من راس شنير وحرمون من خدور الأسود من جبال النمور.
+					</ab>
+					<ab xml:id="b.SON.004.009" type="verse">
+						قد سبيت قلبي يا اختي العروس قد سبيت قلبي باحدى عينيك بقلادة واحدة من عنقك.
+					</ab>
+					<ab xml:id="b.SON.004.010" type="verse">
+						ما احسن حبك يا اختي العروس كم محبتك اطيب من الخمر وكم رائحة ادهانك اطيب من كل الاطياب.
+					</ab>
+					<ab xml:id="b.SON.004.011" type="verse">
+						شفتاك يا عروس تقطران شهدا. تحت لسانك عسل ولبن ورائحة ثيابك كرائحة لبنان.
+					</ab>
+					<ab xml:id="b.SON.004.012" type="verse">
+						اختي العروس جنة مغلقة عين مقفلة ينبوع مختوم.
+					</ab>
+					<ab xml:id="b.SON.004.013" type="verse">
+						اغراسك فردوس رمان مع اثمار نفيسة فاغية وناردين.
+					</ab>
+					<ab xml:id="b.SON.004.014" type="verse">
+						ناردين وكركم. قصب الذريرة وقرفة مع كل عود اللبان. مر وعود مع كل انفس الاطياب.
+					</ab>
+					<ab xml:id="b.SON.004.015" type="verse">
+						ينبوع جنات بئر مياه حية وسيول من لبنان
+					</ab>
+					<ab xml:id="b.SON.004.016" type="verse">
+						استيقظي يا ريح الشمال وتعالي يا ريح الجنوب. هبي على جنتي فتقطر اطيابها. ليأت حبيبي الى جنته ويأكل ثمره النفيس
+					</ab>
+				</div>
+				<div xml:id="b.SON.005" type="chapter">
+				<head>5</head>
+					<ab xml:id="b.SON.005.001" type="verse">
+						قد دخلت جنتي يا اختي العروس. قطفت مري مع طيبي. اكلت شهدي مع عسلي. شربت خمري مع لبني. كلوا ايها الاصحاب اشربوا واسكروا ايها الاحباء
+					</ab>
+					<ab xml:id="b.SON.005.002" type="verse">
+						انا نائمة وقلبي مستيقظ. صوت حبيبي قارعا. افتحي لي يا اختي يا حبيبتي يا حمامتي يا كاملتي لان راسي امتلأ من الطل وقصصي من ندى الليل
+					</ab>
+					<ab xml:id="b.SON.005.003" type="verse">
+						قد خلعت ثوبي فكيف البسه. قد غسلت رجليّ فكيف اوسخهما.
+					</ab>
+					<ab xml:id="b.SON.005.004" type="verse">
+						حبيبي مدّ يده من الكوّة فانّت عليه احشائي.
+					</ab>
+					<ab xml:id="b.SON.005.005" type="verse">
+						قمت لافتح لحبيبي ويداي تقطران مرّا واصابعي مر قاطر على مقبض القفل.
+					</ab>
+					<ab xml:id="b.SON.005.006" type="verse">
+						فتحت لحبيبي لكن حبيبي تحول وعبر. نفسي خرجت عندما ادبر. طلبته فما وجدته دعوته فما اجابني.
+					</ab>
+					<ab xml:id="b.SON.005.007" type="verse">
+						وجدني الحرس الطائف في المدينة. ضربوني جرحوني. حفظة الاسوار رفعوا ازاري عني.
+					</ab>
+					<ab xml:id="b.SON.005.008" type="verse">
+						احلفكنّ يا بنات اورشليم ان وجدتنّ حبيبي ان تخبرنه باني مريضة حبا
+					</ab>
+					<ab xml:id="b.SON.005.009" type="verse">
+						ما حبيبك من حبيب ايتها الجميلة بين النساء ما حبيبك من حبيب حتى تحلفينا هكذا
+					</ab>
+					<ab xml:id="b.SON.005.010" type="verse">
+						حبيبي ابيض واحمر. معلم بين ربوة.
+					</ab>
+					<ab xml:id="b.SON.005.011" type="verse">
+						راسه ذهب ابريز. قصصه مسترسلة حالكة كالغراب.
+					</ab>
+					<ab xml:id="b.SON.005.012" type="verse">
+						عيناه كالحمام على مجاري المياه مغسولتان باللبن جالستان في وقبيهما.
+					</ab>
+					<ab xml:id="b.SON.005.013" type="verse">
+						خداه كخميلة الطيب واتلام رياحين ذكية. شفتاه سوسن تقطران مرا مائعا.
+					</ab>
+					<ab xml:id="b.SON.005.014" type="verse">
+						يداه حلقتان من ذهب مرصعتان بالزبرجد. بطنه عاج ابيض مغلف بالياقوت الازرق.
+					</ab>
+					<ab xml:id="b.SON.005.015" type="verse">
+						ساقاه عمودا رخام مؤسسان على قاعدتين من ابريز. طلعته كلبنان. فتى كالارز.
+					</ab>
+					<ab xml:id="b.SON.005.016" type="verse">
+						حلقه حلاوة وكله مشتهيات. هذا حبيبي وهذا خليلي يا بنات اورشليم
+					</ab>
+				</div>
+				<div xml:id="b.SON.006" type="chapter">
+				<head>6</head>
+					<ab xml:id="b.SON.006.001" type="verse">
+						اين ذهب حبيبك ايتها الجميلة بين النساء اين توجه حبيبك فنطلبه معك
+					</ab>
+					<ab xml:id="b.SON.006.002" type="verse">
+						حبيبي نزل الى جنته الى خمائل الطيب ليرعى في الجنات ويجمع السوسن.
+					</ab>
+					<ab xml:id="b.SON.006.003" type="verse">
+						انا لحبيبي وحبيبي لي. الراعي بين السوسن
+					</ab>
+					<ab xml:id="b.SON.006.004" type="verse">
+						انت جميلة يا حبيبتي كترصة حسنة كاورشليم مرهبة كجيش بألوية.
+					</ab>
+					<ab xml:id="b.SON.006.005" type="verse">
+						حولي عني عينيك فانهما قد غلبتاني. شعرك كقطيع المعز الرابض في جلعاد.
+					</ab>
+					<ab xml:id="b.SON.006.006" type="verse">
+						اسنانك كقطيع نعاج صادرة من الغسل اللواتي كل واحدة متئم وليس فيها عقيم.
+					</ab>
+					<ab xml:id="b.SON.006.007" type="verse">
+						كفلقة رمانة خدك تحت نقابك.
+					</ab>
+					<ab xml:id="b.SON.006.008" type="verse">
+						هنّ ستون ملكة وثمانون سرية وعذارى بلا عدد.
+					</ab>
+					<ab xml:id="b.SON.006.009" type="verse">
+						واحدة هي حمامتي كاملتي. الوحيدة لامها هي. عقيلة والدتها هي. رأتها البنات فطوّبنها. الملكات والسراري فمدحتها.
+					</ab>
+					<ab xml:id="b.SON.006.010" type="verse">
+						من هي المشرفة مثل الصباح جميلة كالقمر طاهرة كالشمس مرهبة كجيش بألوية
+					</ab>
+					<ab xml:id="b.SON.006.011" type="verse">
+						نزلت الى جنة الجوز لانظر الى خضر الوادي ولانظر هل أقعل الكرم هل نور الرمان.
+					</ab>
+					<ab xml:id="b.SON.006.012" type="verse">
+						فلم اشعر الا وقد جعلتني نفسي بين مركبات قوم شريف
+					</ab>
+					<ab xml:id="b.SON.006.013" type="verse">
+						ارجعي ارجعي يا شولميث ارجعي ارجعي فننظر اليك ماذا ترون في شولميث مثل رقص صفين
+					</ab>
+				</div>
+				<div xml:id="b.SON.007" type="chapter">
+				<head>7</head>
+					<ab xml:id="b.SON.007.001" type="verse">
+						ما اجمل رجليك بالنعلين يا بنت الكريم. دوائر فخذيك مثل الحلي صنعة يدي صناع.
+					</ab>
+					<ab xml:id="b.SON.007.002" type="verse">
+						سرتك كاس مدورة لا يعوزها شراب ممزوج. بطنك صبرة حنطة مسيجة بالسوسن.
+					</ab>
+					<ab xml:id="b.SON.007.003" type="verse">
+						ثدياك كخشفتين توأمي ظبية.
+					</ab>
+					<ab xml:id="b.SON.007.004" type="verse">
+						عنقك كبرج من عاج. عيناك كالبرك في حشبون عند باب بث ربيم. انفك كبرج لبنان الناظر تجاه دمشق.
+					</ab>
+					<ab xml:id="b.SON.007.005" type="verse">
+						راسك عليك مثل الكرمل وشعر راسك كارجوان. ملك قد أسر بالخصل.
+					</ab>
+					<ab xml:id="b.SON.007.006" type="verse">
+						ما اجملك وما احلاك ايتها الحبيبة باللذّات.
+					</ab>
+					<ab xml:id="b.SON.007.007" type="verse">
+						قامتك هذه شبيهة بالنخلة وثدياك بالعناقيد.
+					</ab>
+					<ab xml:id="b.SON.007.008" type="verse">
+						قلت اني اصعد الى النخلة وامسك بعذوقها. وتكون ثدياك كعناقيد الكرم ورائحة انفك كالتفاح
+					</ab>
+					<ab xml:id="b.SON.007.009" type="verse">
+						وحنكك كأجود الخمر--لحبيبي السائغة المرقرقة السائحة على شفاه النائمين
+					</ab>
+					<ab xml:id="b.SON.007.010" type="verse">
+						انا لحبيبي واليّ اشتياقه.
+					</ab>
+					<ab xml:id="b.SON.007.011" type="verse">
+						تعال يا حبيبي لنخرج الى الحقل ولنبت في القرى.
+					</ab>
+					<ab xml:id="b.SON.007.012" type="verse">
+						لنبكرنّ الى الكروم لننظر هل ازهر الكرم هل تفتح القعال هل نور الرمان. هنالك اعطيك حبي.
+					</ab>
+					<ab xml:id="b.SON.007.013" type="verse">
+						اللفاح يفوح رائحة وعند ابوابنا كل النفائس من جديدة وقديمة ذخرتها لك يا حبيبي
+					</ab>
+				</div>
+				<div xml:id="b.SON.008" type="chapter">
+				<head>8</head>
+					<ab xml:id="b.SON.008.001" type="verse">
+						ليتك كاخ لي الراضع ثديي امي فاجدك في الخارج واقبلك ولا يخزونني.
+					</ab>
+					<ab xml:id="b.SON.008.002" type="verse">
+						واقودك وادخل بك بيت امي وهي تعلمني فاسقيك من الخمر الممزوجة من سلاف رماني.
+					</ab>
+					<ab xml:id="b.SON.008.003" type="verse">
+						شماله تحت راسي ويمينه تعانقني.
+					</ab>
+					<ab xml:id="b.SON.008.004" type="verse">
+						احلفكن يا بنات اورشليم ألا تيقظن ولا تنبهن الحبيب حتى يشاء
+					</ab>
+					<ab xml:id="b.SON.008.005" type="verse">
+						من هذه الطالعة من البرية مستندة على حبيبها تحت شجرة التفاح شوقتك هناك خطبت لك امك هناك خطبت لك والدتك
+					</ab>
+					<ab xml:id="b.SON.008.006" type="verse">
+						اجعلني كخاتم على قلبك كخاتم على ساعدك. لان المحبة قوية كالموت. الغيرة قاسية كالهاوة. لهيبها لهيب نار لظى الرب.
+					</ab>
+					<ab xml:id="b.SON.008.007" type="verse">
+						مياه كثيرة لا تستطيع ان تطفئ المحبة والسيول لا تغمرها. ان اعطى الانسان كل ثروة بيته بدل المحبة تحتقر احتقارا
+					</ab>
+					<ab xml:id="b.SON.008.008" type="verse">
+						لنا اخت صغيرة ليس لها ثديان. فماذا نصنع لاختنا في يوم تخطب
+					</ab>
+					<ab xml:id="b.SON.008.009" type="verse">
+						ان تكن سورا فنبني عليها برج فضة. وان تكن بابا فنحصرها بألواح ارز
+					</ab>
+					<ab xml:id="b.SON.008.010" type="verse">
+						انا سور وثدياي كبرجين. حينئذ كنت في عينيه كواجدة سلامة
+					</ab>
+					<ab xml:id="b.SON.008.011" type="verse">
+						كان لسليمان كرم في بعل هامون. دفع الكرم الى نواطير كل واحد يؤدي عن ثمره الفا من الفضة.
+					</ab>
+					<ab xml:id="b.SON.008.012" type="verse">
+						كرمي الذي لي هو امامي. الالف لك يا سليمان ومئتان لنواطير الثمر
+					</ab>
+					<ab xml:id="b.SON.008.013" type="verse">
+						ايتها الجالسة في الجنات الاصحاب يسمعون صوتك فأسمعيني
+					</ab>
+					<ab xml:id="b.SON.008.014" type="verse">
+						اهرب يا حبيبي وكن كالظبي او كغفر الايائل على جبال الاطياب
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

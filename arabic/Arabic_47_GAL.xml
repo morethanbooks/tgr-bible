@@ -1,0 +1,536 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Galatians (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="6"/><measure commodity="verses" quantity="149"/><measure commodity="bytes" quantity="283329"/><measure commodity="characters" quantity="157562"/><measure commodity="tokens" quantity="29773"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Galatians</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q128620">Q128620</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4075945-3">4075945-3</idno><author><name>Paul the Apostle</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q9200">Q9200</idno><idno type="gnd" corresp="https://d-nb.info/gnd/118641549">118641549</idno></author></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">new</term><term type="genre">letter</term><term type="division">Letters</term><term type="genre-multilabel">letter</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.GAL" type="book">
+				<div xml:id="b.GAL.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.GAL.001.001" type="verse">
+						بولس رسول لا من الناس ولا بانسان بل بيسوع المسيح والله الآب الذي اقامه من الاموات
+					</ab>
+					<ab xml:id="b.GAL.001.002" type="verse">
+						وجميع الاخوة الذين معي الى كنائس غلاطية.
+					</ab>
+					<ab xml:id="b.GAL.001.003" type="verse">
+						نعمة لكم وسلام من الله الآب ومن ربنا يسوع المسيح
+					</ab>
+					<ab xml:id="b.GAL.001.004" type="verse">
+						الذي بذل نفسه لاجل خطايانا لينقذنا من العالم الحاضر الشرير حسب ارادة الله وابينا
+					</ab>
+					<ab xml:id="b.GAL.001.005" type="verse">
+						الذي له المجد الى ابد الآبدين. آمين
+					</ab>
+					<ab xml:id="b.GAL.001.006" type="verse">
+						اني اتعجب انكم تنتقلون هكذا سريعا عن الذي دعاكم بنعمة المسيح الى انجيل آخر
+					</ab>
+					<ab xml:id="b.GAL.001.007" type="verse">
+						ليس هو آخر غير انه يوجد قوم يزعجونكم ويريدون ان يحوّلوا انجيل المسيح.
+					</ab>
+					<ab xml:id="b.GAL.001.008" type="verse">
+						ولكن ان بشرناكم نحن او ملاك من السماء بغير ما بشرناكم فليكن اناثيما.
+					</ab>
+					<ab xml:id="b.GAL.001.009" type="verse">
+						كما سبقنا فقلنا اقول الآن ايضا ان كان احد يبشركم في غير ما قبلتم فليكن اناثيما.
+					</ab>
+					<ab xml:id="b.GAL.001.010" type="verse">
+						أفاستعطف الآن الناس ام الله. ام اطلب ان ارضي الناس. فلو كنت بعد ارضي الناس لم اكن عبدا للمسيح
+					</ab>
+					<ab xml:id="b.GAL.001.011" type="verse">
+						واعرّفكم ايها الاخوة الانجيل الذي بشرت به انه ليس بحسب انسان.
+					</ab>
+					<ab xml:id="b.GAL.001.012" type="verse">
+						لاني لم اقبله من عند انسان ولا علّمته بل باعلان يسوع المسيح.
+					</ab>
+					<ab xml:id="b.GAL.001.013" type="verse">
+						فانكم سمعتم بسيرتي قبلا في الديانة اليهودية اني كنت اضطهد كنيسة الله بافراط واتلفها.
+					</ab>
+					<ab xml:id="b.GAL.001.014" type="verse">
+						وكنت اتقدم في الديانة اليهودية على كثيرين من اترابي في جنسي اذ كنت اوفر غيرة في تقليدات آبائي.
+					</ab>
+					<ab xml:id="b.GAL.001.015" type="verse">
+						ولكن لما سرّ الله الذي افرزني من بطن امي ودعاني بنعمته
+					</ab>
+					<ab xml:id="b.GAL.001.016" type="verse">
+						ان يعلن ابنه فيّ لابشر به بين الامم للوقت لم استشر لحما ودما
+					</ab>
+					<ab xml:id="b.GAL.001.017" type="verse">
+						ولا صعدت الى اورشليم الى الرسل الذين قبلي بل انطلقت الى العربية ثم رجعت ايضا الى دمشق.
+					</ab>
+					<ab xml:id="b.GAL.001.018" type="verse">
+						ثم بعد ثلاث سنين صعدت الى اورشليم لأتعرّف ببطرس فمكثت عنده خمسة عشر يوما.
+					</ab>
+					<ab xml:id="b.GAL.001.019" type="verse">
+						ولكنني لم ار غيره من الرسل الا يعقوب اخا الرب.
+					</ab>
+					<ab xml:id="b.GAL.001.020" type="verse">
+						والذي اكتب به اليكم هوذا قدّام الله اني لست اكذب فيه.
+					</ab>
+					<ab xml:id="b.GAL.001.021" type="verse">
+						وبعد ذلك جئت الى اقاليم سورية وكيليكية.
+					</ab>
+					<ab xml:id="b.GAL.001.022" type="verse">
+						ولكنني كنت غير معروف بالوجه عند كنائس اليهودية التي في المسيح
+					</ab>
+					<ab xml:id="b.GAL.001.023" type="verse">
+						غير انهم كانوا يسمعون ان الذي كان يضطهدنا قبلا يبشر الآن بالايمان الذي كان قبلا يتلفه.
+					</ab>
+					<ab xml:id="b.GAL.001.024" type="verse">
+						فكانوا يمجدون الله فيّ
+					</ab>
+				</div>
+				<div xml:id="b.GAL.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.GAL.002.001" type="verse">
+						ثم بعد اربع عشرة سنة صعدت ايضا الى اورشليم مع برنابا آخذا معي تيطس ايضا.
+					</ab>
+					<ab xml:id="b.GAL.002.002" type="verse">
+						وانما صعدت بموجب اعلان وعرضت عليهم الانجيل الذي اكرز به بين الامم ولكن بالانفراد على المعتبرين لئلا اكون اسعى او قد سعيت باطلا.
+					</ab>
+					<ab xml:id="b.GAL.002.003" type="verse">
+						لكن لم يضطر ولا تيطس الذي كان معي وهو يوناني ان يختتن.
+					</ab>
+					<ab xml:id="b.GAL.002.004" type="verse">
+						ولكن بسبب الاخوة الكذبة المدخلين خفية الذين دخلوا اختلاسا ليتجسسوا حريتنا التي لنا في المسيح كي يستعبدونا.
+					</ab>
+					<ab xml:id="b.GAL.002.005" type="verse">
+						الذين لم نذعن لهم بالخضوع ولا ساعة ليبقى عندكم حق الانجيل.
+					</ab>
+					<ab xml:id="b.GAL.002.006" type="verse">
+						واما المعتبرون انهم شيء مهما كانوا لا فرق عندي. الله لا يأخذ بوجه انسان. فان هؤلاء المعتبرين لم يشيروا عليّ بشيء.
+					</ab>
+					<ab xml:id="b.GAL.002.007" type="verse">
+						بل بالعكس اذ رأوا اني اؤتمنت على انجيل الغرلة كما بطرس على انجيل الختان.
+					</ab>
+					<ab xml:id="b.GAL.002.008" type="verse">
+						فان الذي عمل في بطرس لرسالة الختان عمل فيّ ايضا للامم.
+					</ab>
+					<ab xml:id="b.GAL.002.009" type="verse">
+						فاذ علم بالنعمة المعطاة لي يعقوب وصفا ويوحنا المعتبرون انهم اعمدة اعطوني وبرنابا يمين الشركة لنكون نحن للامم واما هم فللختان.
+					</ab>
+					<ab xml:id="b.GAL.002.010" type="verse">
+						غير ان نذكر الفقراء. وهذا عينه كنت اعتنيت ان افعله
+					</ab>
+					<ab xml:id="b.GAL.002.011" type="verse">
+						ولكن لما أتى بطرس الى انطاكية قاومته مواجهة لانه كان ملوما.
+					</ab>
+					<ab xml:id="b.GAL.002.012" type="verse">
+						لانه قبلما أتى قوم من عند يعقوب كان يأكل مع الامم ولكن لما أتوا كان يؤخر ويفرز نفسه خائفا من الذين هم من الختان.
+					</ab>
+					<ab xml:id="b.GAL.002.013" type="verse">
+						وراءى معه باقي اليهود ايضا حتى ان برنابا ايضا انقاد الى ريائهم.
+					</ab>
+					<ab xml:id="b.GAL.002.014" type="verse">
+						لكن لما رأيت انهم لا يسلكون باستقامة حسب حق الانجيل قلت لبطرس قدام الجميع ان كنت وانت يهودي تعيش امميا لا يهوديا فلماذا تلزم الامم ان يتهوّدوا.
+					</ab>
+					<ab xml:id="b.GAL.002.015" type="verse">
+						نحن بالطبيعة يهود ولسنا من الامم خطاة
+					</ab>
+					<ab xml:id="b.GAL.002.016" type="verse">
+						اذ نعلم ان الانسان لا يتبرر باعمال الناموس بل بايمان يسوع المسيح آمنّا نحن ايضا بيسوع المسيح لنتبرر بايمان يسوع لا باعمال الناموس. لانه باعمال الناموس لا يتبرر جسد ما.
+					</ab>
+					<ab xml:id="b.GAL.002.017" type="verse">
+						فان كنا ونحن طالبون ان نتبرر في المسيح نوجد نحن انفسنا ايضا خطاة أفالمسيح خادم للخطية. حاشا.
+					</ab>
+					<ab xml:id="b.GAL.002.018" type="verse">
+						فاني ان كنت ابني ايضا هذا الذي قد هدمته فاني اظهر نفسي متعديا.
+					</ab>
+					<ab xml:id="b.GAL.002.019" type="verse">
+						لاني مت بالناموس للناموس لاحيا للّه.
+					</ab>
+					<ab xml:id="b.GAL.002.020" type="verse">
+						مع المسيح صلبت فاحيا لا انا بل المسيح يحيا فيّ. فما احياه الآن في الجسد فانما احياه في الايمان ايمان ابن الله الذي احبني واسلم نفسه لاجلي
+					</ab>
+					<ab xml:id="b.GAL.002.021" type="verse">
+						لست ابطل نعمة الله. لانه ان كان بالناموس بر فالمسيح اذا مات بلا سبب
+					</ab>
+				</div>
+				<div xml:id="b.GAL.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.GAL.003.001" type="verse">
+						ايها الغلاطيون الاغبياء من رقاكم حتى لا تذعنوا للحق انتم الذين امام عيونكم قد رسم يسوع المسيح بينكم مصلوبا.
+					</ab>
+					<ab xml:id="b.GAL.003.002" type="verse">
+						اريد ان اتعلّم منكم هذا فقط أباعمال الناموس اخذتم الروح ام بخبر الايمان.
+					</ab>
+					<ab xml:id="b.GAL.003.003" type="verse">
+						أهكذا انتم اغبياء. أبعد ما أبتدأتم بالروح تكملون الآن بالجسد
+					</ab>
+					<ab xml:id="b.GAL.003.004" type="verse">
+						أهذا المقدار احتملتم عبثا ان كان عبثا.
+					</ab>
+					<ab xml:id="b.GAL.003.005" type="verse">
+						فالذي يمنحكم الروح ويعمل قوات فيكم أباعمال الناموس ام بخبر الايمان.
+					</ab>
+					<ab xml:id="b.GAL.003.006" type="verse">
+						كما آمن ابراهيم بالله فحسب له برا.
+					</ab>
+					<ab xml:id="b.GAL.003.007" type="verse">
+						اعلموا اذا ان الذين هم من الايمان اولئك هم بنو ابراهيم.
+					</ab>
+					<ab xml:id="b.GAL.003.008" type="verse">
+						والكتاب اذ سبق فرأى ان الله بالايمان يبرر الامم سبق فبشر ابراهيم ان فيك تتبارك جميع الامم.
+					</ab>
+					<ab xml:id="b.GAL.003.009" type="verse">
+						اذا الذين هم من الايمان يتباركون مع ابراهيم المؤمن.
+					</ab>
+					<ab xml:id="b.GAL.003.010" type="verse">
+						لان جميع الذين هم من اعمال الناموس هم تحت لعنة لانه مكتوب ملعون كل من لا يثبت في جميع ما هو مكتوب في كتاب الناموس ليعمل به.
+					</ab>
+					<ab xml:id="b.GAL.003.011" type="verse">
+						ولكن ان ليس احد يتبرر بالناموس عند الله فظاهر لان البار بالايمان يحيا.
+					</ab>
+					<ab xml:id="b.GAL.003.012" type="verse">
+						ولكن الناموس ليس من الايمان بل الانسان الذي يفعلها سيحيا بها.
+					</ab>
+					<ab xml:id="b.GAL.003.013" type="verse">
+						المسيح افتدانا من لعنة الناموس اذ صار لعنة لاجلنا لانه مكتوب ملعون كل من علّق على خشبة.
+					</ab>
+					<ab xml:id="b.GAL.003.014" type="verse">
+						لتصير بركة ابراهيم للامم في المسيح يسوع لننال بالايمان موعد الروح
+					</ab>
+					<ab xml:id="b.GAL.003.015" type="verse">
+						ايها الاخوة بحسب الانسان اقول ليس احد يبطّل عهدا قد تمكن ولو من انسان او يزيد عليه.
+					</ab>
+					<ab xml:id="b.GAL.003.016" type="verse">
+						واما المواعيد فقيلت في ابراهيم وفي نسله. لا يقول وفي الانسال كانه عن كثيرين بل كانه عن واحد وفي نسلك الذي هو المسيح.
+					</ab>
+					<ab xml:id="b.GAL.003.017" type="verse">
+						وانما اقول هذا ان الناموس الذي صار بعد اربع مئة وثلاثين سنة لا ينسخ عهدا قد سبق فتمكن من الله نحو المسيح حتى يبطّل الموعد.
+					</ab>
+					<ab xml:id="b.GAL.003.018" type="verse">
+						لانه ان كانت الوراثة من الناموس فلم تكن ايضا من موعد. ولكن الله وهبها لابراهيم بموعد
+					</ab>
+					<ab xml:id="b.GAL.003.019" type="verse">
+						فلماذا الناموس. قد زيد بسبب التعديات الى ان يأتي النسل الذي قد وعد له مرتبا بملائكة في يد وسيط.
+					</ab>
+					<ab xml:id="b.GAL.003.020" type="verse">
+						واما الوسيط فلا يكون لواحد. ولكن الله واحد.
+					</ab>
+					<ab xml:id="b.GAL.003.021" type="verse">
+						فهل الناموس ضد مواعيد الله. حاشا. لانه لو أعطي ناموس قادر ان يحيي لكان بالحقيقة البر بالناموس.
+					</ab>
+					<ab xml:id="b.GAL.003.022" type="verse">
+						لكن الكتاب اغلق على الكل تحت الخطية ليعطى الموعد من ايمان يسوع المسيح للذين يؤمنون.
+					</ab>
+					<ab xml:id="b.GAL.003.023" type="verse">
+						ولكن قبلما جاء الايمان كنا محروسين تحت الناموس مغلقا علينا الى الايمان العتيد ان يعلن.
+					</ab>
+					<ab xml:id="b.GAL.003.024" type="verse">
+						اذا قد كان الناموس مؤدبنا الى المسيح لكي نتبرر بالايمان.
+					</ab>
+					<ab xml:id="b.GAL.003.025" type="verse">
+						ولكن بعد ما جاء الايمان لسنا بعد تحت مؤدب.
+					</ab>
+					<ab xml:id="b.GAL.003.026" type="verse">
+						لانكم جميعا ابناء الله بالايمان بالمسيح يسوع.
+					</ab>
+					<ab xml:id="b.GAL.003.027" type="verse">
+						لان كلكم الذين اعتمدتم بالمسيح قد لبستم المسيح.
+					</ab>
+					<ab xml:id="b.GAL.003.028" type="verse">
+						ليس يهودي ولا يوناني. ليس عبد ولا حر. ليس ذكر وانثى لانكم جميعا واحد في المسيح يسوع.
+					</ab>
+					<ab xml:id="b.GAL.003.029" type="verse">
+						فان كنتم للمسيح فانتم اذا نسل ابراهيم وحسب الموعد ورثة
+					</ab>
+				</div>
+				<div xml:id="b.GAL.004" type="chapter">
+				<head>4</head>
+					<ab xml:id="b.GAL.004.001" type="verse">
+						وانما اقول ما دام الوارث قاصرا لا يفرق شيئا عن العبد مع كونه صاحب الجميع.
+					</ab>
+					<ab xml:id="b.GAL.004.002" type="verse">
+						بل هو تحت اوصياء ووكلاء الى الوقت المؤجل من ابيه.
+					</ab>
+					<ab xml:id="b.GAL.004.003" type="verse">
+						هكذا نحن ايضا لما كنا قاصرين كنا مستعبدين تحت اركان العالم.
+					</ab>
+					<ab xml:id="b.GAL.004.004" type="verse">
+						ولكن لما جاء ملء الزمان ارسل الله ابنه مولودا من امرأة مولودا تحت الناموس
+					</ab>
+					<ab xml:id="b.GAL.004.005" type="verse">
+						ليفتدي الذين تحت الناموس لننال التبني.
+					</ab>
+					<ab xml:id="b.GAL.004.006" type="verse">
+						ثم بما انكم ابناء ارسل الله روح ابنه الى قلوبكم صارخا يا ابا الآب.
+					</ab>
+					<ab xml:id="b.GAL.004.007" type="verse">
+						اذا لست بعد عبدا بل ابنا وان كنت ابنا فوارث للّه بالمسيح
+					</ab>
+					<ab xml:id="b.GAL.004.008" type="verse">
+						لكن حينئذ اذ كنتم لا تعرفون الله استعبدتم للذين ليسوا بالطبيعة آلهة.
+					</ab>
+					<ab xml:id="b.GAL.004.009" type="verse">
+						واما الآن اذ عرفتم الله بل بالحري عرفتم من الله فكيف ترجعون ايضا الى الاركان الضعيفة الفقيرة التي تريدون ان تستعبدوا لها من جديد.
+					</ab>
+					<ab xml:id="b.GAL.004.010" type="verse">
+						أتحفظون اياما وشهورا واوقاتا وسنين.
+					</ab>
+					<ab xml:id="b.GAL.004.011" type="verse">
+						اخاف عليكم ان اكون قد تعبت فيكم عبثا
+					</ab>
+					<ab xml:id="b.GAL.004.012" type="verse">
+						اتضرع اليكم ايها الاخوة كونوا كما انا لاني انا ايضا كما انتم لم تظلموني شيئا.
+					</ab>
+					<ab xml:id="b.GAL.004.013" type="verse">
+						ولكنكم تعلمون اني بضعف الجسد بشرتكم في الاول.
+					</ab>
+					<ab xml:id="b.GAL.004.014" type="verse">
+						وتجربتي التي في جسدي لم تزدروا بها ولا كرهتموها بل كملاك من الله قبلتموني كالمسيح يسوع.
+					</ab>
+					<ab xml:id="b.GAL.004.015" type="verse">
+						فماذا كان اذا تطويبكم. لاني اشهد لكم انه لو امكن لقلعتم عيونكم واعطيتموني.
+					</ab>
+					<ab xml:id="b.GAL.004.016" type="verse">
+						أفقد صرت اذا عدوا لكم لاني اصدق لكم.
+					</ab>
+					<ab xml:id="b.GAL.004.017" type="verse">
+						يغارون لكم ليس حسنا بل يريدون ان يصدوكم لكي تغاروا لهم.
+					</ab>
+					<ab xml:id="b.GAL.004.018" type="verse">
+						حسنة هي الغيرة في الحسنى كل حين وليس حين حضوري عندكم فقط.
+					</ab>
+					<ab xml:id="b.GAL.004.019" type="verse">
+						يا اولادي الذين اتمخض بكم ايضا الى ان يتصور المسيح فيكم.
+					</ab>
+					<ab xml:id="b.GAL.004.020" type="verse">
+						ولكني كنت اريد ان اكون حاضرا عندكم الآن واغيّر صوتي لاني متحيّر فيكم
+					</ab>
+					<ab xml:id="b.GAL.004.021" type="verse">
+						قولوا لي انتم الذين تريدون ان تكونوا تحت الناموس ألستم تسمعون الناموس.
+					</ab>
+					<ab xml:id="b.GAL.004.022" type="verse">
+						فانه مكتوب انه كان لابراهيم ابنان واحد من الجارية والآخر من الحرة.
+					</ab>
+					<ab xml:id="b.GAL.004.023" type="verse">
+						لكن الذي من الجارية ولد حسب الجسد واما الذي من الحرة فبالموعد.
+					</ab>
+					<ab xml:id="b.GAL.004.024" type="verse">
+						وكل ذلك رمز لان هاتين هما العهدان احداهما من جبل سيناء الوالد للعبودية الذي هو هاجر.
+					</ab>
+					<ab xml:id="b.GAL.004.025" type="verse">
+						لان هاجر جبل سيناء في العربية. ولكنه يقابل اورشليم الحاضرة فانها مستعبدة مع بنيها.
+					</ab>
+					<ab xml:id="b.GAL.004.026" type="verse">
+						واما اورشليم العليا التي هي امنا جميعا فهي حرة.
+					</ab>
+					<ab xml:id="b.GAL.004.027" type="verse">
+						لانه مكتوب افرحي ايتها العاقر التي لم تلد. اهتفي واصرخي ايتها التي لم تتمخض فان اولاد الموحشة اكثر من التي لها زوج.
+					</ab>
+					<ab xml:id="b.GAL.004.028" type="verse">
+						واما نحن ايها الاخوة فنظير اسحق اولاد الموعد.
+					</ab>
+					<ab xml:id="b.GAL.004.029" type="verse">
+						ولكن كما كان حينئذ الذي ولد حسب الجسد يضطهد الذي حسب الروح هكذا الآن ايضا.
+					</ab>
+					<ab xml:id="b.GAL.004.030" type="verse">
+						لكن ماذا يقول الكتاب. اطرد الجارية وابنها لانه لا يرث ابن الجارية مع ابن الحرة.
+					</ab>
+					<ab xml:id="b.GAL.004.031" type="verse">
+						اذا ايها الاخوة لسنا اولاد جارية بل اولاد الحرة
+					</ab>
+				</div>
+				<div xml:id="b.GAL.005" type="chapter">
+				<head>5</head>
+					<ab xml:id="b.GAL.005.001" type="verse">
+						فاثبتوا اذا في الحرية التي قد حررنا المسيح بها ولا ترتبكوا ايضا بنير عبودية.
+					</ab>
+					<ab xml:id="b.GAL.005.002" type="verse">
+						ها انا بولس اقول لكم انه ان اختتنتم لا ينفعكم المسيح شيئا.
+					</ab>
+					<ab xml:id="b.GAL.005.003" type="verse">
+						لكن اشهد ايضا لكل انسان مختتن انه ملتزم ان يعمل بكل الناموس.
+					</ab>
+					<ab xml:id="b.GAL.005.004" type="verse">
+						قد تبطلتم عن المسيح ايها الذين تتبررون بالناموس. سقطتم من النعمة
+					</ab>
+					<ab xml:id="b.GAL.005.005" type="verse">
+						فاننا بالروح من الايمان نتوقع رجاء بر.
+					</ab>
+					<ab xml:id="b.GAL.005.006" type="verse">
+						لانه في المسيح يسوع لا الختان ينفع شيئا ولا الغرلة بل الايمان العامل بالمحبة.
+					</ab>
+					<ab xml:id="b.GAL.005.007" type="verse">
+						كنتم تسعون حسنا. فمن صدكم حتى لا تطاوعوا للحق.
+					</ab>
+					<ab xml:id="b.GAL.005.008" type="verse">
+						هذه المطاوعة ليست من الذي دعاكم.
+					</ab>
+					<ab xml:id="b.GAL.005.009" type="verse">
+						خميرة صغيرة تخمّر العجين كله.
+					</ab>
+					<ab xml:id="b.GAL.005.010" type="verse">
+						ولكنني اثق بكم في الرب انكم لا تفتكرون شيئا آخر. ولكن الذي يزعجكم سيحمل الدينونة ايّ من كان.
+					</ab>
+					<ab xml:id="b.GAL.005.011" type="verse">
+						واما انا ايها الاخوة فان كنت بعد اكرز بالختان فلماذا أضطهد بعد. اذا عثرة الصليب قد بطلت.
+					</ab>
+					<ab xml:id="b.GAL.005.012" type="verse">
+						يا ليت الذين يقلقونكم يقطعون ايضا
+					</ab>
+					<ab xml:id="b.GAL.005.013" type="verse">
+						فانكم انما دعيتم للحرية ايها الاخوة. غير انه لا تصيّروا الحرية فرصة للجسد بل بالمحبة اخدموا بعضكم بعضا.
+					</ab>
+					<ab xml:id="b.GAL.005.014" type="verse">
+						لان كل الناموس في كلمة واحده يكمل. تحب قريبك كنفسك.
+					</ab>
+					<ab xml:id="b.GAL.005.015" type="verse">
+						فاذا كنتم تنهشون وتأكلون بعضكم بعضا فانظروا لئلا تفنوا بعضكم بعضا
+					</ab>
+					<ab xml:id="b.GAL.005.016" type="verse">
+						وانما اقول اسلكوا بالروح فلا تكملوا شهوة الجسد.
+					</ab>
+					<ab xml:id="b.GAL.005.017" type="verse">
+						لان الجسد يشتهي ضد الروح والروح ضد الجسد. وهذان يقاوم احدهما الآخر حتى تفعلون ما لا تريدون.
+					</ab>
+					<ab xml:id="b.GAL.005.018" type="verse">
+						ولكن اذا انقدتم بالروح فلستم تحت الناموس.
+					</ab>
+					<ab xml:id="b.GAL.005.019" type="verse">
+						واعمال الجسد ظاهرة التي هي زنى عهارة نجاسة دعارة
+					</ab>
+					<ab xml:id="b.GAL.005.020" type="verse">
+						عبادة الاوثان سحر عداوة خصام غيرة سخط تحزب شقاق بدعة
+					</ab>
+					<ab xml:id="b.GAL.005.021" type="verse">
+						حسد قتل سكر بطر وامثال هذه التي اسبق فاقول لكم عنها كما سبقت فقلت ايضا ان الذين يفعلون مثل هذه لا يرثون ملكوت الله.
+					</ab>
+					<ab xml:id="b.GAL.005.022" type="verse">
+						واما ثمر الروح فهو محبة فرح سلام طول اناة لطف صلاح ايمان
+					</ab>
+					<ab xml:id="b.GAL.005.023" type="verse">
+						وداعة تعفف. ضد امثال هذه ليس ناموس.
+					</ab>
+					<ab xml:id="b.GAL.005.024" type="verse">
+						ولكن الذين هم للمسيح قد صلبوا الجسد مع الاهواء والشهوات.
+					</ab>
+					<ab xml:id="b.GAL.005.025" type="verse">
+						ان كنا نعيش بالروح فلنسلك ايضا بحسب الروح.
+					</ab>
+					<ab xml:id="b.GAL.005.026" type="verse">
+						لا نكن معجبين نغاضب بعضنا بعضا ونحسد بعضنا بعضا
+					</ab>
+				</div>
+				<div xml:id="b.GAL.006" type="chapter">
+				<head>6</head>
+					<ab xml:id="b.GAL.006.001" type="verse">
+						ايها الاخوة ان انسبق انسان فأخذ في زلة ما فاصلحوا انتم الروحانيين مثل هذا بروح الوداعة ناظرا الى نفسك لئلا تجرب انت ايضا.
+					</ab>
+					<ab xml:id="b.GAL.006.002" type="verse">
+						احملوا بعضكم اثقال بعض وهكذا تمموا ناموس المسيح.
+					</ab>
+					<ab xml:id="b.GAL.006.003" type="verse">
+						لانه ان ظن احد انه شيء وهو ليس شيئا فانه يغش نفسه.
+					</ab>
+					<ab xml:id="b.GAL.006.004" type="verse">
+						ولكن ليمتحن كل واحد عمله وحينئذ يكون له الفخر من جهة نفسه فقط لا من جهة غيره.
+					</ab>
+					<ab xml:id="b.GAL.006.005" type="verse">
+						لان كل واحد سيحمل حمل نفسه
+					</ab>
+					<ab xml:id="b.GAL.006.006" type="verse">
+						ولكن ليشارك الذي يتعلّم الكلمة المعلّم في جميع الخيرات.
+					</ab>
+					<ab xml:id="b.GAL.006.007" type="verse">
+						لا تضلوا. الله لا يشمخ عليه. فان الذي يزرعه الانسان اياه يحصد ايضا.
+					</ab>
+					<ab xml:id="b.GAL.006.008" type="verse">
+						لان من يزرع لجسده فمن الجسد يحصد فسادا. ومن يزرع للروح فمن الروح يحصد حياة ابدية.
+					</ab>
+					<ab xml:id="b.GAL.006.009" type="verse">
+						فلا نفشل في عمل الخير لاننا سنحصد في وقته ان كنا لا نكل.
+					</ab>
+					<ab xml:id="b.GAL.006.010" type="verse">
+						فاذا حسبما لنا فرصة فلنعمل الخير للجميع ولا سيما لاهل الايمان
+					</ab>
+					<ab xml:id="b.GAL.006.011" type="verse">
+						انظروا ما اكبر الاحرف التي كتبتها اليكم بيدي.
+					</ab>
+					<ab xml:id="b.GAL.006.012" type="verse">
+						جميع الذين يريدون ان يعملوا منظرا حسنا في الجسد هؤلاء يلزمونكم ان تختتنوا لئلا يضطهدوا لاجل صليب المسيح فقط.
+					</ab>
+					<ab xml:id="b.GAL.006.013" type="verse">
+						لان الذين يختتنون هم لا يحفظون الناموس بل يريدون ان تختتنوا انتم لكي يفتخروا في جسدكم.
+					</ab>
+					<ab xml:id="b.GAL.006.014" type="verse">
+						واما من جهتي فحاشا لي ان افتخر الا بصليب ربنا يسوع المسيح الذي به قد صلب العالم لي وانا للعالم.
+					</ab>
+					<ab xml:id="b.GAL.006.015" type="verse">
+						لانه في المسيح يسوع ليس الختان ينفع شيئا ولا الغرلة بل الخليقة الجديدة.
+					</ab>
+					<ab xml:id="b.GAL.006.016" type="verse">
+						فكل الذين يسلكون بحسب هذا القانون عليهم سلام ورحمة وعلى اسرائيل الله.
+					</ab>
+					<ab xml:id="b.GAL.006.017" type="verse">
+						في ما بعد لا يجلب احد عليّ اتعابا لاني حامل في جسدي سمات الرب يسوع
+					</ab>
+					<ab xml:id="b.GAL.006.018" type="verse">
+						نعمة ربنا يسوع المسيح مع روحكم ايها الاخوة. آمين
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

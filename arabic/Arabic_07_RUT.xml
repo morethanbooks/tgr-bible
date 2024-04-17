@@ -1,0 +1,338 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ruth (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="4"/><measure commodity="verses" quantity="85"/><measure commodity="bytes" quantity="3242428"/><measure commodity="characters" quantity="1800406"/><measure commodity="tokens" quantity="336368"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Ruth</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q80038">Q80038</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4076907-0">4076907-0</idno></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">old</term><term type="genre">historical</term><term type="division">Historical</term><term type="genre-multilabel">historical</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.RUT" type="book">
+				<div xml:id="b.RUT.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.RUT.001.001" type="verse">
+						حدث في ايام حكم القضاة انه صار جوع في الارض فذهب رجل من بيت لحم يهوذا ليتغرب في بلاد موآب هو وامرأته وابناه.
+					</ab>
+					<ab xml:id="b.RUT.001.002" type="verse">
+						واسم الرجل أليمالك واسم امرأته نعمي واسما ابنيه محلون وكليون. افراتيون من بيت لحم يهوذا فأتوا الى بلاد موآب وكانوا هناك.
+					</ab>
+					<ab xml:id="b.RUT.001.003" type="verse">
+						ومات أليمالك رجل نعمي وبقيت هي وابناها.
+					</ab>
+					<ab xml:id="b.RUT.001.004" type="verse">
+						فأخذا لهما امرأتين موآبيتين اسم احداهما عرفة واسم الاخرى راعوث واقاما هناك نحو عشر سنين.
+					</ab>
+					<ab xml:id="b.RUT.001.005" type="verse">
+						ثم ماتا كلاهما محلون وكليون فتركت المرأة من ابنيها ومن رجلها
+					</ab>
+					<ab xml:id="b.RUT.001.006" type="verse">
+						فقامت هي وكنتاها ورجعت من بلاد موآب لانها سمعت في بلاد موآب ان الرب قد افتقد شعبه ليعطيهم خبزا.
+					</ab>
+					<ab xml:id="b.RUT.001.007" type="verse">
+						وخرجت من المكان الذي كانت فيه وكنتاها معها وسرن في الطريق للرجوع الى ارض يهوذا.
+					</ab>
+					<ab xml:id="b.RUT.001.008" type="verse">
+						فقالت نعمي لكنتيها اذهبا ارجعا كل واحدة الى بيت امها. وليصنع الرب معكما احسانا كما صنعتما بالموتى وبي.
+					</ab>
+					<ab xml:id="b.RUT.001.009" type="verse">
+						وليعطكما الرب ان تجدا راحة كل واحدة في بيت رجلها. فقبّلتهما ورفعن اصواتهنّ وبكين.
+					</ab>
+					<ab xml:id="b.RUT.001.010" type="verse">
+						فقالتا لها اننا نرجع معك الى شعبك.
+					</ab>
+					<ab xml:id="b.RUT.001.011" type="verse">
+						فقالت نعمي ارجعا يا بنتيّ. لماذا تذهبان معي. هل في احشائي بنون بعد حتى يكونوا لكما رجالا.
+					</ab>
+					<ab xml:id="b.RUT.001.012" type="verse">
+						ارجعا يا بنتي واذهبا لاني قد شخت عن ان اكون لرجل. وان قلت لي رجاء ايضا باني اصير هذه الليلة لرجل وألد بنين ايضا
+					</ab>
+					<ab xml:id="b.RUT.001.013" type="verse">
+						هل تصبران لهم حتى يكبروا. هل تنحجزان من اجلهم عن ان تكونا لرجل. لا يا بنتيّ فاني مغمومة جدا من اجلكما لان يد الرب قد خرجت عليّ.
+					</ab>
+					<ab xml:id="b.RUT.001.014" type="verse">
+						ثم رفعن اصواتهنّ وبكين ايضا. فقبّلت عرفة حماتها واما راعوث فلصقت بها.
+					</ab>
+					<ab xml:id="b.RUT.001.015" type="verse">
+						فقالت هوذا قد رجعت سلفتك الى شعبها وآلهتها. ارجعي انت وراء سلفتك.
+					</ab>
+					<ab xml:id="b.RUT.001.016" type="verse">
+						فقالت راعوث لا تلحّي عليّ ان اتركك وارجع عنك لانه حيثما ذهبت اذهب وحيثما بتّ ابيت. شعبك شعبي والهك الهي.
+					</ab>
+					<ab xml:id="b.RUT.001.017" type="verse">
+						حيثما مت اموت وهناك اندفن. هكذا يفعل الرب بي وهكذا يزيد. انما الموت يفصل بيني وبينك.
+					</ab>
+					<ab xml:id="b.RUT.001.018" type="verse">
+						فلما رأت انها مشدّدة على الذهاب معها كفّت عن الكلام اليها
+					</ab>
+					<ab xml:id="b.RUT.001.019" type="verse">
+						فذهبتا كلتاهما حتى دخلتا بيت لحم وكان عند دخولهما بيت لحم ان المدينة كلها تحرّكت بسببهما وقالوا أهذه نعمي.
+					</ab>
+					<ab xml:id="b.RUT.001.020" type="verse">
+						فقالت لهم لا تدعوني نعمي بل ادعوني مرّة لان القدير قد أمرّني جدا.
+					</ab>
+					<ab xml:id="b.RUT.001.021" type="verse">
+						اني ذهبت ممتلئة وارجعني الرب فارغة لماذا تدعونني نعمي والرب قد اذلّني والقدير قد كسّرني.
+					</ab>
+					<ab xml:id="b.RUT.001.022" type="verse">
+						فرجعت نعمي وراعوث الموآبية كنتها معها التي رجعت من بلاد موآب ودخلتا بيت لحم في ابتداء حصاد الشعير
+					</ab>
+				</div>
+				<div xml:id="b.RUT.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.RUT.002.001" type="verse">
+						وكان لنعمي ذو قرابة لرجلها جبار بأس من عشيرة اليمالك اسمه بوعز
+					</ab>
+					<ab xml:id="b.RUT.002.002" type="verse">
+						فقالت راعوث الموآبية لنعمي دعيني اذهب الى الحقل والتقط سنابل وراء من اجد نعمة في عينيه. فقالت لها اذهبي يا بنتي.
+					</ab>
+					<ab xml:id="b.RUT.002.003" type="verse">
+						فذهبت وجاءت والتقطت في الحقل وراء الحصادين فاتفق نصيبها في قطعة حقل لبوعز الذي من عشيرة اليمالك.
+					</ab>
+					<ab xml:id="b.RUT.002.004" type="verse">
+						واذا ببوعز قد جاء من بيت لحم وقال للحصادين الرب معكم. فقالوا له يباركك الرب.
+					</ab>
+					<ab xml:id="b.RUT.002.005" type="verse">
+						فقال بوعز لغلامه الموكل على الحصادين لمن هذه الفتاة.
+					</ab>
+					<ab xml:id="b.RUT.002.006" type="verse">
+						فاجاب الغلام الموكل على الحصادين وقال هي فتاة موآبية قد رجعت مع نعمي من بلاد موآب
+					</ab>
+					<ab xml:id="b.RUT.002.007" type="verse">
+						وقالت دعوني التقط واجمع بين الحزم وراء الحصادين. فجاءت ومكثت من الصباح الى الآن. قليلا ما لبثت في البيت
+					</ab>
+					<ab xml:id="b.RUT.002.008" type="verse">
+						فقال بوعز لراعوث ألا تسمعين يا بنتي. لا تذهبي لتلتقطي في حقل آخر وايضا لا تبرحي من ههنا بل هنا لازمي فتياتي.
+					</ab>
+					<ab xml:id="b.RUT.002.009" type="verse">
+						عيناك على الحقل الذي يحصدون واذهبي وراءهم. ألم اوص الغلمان ان لا يمسّوك. واذا عطشت فاذهبي الى الآنية واشربي مما استقاه الغلمان.
+					</ab>
+					<ab xml:id="b.RUT.002.010" type="verse">
+						فسقطت على وجهها وسجدت الى الارض وقالت له كيف وجدت نعمة في عينيك حتى تنظر اليّ وانا غريبة.
+					</ab>
+					<ab xml:id="b.RUT.002.011" type="verse">
+						فاجاب بوعز وقال لها انني قد اخبرت بكل ما فعلت بحماتك بعد موت رجلك حتى تركت اباك وامك وارض مولدك وسرت الى شعب لم تعرفيه من قبل.
+					</ab>
+					<ab xml:id="b.RUT.002.012" type="verse">
+						ليكافئ الرب عملك وليكن اجرك كاملا من عند الرب اله اسرائيل الذي جئت لكي تحتمي تحت جناحيه.
+					</ab>
+					<ab xml:id="b.RUT.002.013" type="verse">
+						فقالت ليتني اجد نعمة في عينيك يا سيدي لانك قد عزيتني وطيبت قلب جاريتك وانا لست كواحدة من جواريك.
+					</ab>
+					<ab xml:id="b.RUT.002.014" type="verse">
+						فقال لها بوعز عند وقت الاكل تقدمي الى ههنا وكلي من الخبز واغمسي لقمتك في الخل. فجلست بجانب الحصادين فناولها فريكا فأكلت وشبعت وفضل عنها.
+					</ab>
+					<ab xml:id="b.RUT.002.015" type="verse">
+						ثم قامت لتلتقط. فأمر بوعز غلمانه قائلا دعوها تلتقط بين الحزم ايضا ولا تؤذوها
+					</ab>
+					<ab xml:id="b.RUT.002.016" type="verse">
+						وأنسلوا ايضا لها من الشمائل ودعوها تلتقط ولا تنتهروها
+					</ab>
+					<ab xml:id="b.RUT.002.017" type="verse">
+						فالتقطت في الحقل الى المساء وخبطت ما التقطته فكان نحو ايفة شعير.
+					</ab>
+					<ab xml:id="b.RUT.002.018" type="verse">
+						فحملته ودخلت المدينة فرأت حماتها ما التقطته واخرجت واعطتها ما فضل عنها بعد شبعها.
+					</ab>
+					<ab xml:id="b.RUT.002.019" type="verse">
+						فقالت لها حماتها اين التقطت اليوم واين اشتغلت. ليكن الناظر اليك مباركا. فاخبرت حماتها بالذي اشتغلت معه وقالت اسم الرجل الذي اشتغلت معه اليوم بوعز.
+					</ab>
+					<ab xml:id="b.RUT.002.020" type="verse">
+						فقالت نعمي لكنتها مبارك هو من الرب لانه لم يترك المعروف مع الاحياء والموتى. ثم قالت لها نعمي الرجل ذو قرابة لنا. هو ثاني وليّنا.
+					</ab>
+					<ab xml:id="b.RUT.002.021" type="verse">
+						فقالت راعوث الموآبية انه قال لي ايضا لازمي فتياتي حتى يكملوا جميع حصادي.
+					</ab>
+					<ab xml:id="b.RUT.002.022" type="verse">
+						فقالت نعمي لراعوث كنّتها انه حسن يا بنتي ان تخرجي مع فتياته حتى لا يقعوا بك في حقل آخر.
+					</ab>
+					<ab xml:id="b.RUT.002.023" type="verse">
+						فلازمت فتيات بوعز في الالتقاط حتى انتهى حصاد الشعير وحصاد الحنطة وسكنت مع حماتها
+					</ab>
+				</div>
+				<div xml:id="b.RUT.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.RUT.003.001" type="verse">
+						وقالت لها نعمي حماتها يا بنتي ألا التمس لك راحة ليكون لك خير.
+					</ab>
+					<ab xml:id="b.RUT.003.002" type="verse">
+						فالآن أليس بوعز ذا قرابة لنا الذي كنت مع فتياته. ها هو يذري بيدر الشعير الليلة.
+					</ab>
+					<ab xml:id="b.RUT.003.003" type="verse">
+						فاغتسلي وتدهّني والبسي ثيابك وانزلي الى البيدر ولكن لا تعرفي عند الرجل حتى يفرغ من الاكل والشرب.
+					</ab>
+					<ab xml:id="b.RUT.003.004" type="verse">
+						ومتى اضطجع فاعلمي المكان الذي يضطجع فيه وادخلي واكشفي ناحية رجليه واضطجعي وهو يخبرك بما تعملين.
+					</ab>
+					<ab xml:id="b.RUT.003.005" type="verse">
+						فقالت لها كل ما قلت اصنع
+					</ab>
+					<ab xml:id="b.RUT.003.006" type="verse">
+						فنزلت الى البيدر وعملت حسب كل ما أمرتها به حماتها.
+					</ab>
+					<ab xml:id="b.RUT.003.007" type="verse">
+						فاكل بوعز وشرب وطاب قلبه ودخل ليضطجع في طرف العرمة فدخلت سرّا وكشفت ناحية رجليه واضطجعت.
+					</ab>
+					<ab xml:id="b.RUT.003.008" type="verse">
+						وكان عند انتصاف الليل ان الرجل اضطرب والتفت واذا بامرأة مضطجعة عند رجليه.
+					</ab>
+					<ab xml:id="b.RUT.003.009" type="verse">
+						فقال من انت فقالت انا راعوث امتك فابسط ذيل ثوبك على امتك لانك وليّ.
+					</ab>
+					<ab xml:id="b.RUT.003.010" type="verse">
+						فقال انك مباركة من الرب يا بنتي لانك قد احسنت معروفك في الاخير اكثر من الاول اذ لم تسعي وراء الشبان فقراء كانوا او اغنياء.
+					</ab>
+					<ab xml:id="b.RUT.003.011" type="verse">
+						والآن يا بنتي لا تخافي. كل ما تقولين افعل لك. لان جميع ابواب شعبي تعلم انك امرأة فاضلة.
+					</ab>
+					<ab xml:id="b.RUT.003.012" type="verse">
+						والآن صحيح اني وليّ ولكن يوجد وليّ اقرب مني.
+					</ab>
+					<ab xml:id="b.RUT.003.013" type="verse">
+						بيتي الليلة ويكون في الصباح انه ان قضى لك حق الولي فحسنا. ليقض. وان لم يشأ ان يقضي لك حق الوليّ فانا اقضي لك حيّ هو الرب. اضطجعي الى الصباح
+					</ab>
+					<ab xml:id="b.RUT.003.014" type="verse">
+						فاضطجعت عند رجليه الى الصباح ثم قامت قبل ان يقدر الواحد على معرفة صاحبه. وقال لا يعلم ان المرأة جاءت الى البيدر.
+					</ab>
+					<ab xml:id="b.RUT.003.015" type="verse">
+						ثم قال هاتي الرداء الذي عليك وامسكيه فامسكته فاكتال ستة من الشعير ووضعها عليها ثم دخل المدينة.
+					</ab>
+					<ab xml:id="b.RUT.003.016" type="verse">
+						فجاءت الى حماتها فقالت من انت يا بنتي. فاخبرتها بكل ما فعل لها الرجل.
+					</ab>
+					<ab xml:id="b.RUT.003.017" type="verse">
+						وقالت هذه الستة من الشعير اعطاني لانه قال لا تجيئي فارغة الى حماتك.
+					</ab>
+					<ab xml:id="b.RUT.003.018" type="verse">
+						فقالت اجلسي يا بنتي حتى تعلمي كيف يقع الأمر. لان الرجل لا يهدأ حتى يتمّم الامر اليوم
+					</ab>
+				</div>
+				<div xml:id="b.RUT.004" type="chapter">
+				<head>4</head>
+					<ab xml:id="b.RUT.004.001" type="verse">
+						فصعد بوعز الى الباب وجلس هناك واذا بالولي الذي تكلم عنه بوعز عابر. فقال مل واجلس هنا انت يا فلان الفلاني فمال وجلس.
+					</ab>
+					<ab xml:id="b.RUT.004.002" type="verse">
+						ثم اخذ عشرة رجال من شيوخ المدينة وقال لهم اجلسوا هنا فجلسوا.
+					</ab>
+					<ab xml:id="b.RUT.004.003" type="verse">
+						ثم قال للولي ان نعمي التي رجعت من بلاد موآب تبيع قطعة الحقل التي لاخينا اليمالك.
+					</ab>
+					<ab xml:id="b.RUT.004.004" type="verse">
+						فقلت اني اخبرك قائلا اشتر قدام الجالسين وقدام شيوخ شعبي. فان كنت تفكّ ففكّ. وان كنت لا تفكّ فاخبرني لاعلم لانه ليس غيرك يفك وانا بعدك. فقال اني افكّ.
+					</ab>
+					<ab xml:id="b.RUT.004.005" type="verse">
+						فقال بوعز يوم تشتري الحقل من يد نعمي تشتري ايضا من يد راعوث الموآبية امرأة الميت لتقيم اسم الميت على ميراثه.
+					</ab>
+					<ab xml:id="b.RUT.004.006" type="verse">
+						فقال الولي لا اقدر ان افك لنفسي لئلا افسد ميراثي. ففكّ انت لنفسك فكاكي لاني لا اقدر ان افكّ.
+					</ab>
+					<ab xml:id="b.RUT.004.007" type="verse">
+						وهذه هي العادة سابقا في اسرائيل في امر الفكاك والمبادلة لاجل اثبات كل امر يخلع الرجل نعله ويعطيه لصاحبه. فهذه هي العادة في اسرائيل.
+					</ab>
+					<ab xml:id="b.RUT.004.008" type="verse">
+						فقال الولي لبوعز اشتر لنفسك. وخلع نعله
+					</ab>
+					<ab xml:id="b.RUT.004.009" type="verse">
+						فقال بوعز للشيوخ ولجميع الشعب انتم شهود اليوم اني قد اشتريت كل ما لاليمالك وكل ما لكليون ومحلون من يد نعمي.
+					</ab>
+					<ab xml:id="b.RUT.004.010" type="verse">
+						وكذا راعوث الموآبية امرأة محلون قد اشتريتها لي امرأة لاقيم اسم الميت على ميراثه ولا ينقرض اسم الميت من بين اخوته ومن باب مكانه. انتم شهود اليوم.
+					</ab>
+					<ab xml:id="b.RUT.004.011" type="verse">
+						فقال جميع الشعب الذين في الباب والشيوخ نحن شهود. فليجعل الرب المرأة الداخلة الى بيتك كراحيل وكليئة اللتين بنتا بيت اسرائيل. فاصنع ببأس في افراتة وكن ذا اسم في بيت لحم.
+					</ab>
+					<ab xml:id="b.RUT.004.012" type="verse">
+						وليكن بيتك كبيت فارص الذي ولدته ثامار ليهوذا من النسل الذي يعطيك الرب من هذه الفتاة
+					</ab>
+					<ab xml:id="b.RUT.004.013" type="verse">
+						فاخذ بوعز راعوث امرأة ودخل عليها فاعطاها الرب حبلا فولدت ابنا.
+					</ab>
+					<ab xml:id="b.RUT.004.014" type="verse">
+						فقالت النساء لنعمي مبارك الرب الذي لم يعدمك وليّا اليوم لكي يدعى اسمه في اسرائيل.
+					</ab>
+					<ab xml:id="b.RUT.004.015" type="verse">
+						ويكون لك لارجاع نفس واعالة شيبتك. لان كنتك التي احبتك قد ولدته وهي خير لك من سبعة بنين.
+					</ab>
+					<ab xml:id="b.RUT.004.016" type="verse">
+						فأخذت نعمي الولد ووضعته في حضنها وصارت له مربّية.
+					</ab>
+					<ab xml:id="b.RUT.004.017" type="verse">
+						وسمّته الجارات اسما قائلات قد ولد ابن لنعمي ودعون اسمه عوبيد. هو ابو يسّى ابي داود
+					</ab>
+					<ab xml:id="b.RUT.004.018" type="verse">
+						وهذه مواليد فارص. فارص ولد حصرون.
+					</ab>
+					<ab xml:id="b.RUT.004.019" type="verse">
+						وحصرون ولد رام ورام ولد عميناداب.
+					</ab>
+					<ab xml:id="b.RUT.004.020" type="verse">
+						وعميناداب ولد نحشون ونحشون ولد سلمون.
+					</ab>
+					<ab xml:id="b.RUT.004.021" type="verse">
+						وسلمون ولد بوعز وبوعز ولد عوبيد
+					</ab>
+					<ab xml:id="b.RUT.004.022" type="verse">
+						وعوبيد ولد يسّى ويسّى ولد داود
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

@@ -1,0 +1,149 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Philemon (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="1"/><measure commodity="verses" quantity="25"/><measure commodity="bytes" quantity="171705"/><measure commodity="characters" quantity="95604"/><measure commodity="tokens" quantity="18062"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Philemon</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q131104">Q131104</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4075950-7">4075950-7</idno><author><name>Paul the Apostle</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q9200">Q9200</idno><idno type="gnd" corresp="https://d-nb.info/gnd/118641549">118641549</idno></author></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">new</term><term type="genre">letter</term><term type="division">Letters</term><term type="genre-multilabel">letter</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.PHM" type="book">
+				<div xml:id="b.PHM.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.PHM.001.001" type="verse">
+						بولس اسير يسوع المسيح وتيموثاوس الاخ الى فليمون المحبوب والعامل معنا
+					</ab>
+					<ab xml:id="b.PHM.001.002" type="verse">
+						والى ابفيّة المحبوبة وارخبّس المتجند معنا والى الكنيسة التي في بيتك
+					</ab>
+					<ab xml:id="b.PHM.001.003" type="verse">
+						نعمة لكم وسلام من الله ابينا والرب يسوع المسيح
+					</ab>
+					<ab xml:id="b.PHM.001.004" type="verse">
+						اشكر الهي كل حين ذاكرا اياك في صلواتي
+					</ab>
+					<ab xml:id="b.PHM.001.005" type="verse">
+						سامعا بمحبتك والايمان الذي لك نحو الرب يسوع ولجميع القديسين
+					</ab>
+					<ab xml:id="b.PHM.001.006" type="verse">
+						لكي تكون شركة ايمانك فعّالة في معرفة كل الصلاح الذي فيكم لاجل المسيح يسوع.
+					</ab>
+					<ab xml:id="b.PHM.001.007" type="verse">
+						لان لنا فرحا كثيرا وتعزية بسبب محبتك لان احشاء القديسين قد استراحت بك ايها الاخ
+					</ab>
+					<ab xml:id="b.PHM.001.008" type="verse">
+						لذلك وان كان لي بالمسيح ثقة كثيرة ان آمرك بما يليق
+					</ab>
+					<ab xml:id="b.PHM.001.009" type="verse">
+						من اجل المحبة اطلب بالحري اذ انا انسان هكذا نظير بولس الشيخ والآن اسير يسوع المسيح ايضا
+					</ab>
+					<ab xml:id="b.PHM.001.010" type="verse">
+						اطلب اليك لاجل ابني انسيمس الذي ولدته في قيودي
+					</ab>
+					<ab xml:id="b.PHM.001.011" type="verse">
+						الذي كان قبلا غير نافع لك ولكنه الآن نافع لك ولي
+					</ab>
+					<ab xml:id="b.PHM.001.012" type="verse">
+						الذي رددته. فاقبله الذي هو احشائي.
+					</ab>
+					<ab xml:id="b.PHM.001.013" type="verse">
+						الذي كنت اشاء ان امسكه عندي لكي يخدمني عوضا عنك في قيود الانجيل
+					</ab>
+					<ab xml:id="b.PHM.001.014" type="verse">
+						ولكن بدون رأيك لم ارد ان افعل شيئا لكي لا يكون خيرك كانه على سبيل الاضطرار بل على سبيل الاختيار.
+					</ab>
+					<ab xml:id="b.PHM.001.015" type="verse">
+						لانه ربما لاجل هذا افترق عنك الى ساعة لكي يكون لك الى الابد
+					</ab>
+					<ab xml:id="b.PHM.001.016" type="verse">
+						لا كعبد في ما بعد بل افضل من عبد اخا محبوبا ولا سيما اليّ فكم بالحري اليك في الجسد والرب جميعا
+					</ab>
+					<ab xml:id="b.PHM.001.017" type="verse">
+						فان كنت تحسبني شريكا فاقبله نظيري.
+					</ab>
+					<ab xml:id="b.PHM.001.018" type="verse">
+						ثم ان كان قد ظلمك بشيء او لك عليه دين فاحسب ذلك عليّ.
+					</ab>
+					<ab xml:id="b.PHM.001.019" type="verse">
+						انا بولس كتبت بيدي. انا اوفي. حتى لا اقول لك انك مديون لي بنفسك ايضا.
+					</ab>
+					<ab xml:id="b.PHM.001.020" type="verse">
+						نعم ايها الاخ ليكن لي فرح بك في الرب. ارح احشائي في الرب.
+					</ab>
+					<ab xml:id="b.PHM.001.021" type="verse">
+						اذ انا واثق باطاعتك كتبت اليك عالما انك تفعل ايضا اكثر مما اقول
+					</ab>
+					<ab xml:id="b.PHM.001.022" type="verse">
+						ومع هذا اعدد لي ايضا منزلا لاني ارجو انني بصلواتكم سأوهب لكم
+					</ab>
+					<ab xml:id="b.PHM.001.023" type="verse">
+						يسلم عليك ابفراس المأسور معي في المسيح يسوع
+					</ab>
+					<ab xml:id="b.PHM.001.024" type="verse">
+						ومرقس وارسترخس وديماس ولوقا العاملون معي.
+					</ab>
+					<ab xml:id="b.PHM.001.025" type="verse">
+						نعمة ربنا يسوع المسيح مع روحكم. آمين. الى فليمون كتبت من رومية على يد انسيمس الخادم
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Obadiah (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="1"/><measure commodity="verses" quantity="21"/><measure commodity="bytes" quantity="1147747"/><measure commodity="characters" quantity="638261"/><measure commodity="tokens" quantity="120528"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Obadiah</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q174753">Q174753</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4042864-3">4042864-3</idno><author><name>Obadiah</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q479645">Q479645</idno><idno type="gnd" corresp="https://d-nb.info/gnd/118641387">118641387</idno></author></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">old</term><term type="genre">prophecy</term><term type="division">Prophetic</term><term type="genre-multilabel">prophecy</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.OBA" type="book">
+				<div xml:id="b.OBA.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.OBA.001.001" type="verse">
+						رؤيا عوبديا. هكذا قال السيد الرب عن ادوم. سمعنا خبرا من قبل الرب وأرسل رسول بين الامم. قوموا ولنقم عليها للحرب.
+					</ab>
+					<ab xml:id="b.OBA.001.002" type="verse">
+						اني قد جعلتك صغيرا بين الامم. انت محتقر جدا.
+					</ab>
+					<ab xml:id="b.OBA.001.003" type="verse">
+						تكبر قلبك قد خدعك ايها الساكن في محاجئ الصخر رفعة مقعده القائل في قلبه من يحدرني الى الارض.
+					</ab>
+					<ab xml:id="b.OBA.001.004" type="verse">
+						ان كنت ترتفع كالنسر وان كان عشّك موضوعا بين النجوم فمن هناك احدرك يقول الرب.
+					</ab>
+					<ab xml:id="b.OBA.001.005" type="verse">
+						ان أتاك سارقون او لصوص ليل. كيف هلكت. أفلا يسرقون حاجتهم. ان أتاك قاطفون أفلا يبقون خصاصة.
+					</ab>
+					<ab xml:id="b.OBA.001.006" type="verse">
+						كيف فتّش عيسو وفحصت مخابئه.
+					</ab>
+					<ab xml:id="b.OBA.001.007" type="verse">
+						طردك الى التخم كل معاهديك. خدعك وغلب عليك مسالموك. اهل خبزك وضعوا شركا تحتك. لا فهم فيه.
+					</ab>
+					<ab xml:id="b.OBA.001.008" type="verse">
+						ألا أبيد في ذلك اليوم يقول الرب الحكماء من ادوم والفهم من جبل عيسو.
+					</ab>
+					<ab xml:id="b.OBA.001.009" type="verse">
+						فيرتاع ابطالك يا تيمان لكي ينقرض كل واحد من جبل عيسو بالقتال
+					</ab>
+					<ab xml:id="b.OBA.001.010" type="verse">
+						من اجل ظلمك لاخيك يعقوب يغشاك الخزي وتنقرض الى الابد.
+					</ab>
+					<ab xml:id="b.OBA.001.011" type="verse">
+						يوم وقفت مقابله يوم سبت الاعاجم قدرته ودخلت الغرباء ابوابه والقوا قرعة على اورشليم كنت انت ايضا كواحد منهم.
+					</ab>
+					<ab xml:id="b.OBA.001.012" type="verse">
+						ويجب ان لا تنظر الى يوم اخيك يوم مصيبته ولا تشمت ببني يهوذا يوم هلاكهم ولا تفغر فمك يوم الضيق.
+					</ab>
+					<ab xml:id="b.OBA.001.013" type="verse">
+						ولا تدخل باب شعبي يوم بليتهم. ولا تنظر انت ايضا الى مصيبته يوم بليّته ولا تمد يدا الى قدرته يوم بليّته.
+					</ab>
+					<ab xml:id="b.OBA.001.014" type="verse">
+						ولا تقف على المفرق لتقطع منفلتيه ولا تسلّم بقاياه يوم الضيق.
+					</ab>
+					<ab xml:id="b.OBA.001.015" type="verse">
+						فانه قريب يوم الرب على كل الامم. كما فعلت يفعل بك. عملك يرتد على راسك.
+					</ab>
+					<ab xml:id="b.OBA.001.016" type="verse">
+						لانه كما شربتم على جبل قدسي يشرب جميع الامم دائما يشربون ويجرعون ويكونون كانهم لم يكونوا
+					</ab>
+					<ab xml:id="b.OBA.001.017" type="verse">
+						واما جبل صهيون فتكون عليه نجاة ويكون مقدّسا ويرث بيت يعقوب مواريثهم.
+					</ab>
+					<ab xml:id="b.OBA.001.018" type="verse">
+						ويكون بيت يعقوب نارا وبيت يوسف لهيبا وبيت عيسو قشا فيشعلونهم وياكلونهم ولا يكون باق من بيت عيسو لان الرب تكلم.
+					</ab>
+					<ab xml:id="b.OBA.001.019" type="verse">
+						ويرث اهل الجنوب جبل عيسو واهل السهل الفلسطينيين ويرثون بلاد افرايم وبلاد السامرة ويرث بنيامين جلعاد.
+					</ab>
+					<ab xml:id="b.OBA.001.020" type="verse">
+						وسبي هذا الجيش من بني اسرائيل يرثون الذين هم من الكنعانيين الى صرفة. وسبي اورشليم الذين في صفارد يرثون مدن الجنوب.
+					</ab>
+					<ab xml:id="b.OBA.001.021" type="verse">
+						ويصعد مخلّصون على جبل صهيون ليدينوا جبل عيسو ويكون الملك للرب
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

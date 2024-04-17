@@ -1,0 +1,368 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Colossians (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="4"/><measure commodity="verses" quantity="95"/><measure commodity="bytes" quantity="233322"/><measure commodity="characters" quantity="129753"/><measure commodity="tokens" quantity="24456"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Colossians</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q131095">Q131095</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4075946-5">4075946-5</idno><author><name>Paul the Apostle</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q9200">Q9200</idno><idno type="gnd" corresp="https://d-nb.info/gnd/118641549">118641549</idno></author></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">new</term><term type="genre">letter</term><term type="division">Letters</term><term type="genre-multilabel">letter</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.COL" type="book">
+				<div xml:id="b.COL.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.COL.001.001" type="verse">
+						بولس رسول يسوع المسيح بمشيئة الله وتيموثاوس الاخ
+					</ab>
+					<ab xml:id="b.COL.001.002" type="verse">
+						الى القديسين في كولوسي والاخوة المؤمنين في المسيح نعمة لكم وسلام من الله ابينا والرب يسوع المسيح
+					</ab>
+					<ab xml:id="b.COL.001.003" type="verse">
+						نشكر الله وابا ربنا يسوع المسيح كل حين مصلّين لاجلكم
+					</ab>
+					<ab xml:id="b.COL.001.004" type="verse">
+						اذ سمعنا ايمانكم بالمسيح يسوع ومحبتكم لجميع القديسين
+					</ab>
+					<ab xml:id="b.COL.001.005" type="verse">
+						من اجل الرجاء الموضوع لكم في السموات الذي سمعتم به قبلا في كلمة حق الانجيل
+					</ab>
+					<ab xml:id="b.COL.001.006" type="verse">
+						الذي قد حضر اليكم كما في كل العالم ايضا وهو مثمر كما فيكم ايضا منذ يوم سمعتم وعرفتم نعمة الله بالحقيقة.
+					</ab>
+					<ab xml:id="b.COL.001.007" type="verse">
+						كما تعلّمتم ايضا من ابفراس العبد الحبيب معنا الذي هو خادم امين للمسيح لاجلكم
+					</ab>
+					<ab xml:id="b.COL.001.008" type="verse">
+						الذي اخبرنا ايضا بمحبتكم في الروح.
+					</ab>
+					<ab xml:id="b.COL.001.009" type="verse">
+						من اجل ذلك نحن ايضا منذ يوم سمعنا لم نزل مصلّين وطالبين لاجلكم ان تمتلئوا من معرفة مشيئته في كل حكمة وفهم روحي
+					</ab>
+					<ab xml:id="b.COL.001.010" type="verse">
+						لتسلكوا كما يحق للرب في كل رضى مثمرين في كل عمل صالح ونامين في معرفة الله
+					</ab>
+					<ab xml:id="b.COL.001.011" type="verse">
+						متقوين بكل قوة بحسب قدرة مجده لكل صبر وطول اناة بفرح
+					</ab>
+					<ab xml:id="b.COL.001.012" type="verse">
+						شاكرين الآب الذي اهّلنا لشركة ميراث القديسين في النور
+					</ab>
+					<ab xml:id="b.COL.001.013" type="verse">
+						الذي انقذنا من سلطان الظلمة ونقلنا الى ملكوت ابن محبته
+					</ab>
+					<ab xml:id="b.COL.001.014" type="verse">
+						الذي لنا فيه الفداء بدمه غفران الخطايا.
+					</ab>
+					<ab xml:id="b.COL.001.015" type="verse">
+						الذي هو صورة الله غير المنظور بكر كل خليقة.
+					</ab>
+					<ab xml:id="b.COL.001.016" type="verse">
+						فانه فيه خلق الكل ما في السموات وما على الارض ما يرى وما لا يرى سواء كان عروشا ام سيادات ام رياسات ام سلاطين. الكل به وله قد خلق.
+					</ab>
+					<ab xml:id="b.COL.001.017" type="verse">
+						الذي هو قبل كل شيء وفيه يقوم الكل
+					</ab>
+					<ab xml:id="b.COL.001.018" type="verse">
+						وهو راس الجسد الكنيسة. الذي هو البداءة بكر من الاموات لكي يكون هو متقدما في كل شيء.
+					</ab>
+					<ab xml:id="b.COL.001.019" type="verse">
+						لانه فيه سرّ ان يحل كل الملء.
+					</ab>
+					<ab xml:id="b.COL.001.020" type="verse">
+						وان يصالح به الكل لنفسه عاملا الصلح بدم صليبه بواسطته سواء كان ما على الارض ام ما في السموات.
+					</ab>
+					<ab xml:id="b.COL.001.021" type="verse">
+						وانتم الذين كنتم قبلا اجنبيين واعداء في الفكر في الاعمال الشريرة قد صالحكم الآن
+					</ab>
+					<ab xml:id="b.COL.001.022" type="verse">
+						في جسم بشريته بالموت ليحضركم قديسين وبلا لوم ولا شكوى امامه
+					</ab>
+					<ab xml:id="b.COL.001.023" type="verse">
+						ان ثبتم على الايمان متأسسين وراسخين وغير منتقلين عن رجاء الانجيل الذي سمعتموه المكروز به في كل الخليقة التي تحت السماء الذي صرت انا بولس خادما له
+					</ab>
+					<ab xml:id="b.COL.001.024" type="verse">
+						الذي الآن افرح في آلامي لاجلكم واكمل نقائص شدائد المسيح في جسمي لاجل جسده الذي هو الكنيسة
+					</ab>
+					<ab xml:id="b.COL.001.025" type="verse">
+						التي صرت انا خادما لها حسب تدبير الله المعطى لي لاجلكم لتتميم كلمة الله
+					</ab>
+					<ab xml:id="b.COL.001.026" type="verse">
+						السر المكتوم منذ الدهور ومنذ الاجيال لكنه الآن قد أظهر لقديسيه
+					</ab>
+					<ab xml:id="b.COL.001.027" type="verse">
+						الذين اراد الله ان يعرّفهم ما هو غنى مجد هذا السر في الامم الذي هو المسيح فيكم رجاء المجد
+					</ab>
+					<ab xml:id="b.COL.001.028" type="verse">
+						الذي ننادي به منذرين كل انسان ومعلمين كل انسان بكل حكمة لكي نحضر كل انسان كاملا في المسيح يسوع.
+					</ab>
+					<ab xml:id="b.COL.001.029" type="verse">
+						الامر الذي لاجله اتعب ايضا مجاهدا بحسب عمله الذي يعمل فيّ بقوة
+					</ab>
+				</div>
+				<div xml:id="b.COL.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.COL.002.001" type="verse">
+						فاني اريد ان تعلموا اي جهاد لي لاجلكم ولاجل الذين في لاودكية وجميع الذين لم يروا وجهي في الجسد
+					</ab>
+					<ab xml:id="b.COL.002.002" type="verse">
+						لكي تتعزى قلوبهم مقترنة في المحبة لكل غنى يقين الفهم لمعرفة سرّ الله الآب والمسيح
+					</ab>
+					<ab xml:id="b.COL.002.003" type="verse">
+						المذّخر فيه جميع كنوز الحكمة والعلم.
+					</ab>
+					<ab xml:id="b.COL.002.004" type="verse">
+						وانما اقول هذا لئلا يخدعكم احد بكلام ملق.
+					</ab>
+					<ab xml:id="b.COL.002.005" type="verse">
+						فاني وان كنت غائبا في الجسد لكني معكم في الروح فرحا وناظرا ترتيبكم ومتانة ايمانكم في المسيح.
+					</ab>
+					<ab xml:id="b.COL.002.006" type="verse">
+						فكما قبلتم المسيح يسوع الرب اسلكوا فيه
+					</ab>
+					<ab xml:id="b.COL.002.007" type="verse">
+						متأصلين ومبنيين فيه وموطدين في الايمان كما علّمتم متفاضلين فيه بالشكر.
+					</ab>
+					<ab xml:id="b.COL.002.008" type="verse">
+						انظروا ان لا يكون احد يسبيكم بالفلسفة وبغرور باطل حسب تقليد الناس حسب اركان العالم وليس حسب المسيح.
+					</ab>
+					<ab xml:id="b.COL.002.009" type="verse">
+						فانه فيه يحل كل ملء اللاهوت جسديا.
+					</ab>
+					<ab xml:id="b.COL.002.010" type="verse">
+						وانتم مملوؤون فيه الذي هو راس كل رياسة وسلطان.
+					</ab>
+					<ab xml:id="b.COL.002.011" type="verse">
+						وبه ايضا ختنتم ختانا غير مصنوع بيد بخلع جسم خطايا البشرية بختان المسيح.
+					</ab>
+					<ab xml:id="b.COL.002.012" type="verse">
+						مدفونين معه في المعمودية التي فيها اقمتم ايضا معه بايمان عمل الله الذي اقامه من الاموات.
+					</ab>
+					<ab xml:id="b.COL.002.013" type="verse">
+						واذ كنتم امواتا في الخطايا وغلف جسدكم احياكم معه مسامحا لكم بجميع الخطايا.
+					</ab>
+					<ab xml:id="b.COL.002.014" type="verse">
+						اذ محا الصك الذي علينا في الفرائض الذي كان ضدا لنا وقد رفعه من الوسط مسمرا اياه بالصليب.
+					</ab>
+					<ab xml:id="b.COL.002.015" type="verse">
+						اذ جرد الرياسات والسلاطين اشهرهم جهارا ظافرا بهم فيه
+					</ab>
+					<ab xml:id="b.COL.002.016" type="verse">
+						فلا يحكم عليكم احد في اكل او شرب او من جهة عيد او هلال او سبت
+					</ab>
+					<ab xml:id="b.COL.002.017" type="verse">
+						التي هي ظل الامور العتيدة اما الجسد فللمسيح.
+					</ab>
+					<ab xml:id="b.COL.002.018" type="verse">
+						لا يخسركم احد الجعالة راغبا في التواضع وعبادة الملائكة متداخلا في ما لم ينظره منتفخا باطلا من قبل ذهنه الجسدي
+					</ab>
+					<ab xml:id="b.COL.002.019" type="verse">
+						وغير متمسك بالراس الذي منه كل الجسد بمفاصل وربط متوازرا ومقترنا ينمو نموا من الله
+					</ab>
+					<ab xml:id="b.COL.002.020" type="verse">
+						اذا ان كنتم قد متم مع المسيح عن اركان العالم فلماذا كانكم عائشون في العالم تفرض عليكم فرائض
+					</ab>
+					<ab xml:id="b.COL.002.021" type="verse">
+						لا تمسّ ولا تذق ولا تجس.
+					</ab>
+					<ab xml:id="b.COL.002.022" type="verse">
+						التي هي جميعها للفناء في الاستعمال حسب وصايا وتعاليم الناس.
+					</ab>
+					<ab xml:id="b.COL.002.023" type="verse">
+						التي لها حكاية حكمة بعبادة نافلة وتواضع وقهر الجسد ليس بقيمة ما من جهة اشباع البشرية
+					</ab>
+				</div>
+				<div xml:id="b.COL.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.COL.003.001" type="verse">
+						فان كنتم قد قمتم مع المسيح فاطلبوا ما فوق حيث المسيح جالس عن يمين الله.
+					</ab>
+					<ab xml:id="b.COL.003.002" type="verse">
+						اهتموا بما فوق لا بما على الارض.
+					</ab>
+					<ab xml:id="b.COL.003.003" type="verse">
+						لانكم قد متم وحياتكم مستترة مع المسيح في الله.
+					</ab>
+					<ab xml:id="b.COL.003.004" type="verse">
+						متى اظهر المسيح حياتنا فحينئذ تظهرون انتم ايضا معه في المجد
+					</ab>
+					<ab xml:id="b.COL.003.005" type="verse">
+						فاميتوا اعضاءكم التي على الارض الزنى النجاسة الهوى الشهوة الرديّة الطمع الذي هو عبادة الاوثان
+					</ab>
+					<ab xml:id="b.COL.003.006" type="verse">
+						الامور التي من اجلها يأتي غضب الله على ابناء المعصية
+					</ab>
+					<ab xml:id="b.COL.003.007" type="verse">
+						الذين بينهم انتم ايضا سلكتم قبلا حين كنتم تعيشون فيها.
+					</ab>
+					<ab xml:id="b.COL.003.008" type="verse">
+						واما الآن فاطرحوا عنكم انتم ايضا الكل الغضب السخط الخبث التجديف الكلام القبيح من افواهكم.
+					</ab>
+					<ab xml:id="b.COL.003.009" type="verse">
+						لا تكذبوا بعضكم على بعض اذ خلعتم الانسان العتيق مع اعماله
+					</ab>
+					<ab xml:id="b.COL.003.010" type="verse">
+						ولبستم الجديد الذي يتجدد للمعرفة حسب صورة خالقه
+					</ab>
+					<ab xml:id="b.COL.003.011" type="verse">
+						حيث ليس يوناني ويهودي ختان وغرلة بربري وسكيثي عبد حر بل المسيح الكل وفي الكل
+					</ab>
+					<ab xml:id="b.COL.003.012" type="verse">
+						فالبسوا كمختاري الله القديسين المحبوبين احشاء رأفات ولطفا وتواضعا ووداعة وطول اناة
+					</ab>
+					<ab xml:id="b.COL.003.013" type="verse">
+						محتملين بعضكم بعضا ومسامحين بعضكم بعضا ان كان لاحد على احد شكوى. كما غفر لكم المسيح هكذا انتم ايضا.
+					</ab>
+					<ab xml:id="b.COL.003.014" type="verse">
+						وعلى جميع هذه البسوا المحبة التي هي رباط الكمال
+					</ab>
+					<ab xml:id="b.COL.003.015" type="verse">
+						وليملك في قلوبكم سلام الله الذي اليه دعيتم في جسد واحد. وكونوا شاكرين
+					</ab>
+					<ab xml:id="b.COL.003.016" type="verse">
+						لتسكن فيكم كلمة المسيح بغنى وانتم بكل حكمة معلّمون ومنذرون بعضكم بعضا بمزامير وتسابيح واغاني روحية بنعمة مترنمين في قلوبكم للرب
+					</ab>
+					<ab xml:id="b.COL.003.017" type="verse">
+						وكل ما عملتم بقول او فعل فاعملوا الكل باسم الرب يسوع شاكرين الله والآب به
+					</ab>
+					<ab xml:id="b.COL.003.018" type="verse">
+						ايتها النساء اخضعن لرجالكنّ كما يليق في الرب.
+					</ab>
+					<ab xml:id="b.COL.003.019" type="verse">
+						ايها الرجال احبوا نساءكم ولا تكونوا قساة عليهنّ
+					</ab>
+					<ab xml:id="b.COL.003.020" type="verse">
+						ايها الاولاد اطيعوا والديكم في كل شيء لان هذا مرضي في الرب
+					</ab>
+					<ab xml:id="b.COL.003.021" type="verse">
+						ايها الآباء لا تغيضوا اولادكم لئلا يفشلوا.
+					</ab>
+					<ab xml:id="b.COL.003.022" type="verse">
+						ايها العبيد اطيعوا في كل شيء سادتكم حسب الجسد لا بخدمة العين كمن يرضي الناس بل ببساطة القلب خائفين الرب.
+					</ab>
+					<ab xml:id="b.COL.003.023" type="verse">
+						وكل ما فعلتم فاعملوا من القلب كما للرب ليس للناس
+					</ab>
+					<ab xml:id="b.COL.003.024" type="verse">
+						عالمين انكم من الرب ستأخذون جزاء الميراث. لانكم تخدمون الرب المسيح.
+					</ab>
+					<ab xml:id="b.COL.003.025" type="verse">
+						واما الظالم فسينال ما ظلم به وليس محاباة
+					</ab>
+				</div>
+				<div xml:id="b.COL.004" type="chapter">
+				<head>4</head>
+					<ab xml:id="b.COL.004.001" type="verse">
+						ايها السادة قدموا للعبيد العدل والمساواة عالمين ان لكم انتم ايضا سيدا في السموات
+					</ab>
+					<ab xml:id="b.COL.004.002" type="verse">
+						واظبوا على الصلاة ساهرين فيها بالشكر
+					</ab>
+					<ab xml:id="b.COL.004.003" type="verse">
+						مصلّين في ذلك لاجلنا نحن ايضا ليفتح الرب لنا بابا للكلام لنتكلم بسر المسيح الذي من اجله انا موثق ايضا
+					</ab>
+					<ab xml:id="b.COL.004.004" type="verse">
+						كي اظهره كما يجب ان اتكلم.
+					</ab>
+					<ab xml:id="b.COL.004.005" type="verse">
+						اسلكوا بحكمة من جهة الذين هم من خارج مفتدين الوقت.
+					</ab>
+					<ab xml:id="b.COL.004.006" type="verse">
+						ليكن كلامكم كل حين بنعمة مصلحا بملح لتعلموا كيف يجب ان تجاوبوا كل واحد
+					</ab>
+					<ab xml:id="b.COL.004.007" type="verse">
+						جميع احوالي سيعرّفكم بها تيخيكس الاخ الحبيب والخادم الامين والعبد معنا في الرب
+					</ab>
+					<ab xml:id="b.COL.004.008" type="verse">
+						الذي ارسلته اليكم لهذا عينه ليعرف احوالكم ويعزي قلوبكم
+					</ab>
+					<ab xml:id="b.COL.004.009" type="verse">
+						مع انسيمس الاخ الامين الحبيب الذي هو منكم. هما سيعرّفانكم بكل ما ههنا.
+					</ab>
+					<ab xml:id="b.COL.004.010" type="verse">
+						يسلم عليكم ارسترخس المأسور معي ومرقس ابن اخت برنابا الذي اخذتم لاجله وصايا. ان أتى اليكم فاقبلوه.
+					</ab>
+					<ab xml:id="b.COL.004.011" type="verse">
+						ويسوع المدعو يسطس الذين هم من الختان. هؤلاء هم وحدهم العاملون معي لملكوت الله الذين صاروا لي تسلية.
+					</ab>
+					<ab xml:id="b.COL.004.012" type="verse">
+						يسلم عليكم ابفراس الذي هو منكم عبد للمسيح مجاهد كل حين لاجلكم بالصلوات لكي تثبتوا كاملين وممتلئين في كل مشيئة الله.
+					</ab>
+					<ab xml:id="b.COL.004.013" type="verse">
+						فاني اشهد فيه ان له غيرة كثيرة لاجلكم ولاجل الذين في لاودكية والذين في هيرابوليس.
+					</ab>
+					<ab xml:id="b.COL.004.014" type="verse">
+						يسلم عليكم لوقا الطبيب الحبيب وديماس.
+					</ab>
+					<ab xml:id="b.COL.004.015" type="verse">
+						سلموا على الاخوة الذين في لاودكية وعلى نمفاس وعلى الكنيسة التي في بيته.
+					</ab>
+					<ab xml:id="b.COL.004.016" type="verse">
+						ومتى قرئت عندكم هذه الرسالة فاجعلوها تقرأ ايضا في كنيسة اللاودكيين والتي من لاودكية تقرأونها انتم ايضا.
+					</ab>
+					<ab xml:id="b.COL.004.017" type="verse">
+						وقولوا لارخبس انظر الى الخدمة التي قبلتها في الرب لكي تتممها.
+					</ab>
+					<ab xml:id="b.COL.004.018" type="verse">
+						السلام بيدي انا بولس. اذكروا وثقي. النعمة معكم. آمين. كتبت الى اهل كولوسي من رومية بيد تيخيكس وأنسيمس
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

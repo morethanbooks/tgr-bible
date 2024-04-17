@@ -1,0 +1,239 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Zephaniah (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="3"/><measure commodity="verses" quantity="53"/><measure commodity="bytes" quantity="1108122"/><measure commodity="characters" quantity="616225"/><measure commodity="tokens" quantity="116397"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Zephaniah</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q188563">Q188563</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4079470-2">4079470-2</idno><author><name>Zephaniah</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q1761359">Q1761359</idno><idno type="gnd" corresp="https://d-nb.info/gnd/118643517">118643517</idno></author></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">old</term><term type="genre">prophecy</term><term type="division">Prophetic</term><term type="genre-multilabel">prophecy</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.ZEP" type="book">
+				<div xml:id="b.ZEP.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.ZEP.001.001" type="verse">
+						كلمة الرب التي صارت الى صفنيا بن كوشي بن جدليا بن امريا بن حزقيا في ايام يوشيا بن آمون ملك يهوذا.
+					</ab>
+					<ab xml:id="b.ZEP.001.002" type="verse">
+						نزعا انزع الكل عن وجه الارض يقول الرب.
+					</ab>
+					<ab xml:id="b.ZEP.001.003" type="verse">
+						انزع الانسان والحيوان. انزع طيور السماء وسمك البحر والمعاثر مع الاشرار واقطع الانسان عن وجه الارض يقول الرب.
+					</ab>
+					<ab xml:id="b.ZEP.001.004" type="verse">
+						وامد يدي على يهوذا وعلى كل سكان اورشليم واقطع من هذا المكان بقية البعل اسم الكماريم مع الكهنة
+					</ab>
+					<ab xml:id="b.ZEP.001.005" type="verse">
+						والساجدين على السطوح لجند السماء والساجدين الحالفين بالرب والحالفين بملكوم
+					</ab>
+					<ab xml:id="b.ZEP.001.006" type="verse">
+						والمرتدين من وراء الرب والذين لم يطلبوا الرب ولا سألوا عنه
+					</ab>
+					<ab xml:id="b.ZEP.001.007" type="verse">
+						اسكت قدام السيد الرب لان يوم الرب قريب. لان الرب قد اعدّ ذبيحة قدس مدعويه.
+					</ab>
+					<ab xml:id="b.ZEP.001.008" type="verse">
+						ويكون في يوم ذبيحة الرب اني اعاقب الرؤساء وبني الملك وجميع اللابسين لباسا غريبا.
+					</ab>
+					<ab xml:id="b.ZEP.001.009" type="verse">
+						وفي ذلك اليوم اعاقب كل الذين يقفزون من فوق العتبة الذين يملأون بيت سيدهم ظلما وغشّا.
+					</ab>
+					<ab xml:id="b.ZEP.001.010" type="verse">
+						ويكون في ذلك اليوم يقول الرب صوت صراخ من باب السمك وولولة من القسم الثاني وكسر عظيم من الاكام.
+					</ab>
+					<ab xml:id="b.ZEP.001.011" type="verse">
+						ولولوا يا سكان مكتيش لان كل شعب كنعان باد. انقطع كل الحاملين الفضة.
+					</ab>
+					<ab xml:id="b.ZEP.001.012" type="verse">
+						ويكون في ذلك الوقت اني افتش اورشليم بالسّرج واعاقب الرجال الجامدين على درديهم القائلين في قلوبهم ان الرب لا يحسن ولا يسيء.
+					</ab>
+					<ab xml:id="b.ZEP.001.013" type="verse">
+						فتكون ثروتهم غنيمة وبيوتهم خرابا ويبنون بيوتا ولا يسكنونها ويغرسون كروما ولا يشربون خمرها
+					</ab>
+					<ab xml:id="b.ZEP.001.014" type="verse">
+						قريب يوم الرب العظيم قريب وسريع جدا. صوت يوم الرب. يصرخ حينئذ الجبار مرّا.
+					</ab>
+					<ab xml:id="b.ZEP.001.015" type="verse">
+						ذلك اليوم يوم سخط يوم ضيق وشدّة يوم خراب ودمار يوم ظلام وقتام يوم سحاب وضباب
+					</ab>
+					<ab xml:id="b.ZEP.001.016" type="verse">
+						يوم بوق وهتاف على المدن المحصّنة وعلى الشرف الرفيعة.
+					</ab>
+					<ab xml:id="b.ZEP.001.017" type="verse">
+						واضايق الناس فيمشون كالعمي لانهم اخطأوا الى الرب فيسفح دمهم كالتراب ولحمهم كالجلّة.
+					</ab>
+					<ab xml:id="b.ZEP.001.018" type="verse">
+						لا فضتهم ولا ذهبهم يستطيع انقاذهم في يوم غضب الرب بل بنار غيرته تؤكل الارض كلها. لانه يصنع فناء باغتا لكل سكان الارض
+					</ab>
+				</div>
+				<div xml:id="b.ZEP.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.ZEP.002.001" type="verse">
+						تجمّعي واجتمعي يا ايتها الامة غير المستحية
+					</ab>
+					<ab xml:id="b.ZEP.002.002" type="verse">
+						قبل ولادة القضاء. كالعصافة عبر اليوم. قبل ان ياتي عليكم حمو غضب الرب قبل ان يأتي عليكم يوم سخط الرب.
+					</ab>
+					<ab xml:id="b.ZEP.002.003" type="verse">
+						اطلبوا الرب يا جميع بائسي الارض الذين فعلوا حكمه. اطلبوا البرّ. اطلبوا التواضع. لعلكم تسترون في يوم سخط الرب
+					</ab>
+					<ab xml:id="b.ZEP.002.004" type="verse">
+						لان غزة تكون متروكة واشقلون للخراب. اشدود عند الظهيرة يطردونها وعقرون تستأصل.
+					</ab>
+					<ab xml:id="b.ZEP.002.005" type="verse">
+						ويل لسكان ساحل البحر امة الكريتيين. كلمة الرب عليكم. يا كنعان ارض الفلسطينيين اني اخربك بلا ساكن.
+					</ab>
+					<ab xml:id="b.ZEP.002.006" type="verse">
+						ويكون ساحل البحر مرعى بآبار للرعاة وحظائر للغنم.
+					</ab>
+					<ab xml:id="b.ZEP.002.007" type="verse">
+						ويكون الساحل لبقية بيت يهوذا عليه يرعون. في بيوت اشقلون عند المساء يربضون لان الرب الههم يتعهّدهم ويرد سبيهم
+					</ab>
+					<ab xml:id="b.ZEP.002.008" type="verse">
+						قد سمعت تعيير موآب وتجاديف بني عمّون التي بها عيّروا شعبي وتعظّموا على تخمهم.
+					</ab>
+					<ab xml:id="b.ZEP.002.009" type="verse">
+						فلذلك حيّ انا يقول رب الجنود اله اسرائيل ان موآب تكون كسدوم وبنو عمون كعمورة ملك القريص وحفرة ملح وخرابا الى الابد. تنهبهم بقية شعبي وبقية امّتي تمتلكهم.
+					</ab>
+					<ab xml:id="b.ZEP.002.010" type="verse">
+						هذا لهم عوض تكبّرهم لانهم عيّروا وتعظموا على شعب رب الجنود.
+					</ab>
+					<ab xml:id="b.ZEP.002.011" type="verse">
+						الرب مخيف اليهم لانه يهزل جميع آلهة الارض فسيسجد له الناس كل واحد من مكانه كل جزائر الامم
+					</ab>
+					<ab xml:id="b.ZEP.002.012" type="verse">
+						وانتم يا ايها الكوشيون. قتلى سيفي هم.
+					</ab>
+					<ab xml:id="b.ZEP.002.013" type="verse">
+						ويمد يده على الشمال ويبيد اشور ويجعل نينوى خرابا يابسة كالقفر.
+					</ab>
+					<ab xml:id="b.ZEP.002.014" type="verse">
+						فتربض في وسطها القطعان كل طوائف الحيوان. القوق ايضا والقنفذ يأويان الى تيجان عمدها. صوت ينعب في الكوى. خراب على الاعتاب لانه قد تعرّى أرزيّها.
+					</ab>
+					<ab xml:id="b.ZEP.002.015" type="verse">
+						هذه هي المدينة المبتهجة الساكنة مطمئنة القائلة في قلبها انا وليس غيري. كيف صارت خرابا مربضا للحيوان. كل عابر بها يصفر ويهزّ يده
+					</ab>
+				</div>
+				<div xml:id="b.ZEP.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.ZEP.003.001" type="verse">
+						ويل للمتمردة المنجسة المدينة الجائرة.
+					</ab>
+					<ab xml:id="b.ZEP.003.002" type="verse">
+						لم تسمع الصوت. لم تقبل التاديب. لم تتكل على الرب. لم تتقرب الى الهها.
+					</ab>
+					<ab xml:id="b.ZEP.003.003" type="verse">
+						رؤساؤها في وسطها اسود زائرة. قضاتها ذئاب مساء لا يبقون شيئا الى الصباح.
+					</ab>
+					<ab xml:id="b.ZEP.003.004" type="verse">
+						انبياؤها متفاخرون اهل غدرات. كهنتها نجّسوا القدس خالفوا الشريعة.
+					</ab>
+					<ab xml:id="b.ZEP.003.005" type="verse">
+						الرب عادل في وسطها لا يفعل ظلما. غداة غداة يبرز حكمه الى النور لا يتعذّر. اما الظالم فلا يعرف الخزي.
+					</ab>
+					<ab xml:id="b.ZEP.003.006" type="verse">
+						قطعت امما خرّبت شرفاتهم اقفرت اسواقهم بلا عابر. دمرت مدنهم بلا انسان بغير ساكن.
+					</ab>
+					<ab xml:id="b.ZEP.003.007" type="verse">
+						فقلت انك لتخشينني تقبلين التأديب فلا ينقطع مسكنها حسب كل ما عيّنته عليها. لكن بكّروا وافسدوا جميع اعمالهم
+					</ab>
+					<ab xml:id="b.ZEP.003.008" type="verse">
+						لذلك فانتظروني يقول الرب الى يوم اقوم الى السلب لان حكمي هو بجمع الامم وحشر الممالك لاصبّ عليهم سخطي كل حمو غضبي لانه بنار غيرتي تؤكل كل الارض.
+					</ab>
+					<ab xml:id="b.ZEP.003.009" type="verse">
+						لاني حينئذ احول الشعوب الى شفة نقية ليدعوا كلهم باسم الرب ليعبدوه بكتف واحدة.
+					</ab>
+					<ab xml:id="b.ZEP.003.010" type="verse">
+						من عبر انهار كوش المتضرعون اليّ متبدديّ يقدمون تقدمتي.
+					</ab>
+					<ab xml:id="b.ZEP.003.011" type="verse">
+						في ذلك اليوم لا تخزين من كل اعمالك التي تعديت بها عليّ. لاني حينئذ انزع من وسطك مبتهجي كبريائك ولن تعودي بعد الى التكبر في جبل قدسي.
+					</ab>
+					<ab xml:id="b.ZEP.003.012" type="verse">
+						وابقي في وسطك شعبا بائسا ومسكينا فيتوكلون على اسم الرب.
+					</ab>
+					<ab xml:id="b.ZEP.003.013" type="verse">
+						بقية اسرائيل لا يفعلون اثما ولا يتكلمون بالكذب ولا يوجد في افواههم لسان غش لانهم يرعون ويربضون ولا مخيف
+					</ab>
+					<ab xml:id="b.ZEP.003.014" type="verse">
+						ترنمي يا ابنة صهيون اهتف يا اسرائيل افرحي وابتهجي بكل قلبك يا ابنة اورشليم.
+					</ab>
+					<ab xml:id="b.ZEP.003.015" type="verse">
+						قد نزع الرب الاقضية عليك ازال عدوك. ملك اسرائيل الرب في وسطك. لا تنظرين بعد شرا.
+					</ab>
+					<ab xml:id="b.ZEP.003.016" type="verse">
+						في ذلك اليوم يقال لاورشليم لا تخافي يا صهيون لا ترتخ يداك.
+					</ab>
+					<ab xml:id="b.ZEP.003.017" type="verse">
+						الرب الهك في وسطك جبار. يخلّص. يبتهج بك فرحا. يسكت في محبته. يبتهج بك بترنم.
+					</ab>
+					<ab xml:id="b.ZEP.003.018" type="verse">
+						اجمع المحزونين على الموسم. كانوا منك. حاملين عليها العار.
+					</ab>
+					<ab xml:id="b.ZEP.003.019" type="verse">
+						هانذا في ذلك اليوم اعامل كل مذلّليك واخلص الظالعة واجمع المنفية واجعلهم تسبيحة واسما في كل ارض خزيهم
+					</ab>
+					<ab xml:id="b.ZEP.003.020" type="verse">
+						في الوقت الذي فيه آتي بكم وفي وقت جمعي اياكم. لاني اصيّركم اسما وتسبيحة في شعوب الارض كلها حين ارد مسبييكم قدام اعينكم قال الرب
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

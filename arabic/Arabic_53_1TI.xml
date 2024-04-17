@@ -1,0 +1,428 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>1 Timothy (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="6"/><measure commodity="verses" quantity="113"/><measure commodity="bytes" quantity="203605"/><measure commodity="characters" quantity="113263"/><measure commodity="tokens" quantity="21348"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>1 Timothy</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q131180">Q131180</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4122518-1">4122518-1</idno></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">new</term><term type="genre">letter</term><term type="division">Letters</term><term type="genre-multilabel">letter</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.1TI" type="book">
+				<div xml:id="b.1TI.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.1TI.001.001" type="verse">
+						بولس رسول يسوع المسيح بحسب امر الله مخلّصنا وربنا يسوع المسيح رجائنا
+					</ab>
+					<ab xml:id="b.1TI.001.002" type="verse">
+						الى تيموثاوس الابن الصريح في الايمان نعمة ورحمة وسلام من الله ابينا والمسيح يسوع ربنا
+					</ab>
+					<ab xml:id="b.1TI.001.003" type="verse">
+						كما طلبت اليك ان تمكث في افسس اذ كنت انا ذاهبا الى مكدونية لكي توصي قوما ان لا يعلّموا تعليما آخر
+					</ab>
+					<ab xml:id="b.1TI.001.004" type="verse">
+						ولا يصغوا الى خرافات وانساب لا حد لها تسبب مباحثات دون بنيان الله الذي في الايمان.
+					</ab>
+					<ab xml:id="b.1TI.001.005" type="verse">
+						واما غاية الوصية فهي المحبة من قلب طاهر وضمير صالح وايمان بلا رياء.
+					</ab>
+					<ab xml:id="b.1TI.001.006" type="verse">
+						الامور التي اذ زاغ قوم عنها انحرفوا الى كلام باطل
+					</ab>
+					<ab xml:id="b.1TI.001.007" type="verse">
+						يريدون ان يكونوا معلمي الناموس وهم لا يفهمون ما يقولون ولا ما يقررونه.
+					</ab>
+					<ab xml:id="b.1TI.001.008" type="verse">
+						ولكننا نعلم ان الناموس صالح ان كان احد يستعمله ناموسيا
+					</ab>
+					<ab xml:id="b.1TI.001.009" type="verse">
+						عالما هذا ان الناموس لم يوضع للبار بل للأثمة والمتمردين للفجّار والخطاة للدنسين والمستبيحين لقاتلي الآباء وقاتلي الامهات لقاتلي الناس
+					</ab>
+					<ab xml:id="b.1TI.001.010" type="verse">
+						للزناة لمضاجعي الذكور لسارقي الناس للكذابين للحانثين وان كان شيء آخر يقاوم التعليم الصحيح
+					</ab>
+					<ab xml:id="b.1TI.001.011" type="verse">
+						حسب انجيل مجد الله المبارك الذي اؤتمنت انا عليه.
+					</ab>
+					<ab xml:id="b.1TI.001.012" type="verse">
+						وانا اشكر المسيح يسوع ربنا الذي قواني انه حسبني امينا اذ جعلني للخدمة
+					</ab>
+					<ab xml:id="b.1TI.001.013" type="verse">
+						انا الذي كنت قبلا مجدفا ومضطهدا ومفتريا. ولكنني رحمت لاني فعلت بجهل في عدم ايمان
+					</ab>
+					<ab xml:id="b.1TI.001.014" type="verse">
+						وتفاضلت نعمة ربنا جدا مع الايمان والمحبة التي في المسيح يسوع.
+					</ab>
+					<ab xml:id="b.1TI.001.015" type="verse">
+						صادقة هي الكلمة ومستحقة كل قبول ان المسيح يسوع جاء الى العالم ليخلّص الخطاة الذين اولهم انا.
+					</ab>
+					<ab xml:id="b.1TI.001.016" type="verse">
+						لكنني لهذا رحمت ليظهر يسوع المسيح فيّ انا اولا كل اناة مثالا للعتيدين ان يؤمنوا به للحياة الابدية.
+					</ab>
+					<ab xml:id="b.1TI.001.017" type="verse">
+						وملك الدهور الذي لا يفنى ولا يرى الاله الحكيم وحده له الكرامة والمجد الى دهر الدهور. آمين
+					</ab>
+					<ab xml:id="b.1TI.001.018" type="verse">
+						هذه الوصية ايها الابن تيموثاوس استودعك اياها حسب النبوات التي سبقت عليك لكي تحارب فيها المحاربة الحسنة
+					</ab>
+					<ab xml:id="b.1TI.001.019" type="verse">
+						ولك ايمان وضمير صالح الذي اذ رفضه قوم انكسرت بهم السفينة من جهة الايمان ايضا
+					</ab>
+					<ab xml:id="b.1TI.001.020" type="verse">
+						الذين منهم هيمينايس والاسكندر اللذان اسلمتهما للشيطان لكي يؤدبا حتى لا يجدفا
+					</ab>
+				</div>
+				<div xml:id="b.1TI.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.1TI.002.001" type="verse">
+						فاطلب اول كل شيء ان تقام طلبات وصلوات وابتهالات وتشكرات لاجل جميع الناس
+					</ab>
+					<ab xml:id="b.1TI.002.002" type="verse">
+						لاجل الملوك وجميع الذين هم في منصب لكي نقضي حياة مطمئنة هادئة في كل تقوى ووقار.
+					</ab>
+					<ab xml:id="b.1TI.002.003" type="verse">
+						لان هذا حسن ومقبول لدى مخلّصنا الله
+					</ab>
+					<ab xml:id="b.1TI.002.004" type="verse">
+						الذي يريد ان جميع الناس يخلصون والى معرفة الحق يقبلون.
+					</ab>
+					<ab xml:id="b.1TI.002.005" type="verse">
+						لانه يوجد اله واحد ووسيط واحد بين الله والناس الانسان يسوع المسيح
+					</ab>
+					<ab xml:id="b.1TI.002.006" type="verse">
+						الذي بذل نفسه فدية لاجل الجميع الشهادة في اوقاتها الخاصة
+					</ab>
+					<ab xml:id="b.1TI.002.007" type="verse">
+						التي جعلت انا لها كارزا ورسولا. الحق اقول في المسيح ولا اكذب. معلّما للامم في الايمان والحق
+					</ab>
+					<ab xml:id="b.1TI.002.008" type="verse">
+						فاريد ان يصلّي الرجال في كل مكان رافعين ايادي طاهرة بدون غضب ولا جدال.
+					</ab>
+					<ab xml:id="b.1TI.002.009" type="verse">
+						وكذلك ان النساء يزيّنّ ذواتهنّ بلباس الحشمة مع ورع وتعقل لا بضفائر او ذهب او لآلىء او ملابس كثيرة الثمن
+					</ab>
+					<ab xml:id="b.1TI.002.010" type="verse">
+						بل كما يليق بنساء متعاهدات بتقوى الله باعمال صالحة.
+					</ab>
+					<ab xml:id="b.1TI.002.011" type="verse">
+						لتتعلّم المرأة بسكوت في كل خضوع.
+					</ab>
+					<ab xml:id="b.1TI.002.012" type="verse">
+						ولكن لست آذن للمرأة ان تعلّم ولا تتسلط على الرجل بل تكون في سكوت.
+					</ab>
+					<ab xml:id="b.1TI.002.013" type="verse">
+						لان آدم جبل اولا ثم حواء.
+					</ab>
+					<ab xml:id="b.1TI.002.014" type="verse">
+						وآدم لم يغو لكن المرأة أغويت فحصلت في التعدي.
+					</ab>
+					<ab xml:id="b.1TI.002.015" type="verse">
+						ولكنها ستخلص بولادة الاولاد ان ثبتن في الايمان والمحبة والقداسة مع التعقل
+					</ab>
+				</div>
+				<div xml:id="b.1TI.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.1TI.003.001" type="verse">
+						صادقة هي الكلمة ان ابتغى احد الاسقفية فيشتهي عملا صالحا.
+					</ab>
+					<ab xml:id="b.1TI.003.002" type="verse">
+						فيجب ان يكون الاسقف بلا لوم بعل امرأة واحدة صاحيا عاقلا محتشما مضيفا للغرباء صالحا للتعليم
+					</ab>
+					<ab xml:id="b.1TI.003.003" type="verse">
+						غير مدمن الخمر ولا ضرّاب ولا طامع بالربح القبيح بل حليما غير مخاصم ولا محب للمال
+					</ab>
+					<ab xml:id="b.1TI.003.004" type="verse">
+						يدبر بيته حسنا له اولاد في الخضوع بكل وقار.
+					</ab>
+					<ab xml:id="b.1TI.003.005" type="verse">
+						وانما ان كان احد لا يعرف ان يدبر بيته فكيف يعتني بكنيسة الله.
+					</ab>
+					<ab xml:id="b.1TI.003.006" type="verse">
+						غير حديث الايمان لئلا يتصلف فيسقط في دينونة ابليس.
+					</ab>
+					<ab xml:id="b.1TI.003.007" type="verse">
+						ويجب ايضا ان تكون له شهادة حسنة من الذين هم من خارج لئلا يسقط في تعيير وفخ ابليس
+					</ab>
+					<ab xml:id="b.1TI.003.008" type="verse">
+						كذلك يجب ان يكون الشمامسة ذوي وقار لا ذوي لسانين غير مولعين بالخمر الكثير ولا طامعين بالربح القبيح
+					</ab>
+					<ab xml:id="b.1TI.003.009" type="verse">
+						ولهم سرّ الايمان بضمير طاهر.
+					</ab>
+					<ab xml:id="b.1TI.003.010" type="verse">
+						وانما هؤلاء ايضا ليختبروا اولا ثم يتشمسوا ان كانوا بلا لوم.
+					</ab>
+					<ab xml:id="b.1TI.003.011" type="verse">
+						كذلك يجب ان تكون النساء ذوات وقار غير ثالبات صاحيات امينات في كل شيء.
+					</ab>
+					<ab xml:id="b.1TI.003.012" type="verse">
+						ليكن الشمامسة كل بعل امرأة واحدة مدبرين اولادهم وبيوتهم حسنا.
+					</ab>
+					<ab xml:id="b.1TI.003.013" type="verse">
+						لان الذين تشمسوا حسنا يقتنون لانفسهم درجة حسنة وثقة كثيرة في الايمان الذي بالمسيح يسوع
+					</ab>
+					<ab xml:id="b.1TI.003.014" type="verse">
+						هذا اكتبه اليك راجيا ان آتي اليك عن قريب
+					</ab>
+					<ab xml:id="b.1TI.003.015" type="verse">
+						ولكن ان كنت ابطىء فلكي تعلم كيف يجب ان تتصرف في بيت الله الذي هو كنيسة الله الحي عمود الحق وقاعدته.
+					</ab>
+					<ab xml:id="b.1TI.003.016" type="verse">
+						وبالاجماع عظيم هو سرّ التقوى الله ظهر في الجسد تبرر في الروح تراءى لملائكة كرز به بين الامم أومن به في العالم رفع في المجد
+					</ab>
+				</div>
+				<div xml:id="b.1TI.004" type="chapter">
+				<head>4</head>
+					<ab xml:id="b.1TI.004.001" type="verse">
+						ولكن الروح يقول صريحا انه في الازمنة الاخيرة يرتد قوم عن الايمان تابعين ارواحا مضلة وتعاليم شياطين
+					</ab>
+					<ab xml:id="b.1TI.004.002" type="verse">
+						في رياء اقوال كاذبة موسومة ضمائرهم
+					</ab>
+					<ab xml:id="b.1TI.004.003" type="verse">
+						مانعين عن الزواج وآمرين ان يمتنع عن اطعمة قد خلقها الله لتتناول بالشكر من المؤمنين وعارفي الحق.
+					</ab>
+					<ab xml:id="b.1TI.004.004" type="verse">
+						لان كل خليقة الله جيده ولا يرفض شيء اذا اخذ مع الشكر
+					</ab>
+					<ab xml:id="b.1TI.004.005" type="verse">
+						لانه يقدس بكلمة الله والصلاة.
+					</ab>
+					<ab xml:id="b.1TI.004.006" type="verse">
+						ان فكّرت الاخوة بهذا تكون خادما صالحا ليسوع المسيح متربيا بكلام الايمان والتعليم الحسن الذي تتبّعته.
+					</ab>
+					<ab xml:id="b.1TI.004.007" type="verse">
+						واما الخرافات الدنسة العجائزية فارفضها وروّض نفسك للتقوى.
+					</ab>
+					<ab xml:id="b.1TI.004.008" type="verse">
+						لان الرياضة الجسدية نافعة لقليل ولكن التقوى نافعة لكل شيء اذ لها موعد الحياة الحاضرة والعتيدة.
+					</ab>
+					<ab xml:id="b.1TI.004.009" type="verse">
+						صادقة هي الكلمة ومستحقة كل قبول.
+					</ab>
+					<ab xml:id="b.1TI.004.010" type="verse">
+						لاننا لهذا نتعب ونعيّر لاننا قد القينا رجاءنا على الله الحي الذي هو مخلّص جميع الناس ولا سيما المؤمنين.
+					</ab>
+					<ab xml:id="b.1TI.004.011" type="verse">
+						اوص بهذا وعلّم
+					</ab>
+					<ab xml:id="b.1TI.004.012" type="verse">
+						لا يستهن احد بحداثتك بل كن قدوة للمؤمنين في الكلام في التصرف في المحبة في الروح في الايمان في الطهارة.
+					</ab>
+					<ab xml:id="b.1TI.004.013" type="verse">
+						الى ان اجيء اعكف على القراءة والوعظ والتعليم
+					</ab>
+					<ab xml:id="b.1TI.004.014" type="verse">
+						لا تهمل الموهبة التي فيك المعطاة لك بالنبوة مع وضع ايدي المشيخة.
+					</ab>
+					<ab xml:id="b.1TI.004.015" type="verse">
+						اهتم بهذا. كن فيه لكي يكون تقدمك ظاهرا في كل شيء.
+					</ab>
+					<ab xml:id="b.1TI.004.016" type="verse">
+						لاحظ نفسك والتعليم وداوم على ذلك. لانك اذا فعلت هذا تخلّص نفسك والذين يسمعونك ايضا
+					</ab>
+				</div>
+				<div xml:id="b.1TI.005" type="chapter">
+				<head>5</head>
+					<ab xml:id="b.1TI.005.001" type="verse">
+						لا تزجر شيخا بل عظه كأب والاحداث كاخوة
+					</ab>
+					<ab xml:id="b.1TI.005.002" type="verse">
+						والعجائز كامّهات والحدثات كاخوات بكل طهارة
+					</ab>
+					<ab xml:id="b.1TI.005.003" type="verse">
+						اكرم الارامل اللواتي هنّ بالحقيقة ارامل.
+					</ab>
+					<ab xml:id="b.1TI.005.004" type="verse">
+						ولكن ان كانت ارملة لها اولاد او حفدة فليتعلّموا اولا ان يوقّروا اهل بيتهم ويوفوا والديهم المكافاة. لان هذا صالح ومقبول امام الله.
+					</ab>
+					<ab xml:id="b.1TI.005.005" type="verse">
+						ولكن التي هي بالحقيقة ارملة ووحيدة فقد ألقت رجاءها على الله وهي تواظب الطلبات والصلوات ليلا ونهارا.
+					</ab>
+					<ab xml:id="b.1TI.005.006" type="verse">
+						واما المتنعمة فقد ماتت وهي حية.
+					</ab>
+					<ab xml:id="b.1TI.005.007" type="verse">
+						فأوص بهذا لكي يكنّ بلا لوم.
+					</ab>
+					<ab xml:id="b.1TI.005.008" type="verse">
+						وان كان احد لا يعتني بخاصته ولا سيما اهل بيته فقد انكر الايمان وهو شر من غير المؤمن.
+					</ab>
+					<ab xml:id="b.1TI.005.009" type="verse">
+						لتكتتب ارملة ان لم يكن عمرها اقل من ستين سنة امرأة رجل واحد
+					</ab>
+					<ab xml:id="b.1TI.005.010" type="verse">
+						مشهودا لها في اعمال صالحة ان تكن قد ربّت الاولاد اضافت الغرباء غسلت ارجل القديسين ساعدت المتضايقين اتبعت كل عمل صالح.
+					</ab>
+					<ab xml:id="b.1TI.005.011" type="verse">
+						اما الارامل الحدثات فارفضهنّ لانهنّ متى بطرن على المسيح يردن ان يتزوجن.
+					</ab>
+					<ab xml:id="b.1TI.005.012" type="verse">
+						ولهنّ دينونة لانهنّ رفضنّ الايمان الاول.
+					</ab>
+					<ab xml:id="b.1TI.005.013" type="verse">
+						ومع ذلك ايضا يتعلمن ان يكنّ بطالات يطفن في البيوت ولسن بطالات فقط بل مهذارات ايضا وفضوليات يتكلمن بما لا يجب.
+					</ab>
+					<ab xml:id="b.1TI.005.014" type="verse">
+						فاريد ان الحدثات يتزوجن ويلدن الاولاد ويدبّرن البيوت ولا يعطين علة للمقاوم من اجل الشتم.
+					</ab>
+					<ab xml:id="b.1TI.005.015" type="verse">
+						فان بعضهنّ قد انحرفن وراء الشيطان.
+					</ab>
+					<ab xml:id="b.1TI.005.016" type="verse">
+						ان كان لمؤمن او مؤمنة ارامل فليساعدهنّ ولا يثقّل على الكنيسة لكي تساعد هي اللواتي هنّ بالحقيقة ارامل
+					</ab>
+					<ab xml:id="b.1TI.005.017" type="verse">
+						اما الشيوخ المدبرون حسنا فليحسبوا اهلا لكرامة مضاعفة ولا سيما الذين يتعبون في الكلمة والتعليم.
+					</ab>
+					<ab xml:id="b.1TI.005.018" type="verse">
+						لان الكتاب يقول لا تكمّ ثورا دارسا. والفاعل مستحق اجرته
+					</ab>
+					<ab xml:id="b.1TI.005.019" type="verse">
+						لا تقبل شكاية على شيخ الا على شاهدين او ثلاثة شهود.
+					</ab>
+					<ab xml:id="b.1TI.005.020" type="verse">
+						الذين يخطئون وبّخهم امام الجميع لكي يكون عند الباقين خوف.
+					</ab>
+					<ab xml:id="b.1TI.005.021" type="verse">
+						اناشدك امام الله والرب يسوع المسيح والملائكة المختارين ان تحفظ هذا بدون غرض ولا تعمل شيئا بمحاباة.
+					</ab>
+					<ab xml:id="b.1TI.005.022" type="verse">
+						لا تضع يدا على احد بالعجلة ولا تشترك في خطايا الآخرين. احفظ نفسك طاهرا
+					</ab>
+					<ab xml:id="b.1TI.005.023" type="verse">
+						لا تكن في ما بعد شراب ماء بل استعمل خمرا قليلا من اجل معدتك واسقامك الكثيرة
+					</ab>
+					<ab xml:id="b.1TI.005.024" type="verse">
+						خطايا بعض الناس واضحة تتقدم الى القضاء. واما البعض فتتبعهم.
+					</ab>
+					<ab xml:id="b.1TI.005.025" type="verse">
+						كذلك ايضا الاعمال الصالحة واضحة والتي هي خلاف ذلك لا يمكن ان تخفى
+					</ab>
+				</div>
+				<div xml:id="b.1TI.006" type="chapter">
+				<head>6</head>
+					<ab xml:id="b.1TI.006.001" type="verse">
+						جميع الذين هم عبيد تحت نير فليحسبوا سادتهم مستحقين كل اكرام لئلا يفترى على اسم الله وتعليمه.
+					</ab>
+					<ab xml:id="b.1TI.006.002" type="verse">
+						والذين لهم سادة مؤمنون لا يستهينوا بهم لانهم اخوة بل ليخدموهم اكثر لان الذين يتشاركون في الفائدة هم مؤمنون ومحبوبون. علّم وعظ بهذا
+					</ab>
+					<ab xml:id="b.1TI.006.003" type="verse">
+						ان كان احد يعلّم تعليما آخر ولا يوافق كلمات ربنا يسوع المسيح الصحيحة والتعليم الذي هو حسب التقوى
+					</ab>
+					<ab xml:id="b.1TI.006.004" type="verse">
+						فقد تصلّف وهو لا يفهم شيئا بل هو متعلل بمباحثات ومماحكات الكلام التي منها يحصل الحسد والخصام والافتراء والظنون الرديّة
+					</ab>
+					<ab xml:id="b.1TI.006.005" type="verse">
+						ومنازعات اناس فاسدي الذهن وعادمي الحق يظنون ان التقوى تجارة. تجنب مثل هؤلاء.
+					</ab>
+					<ab xml:id="b.1TI.006.006" type="verse">
+						واما التقوى مع القناعة فهي تجارة عظيمة.
+					</ab>
+					<ab xml:id="b.1TI.006.007" type="verse">
+						لاننا لم ندخل العالم بشيء وواضح اننا لا نقدر ان نخرج منه بشيء.
+					</ab>
+					<ab xml:id="b.1TI.006.008" type="verse">
+						فان كان لنا قوت وكسوة فلنكتف بهما.
+					</ab>
+					<ab xml:id="b.1TI.006.009" type="verse">
+						واما الذين يريدون ان يكونوا اغنياء فيسقطون في تجربة وفخ وشهوات كثيرة غبية ومضرة تغرق الناس في العطب والهلاك.
+					</ab>
+					<ab xml:id="b.1TI.006.010" type="verse">
+						لان محبة المال اصل لكل الشرور الذي اذ ابتغاه قوم ضلّوا عن الايمان وطعنوا انفسهم باوجاع كثيرة.
+					</ab>
+					<ab xml:id="b.1TI.006.011" type="verse">
+						واما انت يا انسان الله فاهرب من هذا واتبع البر والتقوى والايمان والمحبة والصبر والوداعة.
+					</ab>
+					<ab xml:id="b.1TI.006.012" type="verse">
+						جاهد جهاد الايمان الحسن وامسك بالحياة الابدية التي اليها دعيت ايضا واعترفت الاعتراف الحسن امام شهود كثيرين.
+					</ab>
+					<ab xml:id="b.1TI.006.013" type="verse">
+						اوصيك امام الله الذي يحيي الكل والمسيح يسوع الذي شهد لدى بيلاطس البنطي بالاعتراف الحسن
+					</ab>
+					<ab xml:id="b.1TI.006.014" type="verse">
+						ان تحفظ الوصية بلا دنس ولا لوم الى ظهور ربنا يسوع المسيح
+					</ab>
+					<ab xml:id="b.1TI.006.015" type="verse">
+						الذي سيبيّنه في اوقاته المبارك العزيز الوحيد ملك الملوك ورب الارباب
+					</ab>
+					<ab xml:id="b.1TI.006.016" type="verse">
+						الذي وحده له عدم الموت ساكنا في نور لا يدنى منه الذي لم يره احد من الناس ولا يقدر ان يراه الذي له الكرامة والقدرة الابدية. آمين
+					</ab>
+					<ab xml:id="b.1TI.006.017" type="verse">
+						اوص الاغنياء في الدهر الحاضر ان لا يستكبروا ولا يلقوا رجاءهم على غير يقينية الغنى بل على الله الحي الذي يمنحنا كل شيء بغنى للتمتع.
+					</ab>
+					<ab xml:id="b.1TI.006.018" type="verse">
+						وان يصنعوا صلاحا وان يكونوا اغنياء في اعمال صالحة وان يكونوا اسخياء في العطاء كرماء في التوزيع
+					</ab>
+					<ab xml:id="b.1TI.006.019" type="verse">
+						مدّخرين لانفسهم اساسا حسنا للمستقبل لكي يمسكوا بالحياة الابدية
+					</ab>
+					<ab xml:id="b.1TI.006.020" type="verse">
+						يا تيموثاوس احفظ الوديعة معرضا عن الكلام الباطل الدنس ومخالفات العلم الكاذب الاسم
+					</ab>
+					<ab xml:id="b.1TI.006.021" type="verse">
+						ي اذ تظاهر به قوم زاغوا من جهة الايمان. ( [ (I Timothy 6:22) ) النعمة معك. آمين ]
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

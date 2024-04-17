@@ -1,0 +1,191 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Haggai (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="2"/><measure commodity="verses" quantity="38"/><measure commodity="bytes" quantity="1099977"/><measure commodity="characters" quantity="611699"/><measure commodity="tokens" quantity="115548"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Haggai</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q178338">Q178338</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4022927-0">4022927-0</idno><author><name>Haggai</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q1613144">Q1613144</idno><idno type="gnd" corresp="https://d-nb.info/gnd/118639447">118639447</idno></author></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">old</term><term type="genre">prophecy</term><term type="division">Prophetic</term><term type="genre-multilabel">prophecy</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.HAG" type="book">
+				<div xml:id="b.HAG.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.HAG.001.001" type="verse">
+						في السنة الثانية لداريوس الملك في الشهر السادس في اول يوم من الشهر كانت كلمة الرب عن يد حجي النبي الى زربابل بن شألتيئيل والي يهوذا والى يهوشع بن يهوصادق الكاهن العظيم قائلا
+					</ab>
+					<ab xml:id="b.HAG.001.002" type="verse">
+						هكذا قال رب الجنود قائلا. هذا الشعب قال ان الوقت لم يبلغ وقت بناء بيت الرب
+					</ab>
+					<ab xml:id="b.HAG.001.003" type="verse">
+						فكانت كلمة الرب عن يد حجي النبي قائلا
+					</ab>
+					<ab xml:id="b.HAG.001.004" type="verse">
+						هل الوقت لكم انتم ان تسكنوا في بيوتكم المغشّاة وهذا البيت خراب.
+					</ab>
+					<ab xml:id="b.HAG.001.005" type="verse">
+						والآن فهكذا قال رب الجنود. اجعلوا قلبكم على طرقكم.
+					</ab>
+					<ab xml:id="b.HAG.001.006" type="verse">
+						زرعتم كثيرا ودخلتم قليلا. تأكلون وليس الى الشبع. تشربون ولا تروون. تكتسون ولا تدفأون. والآخذ اجرة يأخذ اجرة لكيس منقوب
+					</ab>
+					<ab xml:id="b.HAG.001.007" type="verse">
+						هكذا قال رب الجنود. اجعلوا قلبكم على طرقكم.
+					</ab>
+					<ab xml:id="b.HAG.001.008" type="verse">
+						اصعدوا الى الجبل واتوا بخشب وابنوا البيت فارضى عليه واتمجد قال الرب.
+					</ab>
+					<ab xml:id="b.HAG.001.009" type="verse">
+						انتظرتم كثيرا واذا هو قليل ولما ادخلتموه البيت نفخت عليه. لماذا يقول رب الجنود. لاجل بيتي الذي هو خراب وانتم راكضون كل انسان الى بيته.
+					</ab>
+					<ab xml:id="b.HAG.001.010" type="verse">
+						لذلك منعت السموات من فوقكم الندى ومنعت الارض غلتها.
+					</ab>
+					<ab xml:id="b.HAG.001.011" type="verse">
+						ودعوت بالحرّ على الارض وعلى الجبال وعلى الحنطة وعلى المسطار وعلى الزيت وعلى ما تنبته الارض وعلى الناس وعلى البهائم وعلى كل اتعاب اليدين
+					</ab>
+					<ab xml:id="b.HAG.001.012" type="verse">
+						حينئذ سمع زربابل بن شألتيئيل ويهوشع بن يهوصادق الكاهن العظيم وكل بقية الشعب صوت الرب الههم وكلام حجي النبي كما ارسله الرب الههم وخاف الشعب امام وجه الرب.
+					</ab>
+					<ab xml:id="b.HAG.001.013" type="verse">
+						فقال حجي رسول الرب برسالة الرب لجميع الشعب قائلا انا معكم يقول الرب.
+					</ab>
+					<ab xml:id="b.HAG.001.014" type="verse">
+						ونبّه الرب روح زربابل بن شألتيئيل والي يهوذا وروح يهوشع بن يهوصادق الكاهن العظيم وروح كل بقية الشعب فجاءوا وعملوا الشغل في بيت رب الجنود الههم
+					</ab>
+					<ab xml:id="b.HAG.001.015" type="verse">
+						في اليوم الرابع والعشرين من الشهر السادس في السنة الثانية لداريوس الملك
+					</ab>
+				</div>
+				<div xml:id="b.HAG.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.HAG.002.001" type="verse">
+						في الشهر السابع في الحادي والعشرين من الشهر كانت كلمة الرب عن يد حجي النبي قائلا
+					</ab>
+					<ab xml:id="b.HAG.002.002" type="verse">
+						كلم زربابل بن شألتيئيل والي يهوذا ويهوشع بن يهوصادق الكاهن العظيم وبقية الشعب قائلا
+					</ab>
+					<ab xml:id="b.HAG.002.003" type="verse">
+						من الباقي فيكم الذي رأى هذا البيت في مجده الاول. وكيف تنظرونه الآن. أما هو في اعينكم كلا شيء.
+					</ab>
+					<ab xml:id="b.HAG.002.004" type="verse">
+						فالآن تشدد يا زربابل يقول الرب وتشدد يا يهوشع بن يهوصادق الكاهن العظيم وتشددوا يا جميع شعب الارض يقول الرب واعملوا فاني معكم يقول رب الجنود
+					</ab>
+					<ab xml:id="b.HAG.002.005" type="verse">
+						حسب الكلام الذي عاهدتكم به عند خروجكم من مصر وروحي قائم في وسطكم. لا تخافوا.
+					</ab>
+					<ab xml:id="b.HAG.002.006" type="verse">
+						لانه هكذا قال رب الجنود. هي مرّة بعد قليل فازلزل السموات والارض والبحر واليابسة.
+					</ab>
+					<ab xml:id="b.HAG.002.007" type="verse">
+						وازلزل كل الامم وياتي مشتهى كل الامم فاملأ هذا البيت مجدا قال رب الجنود.
+					</ab>
+					<ab xml:id="b.HAG.002.008" type="verse">
+						لي الفضة ولي الذهب يقول رب الجنود.
+					</ab>
+					<ab xml:id="b.HAG.002.009" type="verse">
+						مجد هذا البيت الاخير يكون اعظم من مجد الاول قال رب الجنود وفي هذا المكان اعطي السلام يقول رب الجنود
+					</ab>
+					<ab xml:id="b.HAG.002.010" type="verse">
+						في الرابع والعشرين من الشهر التاسع في السنة الثانية لداريوس كانت كلمة الرب عن يد حجي النبي قائلا
+					</ab>
+					<ab xml:id="b.HAG.002.011" type="verse">
+						هكذا قال رب الجنود. اسأل الكهنة عن الشريعة قائلا
+					</ab>
+					<ab xml:id="b.HAG.002.012" type="verse">
+						ان حمل انسان لحما مقدسا في طرف ثوبه ومس بطرفه خبزا او طبيخا او خمرا او زيتا او طعاما ما فهل يتقدس. فاجاب الكهنة وقالوا لا.
+					</ab>
+					<ab xml:id="b.HAG.002.013" type="verse">
+						فقال حجي ان كان المنجس بميت يمسّ شيئا من هذه فهل يتنجس. فاجاب الكهنة وقالوا يتنجس.
+					</ab>
+					<ab xml:id="b.HAG.002.014" type="verse">
+						فاجاب حجي وقال. هكذا هذا الشعب وهكذا هذه الامة قدامي يقول الرب وهكذا كل عمل ايديهم وما يقربونه هناك هو نجس.
+					</ab>
+					<ab xml:id="b.HAG.002.015" type="verse">
+						والآن فاجعلوا قلبكم من هذا اليوم فراجعا قبل وضع حجر على حجر في هيكل الرب.
+					</ab>
+					<ab xml:id="b.HAG.002.016" type="verse">
+						مذ تلك الايام كان احدكم يأتي الى عرمة عشرين فكانت عشرة. أتى الى حوض المعصرة ليغرف خمسين فورة فكانت عشرين.
+					</ab>
+					<ab xml:id="b.HAG.002.017" type="verse">
+						قد ضربتكم باللفح وباليرقان وبالبرد في كل عمل ايديكم وما رجعتم اليّ يقول الرب.
+					</ab>
+					<ab xml:id="b.HAG.002.018" type="verse">
+						فاجعلوا قلبكم من هذا اليوم فصاعدا من اليوم الرابع والعشرين من الشهر التاسع من اليوم الذي فيه تأسّس هيكل الرب اجعلوا قلبكم.
+					</ab>
+					<ab xml:id="b.HAG.002.019" type="verse">
+						هل البذر في الاهراء بعد. والكرم والتين والرمان والزيتون لم يحمل بعد. فمن هذا اليوم ابارك
+					</ab>
+					<ab xml:id="b.HAG.002.020" type="verse">
+						وصارت كلمة الرب ثانية الى حجي في الرابع والعشرين من الشهر قائلا
+					</ab>
+					<ab xml:id="b.HAG.002.021" type="verse">
+						كلم زربابل والي يهوذا قائلا. اني ازلزل السموات والارض
+					</ab>
+					<ab xml:id="b.HAG.002.022" type="verse">
+						واقلب كرسي الممالك وابيد قوّة ممالك الامم واقلب المركبات والراكبين فيها وينحطّ الخيل وراكبوها كل منها بسيف اخيه.
+					</ab>
+					<ab xml:id="b.HAG.002.023" type="verse">
+						في ذلك اليوم يقول رب الجنود آخذك يا زربابل عبدي ابن شألتيئيل يقول الرب واجعلك كخاتم لاني قد اخترتك يقول رب الجنود
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

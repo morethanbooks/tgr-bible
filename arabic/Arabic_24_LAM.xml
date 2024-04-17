@@ -1,0 +1,548 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lamentations (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="5"/><measure commodity="verses" quantity="154"/><measure commodity="bytes" quantity="1485174"/><measure commodity="characters" quantity="825587"/><measure commodity="tokens" quantity="155237"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Lamentations</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q179058">Q179058</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4073466-3">4073466-3</idno></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">old</term><term type="genre">lyric</term><term type="division">Prophetic</term><term type="genre-multilabel">lyric</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.LAM" type="book">
+				<div xml:id="b.LAM.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.LAM.001.001" type="verse">
+						كيف جلست وحدها المدينة الكثيرة الشعب. كيف صارت كارملة العظيمة في الامم. السيدة في البلدان صارت تحت الجزية.
+					</ab>
+					<ab xml:id="b.LAM.001.002" type="verse">
+						تبكي في الليل بكاء ودموعها على خديها. ليس لها معزّ من كل محبيها. كل اصحابها غدروا بها. صاروا لها اعداء.
+					</ab>
+					<ab xml:id="b.LAM.001.003" type="verse">
+						قد سبيت يهوذا من المذلة ومن كثرة العبودية. هي تسكن بين الامم. لا تجد راحة. قد ادركها كل طارديها بين الضيقات.
+					</ab>
+					<ab xml:id="b.LAM.001.004" type="verse">
+						طرق صهيون نائحة لعدم الآتين الى العيد. كل ابوابها خربة كهنتها يتنهدون. عذاراها مذللة وهي في مرارة.
+					</ab>
+					<ab xml:id="b.LAM.001.005" type="verse">
+						صار مضايقوها راسا. نجح اعداؤها لان الرب قد اذلّها لاجل كثرة ذنوبها ذهب اولادها الى السبي قدام العدو.
+					</ab>
+					<ab xml:id="b.LAM.001.006" type="verse">
+						وقد خرج من بنت صهيون كل بهائها. صارت رؤساؤها كأيائل لا تجد مرعى فيسيرون بلا قوة امام الطارد.
+					</ab>
+					<ab xml:id="b.LAM.001.007" type="verse">
+						قد ذكرت اورشليم في ايام مذلتها وتطوّحها كل مشتهياتها التي كانت في ايام القدم. عند سقوط شعبها بيد العدو وليس من يساعدها. رأتها الاعداء ضحكوا على هلاكها.
+					</ab>
+					<ab xml:id="b.LAM.001.008" type="verse">
+						قد اخطأت اورشليم خطية من اجل ذلك صارت رجسة. كل مكرميها يحتقرونها لانهم رأوا عورتها وهي ايضا تتنهد وترجع الى الوراء.
+					</ab>
+					<ab xml:id="b.LAM.001.009" type="verse">
+						نجاستها في اذيالها. لم تذكر آخرتها وقد انحطت انحطاطا عجيبا. ليس لها معزّ. انظر يا رب الى مذلتي لان العدو قد تعظم.
+					</ab>
+					<ab xml:id="b.LAM.001.010" type="verse">
+						بسط العدو يده على كل مشتهياتها فانها رأت الامم دخلوا مقدسها الذين امرت ان لا يدخلوا في جماعتك.
+					</ab>
+					<ab xml:id="b.LAM.001.011" type="verse">
+						كل شعبها يتنهدون يطلبون خبزا. دفعوا مشتهياتهم للأكل لاجل رد النفس. انظر يا رب وتطلع لاني قد صرت محتقرة
+					</ab>
+					<ab xml:id="b.LAM.001.012" type="verse">
+						أما اليكم يا جميع عابري الطريق. تطلعوا وانظروا ان كان حزن مثل حزني الذي صنع بي الذي اذلني به الرب يوم حمو غضبه.
+					</ab>
+					<ab xml:id="b.LAM.001.013" type="verse">
+						من العلاء ارسل نارا الى عظامي فسرت فيها. بسط شبكة لرجليّ. ردني الى الوراء. جعلني خربة اليوم كله مغمومة.
+					</ab>
+					<ab xml:id="b.LAM.001.014" type="verse">
+						شدّ نير ذنوبي بيده. ضفرت صعدت على عنقي. نزع قوتي دفعني السيد الى ايد لا استطيع القيام منها.
+					</ab>
+					<ab xml:id="b.LAM.001.015" type="verse">
+						رذل السيد كل مقتدري في وسطي. دعا عليّ جماعة لحطم شباني. داس السيد العذراء بنت يهوذا معصرة.
+					</ab>
+					<ab xml:id="b.LAM.001.016" type="verse">
+						على هذه انا باكية. عيني عيني تسكب مياها لانه قد ابتعد عني المعزي رادّ نفسي. صار بنيّ هالكين لانه قد تجبر العدو
+					</ab>
+					<ab xml:id="b.LAM.001.017" type="verse">
+						بسطت صهيون يديها. لا معزي لها. أمر الرب على يعقوب ان يكون مضايقوه حواليه. صارت اورشليم نجسة بينهم.
+					</ab>
+					<ab xml:id="b.LAM.001.018" type="verse">
+						بار هو الرب لاني قد عصيت امره. اسمعوا يا جميع الشعوب وانظروا الى حزني. عذاراي وشباني ذهبوا الى السبي.
+					</ab>
+					<ab xml:id="b.LAM.001.019" type="verse">
+						ناديت محبيّ. هم خدعوني. كهنتي وشيوخي في المدينة ماتوا اذ طلبوا لذواتهم طعاما ليردوا انفسهم.
+					</ab>
+					<ab xml:id="b.LAM.001.020" type="verse">
+						انظر يا رب فاني في ضيق. احشائي غلت. ارتد قلبي في باطني لاني قد عصيت متمردة. في الخارج يثكل السيف وفي البيت مثل الموت.
+					</ab>
+					<ab xml:id="b.LAM.001.021" type="verse">
+						سمعوا اني تنهدت. لا معزي لي. كل اعدائي سمعوا ببليتي. فرحوا لانك فعلت. تأتي باليوم الذي ناديت به فيصيرون مثلي.
+					</ab>
+					<ab xml:id="b.LAM.001.022" type="verse">
+						ليات كل شرهم امامك. وافعل بهم كما فعلت بي من اجل كل ذنوبي لان تنهداتي كثيرة وقلبي مغشيّ عليه
+					</ab>
+				</div>
+				<div xml:id="b.LAM.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.LAM.002.001" type="verse">
+						كيف غطى السيد بغضبه ابنة صهيون بالظلام. ألقى من السماء الى الارض فخر اسرائيل ولم يذكر موطئ قدميه في يوم غضبه.
+					</ab>
+					<ab xml:id="b.LAM.002.002" type="verse">
+						ابتلع السيد ولم يشفق كل مساكن يعقوب. نقض بسخطه حصون بنت يهوذا. اوصلها الى الارض نجس المملكة ورؤساءها.
+					</ab>
+					<ab xml:id="b.LAM.002.003" type="verse">
+						عضب بحمو غضبه كل قرن لاسرائيل. رد الى الوراء يمينه امام العدو واشتعل في يعقوب مثل نار ملتهبة تأكل ما حواليها.
+					</ab>
+					<ab xml:id="b.LAM.002.004" type="verse">
+						مدّ قوسه كعدو. نصب يمينه كمبغض وقتل كل مشتهيات العين في خباء بنت صهيون. سكب كنار غيظه.
+					</ab>
+					<ab xml:id="b.LAM.002.005" type="verse">
+						صار السيد كعدو. ابتلع اسرائيل. ابتلع كل قصوره اهلك حصونه واكثر في بنت يهوذا النوح والحزن.
+					</ab>
+					<ab xml:id="b.LAM.002.006" type="verse">
+						ونزع كما من جنة مظلته. اهلك مجتمعه. أنسى الرب في صهيون الموسم والسبت ورذل بسخط غضبه الملك والكاهن.
+					</ab>
+					<ab xml:id="b.LAM.002.007" type="verse">
+						كره السيد مذبحه. رذل مقدسه. حصر في يد العدو اسوار قصورها. اطلقوا الصوت في بيت الرب كما في يوم الموسم.
+					</ab>
+					<ab xml:id="b.LAM.002.008" type="verse">
+						قصد الرب ان يهلك سور بنت صهيون. مدّ المطمار. لم يردد يده عن الاهلاك وجعل المترسة والسور ينوحان. قد حزنا معا.
+					</ab>
+					<ab xml:id="b.LAM.002.009" type="verse">
+						تاخت في الارض ابوابها. اهلك وحطم عوارضها. ملكها ورؤساؤها بين الامم. لا شريعة. انبياؤها ايضا لا يجدون رؤيا من قبل الرب.
+					</ab>
+					<ab xml:id="b.LAM.002.010" type="verse">
+						شيوخ بنت صهيون يجلسون على الارض ساكتين. يرفعون التراب على رؤوسهم يتنطقون بالمسوح. تحني عذارى اورشليم رؤوسهنّ الى الارض.
+					</ab>
+					<ab xml:id="b.LAM.002.011" type="verse">
+						كلّت من الدموع عيناي. غلت احشائي. انسكبت على الارض كبدي على سحق بنت شعبي لاجل غشيان الاطفال والرضّع في ساحات القرية.
+					</ab>
+					<ab xml:id="b.LAM.002.012" type="verse">
+						يقولون لامهاتهم اين الحنطة والخمر اذ يغشى عليهم كجريح في ساحات المدينة اذ تسكب نفسهم في احضان امهاتهم.
+					</ab>
+					<ab xml:id="b.LAM.002.013" type="verse">
+						بماذا انذرك بماذا احذرك. بماذا اشبهك يا ابنة اورشليم. بماذا اقايسك فاعزيك ايتها العذراء بنت صهيون. لان سحقك عظيم كالبحر. من يشفيك.
+					</ab>
+					<ab xml:id="b.LAM.002.014" type="verse">
+						انبياؤك رأوا لك كذبا وباطلا ولم يعلنوا اثمك ليردوا سبيك بل رأوا لك وحيا كاذبا وطوائح.
+					</ab>
+					<ab xml:id="b.LAM.002.015" type="verse">
+						يصفق عليك بالايادي كل عابري الطريق. يصفرون وينغضون رؤوسهم على بنت اورشليم قائلين أهذه هي المدينة التي يقولون انها كمال الجمال بهجة كل الارض.
+					</ab>
+					<ab xml:id="b.LAM.002.016" type="verse">
+						يفتح عليك افواههم كل اعدائك. يصفرون ويحرقون الاسنان. يقولون قد اهلكناها. حقا ان هذا اليوم الذي رجوناه. قد وجدناه قد رايناه.
+					</ab>
+					<ab xml:id="b.LAM.002.017" type="verse">
+						فعل الرب ما قصد. تمم قوله الذي اوعد به منذ ايام القدم. قد هدم ولم يشفق واشمت بك العدو. نصب قرن اعدائك.
+					</ab>
+					<ab xml:id="b.LAM.002.018" type="verse">
+						صرخ قلبهم الى السيد. يا سور بنت صهيون اسكبي الدمع كنهر نهارا وليلا. لا تعطي ذاتك راحة. لا تكف حدقة عينك.
+					</ab>
+					<ab xml:id="b.LAM.002.019" type="verse">
+						قومي اهتفي في الليل في اول الهزع. اسكبي كمياه قلبك قبالة وجه السيد. ارفعي اليه يديك لاجل نفس اطفالك المغشي عليهم من الجوع في راس كل شارع
+					</ab>
+					<ab xml:id="b.LAM.002.020" type="verse">
+						انظر يا رب وتطلع بمن فعلت هكذا. أتأكل النساء ثمرهنّ اطفال الحضانة. أيقتل في مقدس السيد الكاهن والنبي.
+					</ab>
+					<ab xml:id="b.LAM.002.021" type="verse">
+						اضطجعت على الارض في الشوارع الصبيان والشيوخ. عذاراي وشباني سقطوا بالسيف قد قتلت في يوم غضبك ذبحت ولم تشفق.
+					</ab>
+					<ab xml:id="b.LAM.002.022" type="verse">
+						قد دعوت كما في يوم موسم مخاوفي حوالي فلم يكن في يوم غضب الرب ناج ولا باق. الذين حضنتهم وربيتهم افناهم عدوي
+					</ab>
+				</div>
+				<div xml:id="b.LAM.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.LAM.003.001" type="verse">
+						انا هو الرجل الذي رأى مذلة بقضيب سخطه.
+					</ab>
+					<ab xml:id="b.LAM.003.002" type="verse">
+						قادني وسيرني في الظلام ولا نور.
+					</ab>
+					<ab xml:id="b.LAM.003.003" type="verse">
+						حقا انه يعود ويرد عليّ يده اليوم كله.
+					</ab>
+					<ab xml:id="b.LAM.003.004" type="verse">
+						ابلى لحمي وجلدي. كسر عظامي.
+					</ab>
+					<ab xml:id="b.LAM.003.005" type="verse">
+						بنى عليّ واحاطني بعلقم ومشقة.
+					</ab>
+					<ab xml:id="b.LAM.003.006" type="verse">
+						اسكنني في ظلمات كموتى القدم.
+					</ab>
+					<ab xml:id="b.LAM.003.007" type="verse">
+						سيج عليّ فلا استطيع الخروج. ثقل سلسلتي.
+					</ab>
+					<ab xml:id="b.LAM.003.008" type="verse">
+						ايضا حين اصرخ واستغيث يصدّ صلاتي.
+					</ab>
+					<ab xml:id="b.LAM.003.009" type="verse">
+						سيج طرقي بحجارة منحوتة. قلب سبلي.
+					</ab>
+					<ab xml:id="b.LAM.003.010" type="verse">
+						هو لي دب كامن اسد في مخابئ.
+					</ab>
+					<ab xml:id="b.LAM.003.011" type="verse">
+						ميّل طرقي ومزقني. جعلني خرابا.
+					</ab>
+					<ab xml:id="b.LAM.003.012" type="verse">
+						مدّ قوسه ونصبني كغرض للسهم.
+					</ab>
+					<ab xml:id="b.LAM.003.013" type="verse">
+						ادخل في كيلتيّ نبال جعبته.
+					</ab>
+					<ab xml:id="b.LAM.003.014" type="verse">
+						صرت ضحكة لكل شعبي واغنية لهم اليوم كله.
+					</ab>
+					<ab xml:id="b.LAM.003.015" type="verse">
+						اشبعني مرائر وأرواني افسنتينا.
+					</ab>
+					<ab xml:id="b.LAM.003.016" type="verse">
+						وجرش بالحصى اسناني. كبسني بالرماد.
+					</ab>
+					<ab xml:id="b.LAM.003.017" type="verse">
+						وقد ابعدت عن السلام نفسي. نسيت الخير.
+					</ab>
+					<ab xml:id="b.LAM.003.018" type="verse">
+						وقلت بادت ثقتي ورجائي من الرب.
+					</ab>
+					<ab xml:id="b.LAM.003.019" type="verse">
+						ذكر مذلتي وتيهاني افسنتين وعلقم.
+					</ab>
+					<ab xml:id="b.LAM.003.020" type="verse">
+						ذكرا تذكر نفسي وتنحني فيّ
+					</ab>
+					<ab xml:id="b.LAM.003.021" type="verse">
+						اردد هذا في قلبي. من اجل ذلك ارجو.
+					</ab>
+					<ab xml:id="b.LAM.003.022" type="verse">
+						انه من احسانات الرب اننا لم نفن. لان مراحمه لا تزول.
+					</ab>
+					<ab xml:id="b.LAM.003.023" type="verse">
+						هي جديدة في كل صباح. كثيرة امانتك.
+					</ab>
+					<ab xml:id="b.LAM.003.024" type="verse">
+						نصيبي هو الرب قالت نفسي. من اجل ذلك ارجوه.
+					</ab>
+					<ab xml:id="b.LAM.003.025" type="verse">
+						طيب هو الرب للذين يترجونه للنفس التي تطلبه.
+					</ab>
+					<ab xml:id="b.LAM.003.026" type="verse">
+						جيد ان ينتظر الانسان ويتوقع بسكوت خلاص الرب.
+					</ab>
+					<ab xml:id="b.LAM.003.027" type="verse">
+						جيد للرجل ان يحمل النير في صباه.
+					</ab>
+					<ab xml:id="b.LAM.003.028" type="verse">
+						يجلس وحده ويسكت لانه قد وضعه عليه.
+					</ab>
+					<ab xml:id="b.LAM.003.029" type="verse">
+						يجعل في التراب فمه لعله يوجد رجاء.
+					</ab>
+					<ab xml:id="b.LAM.003.030" type="verse">
+						يعطي خده لضاربه. يشبع عارا.
+					</ab>
+					<ab xml:id="b.LAM.003.031" type="verse">
+						لان السيد لا يرفض الى الابد.
+					</ab>
+					<ab xml:id="b.LAM.003.032" type="verse">
+						فانه ولو احزن يرحم حسب كثرة مراحمه.
+					</ab>
+					<ab xml:id="b.LAM.003.033" type="verse">
+						لانه لا يذل من قلبه ولا يحزن بني الانسان.
+					</ab>
+					<ab xml:id="b.LAM.003.034" type="verse">
+						ان يدوس احد تحت رجليه كل اسرى الارض
+					</ab>
+					<ab xml:id="b.LAM.003.035" type="verse">
+						ان يحرف حق الرجل امام وجه العلي
+					</ab>
+					<ab xml:id="b.LAM.003.036" type="verse">
+						ان يقلب الانسان في دعواه السيد لا يرى.
+					</ab>
+					<ab xml:id="b.LAM.003.037" type="verse">
+						من ذا الذي يقول فيكون والرب لم يأمر.
+					</ab>
+					<ab xml:id="b.LAM.003.038" type="verse">
+						من فم العلي ألا تخرج الشرور والخير
+					</ab>
+					<ab xml:id="b.LAM.003.039" type="verse">
+						لماذا يشتكي الانسان الحي الرجل من قصاص خطاياه.
+					</ab>
+					<ab xml:id="b.LAM.003.040" type="verse">
+						لنفحص طرقنا ونمتحنها ونرجع الى الرب.
+					</ab>
+					<ab xml:id="b.LAM.003.041" type="verse">
+						لنرفع قلوبنا وايدينا الى الله في السموات
+					</ab>
+					<ab xml:id="b.LAM.003.042" type="verse">
+						نحن اذنبنا وعصينا. انت لم تغفر.
+					</ab>
+					<ab xml:id="b.LAM.003.043" type="verse">
+						التحفت بالغضب وطردتنا. قتلت ولم تشفق.
+					</ab>
+					<ab xml:id="b.LAM.003.044" type="verse">
+						التحفت بالسحاب حتى لا تنفذ الصلاة.
+					</ab>
+					<ab xml:id="b.LAM.003.045" type="verse">
+						جعلتنا وسخا وكرها في وسط الشعوب.
+					</ab>
+					<ab xml:id="b.LAM.003.046" type="verse">
+						فتح كل اعدائنا افواههم علينا.
+					</ab>
+					<ab xml:id="b.LAM.003.047" type="verse">
+						صار علينا خوف ورعب هلاك وسحق.
+					</ab>
+					<ab xml:id="b.LAM.003.048" type="verse">
+						سكبت عيناي ينابيع ماء على سحق بنت شعبي.
+					</ab>
+					<ab xml:id="b.LAM.003.049" type="verse">
+						عيني تسكب ولا تكف بلا انقطاع
+					</ab>
+					<ab xml:id="b.LAM.003.050" type="verse">
+						حتى يشرف وينظر الرب من السماء.
+					</ab>
+					<ab xml:id="b.LAM.003.051" type="verse">
+						عيني تؤثّر في نفسي لاجل كل بنات مدينتي.
+					</ab>
+					<ab xml:id="b.LAM.003.052" type="verse">
+						قد اصطادتني اعدائي كعصفور بلا سبب.
+					</ab>
+					<ab xml:id="b.LAM.003.053" type="verse">
+						قرضوا في الجب حياتي والقوا عليّ حجارة.
+					</ab>
+					<ab xml:id="b.LAM.003.054" type="verse">
+						طفت المياه فوق راسي. قلت قد قرضت
+					</ab>
+					<ab xml:id="b.LAM.003.055" type="verse">
+						دعوت باسمك يا رب من الجب الاسفل.
+					</ab>
+					<ab xml:id="b.LAM.003.056" type="verse">
+						لصوتي سمعت. لا تستر اذنك عن زفرتي عن صياحي.
+					</ab>
+					<ab xml:id="b.LAM.003.057" type="verse">
+						دنوت يوم دعوتك. قلت لا تخف.
+					</ab>
+					<ab xml:id="b.LAM.003.058" type="verse">
+						خاصمت يا سيد خصومات نفسي. فككت حياتي.
+					</ab>
+					<ab xml:id="b.LAM.003.059" type="verse">
+						رأيت يا رب ظلمي. اقم دعواي.
+					</ab>
+					<ab xml:id="b.LAM.003.060" type="verse">
+						رأيت كل نقمتهم كل افكارهم عليّ.
+					</ab>
+					<ab xml:id="b.LAM.003.061" type="verse">
+						سمعت تعييرهم يا رب كل افكارهم عليّ
+					</ab>
+					<ab xml:id="b.LAM.003.062" type="verse">
+						كلام مقاوميّ ومؤامرتهم عليّ اليوم كله.
+					</ab>
+					<ab xml:id="b.LAM.003.063" type="verse">
+						انظر الى جلوسهم ووقوفهم انا اغنيتهم
+					</ab>
+					<ab xml:id="b.LAM.003.064" type="verse">
+						رد لهم جزاء يا رب حسب عمل اياديهم.
+					</ab>
+					<ab xml:id="b.LAM.003.065" type="verse">
+						اعطهم غشاوة قلب لعنتك لهم.
+					</ab>
+					<ab xml:id="b.LAM.003.066" type="verse">
+						اتبع بالغضب واهلكهم من تحت سموات الرب
+					</ab>
+				</div>
+				<div xml:id="b.LAM.004" type="chapter">
+				<head>4</head>
+					<ab xml:id="b.LAM.004.001" type="verse">
+						كيف اكدر الذهب تغير الابريز الجيد. انهالت حجارة القدس في راس كل شارع.
+					</ab>
+					<ab xml:id="b.LAM.004.002" type="verse">
+						بنو صهيون الكرماء الموزونون بالذهب النقي كيف حسبوا اباريق خزف عمل يدي فخاري.
+					</ab>
+					<ab xml:id="b.LAM.004.003" type="verse">
+						بنات آوى ايضا اخرجت أطباءها ارضعت اجراءها. اما بنت شعبي فجافية كالنعام في البرية.
+					</ab>
+					<ab xml:id="b.LAM.004.004" type="verse">
+						لصق لسان الراضع بحنكه من العطش. الاطفال يسألون خبزا وليس من يكسره لهم.
+					</ab>
+					<ab xml:id="b.LAM.004.005" type="verse">
+						الذين كانوا ياكلون المآكل الفاخرة قد هلكوا في الشوارع. الذين كانوا يتربون على القرمز احتضنوا المزابل.
+					</ab>
+					<ab xml:id="b.LAM.004.006" type="verse">
+						وقد صار عقاب بنت شعبي اعظم من قصاص خطية سدوم التي انقلبت كانه في لحظة ولم تلق عليها اياد.
+					</ab>
+					<ab xml:id="b.LAM.004.007" type="verse">
+						كان نذرها انقى من الثلج واكثر بياضا من اللبن واجسامهم اشد حمرة من المرجان. جرزهم كالياقوت الازرق.
+					</ab>
+					<ab xml:id="b.LAM.004.008" type="verse">
+						صارت صورتهم اشد ظلاما من السواد. لم يعرفوا في الشوارع. لصق جلدهم بعظمهم. صار يابسا كالخشب.
+					</ab>
+					<ab xml:id="b.LAM.004.009" type="verse">
+						كانت قتلى السيف خيرا من قتلى الجوع. لان هؤلاء يذوبون مطعونين لعدم اثمار الحقل.
+					</ab>
+					<ab xml:id="b.LAM.004.010" type="verse">
+						ايادي النساء الحنائن طبخت اولادهنّ. صاروا طعاما لهنّ في سحق بنت شعبي.
+					</ab>
+					<ab xml:id="b.LAM.004.011" type="verse">
+						اتم الرب غيظه. سكب حمو غضبه واشعل نارا في صهيون فأكل أسسها.
+					</ab>
+					<ab xml:id="b.LAM.004.012" type="verse">
+						لم تصدق ملوك الارض وكل سكان المسكونة ان العدو والمبغض يدخلان ابواب اورشليم
+					</ab>
+					<ab xml:id="b.LAM.004.013" type="verse">
+						من اجل خطايا انبيائها وآثام كهنتها السافكين في وسطها دم الصديقين
+					</ab>
+					<ab xml:id="b.LAM.004.014" type="verse">
+						تاهوا كعمي في الشوارع وتلطخوا بالدم حتى لم يستطع احد ان يمسّ ملابسهم.
+					</ab>
+					<ab xml:id="b.LAM.004.015" type="verse">
+						حيدوا نجس ينادون اليهم. حيدوا حيدوا لا تمسوا. اذ هربوا تاهوا ايضا. قالوا بين الامم انهم لا يعودون يسكنون.
+					</ab>
+					<ab xml:id="b.LAM.004.016" type="verse">
+						وجه الرب قسمهم. لا يعود ينظر اليهم. لم يرفعوا وجوه الكهنة ولم يترأفوا على الشيوخ.
+					</ab>
+					<ab xml:id="b.LAM.004.017" type="verse">
+						اما نحن فقد كلّت اعيننا من النظر الى عوننا الباطل. في برجنا انتظرنا امة لا تخلص.
+					</ab>
+					<ab xml:id="b.LAM.004.018" type="verse">
+						نصبوا فخاخا لخطواتنا حتى لا نمشي في ساحاتنا. قربت نهايتنا. كملت ايامنا لان نهايتنا قد أتت.
+					</ab>
+					<ab xml:id="b.LAM.004.019" type="verse">
+						صار طاردونا اخف من نسور السماء. على الجبال جدوا في اثرنا. في البرية كمنوا لنا.
+					</ab>
+					<ab xml:id="b.LAM.004.020" type="verse">
+						نفس انوفنا مسيح الرب أخذ في حفرهم الذي قلنا عنه في ظله نعيش بين الامم
+					</ab>
+					<ab xml:id="b.LAM.004.021" type="verse">
+						اطربي وافرحي يا بنت ادوم يا ساكنة عوص. عليك ايضا تمر الكاس. تسكرين وتتعرين
+					</ab>
+					<ab xml:id="b.LAM.004.022" type="verse">
+						قد تم اثمك يا بنت صهيون. لا يعود يسبيك. سيعاقب اثمك يا بنت ادوم ويعلن خطاياك
+					</ab>
+				</div>
+				<div xml:id="b.LAM.005" type="chapter">
+				<head>5</head>
+					<ab xml:id="b.LAM.005.001" type="verse">
+						اذكر يا رب ماذا صار لنا. اشرف وانظر الى عارنا.
+					</ab>
+					<ab xml:id="b.LAM.005.002" type="verse">
+						قد صار ميراثنا للغرباء. بيوتنا للاجانب.
+					</ab>
+					<ab xml:id="b.LAM.005.003" type="verse">
+						صرنا ايتاما بلا اب. امهاتنا كارامل.
+					</ab>
+					<ab xml:id="b.LAM.005.004" type="verse">
+						شربنا ماءنا بالفضة. حطبنا بالثمن يأتي.
+					</ab>
+					<ab xml:id="b.LAM.005.005" type="verse">
+						على اعناقنا نضطهد. نتعب ولا راحة لنا.
+					</ab>
+					<ab xml:id="b.LAM.005.006" type="verse">
+						اعطينا اليد للمصريين والاشوريين لنشبع خبزا.
+					</ab>
+					<ab xml:id="b.LAM.005.007" type="verse">
+						آباؤنا اخطأوا وليسوا بموجودين ونحن نحمل آثامهم.
+					</ab>
+					<ab xml:id="b.LAM.005.008" type="verse">
+						عبيد حكموا علينا. ليس من يخلص من ايديهم.
+					</ab>
+					<ab xml:id="b.LAM.005.009" type="verse">
+						بانفسنا نأتي بخبزنا من جرى سيف البرية.
+					</ab>
+					<ab xml:id="b.LAM.005.010" type="verse">
+						جلودنا اسودّت كتنور من جرى نيران الجوع.
+					</ab>
+					<ab xml:id="b.LAM.005.011" type="verse">
+						اذلوا النساء في صهيون العذارى في مدن يهوذا.
+					</ab>
+					<ab xml:id="b.LAM.005.012" type="verse">
+						الرؤساء بايديهم يعلقون ولم تعتبر وجوه الشيوخ.
+					</ab>
+					<ab xml:id="b.LAM.005.013" type="verse">
+						اخذوا الشبان للطحن والصبيان عثروا تحت الحطب.
+					</ab>
+					<ab xml:id="b.LAM.005.014" type="verse">
+						كفت الشيوخ عن الباب والشبان عن غنائهم.
+					</ab>
+					<ab xml:id="b.LAM.005.015" type="verse">
+						مضى فرح قلبنا صار رقصنا نوحا.
+					</ab>
+					<ab xml:id="b.LAM.005.016" type="verse">
+						سقط اكليل راسنا. ويل لنا لاننا قد اخطأنا.
+					</ab>
+					<ab xml:id="b.LAM.005.017" type="verse">
+						من اجل هذا حزن قلبنا. من اجل هذه اظلمت عيوننا.
+					</ab>
+					<ab xml:id="b.LAM.005.018" type="verse">
+						من اجل جبل صهون الخرب. الثعالب ماشية فيه.
+					</ab>
+					<ab xml:id="b.LAM.005.019" type="verse">
+						انت يا رب الى الابد تجلس. كرسيك الى دور فدور.
+					</ab>
+					<ab xml:id="b.LAM.005.020" type="verse">
+						لماذا تنسانا الى الابد وتتركنا طول الايام.
+					</ab>
+					<ab xml:id="b.LAM.005.021" type="verse">
+						ارددنا يا رب اليك فنرتد. جدد ايامنا كالقديم.
+					</ab>
+					<ab xml:id="b.LAM.005.022" type="verse">
+						هل كل الرفض رفضتنا هل غضبت علينا جدا
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

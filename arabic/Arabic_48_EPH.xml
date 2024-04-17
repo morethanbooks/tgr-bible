@@ -1,0 +1,554 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ephesians (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="6"/><measure commodity="verses" quantity="155"/><measure commodity="bytes" quantity="264630"/><measure commodity="characters" quantity="147155"/><measure commodity="tokens" quantity="27795"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Ephesians</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q408673">Q408673</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4075938-6">4075938-6</idno></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">new</term><term type="genre">letter</term><term type="division">Letters</term><term type="genre-multilabel">letter</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.EPH" type="book">
+				<div xml:id="b.EPH.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.EPH.001.001" type="verse">
+						بولس رسول يسوع المسيح بمشيئة الله الى القديسين الذين في افسس والمؤمنون في المسيح يسوع
+					</ab>
+					<ab xml:id="b.EPH.001.002" type="verse">
+						نعمة لكم وسلام من الله ابينا والرب يسوع المسيح
+					</ab>
+					<ab xml:id="b.EPH.001.003" type="verse">
+						مبارك الله ابو ربنا يسوع المسيح الذي باركنا بكل بركة روحية في السماويات في المسيح
+					</ab>
+					<ab xml:id="b.EPH.001.004" type="verse">
+						كما اختارنا فيه قبل تأسيس العالم لنكون قديسين وبلا لوم قدامه في المحبة
+					</ab>
+					<ab xml:id="b.EPH.001.005" type="verse">
+						اذ سبق فعيّننا للتبني بيسوع المسيح لنفسه حسب مسرة مشيئته
+					</ab>
+					<ab xml:id="b.EPH.001.006" type="verse">
+						لمدح مجد نعمته التي انعم بها علينا في المحبوب
+					</ab>
+					<ab xml:id="b.EPH.001.007" type="verse">
+						الذي فيه لنا الفداء بدمه غفران الخطايا حسب غنى نعمته
+					</ab>
+					<ab xml:id="b.EPH.001.008" type="verse">
+						التي اجزلها لنا بكل حكمة وفطنة
+					</ab>
+					<ab xml:id="b.EPH.001.009" type="verse">
+						اذ عرّفنا بسر مشيئته حسب مسرته التي قصدها في نفسه
+					</ab>
+					<ab xml:id="b.EPH.001.010" type="verse">
+						لتدبير ملء الازمنة ليجمع كل شيء في المسيح ما في السموات وما على الارض في ذاك
+					</ab>
+					<ab xml:id="b.EPH.001.011" type="verse">
+						الذي فيه ايضا نلنا نصيبا معيّنين سابقا حسب قصد الذي يعمل كل شيء حسب رأي مشيئته
+					</ab>
+					<ab xml:id="b.EPH.001.012" type="verse">
+						لنكون لمدح مجده نحن الذين قد سبق رجاؤنا في المسيح.
+					</ab>
+					<ab xml:id="b.EPH.001.013" type="verse">
+						الذي فيه ايضا انتم اذ سمعتم كلمة الحق انجيل خلاصكم الذي فيه ايضا اذ آمنتم ختمتم بروح الموعد القدوس
+					</ab>
+					<ab xml:id="b.EPH.001.014" type="verse">
+						الذي هو عربون ميراثنا لفداء المقتنى لمدح مجده
+					</ab>
+					<ab xml:id="b.EPH.001.015" type="verse">
+						لذلك انا ايضا اذ قد سمعت بايمانكم بالرب يسوع ومحبتكم نحو جميع القديسين
+					</ab>
+					<ab xml:id="b.EPH.001.016" type="verse">
+						لا ازال شاكرا لاجلكم ذاكرا اياكم في صلواتي
+					</ab>
+					<ab xml:id="b.EPH.001.017" type="verse">
+						كي يعطيكم اله ربنا يسوع المسيح ابو المجد روح الحكمة والاعلان في معرفته
+					</ab>
+					<ab xml:id="b.EPH.001.018" type="verse">
+						مستنيرة عيون اذهانكم لتعلموا ما هو رجاء دعوته وما هو غنى مجد ميراثه في القديسين
+					</ab>
+					<ab xml:id="b.EPH.001.019" type="verse">
+						وما هي عظمة قدرته الفائقة نحونا نحن المؤمنين حسب عمل شدة قوته
+					</ab>
+					<ab xml:id="b.EPH.001.020" type="verse">
+						الذي عمله في المسيح اذ اقامه من الاموات واجلسه عن يمينه في السماويات
+					</ab>
+					<ab xml:id="b.EPH.001.021" type="verse">
+						فوق كل رياسة وسلطان وقوة وسيادة وكل اسم يسمى ليس في هذا الدهر فقط بل في المستقبل ايضا
+					</ab>
+					<ab xml:id="b.EPH.001.022" type="verse">
+						واخضع كل شيء تحت قدميه واياه جعل راسا فوق كل شيء للكنيسة
+					</ab>
+					<ab xml:id="b.EPH.001.023" type="verse">
+						التي هي جسده ملء الذي يملأ الكل في الكل
+					</ab>
+				</div>
+				<div xml:id="b.EPH.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.EPH.002.001" type="verse">
+						وانتم اذ كنتم امواتا بالذنوب والخطايا
+					</ab>
+					<ab xml:id="b.EPH.002.002" type="verse">
+						التي سلكتم فيها قبلا حسب دهر هذا العالم حسب رئيس سلطان الهواء الروح الذي يعمل الآن في ابناء المعصية
+					</ab>
+					<ab xml:id="b.EPH.002.003" type="verse">
+						الذين نحن ايضا جميعا تصرفنا قبلا بينهم في شهوات جسدنا عاملين مشيئات الجسد والافكار وكنا بالطبيعة ابناء الغضب كالباقين ايضا
+					</ab>
+					<ab xml:id="b.EPH.002.004" type="verse">
+						الله الذي هو غني في الرحمة من اجل محبته الكثيرة التي احبنا بها
+					</ab>
+					<ab xml:id="b.EPH.002.005" type="verse">
+						ونحن اموات بالخطايا احيانا مع المسيح. بالنعمة انتم مخلّصون.
+					</ab>
+					<ab xml:id="b.EPH.002.006" type="verse">
+						واقامنا معه واجلسنا معه في السماويات في المسيح يسوع
+					</ab>
+					<ab xml:id="b.EPH.002.007" type="verse">
+						ليظهر في الدهور الآتية غنى نعمته الفائق باللطف علينا في المسيح يسوع.
+					</ab>
+					<ab xml:id="b.EPH.002.008" type="verse">
+						لانكم بالنعمة مخلّصون بالايمان وذلك ليس منكم. هو عطية الله.
+					</ab>
+					<ab xml:id="b.EPH.002.009" type="verse">
+						ليس من اعمال كي لا يفتخر احد
+					</ab>
+					<ab xml:id="b.EPH.002.010" type="verse">
+						لاننا نحن عمله مخلوقين في المسيح يسوع لاعمال صالحة قد سبق الله فاعدها لكي نسلك فيها
+					</ab>
+					<ab xml:id="b.EPH.002.011" type="verse">
+						لذلك اذكروا انكم انتم الامم قبلا في الجسد المدعوين غرلة من المدعو ختانا مصنوعا باليد في الجسد
+					</ab>
+					<ab xml:id="b.EPH.002.012" type="verse">
+						انكم كنتم في ذلك الوقت بدون مسيح اجنبيين عن رعوية اسرائيل وغرباء عن عهود الموعد لا رجاء لكم وبلا اله في العالم.
+					</ab>
+					<ab xml:id="b.EPH.002.013" type="verse">
+						ولكن الآن في المسيح يسوع انتم الذين كنتم قبلا بعيدين صرتم قريبين بدم المسيح.
+					</ab>
+					<ab xml:id="b.EPH.002.014" type="verse">
+						لانه هو سلامنا الذي جعل الاثنين واحدا ونقض حائط السياج المتوسط
+					</ab>
+					<ab xml:id="b.EPH.002.015" type="verse">
+						اي العداوة. مبطلا بجسده ناموس الوصايا في فرائض لكي يخلق الاثنين في نفسه انسانا واحدا جديدا صانعا سلاما
+					</ab>
+					<ab xml:id="b.EPH.002.016" type="verse">
+						ويصالح الاثنين في جسد واحد مع الله بالصليب قاتلا العداوة به.
+					</ab>
+					<ab xml:id="b.EPH.002.017" type="verse">
+						فجاء وبشركم بسلام انتم البعيدين والقريبين.
+					</ab>
+					<ab xml:id="b.EPH.002.018" type="verse">
+						لان به لنا كلينا قدوما في روح واحد الى الآب.
+					</ab>
+					<ab xml:id="b.EPH.002.019" type="verse">
+						فلستم اذا بعد غرباء ونزلا بل رعية مع القديسين واهل بيت الله
+					</ab>
+					<ab xml:id="b.EPH.002.020" type="verse">
+						مبنيين على اساس الرسل والانبياء ويسوع المسيح نفسه حجر الزاوية
+					</ab>
+					<ab xml:id="b.EPH.002.021" type="verse">
+						الذي فيه كل البناء مركبا معا ينمو هيكلا مقدسا في الرب.
+					</ab>
+					<ab xml:id="b.EPH.002.022" type="verse">
+						الذي فيه انتم ايضا مبنيون معا مسكنا للّه في الروح
+					</ab>
+				</div>
+				<div xml:id="b.EPH.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.EPH.003.001" type="verse">
+						بسبب هذا انا بولس اسير المسيح يسوع لاجلكم ايها الامم
+					</ab>
+					<ab xml:id="b.EPH.003.002" type="verse">
+						ان كنتم قد سمعتم بتدبير نعمة الله المعطاة لي لاجلكم.
+					</ab>
+					<ab xml:id="b.EPH.003.003" type="verse">
+						انه باعلان عرّفني بالسر. كما سبقت فكتبت بالايجاز.
+					</ab>
+					<ab xml:id="b.EPH.003.004" type="verse">
+						الذي بحسبه حينما تقرأونه تقدرون ان تفهموا درايتي بسر المسيح.
+					</ab>
+					<ab xml:id="b.EPH.003.005" type="verse">
+						الذي في اجيال أخر لم يعرف به بنو البشر كما قد أعلن الآن لرسله القديسين وانبيائه بالروح.
+					</ab>
+					<ab xml:id="b.EPH.003.006" type="verse">
+						ان الامم شركاء في الميراث والجسد ونوال موعده في المسيح بالانجيل.
+					</ab>
+					<ab xml:id="b.EPH.003.007" type="verse">
+						الذي صرت انا خادما له حسب موهبة نعمة الله المعطاة لي حسب فعل قوته.
+					</ab>
+					<ab xml:id="b.EPH.003.008" type="verse">
+						لي انا اصغر جميع القديسين أعطيت هذه النعمة ان ابشر بين الامم بغنى المسيح الذي لا يستقصى
+					</ab>
+					<ab xml:id="b.EPH.003.009" type="verse">
+						وانير الجميع في ما هو شركة السر المكتوم منذ الدهور في الله خالق الجميع بيسوع المسيح.
+					</ab>
+					<ab xml:id="b.EPH.003.010" type="verse">
+						لكي يعرّف الآن عند الرؤساء والسلاطين في السماويات بواسطة الكنيسة بحكمة الله المتنوعة
+					</ab>
+					<ab xml:id="b.EPH.003.011" type="verse">
+						حسب قصد الدهور الذي صنعه في المسيح يسوع ربنا.
+					</ab>
+					<ab xml:id="b.EPH.003.012" type="verse">
+						الذي به لنا جراءة وقدوم بايمانه عن ثقة.
+					</ab>
+					<ab xml:id="b.EPH.003.013" type="verse">
+						لذلك اطلب ان لا تكلّوا في شدائدي لاجلكم التي هي مجدكم.
+					</ab>
+					<ab xml:id="b.EPH.003.014" type="verse">
+						بسبب هذا احني ركبتيّ لدى ابي ربنا يسوع المسيح
+					</ab>
+					<ab xml:id="b.EPH.003.015" type="verse">
+						الذي منه تسمى كل عشيرة في السموات وعلى الارض.
+					</ab>
+					<ab xml:id="b.EPH.003.016" type="verse">
+						لكي يعطيكم بحسب غنى مجده ان تتأيدوا بالقوة بروحه في الانسان الباطن
+					</ab>
+					<ab xml:id="b.EPH.003.017" type="verse">
+						ليحل المسيح بالايمان في قلوبكم
+					</ab>
+					<ab xml:id="b.EPH.003.018" type="verse">
+						وانتم متأصلون ومتأسسون في المحبة حتى تستطيعوا ان تدركوا مع جميع القديسين ما هو العرض والطول والعمق والعلو
+					</ab>
+					<ab xml:id="b.EPH.003.019" type="verse">
+						وتعرفوا محبة المسيح الفائقة المعرفة لكي تمتلئوا الى كل ملء الله.
+					</ab>
+					<ab xml:id="b.EPH.003.020" type="verse">
+						والقادر ان يفعل فوق كل شيء اكثر جدا مما نطلب او نفتكر بحسب القوة التي تعمل فينا
+					</ab>
+					<ab xml:id="b.EPH.003.021" type="verse">
+						له المجد في الكنيسة في المسيح يسوع الى جميع اجيال دهر الدهور. آمين
+					</ab>
+				</div>
+				<div xml:id="b.EPH.004" type="chapter">
+				<head>4</head>
+					<ab xml:id="b.EPH.004.001" type="verse">
+						فاطلب اليكم انا الاسير في الرب ان تسلكوا كما يحق للدعوة التي دعيتم بها.
+					</ab>
+					<ab xml:id="b.EPH.004.002" type="verse">
+						بكل تواضع ووداعة وبطول اناة محتملين بعضكم بعضا في المحبة.
+					</ab>
+					<ab xml:id="b.EPH.004.003" type="verse">
+						مجتهدين ان تحفظوا وحدانية الروح برباط السلام.
+					</ab>
+					<ab xml:id="b.EPH.004.004" type="verse">
+						جسد واحد وروح واحد كما دعيتم ايضا في رجاء دعوتكم الواحد.
+					</ab>
+					<ab xml:id="b.EPH.004.005" type="verse">
+						رب واحد ايمان واحد معمودية واحدة
+					</ab>
+					<ab xml:id="b.EPH.004.006" type="verse">
+						اله وآب واحد للكل الذي على الكل وبالكل وفي كلكم.
+					</ab>
+					<ab xml:id="b.EPH.004.007" type="verse">
+						ولكن لكل واحد منا اعطيت النعمة حسب قياس هبة المسيح.
+					</ab>
+					<ab xml:id="b.EPH.004.008" type="verse">
+						لذلك يقول. اذ صعد الى العلاء سبى سبيا واعطى الناس عطايا.
+					</ab>
+					<ab xml:id="b.EPH.004.009" type="verse">
+						واما انه صعد فما هو الا انه نزل ايضا اولا الى اقسام الارض السفلى.
+					</ab>
+					<ab xml:id="b.EPH.004.010" type="verse">
+						الذي نزل هو الذي صعد ايضا فوق جميع السموات لكي يملأ الكل.
+					</ab>
+					<ab xml:id="b.EPH.004.011" type="verse">
+						وهو اعطى البعض ان يكونوا رسلا والبعض انبياء والبعض مبشرين والبعض رعاة ومعلّمين
+					</ab>
+					<ab xml:id="b.EPH.004.012" type="verse">
+						لاجل تكميل القديسين لعمل الخدمة لبنيان جسد المسيح
+					</ab>
+					<ab xml:id="b.EPH.004.013" type="verse">
+						الى ان ننتهي جميعنا الى وحدانية الايمان ومعرفة ابن الله. الى انسان كامل. الى قياس قامة ملء المسيح.
+					</ab>
+					<ab xml:id="b.EPH.004.014" type="verse">
+						كي لا نكون فيما بعد اطفالا مضطربين ومحمولين بكل ريح تعليم بحيلة الناس بمكر الى مكيدة الضلال.
+					</ab>
+					<ab xml:id="b.EPH.004.015" type="verse">
+						بل صادقين في المحبة ننمو في كل شيء الى ذاك الذي هو الراس المسيح
+					</ab>
+					<ab xml:id="b.EPH.004.016" type="verse">
+						الذي منه كل الجسد مركبا معا ومقترنا بموازرة كل مفصل حسب عمل على قياس كل جزء يحصّل نمو الجسد لبنيانه في المحبة
+					</ab>
+					<ab xml:id="b.EPH.004.017" type="verse">
+						فاقول هذا واشهد في الرب ان لا تسلكوا في ما بعد كما يسلك سائر الامم ايضا ببطل ذهنهم
+					</ab>
+					<ab xml:id="b.EPH.004.018" type="verse">
+						اذ هم مظلمو الفكر ومتجنبون عن حياة الله لسبب الجهل الذي فيهم بسبب غلاظة قلوبهم.
+					</ab>
+					<ab xml:id="b.EPH.004.019" type="verse">
+						الذين اذ هم قد فقدوا الحس اسلموا نفوسهم للدعارة ليعملوا كل نجاسة في الطمع.
+					</ab>
+					<ab xml:id="b.EPH.004.020" type="verse">
+						واما انتم فلم تتعلّموا المسيح هكذا
+					</ab>
+					<ab xml:id="b.EPH.004.021" type="verse">
+						ان كنتم قد سمعتموه وعلمتم فيه كما هو حق في يسوع
+					</ab>
+					<ab xml:id="b.EPH.004.022" type="verse">
+						ان تخلعوا من جهة التصرف السابق الانسان العتيق الفاسد بحسب شهوات الغرور
+					</ab>
+					<ab xml:id="b.EPH.004.023" type="verse">
+						وتتجددوا بروح ذهنكم
+					</ab>
+					<ab xml:id="b.EPH.004.024" type="verse">
+						وتلبسوا الانسان الجديد المخلوق بحسب الله في البر وقداسة الحق
+					</ab>
+					<ab xml:id="b.EPH.004.025" type="verse">
+						لذلك اطرحوا عنكم الكذب وتكلموا بالصدق كل واحد مع قريبه. لاننا بعضنا اعضاء البعض.
+					</ab>
+					<ab xml:id="b.EPH.004.026" type="verse">
+						اغضبوا ولا تخطئوا. لا تغرب الشمس على غيظكم
+					</ab>
+					<ab xml:id="b.EPH.004.027" type="verse">
+						ولا تعطوا ابليس مكانا.
+					</ab>
+					<ab xml:id="b.EPH.004.028" type="verse">
+						لا يسرق السارق في ما بعد بل بالحري يتعب عاملا الصالح بيديه ليكون له ان يعطي من له احتياج.
+					</ab>
+					<ab xml:id="b.EPH.004.029" type="verse">
+						لا تخرج كلمة رديّة من افواهكم بل كل ما كان صالحا للبنيان حسب الحاجة كي يعطي نعمة للسامعين.
+					</ab>
+					<ab xml:id="b.EPH.004.030" type="verse">
+						ولا تحزنوا روح الله القدوس الذي به ختمتم ليوم الفداء.
+					</ab>
+					<ab xml:id="b.EPH.004.031" type="verse">
+						ليرفع من بينكم كل مرارة وسخط وغضب وصياح وتجديف مع كل خبث.
+					</ab>
+					<ab xml:id="b.EPH.004.032" type="verse">
+						وكونوا لطفاء بعضكم نحو بعض شفوقين متسامحين كما سامحكم الله ايضا في المسيح
+					</ab>
+				</div>
+				<div xml:id="b.EPH.005" type="chapter">
+				<head>5</head>
+					<ab xml:id="b.EPH.005.001" type="verse">
+						فكونوا متمثلين بالله كاولاد احباء.
+					</ab>
+					<ab xml:id="b.EPH.005.002" type="verse">
+						واسلكوا في المحبة كما احبنا المسيح ايضا واسلم نفسه لاجلنا قربانا وذبيحة للّه رائحة طيبة
+					</ab>
+					<ab xml:id="b.EPH.005.003" type="verse">
+						واما الزنى وكل نجاسة او طمع فلا يسمّ بينكم كما يليق بقديسين
+					</ab>
+					<ab xml:id="b.EPH.005.004" type="verse">
+						ولا القباحة ولا كلام السفاهة والهزل التي لا تليق بل بالحري الشكر.
+					</ab>
+					<ab xml:id="b.EPH.005.005" type="verse">
+						فانكم تعلمون هذا ان كل زان او نجس او طماع الذي هو عابد للاوثان ليس له ميراث في ملكوت المسيح والله.
+					</ab>
+					<ab xml:id="b.EPH.005.006" type="verse">
+						لا يغركم احد بكلام باطل لانه بسبب هذه الامور يأتي غضب الله على ابناء المعصية.
+					</ab>
+					<ab xml:id="b.EPH.005.007" type="verse">
+						فلا تكونوا شركاءهم.
+					</ab>
+					<ab xml:id="b.EPH.005.008" type="verse">
+						لانكم كنتم قبلا ظلمة واما الآن فنور في الرب. اسلكوا كاولاد نور.
+					</ab>
+					<ab xml:id="b.EPH.005.009" type="verse">
+						لان ثمر الروح هو في كل صلاح وبر وحق.
+					</ab>
+					<ab xml:id="b.EPH.005.010" type="verse">
+						مختبرين ما هو مرضي عند الرب.
+					</ab>
+					<ab xml:id="b.EPH.005.011" type="verse">
+						ولا تشتركوا في اعمال الظلمة غير المثمرة بل بالحري وبخوها.
+					</ab>
+					<ab xml:id="b.EPH.005.012" type="verse">
+						لان الامور الحادثة منهم سرّا ذكرها ايضا قبيح.
+					</ab>
+					<ab xml:id="b.EPH.005.013" type="verse">
+						ولكن الكل اذا توبخ يظهر بالنور. لان كل ما اظهر فهو نور.
+					</ab>
+					<ab xml:id="b.EPH.005.014" type="verse">
+						لذلك يقول استيقظ ايها النائم وقم من الاموات فيضيء لك المسيح
+					</ab>
+					<ab xml:id="b.EPH.005.015" type="verse">
+						فانظروا كيف تسلكون بالتدقيق لا كجهلاء بل كحكماء
+					</ab>
+					<ab xml:id="b.EPH.005.016" type="verse">
+						مفتدين الوقت لان الايام شريرة.
+					</ab>
+					<ab xml:id="b.EPH.005.017" type="verse">
+						من اجل ذلك لا تكونوا اغبياء بل فاهمين ما هي مشيئة الرب.
+					</ab>
+					<ab xml:id="b.EPH.005.018" type="verse">
+						ولا تسكروا بالخمر الذي فيه الخلاعة بل امتلئوا بالروح
+					</ab>
+					<ab xml:id="b.EPH.005.019" type="verse">
+						مكلمين بعضكم بعضا بمزامير وتسابيح واغاني روحية مترنمين ومرتلين في قلوبكم للرب.
+					</ab>
+					<ab xml:id="b.EPH.005.020" type="verse">
+						شاكرين كل حين على كل شيء في اسم ربنا يسوع المسيح للّه والآب.
+					</ab>
+					<ab xml:id="b.EPH.005.021" type="verse">
+						خاضعين بعضكم لبعض في خوف الله
+					</ab>
+					<ab xml:id="b.EPH.005.022" type="verse">
+						ايها النساء اخضعن لرجالكنّ كما للرب.
+					</ab>
+					<ab xml:id="b.EPH.005.023" type="verse">
+						لان الرجل هو راس المرأة كما ان المسيح ايضا راس الكنيسة. وهو مخلّص الجسد.
+					</ab>
+					<ab xml:id="b.EPH.005.024" type="verse">
+						ولكن كما تخضع الكنيسة للمسيح كذلك النساء لرجالهنّ في كل شيء.
+					</ab>
+					<ab xml:id="b.EPH.005.025" type="verse">
+						ايها الرجال احبوا نساءكم كما احب المسيح ايضا الكنيسة واسلم نفسه لاجلها
+					</ab>
+					<ab xml:id="b.EPH.005.026" type="verse">
+						لكي يقدسها مطهرا اياها بغسل الماء بالكلمة
+					</ab>
+					<ab xml:id="b.EPH.005.027" type="verse">
+						لكي يحضرها لنفسه كنيسة مجيدة لا دنس فيها ولا غضن او شيء من مثل ذلك بل تكون مقدسة وبلا عيب.
+					</ab>
+					<ab xml:id="b.EPH.005.028" type="verse">
+						كذلك يجب على الرجال ان يحبوا نساءهم كاجسادهم. من يحب امرأته يحب نفسه.
+					</ab>
+					<ab xml:id="b.EPH.005.029" type="verse">
+						فانه لم يبغض احد جسده قط بل يقوته ويربيه كما الرب ايضا للكنيسة.
+					</ab>
+					<ab xml:id="b.EPH.005.030" type="verse">
+						لاننا اعضاء جسمه من لحمه ومن عظامه.
+					</ab>
+					<ab xml:id="b.EPH.005.031" type="verse">
+						من اجل هذا يترك الرجل اباه وامه ويلتصق بامرأته ويكون الاثنان جسدا واحدا.
+					</ab>
+					<ab xml:id="b.EPH.005.032" type="verse">
+						هذا السر عظيم ولكنني انا اقول من نحو المسيح والكنيسة.
+					</ab>
+					<ab xml:id="b.EPH.005.033" type="verse">
+						واما انتم الافراد فليحب كل واحد امرأته هكذا كنفسه واما المرأة فلتهب رجلها
+					</ab>
+				</div>
+				<div xml:id="b.EPH.006" type="chapter">
+				<head>6</head>
+					<ab xml:id="b.EPH.006.001" type="verse">
+						ايها الاولاد اطيعوا والديكم في الرب لان هذا حق.
+					</ab>
+					<ab xml:id="b.EPH.006.002" type="verse">
+						اكرم اباك وامك. التي هي اول وصية بوعد.
+					</ab>
+					<ab xml:id="b.EPH.006.003" type="verse">
+						لكي يكون لكم خير وتكونوا طوال الاعمار على الارض.
+					</ab>
+					<ab xml:id="b.EPH.006.004" type="verse">
+						وانتم ايها الآباء لا تغيظوا اولادكم بل ربوهم بتأديب الرب وانذاره.
+					</ab>
+					<ab xml:id="b.EPH.006.005" type="verse">
+						ايها العبيد اطيعوا سادتكم حسب الجسد بخوف ورعدة في بساطة قلوبكم كما للمسيح.
+					</ab>
+					<ab xml:id="b.EPH.006.006" type="verse">
+						لا بخدمة العين كمن يرضي الناس بل كعبيد المسيح عاملين مشيئة الله من القلب
+					</ab>
+					<ab xml:id="b.EPH.006.007" type="verse">
+						خادمين بنيّة صالحة كما للرب ليس للناس.
+					</ab>
+					<ab xml:id="b.EPH.006.008" type="verse">
+						عالمين ان مهما عمل كل واحد من الخير فذلك يناله من الرب عبدا كان ام حرا.
+					</ab>
+					<ab xml:id="b.EPH.006.009" type="verse">
+						وانتم ايها السادة افعلوا لهم هذه الامور تاركين التهديد عالمين ان سيدكم انتم ايضا في السموات وليس عنده محاباة
+					</ab>
+					<ab xml:id="b.EPH.006.010" type="verse">
+						اخيرا يا اخوتي تقووا في الرب وفي شدة قوته.
+					</ab>
+					<ab xml:id="b.EPH.006.011" type="verse">
+						البسوا سلاح الله الكامل لكي تقدروا ان تثبتوا ضد مكايد ابليس.
+					</ab>
+					<ab xml:id="b.EPH.006.012" type="verse">
+						فان مصارعتنا ليست مع دم ولحم بل مع الرؤساء مع السلاطين مع ولاة العالم على ظلمة هذا الدهر مع اجناد الشر الروحية في السماويات.
+					</ab>
+					<ab xml:id="b.EPH.006.013" type="verse">
+						من اجل ذلك احملوا سلاح الله الكامل لكي تقدروا ان تقاوموا في اليوم الشرير وبعد ان تتمموا كل شيء ان تثبتوا.
+					</ab>
+					<ab xml:id="b.EPH.006.014" type="verse">
+						فاثبتوا ممنطقين احقاءكم بالحق ولابسين درع البر
+					</ab>
+					<ab xml:id="b.EPH.006.015" type="verse">
+						وحاذين ارجلكم باستعداد انجيل السلام.
+					</ab>
+					<ab xml:id="b.EPH.006.016" type="verse">
+						حاملين فوق الكل ترس الايمان الذي به تقدرون ان تطفئوا جميع سهام الشرير الملتهبة.
+					</ab>
+					<ab xml:id="b.EPH.006.017" type="verse">
+						وخذوا خوذة الخلاص وسيف الروح الذي هو كلمة الله.
+					</ab>
+					<ab xml:id="b.EPH.006.018" type="verse">
+						مصلّين بكل صلاة وطلبة كل وقت في الروح وساهرين لهذا بعينه بكل مواظبة وطلبة لاجل جميع القديسين
+					</ab>
+					<ab xml:id="b.EPH.006.019" type="verse">
+						ولاجلي لكي يعطى لي كلام عند افتتاح فمي لاعلم جهارا بسر الانجيل.
+					</ab>
+					<ab xml:id="b.EPH.006.020" type="verse">
+						الذي لاجله انا سفير في سلاسل. لكي اجاهر فيه كما يجب ان اتكلم
+					</ab>
+					<ab xml:id="b.EPH.006.021" type="verse">
+						ولكن لكي تعلموا انتم ايضا احوالي ماذا افعل يعرّفكم بكل شيء تيخيكس الاخ الحبيب والخادم الامين في الرب
+					</ab>
+					<ab xml:id="b.EPH.006.022" type="verse">
+						الذي ارسلته اليكم لهذا بعينه لكي تعلموا احوالنا ولكي يعزي قلوبكم
+					</ab>
+					<ab xml:id="b.EPH.006.023" type="verse">
+						سلام على الاخوة ومحبة بايمان من الله الآب والرب يسوع المسيح.
+					</ab>
+					<ab xml:id="b.EPH.006.024" type="verse">
+						النعمة مع جميع الذين يحبون ربنا يسوع المسيح في عدم فساد. آمين. كتبت الى اهل افسس من رومية على يد تيخيكس
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

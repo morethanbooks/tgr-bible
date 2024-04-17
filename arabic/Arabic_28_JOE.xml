@@ -1,0 +1,299 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Joel (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="3"/><measure commodity="verses" quantity="73"/><measure commodity="bytes" quantity="1180161"/><measure commodity="characters" quantity="656235"/><measure commodity="tokens" quantity="123897"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Joel</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q131643">Q131643</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4028647-2">4028647-2</idno><author><name>Joel</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q45053">Q45053</idno><idno type="gnd" corresp="https://d-nb.info/gnd/118639919">118639919</idno></author></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">old</term><term type="genre">prophecy</term><term type="division">Prophetic</term><term type="genre-multilabel">prophecy</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.JOE" type="book">
+				<div xml:id="b.JOE.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.JOE.001.001" type="verse">
+						قول الرب الذي صار الى يوئيل بن فثوئيل
+					</ab>
+					<ab xml:id="b.JOE.001.002" type="verse">
+						اسمعوا هذا ايها الشيوخ واصغوا يا جميع سكان الارض. هل حدث هذا في ايامكم او في ايام آبائكم.
+					</ab>
+					<ab xml:id="b.JOE.001.003" type="verse">
+						اخبروا بنيكم عنه وبنوكم بنيهم وبنوهم دورا آخر.
+					</ab>
+					<ab xml:id="b.JOE.001.004" type="verse">
+						فضلة القمص اكلها الزحّاف وفضلة الزحّاف اكلها الغوغاء وفضلة الغوغاء اكلها الطيّار
+					</ab>
+					<ab xml:id="b.JOE.001.005" type="verse">
+						اصحوا ايها السكارى وابكوا وولولوا يا جميع شاربي الخمر على العصير لانه انقطع عن افواهكم.
+					</ab>
+					<ab xml:id="b.JOE.001.006" type="verse">
+						اذ قد صعدت على ارضي امة قوية بلا عدد اسنانها اسنان الاسد ولها اضراس اللبوة.
+					</ab>
+					<ab xml:id="b.JOE.001.007" type="verse">
+						جعلت كرمتي خربة وتينتي متهشّمة. قد قشرتها وطرحتها فابيضّت قضبانها
+					</ab>
+					<ab xml:id="b.JOE.001.008" type="verse">
+						نوحي يا ارضي كعروس مؤتزرة بمسح من اجل بعل صباها.
+					</ab>
+					<ab xml:id="b.JOE.001.009" type="verse">
+						انقطعت التقدمة والسكيب عن بيت الرب. ناحت الكهنة خدام الرب.
+					</ab>
+					<ab xml:id="b.JOE.001.010" type="verse">
+						تلف الحقل ناحت الارض لانه قد تلف القمح جف المسطار ذبل الزيت.
+					</ab>
+					<ab xml:id="b.JOE.001.011" type="verse">
+						خجل الفلاحون ولول الكرّامون على الحنطة وعلى الشعير لانه قد تلف حصيد الحقل.
+					</ab>
+					<ab xml:id="b.JOE.001.012" type="verse">
+						الجفنة يبست والتينة ذبلت. الرمانة والنخلة والتفاحة كل اشجار الحقل يبست. انه قد يبست البهجة من بني البشر
+					</ab>
+					<ab xml:id="b.JOE.001.013" type="verse">
+						تنطّقوا ونوحوا ايها الكهنة. ولولوا يا خدام المذبح. ادخلوا بيتوا بالمسوح يا خدام الهي لانه قد امتنع عن بيت الهكم التقدمة والسكيب.
+					</ab>
+					<ab xml:id="b.JOE.001.014" type="verse">
+						قدسوا صوما نادوا باعتكاف اجمعوا الشيوخ جميع سكان الارض الى بيت الرب الهكم واصرخوا الى الرب
+					</ab>
+					<ab xml:id="b.JOE.001.015" type="verse">
+						آه على اليوم لان يوم الرب قريب. ياتي كخراب من القادر على كل شيء.
+					</ab>
+					<ab xml:id="b.JOE.001.016" type="verse">
+						أما انقطع الطعام تجاه عيوننا. الفرح والابتهاج عن بيت الهنا.
+					</ab>
+					<ab xml:id="b.JOE.001.017" type="verse">
+						عفّنت الحبوب تحت مدرها. خلت الاهراء. انهدمت المخازن لانه قد يبس القمح.
+					</ab>
+					<ab xml:id="b.JOE.001.018" type="verse">
+						كم تئن البهائم هامت قطعان البقر لان ليس لها مرعى حتى قطعان الغنم تفنى.
+					</ab>
+					<ab xml:id="b.JOE.001.019" type="verse">
+						اليك يا رب اصرخ لان نارا قد اكلت مراعي البرية ولهيبا احرق جميع اشجار الحقل.
+					</ab>
+					<ab xml:id="b.JOE.001.020" type="verse">
+						حتى بهائم الصحراء تنظر اليك لان جداول المياه قد جفّت والنار اكلت مراعي البرية
+					</ab>
+				</div>
+				<div xml:id="b.JOE.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.JOE.002.001" type="verse">
+						اضربوا بالبوق في صهيون صوّتوا في جبل قدسي. ليرتعد جميع سكان الارض لان يوم الرب قادم لانه قريب.
+					</ab>
+					<ab xml:id="b.JOE.002.002" type="verse">
+						يوم ظلام وقتام يوم غيم وضباب مثل الفجر ممتدا على الجبال. شعب كثير وقوي لم يكن نظيره منذ الازل ولا يكون ايضا بعده الى سني دور فدور.
+					</ab>
+					<ab xml:id="b.JOE.002.003" type="verse">
+						قدامه نار تأكل وخلفه لهيب يحرق. الارض قدامه كجنة عدن وخلفه قفر خرب ولا تكون منه نجاة.
+					</ab>
+					<ab xml:id="b.JOE.002.004" type="verse">
+						كمنظر الخيل منظره ومثل الافراس يركضون.
+					</ab>
+					<ab xml:id="b.JOE.002.005" type="verse">
+						كصريف المركبات على رؤوس الجبال يثبون. كزفير لهيب نار تأكل قشا. كقوم اقوياء مصطفين للقتال.
+					</ab>
+					<ab xml:id="b.JOE.002.006" type="verse">
+						منه ترتعد الشعوب. كل الوجوه تجمع حمرة.
+					</ab>
+					<ab xml:id="b.JOE.002.007" type="verse">
+						يجرون كابطال. يصعدون السور كرجال الحرب ويمشون كل واحد في طريقه ولا يغيّرون سبلهم.
+					</ab>
+					<ab xml:id="b.JOE.002.008" type="verse">
+						ولا يزاحم بعضهم بعضا يمشون كل واحد في سبيله وبين الاسلحة يقعون ولا ينكسرون.
+					</ab>
+					<ab xml:id="b.JOE.002.009" type="verse">
+						يتراكضون في المدينة يجرون على السور يصعدون الى البيوت يدخلون من الكوى كاللص.
+					</ab>
+					<ab xml:id="b.JOE.002.010" type="verse">
+						قدامه ترتعد الارض وترجف السماء. الشمس والقمر يظلمان والنجوم تحجز لمعانها.
+					</ab>
+					<ab xml:id="b.JOE.002.011" type="verse">
+						والرب يعطي صوته امام جيشه. ان عسكره كثير جدا. فان صانع قوله قوي لان يوم الرب عظيم ومخوف جدا فمن يطيقه
+					</ab>
+					<ab xml:id="b.JOE.002.012" type="verse">
+						ولكن الآن يقول الرب ارجعوا اليّ بكل قلوبكم وبالصوم والبكاء والنوح.
+					</ab>
+					<ab xml:id="b.JOE.002.013" type="verse">
+						ومزقوا قلوبكم لا ثيابكم وارجعوا الى الرب الهكم لانه رؤوف رحيم بطيء الغضب وكثير الرأفة ويندم على الشر.
+					</ab>
+					<ab xml:id="b.JOE.002.014" type="verse">
+						لعله يرجع ويندم فيبقي وراءه بركة تقدمة وسكيبا للرب الهكم
+					</ab>
+					<ab xml:id="b.JOE.002.015" type="verse">
+						اضربوا بالبوق في صهيون قدسوا صوما نادوا باعتكاف.
+					</ab>
+					<ab xml:id="b.JOE.002.016" type="verse">
+						اجمعوا الشعب قدسوا الجماعة احشدوا الشيوخ اجمعوا الاطفال وراضعي الثدي ليخرج العريس من مخدعه والعروس من حجلتها.
+					</ab>
+					<ab xml:id="b.JOE.002.017" type="verse">
+						ليبك الكهنة خدام الرب بين الرواق والمذبح ويقولوا اشفق يا رب على شعبك ولا تسلم ميراثك للعار حتى تجعلهم الامم مثلا. لماذا يقولون بين الشعوب اين الههم
+					</ab>
+					<ab xml:id="b.JOE.002.018" type="verse">
+						فيغار الرب لارضه ويرقّ لشعبه.
+					</ab>
+					<ab xml:id="b.JOE.002.019" type="verse">
+						ويجيب الرب ويقول لشعبه هانذا مرسل لكم قمحا ومسطارا وزيتا لتشبعوا منها ولا اجعلكم ايضا عارا بين الامم.
+					</ab>
+					<ab xml:id="b.JOE.002.020" type="verse">
+						والشمالي ابعده عنكم واطرده الى ارض ناشفة ومقفرة مقدمته الى البحر الشرقي وساقته الى البحر الغربي فيصعد نتنه وتطلع زهمته لانه قد تصلّف في عمله
+					</ab>
+					<ab xml:id="b.JOE.002.021" type="verse">
+						لا تخافي ايتها الارض ابتهجي وافرحي لان الرب يعظّم عمله.
+					</ab>
+					<ab xml:id="b.JOE.002.022" type="verse">
+						لا تخافي يا بهائم الصحراء فان مراعي البرية تنبت لان الاشجار تحمل ثمرها التينة والكرمة تعطيان قوتهما.
+					</ab>
+					<ab xml:id="b.JOE.002.023" type="verse">
+						ويا بني صهيون ابتهجوا وافرحوا بالرب الهكم لانه يعطيكم المطر المبكر على حقه وينزل عليكم مطرا مبكرا ومتأخرا في اول الوقت
+					</ab>
+					<ab xml:id="b.JOE.002.024" type="verse">
+						فتملأ البيادر حنطة وتفيض حياض المعاصر خمرا وزيتا.
+					</ab>
+					<ab xml:id="b.JOE.002.025" type="verse">
+						واعوض لكم عن السنين التي اكلها الجراد الغوغاء والطيّار والقمص جيشي العظيم الذي ارسلته عليكم.
+					</ab>
+					<ab xml:id="b.JOE.002.026" type="verse">
+						فتأكلون اكلا وتشبعون وتسبّحون اسم الرب الهكم الذي صنع معكم عجبا ولا يخزى شعبي الى الابد.
+					</ab>
+					<ab xml:id="b.JOE.002.027" type="verse">
+						وتعلمون اني انا في وسط اسرائيل واني انا الرب الهكم وليس غيري ولا يخزى شعبي الى الابد.
+					</ab>
+					<ab xml:id="b.JOE.002.028" type="verse">
+						ويكون بعد ذلك اني اسكب روحي على كل بشر فيتنبأ بنوكم وبناتكم ويحلم شيوخكم احلاما ويرى شبابكم رؤى.
+					</ab>
+					<ab xml:id="b.JOE.002.029" type="verse">
+						وعلى العبيد ايضا وعلى الإماء اسكب روحي في تلك الايام
+					</ab>
+					<ab xml:id="b.JOE.002.030" type="verse">
+						واعطي عجائب في السماء والارض دما ونارا واعمدة دخان.
+					</ab>
+					<ab xml:id="b.JOE.002.031" type="verse">
+						تتحول الشمس الى ظلمة والقمر الى دم قبل ان يجيء يوم الرب العظيم المخوف.
+					</ab>
+					<ab xml:id="b.JOE.002.032" type="verse">
+						ويكون ان كل من يدعو باسم الرب ينجو. لانه في جبل صهيون وفي اورشليم تكون نجاة. كما قال الرب. وبين الباقين من يدعوه الرب
+					</ab>
+				</div>
+				<div xml:id="b.JOE.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.JOE.003.001" type="verse">
+						لانه هوذا في تلك الايام وفي ذلك الوقت عندما ارد سبي يهوذا واورشليم
+					</ab>
+					<ab xml:id="b.JOE.003.002" type="verse">
+						اجمع كل الامم وانزلهم الى وادي يهوشافاط واحاكمهم هناك على شعبي وميراثي اسرائيل الذين بدّدوهم بين الامم وقسموا ارضي
+					</ab>
+					<ab xml:id="b.JOE.003.003" type="verse">
+						والقوا قرعة على شعبي واعطوا الصبي بزانية وباعوا البنت بخمر ليشربوا
+					</ab>
+					<ab xml:id="b.JOE.003.004" type="verse">
+						وماذا انتنّ لي يا صور وصيدون وجميع دائرة فلسطين. هل تكافئونني عن العمل أم هل تصنعون بي شيئا. سريعا بالعجل ارد عملكم على رؤوسكم.
+					</ab>
+					<ab xml:id="b.JOE.003.005" type="verse">
+						لانكم اخذتم فضتي وذهبي وادخلتم نفائسي الجيدة الى هياكلكم.
+					</ab>
+					<ab xml:id="b.JOE.003.006" type="verse">
+						وبعتم بني يهوذا وبني اورشليم لبني الياوانيين لكي تبعدوهم عن تخومهم.
+					</ab>
+					<ab xml:id="b.JOE.003.007" type="verse">
+						هانذا انهضهم من الموضع الذي بعتموهم اليه وارد عملكم على رؤوسكم.
+					</ab>
+					<ab xml:id="b.JOE.003.008" type="verse">
+						وابيع بنيكم وبناتكم بيد بني يهوذا ليبيعوهم للسبائيين لأمة بعيدة لان الرب قد تكلم
+					</ab>
+					<ab xml:id="b.JOE.003.009" type="verse">
+						نادوا بهذا بين الامم. قدسوا حربا انهضوا الابطال ليتقدم ويصعد كل رجال الحرب.
+					</ab>
+					<ab xml:id="b.JOE.003.010" type="verse">
+						اطبعوا سكّاتكم سيوفا ومناجلكم رماحا. ليقل الضعيف بطل انا.
+					</ab>
+					<ab xml:id="b.JOE.003.011" type="verse">
+						اسرعوا وهلموا يا جميع الامم من كل ناحية واجتمعوا. الى هناك أنزل يا رب ابطالك.
+					</ab>
+					<ab xml:id="b.JOE.003.012" type="verse">
+						تنهض وتصعد الامم الى وادي يهوشافاط لاني هناك اجلس لاحاكم جميع الامم من كل ناحية.
+					</ab>
+					<ab xml:id="b.JOE.003.013" type="verse">
+						ارسلوا المنجل لان الحصيد قد نضج. هلموا دوسوا لانه قد امتلأت المعصرة. فاضت الحياض لان شرهم كثير
+					</ab>
+					<ab xml:id="b.JOE.003.014" type="verse">
+						جماهير جماهير في وادي القضاء لان يوم الرب قريب في وادي القضاء.
+					</ab>
+					<ab xml:id="b.JOE.003.015" type="verse">
+						الشمس والقمر يظلمان والنجوم تحجز لمعانها.
+					</ab>
+					<ab xml:id="b.JOE.003.016" type="verse">
+						والرب من صهيون يزمجر ومن اورشليم يعطي صوته فترجف السماء والارض. ولكن الرب ملجأ لشعبه وحصن لبني اسرائيل.
+					</ab>
+					<ab xml:id="b.JOE.003.017" type="verse">
+						فتعرفون اني انا الرب الهكم ساكنا في صهيون جبل قدسي وتكون اورشليم مقدسة ولا يجتاز فيها الاعاجم في ما بعد
+					</ab>
+					<ab xml:id="b.JOE.003.018" type="verse">
+						ويكون في ذلك اليوم ان الجبال تقطر عصيرا والتلال تفيض لبنا وجميع ينابيع يهوذا تفيض ماء ومن بيت الرب يخرج ينبوع ويسقي وادي السنط.
+					</ab>
+					<ab xml:id="b.JOE.003.019" type="verse">
+						مصر تصير خرابا وادوم تصير قفرا خربا من اجل ظلمهم لبني يهوذا الذين سفكوا دما بريئا في ارضهم.
+					</ab>
+					<ab xml:id="b.JOE.003.020" type="verse">
+						ولكن يهوذا تسكن الى الابد واورشليم الى دور فدور.
+					</ab>
+					<ab xml:id="b.JOE.003.021" type="verse">
+						وابرّئ دمهم الذي لم ابرّئه والرب يسكن في صهيون
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

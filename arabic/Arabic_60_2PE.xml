@@ -1,0 +1,263 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>2 Peter (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="3"/><measure commodity="verses" quantity="61"/><measure commodity="bytes" quantity="99673"/><measure commodity="characters" quantity="55574"/><measure commodity="tokens" quantity="10417"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>2 Peter</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q131178">Q131178</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4045407-1">4045407-1</idno><author><name>Peter</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q33923">Q33923</idno><idno type="gnd" corresp="https://d-nb.info/gnd/118593323">118593323</idno></author></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">new</term><term type="genre">letter</term><term type="division">Letters</term><term type="genre-multilabel">letter</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.2PE" type="book">
+				<div xml:id="b.2PE.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.2PE.001.001" type="verse">
+						سمعان بطرس عبد يسوع المسيح ورسوله الى الذين نالوا معنا ايمانا ثمينا مساويا لنا ببر الهنا والمخلص يسوع المسيح.
+					</ab>
+					<ab xml:id="b.2PE.001.002" type="verse">
+						لتكثر لكم النعمة والسلام بمعرفة الله ويسوع ربنا
+					</ab>
+					<ab xml:id="b.2PE.001.003" type="verse">
+						كما ان قدرته الالهية قد وهبت لنا كل ما هو للحياة والتقوى بمعرفة الذي دعانا بالمجد والفضيلة
+					</ab>
+					<ab xml:id="b.2PE.001.004" type="verse">
+						اللذين بهما قد وهب لنا المواعيد العظمى والثمينة لكي تصيروا بها شركاء الطبيعة الالهية هاربين من الفساد الذي في العالم بالشهوة.
+					</ab>
+					<ab xml:id="b.2PE.001.005" type="verse">
+						ولهذا عينه وانتم باذلون كل اجتهاد قدموا في ايمانكم فضيلة وفي الفضيلة معرفة
+					</ab>
+					<ab xml:id="b.2PE.001.006" type="verse">
+						وفي المعرفة تعففا وفي التعفف صبرا وفي الصبر تقوى
+					</ab>
+					<ab xml:id="b.2PE.001.007" type="verse">
+						وفي التقوى مودة اخوية وفي المودة الاخوية محبة.
+					</ab>
+					<ab xml:id="b.2PE.001.008" type="verse">
+						لان هذه اذا كانت فيكم وكثرت تصيّركم لا متكاسلين ولا غير مثمرين لمعرفة ربنا يسوع المسيح.
+					</ab>
+					<ab xml:id="b.2PE.001.009" type="verse">
+						لان الذي ليس عنده هذه هو اعمى قصير البصر قد نسي تطهير خطاياه السالفة.
+					</ab>
+					<ab xml:id="b.2PE.001.010" type="verse">
+						لذلك بالاكثر اجتهدوا ايها الاخوة ان تجعلوا دعوتكم واختياركم ثابتين. لانكم اذا فعلتم ذلك لن تزلّوا ابدا.
+					</ab>
+					<ab xml:id="b.2PE.001.011" type="verse">
+						لانه هكذا يقدم لكم بسعة دخول الى ملكوت ربنا ومخلّصنا يسوع المسيح الابدي
+					</ab>
+					<ab xml:id="b.2PE.001.012" type="verse">
+						لذلك لا اهمل ان اذكّركم دائما بهذه الامور وان كنتم عالمين ومثبتين في الحق الحاضر.
+					</ab>
+					<ab xml:id="b.2PE.001.013" type="verse">
+						ولكني احسبه حقا ما دمت في هذا المسكن ان انهضكم بالتذكرة
+					</ab>
+					<ab xml:id="b.2PE.001.014" type="verse">
+						عالما ان خلع مسكني قريب كما اعلن لي ربنا يسوع المسيح ايضا.
+					</ab>
+					<ab xml:id="b.2PE.001.015" type="verse">
+						فأجتهد ايضا ان تكونوا بعد خروجي تتذكرون كل حين بهذه الامور.
+					</ab>
+					<ab xml:id="b.2PE.001.016" type="verse">
+						لاننا لم نتبع خرافات مصنعة اذ عرّفناكم بقوة ربنا يسوع المسيح ومجيئه بل قد كنا معاينين عظمته.
+					</ab>
+					<ab xml:id="b.2PE.001.017" type="verse">
+						لانه اخذ من الله الآب كرامة ومجدا اذ اقبل عليه صوت كهذا من المجد الاسنى هذا هو ابني الحبيب الذي انا سررت به.
+					</ab>
+					<ab xml:id="b.2PE.001.018" type="verse">
+						ونحن سمعنا هذا الصوت مقبلا من السماء اذ كنا معه في الجبل المقدس.
+					</ab>
+					<ab xml:id="b.2PE.001.019" type="verse">
+						وعندنا الكلمة النبوية وهي اثبت التي تفعلون حسنا ان انتبهتم اليها كما الى سراج منير في موضع مظلم الى ان ينفجر النهار ويطلع كوكب الصبح في قلوبكم
+					</ab>
+					<ab xml:id="b.2PE.001.020" type="verse">
+						عالمين هذا اولا ان كل نبوة الكتاب ليست من تفسير خاص.
+					</ab>
+					<ab xml:id="b.2PE.001.021" type="verse">
+						لانه لم تأت نبوة قط بمشيئة انسان بل تكلم اناس الله القديسون مسوقين من الروح القدس
+					</ab>
+				</div>
+				<div xml:id="b.2PE.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.2PE.002.001" type="verse">
+						ولكن كان ايضا في الشعب انبياء كذبة كما سيكون فيكم ايضا معلّمون كذبة الذين يدسّون بدع هلاك واذ هم ينكرون الرب الذي اشتراهم يجلبون على انفسهم هلاكا سريعا.
+					</ab>
+					<ab xml:id="b.2PE.002.002" type="verse">
+						وسيتبع كثيرون تهلكاتهم. الذين بسببهم يجدف على طريق الحق.
+					</ab>
+					<ab xml:id="b.2PE.002.003" type="verse">
+						وهم في الطمع يتّجرون بكم باقوال مصنعة الذين دينونتهم منذ القديم لا تتوانى وهلاكهم لا ينعس.
+					</ab>
+					<ab xml:id="b.2PE.002.004" type="verse">
+						لانه ان كان الله لم يشفق على ملائكة قد اخطأوا بل في سلاسل الظلام طرحهم في جهنم وسلمهم محروسين للقضاء
+					</ab>
+					<ab xml:id="b.2PE.002.005" type="verse">
+						ولم يشفق على العالم القديم بل انما حفظ نوحا ثامنا كارزا للبر اذ جلب طوفانا على عالم الفجار.
+					</ab>
+					<ab xml:id="b.2PE.002.006" type="verse">
+						واذ رمّد مدينتي سدوم وعمورة حكم عليهما بالانقلاب واضعا عبرة للعتيدين ان يفجروا
+					</ab>
+					<ab xml:id="b.2PE.002.007" type="verse">
+						وانقذ لوطا البار مغلوبا من سيرة الاردياء في الدعارة.
+					</ab>
+					<ab xml:id="b.2PE.002.008" type="verse">
+						اذ كان البار بالنظر والسمع وهو ساكن بينهم يعذب يوما فيوما نفسه البارة بالافعال الاثيمة.
+					</ab>
+					<ab xml:id="b.2PE.002.009" type="verse">
+						يعلم الرب ان ينقذ الاتقياء من التجربة ويحفظ الاثمة الى يوم الدين معاقبين
+					</ab>
+					<ab xml:id="b.2PE.002.010" type="verse">
+						ولا سيما الذين يذهبون وراء الجسد في شهوة النجاسة ويستهينون بالسيادة. جسورون معجبون بانفسهم لا يرتعبون ان يفتروا على ذوي الامجاد
+					</ab>
+					<ab xml:id="b.2PE.002.011" type="verse">
+						حيث ملائكة وهم اعظم قوة وقدرة لا يقدمون عليهم لدى الرب حكم افتراء.
+					</ab>
+					<ab xml:id="b.2PE.002.012" type="verse">
+						اما هؤلاء فكحيوانات غير ناطقة طبيعية مولودة للصيد والهلاك يفترون على ما يجهلون فسيهلكون في فسادهم
+					</ab>
+					<ab xml:id="b.2PE.002.013" type="verse">
+						آخذين اجرة الاثم. الذين يحسبون تنعم يوم. لذة ادناس وعيوب يتنعمون في غرورهم صانعين ولائم معكم.
+					</ab>
+					<ab xml:id="b.2PE.002.014" type="verse">
+						لهم عيون مملوءة فسقا لا تكف عن الخطية خادعون النفوس غير الثابتة. لهم قلب متدرب في الطمع. اولاد اللعنة.
+					</ab>
+					<ab xml:id="b.2PE.002.015" type="verse">
+						قد تركوا الطريق المستقيم فضلّوا تابعين طريق بلعام بن بصور الذي احب اجرة الاثم.
+					</ab>
+					<ab xml:id="b.2PE.002.016" type="verse">
+						ولكنه حصل على توبيخ تعديه اذ منع حماقة النبي حمار اعجم ناطقا بصوت انسان.
+					</ab>
+					<ab xml:id="b.2PE.002.017" type="verse">
+						هؤلاء هم آبار بلا ماء غيوم يسوقها النوء. الذين قد حفظ لهم قتام الظلام الى الابد.
+					</ab>
+					<ab xml:id="b.2PE.002.018" type="verse">
+						لانهم اذ ينطقون بعظائم البطل يخدعون بشهوات الجسد في الدعارة من هرب قليلا من الذين يسيرون في الضلال
+					</ab>
+					<ab xml:id="b.2PE.002.019" type="verse">
+						واعدين اياهم بالحرية وهم انفسهم عبيد الفساد. لان ما انغلب منه احد فهو له مستعبد ايضا.
+					</ab>
+					<ab xml:id="b.2PE.002.020" type="verse">
+						لانه اذا كانوا بعدما هربوا من نجاسات العالم بمعرفة الرب والمخلّص يسوع المسيح يرتبكون ايضا فيها فينغلبون فقد صارت لهم الاواخر اشر من الاوائل.
+					</ab>
+					<ab xml:id="b.2PE.002.021" type="verse">
+						لانه كان خيرا لهم لو لم يعرفوا طريق البر من انهم بعدما عرفوا يرتدّون عن الوصية المقدسة المسلمة لهم.
+					</ab>
+					<ab xml:id="b.2PE.002.022" type="verse">
+						قد اصابهم ما في المثل الصادق كلب قد عاد الى قيئه وخنزيرة مغتسلة الى مراغة الحمأة
+					</ab>
+				</div>
+				<div xml:id="b.2PE.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.2PE.003.001" type="verse">
+						هذه اكتبها الآن اليكم رسالة ثانية ايها الاحباء فيهما انهض بالتذكرة ذهنكم النقي
+					</ab>
+					<ab xml:id="b.2PE.003.002" type="verse">
+						لتذكروا الاقوال التي قالها سابقا الانبياء القديسون ووصيتنا نحن الرسل وصية الرب والمخلّص
+					</ab>
+					<ab xml:id="b.2PE.003.003" type="verse">
+						عالمين هذا اولا انه سيأتي في آخر الايام قوم مستهزئون سالكين بحسب شهوات انفسهم
+					</ab>
+					<ab xml:id="b.2PE.003.004" type="verse">
+						وقائلين اين هو موعد مجيئه لانه من حين رقد الآباء كل شيء باق هكذا من بدء الخليقة.
+					</ab>
+					<ab xml:id="b.2PE.003.005" type="verse">
+						لان هذا يخفى عليهم بارادتهم ان السموات كانت منذ القديم والارض بكلمة الله قائمة من الماء وبالماء
+					</ab>
+					<ab xml:id="b.2PE.003.006" type="verse">
+						اللواتي بهنّ العالم الكائن حينئذ فاض عليه الماء فهلك.
+					</ab>
+					<ab xml:id="b.2PE.003.007" type="verse">
+						واما السموات والارض الكائنة الآن فهي مخزونة بتلك الكلمة عينها محفوظة للنار الى يوم الدين وهلاك الناس الفجار
+					</ab>
+					<ab xml:id="b.2PE.003.008" type="verse">
+						ولكن لا يخف عليكم هذا الشيء الواحد ايها الاحباء ان يوما واحدا عند الرب كالف سنة والف سنة كيوم واحد.
+					</ab>
+					<ab xml:id="b.2PE.003.009" type="verse">
+						لا يتباطأ الرب عن وعده كما يحسب قوم التباطؤ لكنه يتأنى علينا وهو لا يشاء ان يهلك اناس بل ان يقبل الجميع الى التوبة.
+					</ab>
+					<ab xml:id="b.2PE.003.010" type="verse">
+						ولكن سيأتي كلص في الليل يوم الرب الذي فيه تزول السموات بضجيج وتنحل العناصر محترقة وتحترق الارض والمصنوعات التي فيها
+					</ab>
+					<ab xml:id="b.2PE.003.011" type="verse">
+						فبما ان هذه كلها تنحل ايّ اناس يجب ان تكونوا انتم في سيرة مقدسة وتقوى
+					</ab>
+					<ab xml:id="b.2PE.003.012" type="verse">
+						منتظرين وطالبين سرعة مجيء يوم الرب الذي به تنحل السموات ملتهبة والعناصر محترقة تذوب.
+					</ab>
+					<ab xml:id="b.2PE.003.013" type="verse">
+						ولكننا بحسب وعده ننتظر سموات جديدة وارضا جديدة يسكن فيها البر
+					</ab>
+					<ab xml:id="b.2PE.003.014" type="verse">
+						لذلك ايها الاحباء اذ انتم منتظرون هذه اجتهدوا لتوجدوا عنده بلا دنس ولا عيب في سلام.
+					</ab>
+					<ab xml:id="b.2PE.003.015" type="verse">
+						واحسبوا اناة ربنا خلاصا. كما كتب اليكم اخونا الحبيب بولس ايضا بحسب الحكمة المعطاة له
+					</ab>
+					<ab xml:id="b.2PE.003.016" type="verse">
+						كما في الرسائل كلها ايضا متكلما فيها عن هذه الامور. التي فيها اشياء عسرة الفهم يحرّفها غير العلماء وغير الثابتين كباقي الكتب ايضا لهلاك انفسهم
+					</ab>
+					<ab xml:id="b.2PE.003.017" type="verse">
+						فانتم ايها الاحباء اذ قد سبقتم فعرفتم احترسوا من ان تنقادوا بضلال الاردياء فتسقطوا من ثباتكم.
+					</ab>
+					<ab xml:id="b.2PE.003.018" type="verse">
+						ولكن انموا في النعمة وفي معرفة ربنا ومخلّصنا يسوع المسيح. له المجد الآن والى يوم الدهر آمين
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

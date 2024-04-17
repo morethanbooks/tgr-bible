@@ -1,0 +1,221 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nahum (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="3"/><measure commodity="verses" quantity="47"/><measure commodity="bytes" quantity="1122038"/><measure commodity="characters" quantity="623959"/><measure commodity="tokens" quantity="117828"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Nahum</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q179755">Q179755</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4041168-0">4041168-0</idno><author><name>Nahum</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q1981722">Q1981722</idno><idno type="gnd" corresp="https://d-nb.info/gnd/118785583">118785583</idno></author></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">old</term><term type="genre">prophecy</term><term type="division">Prophetic</term><term type="genre-multilabel">prophecy</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.NAH" type="book">
+				<div xml:id="b.NAH.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.NAH.001.001" type="verse">
+						وحي على نينوى. سفر رؤيا ناحوم الالقوشي
+					</ab>
+					<ab xml:id="b.NAH.001.002" type="verse">
+						الرب اله غيور ومنتقم. الرب منتقم وذو سخط. الرب منتقم من مبغضيه وحافظ غضبه على اعدائه.
+					</ab>
+					<ab xml:id="b.NAH.001.003" type="verse">
+						الرب بطيء الغضب وعظيم القدرة ولكنه لا يبرئ البتة. الرب في الزوبعة وفي العاصف طريقه والسحاب غبار رجليه
+					</ab>
+					<ab xml:id="b.NAH.001.004" type="verse">
+						ينتهر البحر فينشفه ويجفف جميع الانهار. يذبل باشان والكرمل وزهر لبنان يذبل.
+					</ab>
+					<ab xml:id="b.NAH.001.005" type="verse">
+						الجبال ترجف منه والتلال تذوب والارض ترفع من وجهه والعالم وكل الساكنين فيه.
+					</ab>
+					<ab xml:id="b.NAH.001.006" type="verse">
+						من يقف امام سخطه ومن يقوم في حمو غضبه. غيظه ينسكب كالنار والصخور تنهدم منه.
+					</ab>
+					<ab xml:id="b.NAH.001.007" type="verse">
+						صالح هو الرب حصن في يوم الضيق وهو يعرف المتوكلين عليه.
+					</ab>
+					<ab xml:id="b.NAH.001.008" type="verse">
+						ولكن بطوفان عابر يصنع هلاكا تاما لموضعها واعداؤه يتبعهم ظلام
+					</ab>
+					<ab xml:id="b.NAH.001.009" type="verse">
+						ماذا تفتكرون على الرب. هو صانع هلاكا تاما. لا يقوم الضيق مرتين.
+					</ab>
+					<ab xml:id="b.NAH.001.010" type="verse">
+						فانهم وهم مشتبكون مثل الشوك وسكرانون كمن خمرهم يؤكلون كالقش اليابس بالكمال.
+					</ab>
+					<ab xml:id="b.NAH.001.011" type="verse">
+						منك خرج المفتكر على الرب شرا المشير بالهلاك
+					</ab>
+					<ab xml:id="b.NAH.001.012" type="verse">
+						هكذا قال الرب. ان كانوا سالمين وكثيرين هكذا فهكذا يجزّون فيعبر. اذللتك. لا اذلّك ثانية.
+					</ab>
+					<ab xml:id="b.NAH.001.013" type="verse">
+						والآن اكسر نيره عنك واقطع ربطك.
+					</ab>
+					<ab xml:id="b.NAH.001.014" type="verse">
+						ولكن قد اوصى عنك الرب لا يزرع من اسمك في ما بعد. اني اقطع من بيت الهك التماثيل المنحوتة والمسبوكة. اجعله قبرك لانك صرت حقيرا
+					</ab>
+					<ab xml:id="b.NAH.001.015" type="verse">
+						هوذا على الجبال قدما مبشّر مناد بالسلام عيّدي يا يهوذا اعيادك اوفي نذورك فانه لا يعود يعبر فيك ايضا المهلك. قد انقرض كله
+					</ab>
+				</div>
+				<div xml:id="b.NAH.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.NAH.002.001" type="verse">
+						قد ارتفعت المقمعة على وجهك. احرس الحصن راقب الطريق شدّد الحقوين مكّن القوة جدا.
+					</ab>
+					<ab xml:id="b.NAH.002.002" type="verse">
+						فان الرب يرد عظمة يعقوب كعظمة اسرائيل لان السالبين قد سلبوهم واتلفوا قضبان كرومهم.
+					</ab>
+					<ab xml:id="b.NAH.002.003" type="verse">
+						ترس ابطاله محمّر. رجال الجيش قرمزيّون. المركبات بنار الفولاذ في يوم اعداده. والسرو يهتزّ.
+					</ab>
+					<ab xml:id="b.NAH.002.004" type="verse">
+						تهيج المركبات في الازقة. تتراكض في الساحات. منظرها كمصابيح. تجري كالبروق
+					</ab>
+					<ab xml:id="b.NAH.002.005" type="verse">
+						يذكر عظماءه. يتعثرون في مشيهم. يسرعون الى سورها وقد اقيمت المترسة.
+					</ab>
+					<ab xml:id="b.NAH.002.006" type="verse">
+						ابواب الانهار انفتحت والقصر قد ذاب.
+					</ab>
+					<ab xml:id="b.NAH.002.007" type="verse">
+						وهصّب قد انكشفت. أطلعت. وجواريها تئنّ كصوت الحمام ضاربات على صدورهنّ.
+					</ab>
+					<ab xml:id="b.NAH.002.008" type="verse">
+						ونينوى كبركة ماء منذ كانت ولكنهم الآن هاربون. قفوا قفوا ولا ملتفت.
+					</ab>
+					<ab xml:id="b.NAH.002.009" type="verse">
+						انهبوا فضة انهبوا ذهبا فلا نهاية للتحف للكثرة من كل متاع شهي.
+					</ab>
+					<ab xml:id="b.NAH.002.010" type="verse">
+						فراغ وخلاء وخراب وقلب ذائب وارتخاء ركب ووجع في كل حقو. واوجه جميعهم تجمع حمرة
+					</ab>
+					<ab xml:id="b.NAH.002.011" type="verse">
+						اين مأوى الأسود ومرعى اشبال الأسود. حيث يمشي الاسد واللبوة وشبل الاسد وليس من يخوّف.
+					</ab>
+					<ab xml:id="b.NAH.002.012" type="verse">
+						الاسد المفترس لحاجة جرائه والخانق لاجل لبواته حتى ملأ مغاراته فرائس ومآويه مفترسات.
+					</ab>
+					<ab xml:id="b.NAH.002.013" type="verse">
+						ها انا عليك يقول رب الجنود. فاحرق مركباتك دخانا واشبالك ياكلها السيف واقطع من الارض فرائسك ولا يسمع ايضا صوت رسلك
+					</ab>
+				</div>
+				<div xml:id="b.NAH.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.NAH.003.001" type="verse">
+						ويل لمدينة الدماء. كلها ملآنة كذبا وخطفا. لا يزول الافتراس.
+					</ab>
+					<ab xml:id="b.NAH.003.002" type="verse">
+						صوت السوط وصوت رعشة البكر وخيل تخبّ ومركبات تقفز
+					</ab>
+					<ab xml:id="b.NAH.003.003" type="verse">
+						وفرسان تنهض ولهيب السيف وبريق الرمح وكثرة جرحى ووفرة قتلى ولا نهاية للجثث. يعثرون بجثثهم
+					</ab>
+					<ab xml:id="b.NAH.003.004" type="verse">
+						من اجل زنى الزانية الحسنة الجمال صاحبة السحر البائعة امما بزناها وقبائل بسحرها.
+					</ab>
+					<ab xml:id="b.NAH.003.005" type="verse">
+						هانذا عليك يقول رب الجنود فاكشف اذيالك الى فوق وجهك وأري الامم عورتك والممالك خزيك.
+					</ab>
+					<ab xml:id="b.NAH.003.006" type="verse">
+						واطرح عليك اوساخا واهينك واجعلك عبرة.
+					</ab>
+					<ab xml:id="b.NAH.003.007" type="verse">
+						ويكون كل من يراك يهرب منك ويقول خربت نينوى من يرثي لها. من اين اطلب لك معزّين
+					</ab>
+					<ab xml:id="b.NAH.003.008" type="verse">
+						هل انت افضل من نوأمون الجالسة بين الانهار حولها المياه التي هي حصن البحر ومن البحر سورها.
+					</ab>
+					<ab xml:id="b.NAH.003.009" type="verse">
+						كوش قوتها مع مصر وليست نهاية. فوط ولوبيم كانوا معونتك.
+					</ab>
+					<ab xml:id="b.NAH.003.010" type="verse">
+						هي ايضا قد مضت الى المنفى بالسبي واطفالها حطّمت في راس جميع الازقة وعلى اشرافها القوا قرعة وجميع عظمائها تقيدوا بالقيود.
+					</ab>
+					<ab xml:id="b.NAH.003.011" type="verse">
+						انت ايضا تسكرين تكونين خافية. انت ايضا تطلبين حصنا بسبب العدو
+					</ab>
+					<ab xml:id="b.NAH.003.012" type="verse">
+						جميع قلاعك اشجار تين بالبواكير اذا انهزّت تسقط في فم الآكل.
+					</ab>
+					<ab xml:id="b.NAH.003.013" type="verse">
+						هوذا شعبك نساء في وسطك. تنفتح لاعدائك ابواب ارضك. تأكل النار مغاليقك.
+					</ab>
+					<ab xml:id="b.NAH.003.014" type="verse">
+						استقي لنفسك ماء للحصار. اصلحي قلاعك ادخلي في الطين ودوسي في الملاط. اصلحي الملبن.
+					</ab>
+					<ab xml:id="b.NAH.003.015" type="verse">
+						هناك تأكلك نار يقطعك سيف يأكلك كالغوغاء. تكاثري كالغوغاء تعاظمي كالجراد.
+					</ab>
+					<ab xml:id="b.NAH.003.016" type="verse">
+						اكثرت تجّارك اكثر من نجوم السماء. الغوغاء جنّحت وطارت.
+					</ab>
+					<ab xml:id="b.NAH.003.017" type="verse">
+						رؤساؤك كالجراد وولاتك كحرجلة الجراد الحالّة على الجدران في يوم البرد. تشرق الشمس فتطير ولا يعرف مكانها اين هو.
+					</ab>
+					<ab xml:id="b.NAH.003.018" type="verse">
+						نعست رعاتك يا ملك اشور اضطجعت عظماؤك تشتّت شعبك على الجبال ولا من يجمع.
+					</ab>
+					<ab xml:id="b.NAH.003.019" type="verse">
+						ليس جبر لانكسارك. جرحك عديم الشفاء. كل الذين يسمعون خبرك يصفّقون بايديهم عليك لانه على من لم يمرّ شرّك على الدوام
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

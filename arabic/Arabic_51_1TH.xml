@@ -1,0 +1,353 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>1 Thessalonians (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="5"/><measure commodity="verses" quantity="89"/><measure commodity="bytes" quantity="221247"/><measure commodity="characters" quantity="123062"/><measure commodity="tokens" quantity="23197"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>1 Thessalonians</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q131115">Q131115</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4059851-2">4059851-2</idno><author><name>Paul the Apostle</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q9200">Q9200</idno><idno type="gnd" corresp="https://d-nb.info/gnd/118641549">118641549</idno></author></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">new</term><term type="genre">letter</term><term type="division">Letters</term><term type="genre-multilabel">letter</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.1TH" type="book">
+				<div xml:id="b.1TH.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.1TH.001.001" type="verse">
+						بولس وسلوانس وتيموثاوس الى كنيسة التسالونيكيين في الله الآب والرب يسوع المسيح. نعمة لكم وسلام من الله ابينا والرب يسوع المسيح
+					</ab>
+					<ab xml:id="b.1TH.001.002" type="verse">
+						نشكر الله كل حين من جهة جميعكم ذاكرين اياكم في صلواتنا
+					</ab>
+					<ab xml:id="b.1TH.001.003" type="verse">
+						متذكرين بلا انقطاع عمل ايمانكم وتعب محبتكم وصبر رجائكم ربنا يسوع المسيح امام الله وابينا
+					</ab>
+					<ab xml:id="b.1TH.001.004" type="verse">
+						عالمين ايها الاخوة المحبوبون من الله اختياركم.
+					</ab>
+					<ab xml:id="b.1TH.001.005" type="verse">
+						ان انجيلنا لم يصر لكم بالكلام فقط بل بالقوة ايضا وبالروح القدس وبيقين شديد كما تعرفون اي رجال كنا بينكم من اجلكم.
+					</ab>
+					<ab xml:id="b.1TH.001.006" type="verse">
+						وانتم صرتم متمثلين بنا وبالرب اذ قبلتم الكلمة في ضيق كثير بفرح الروح القدس
+					</ab>
+					<ab xml:id="b.1TH.001.007" type="verse">
+						حتى صرتم قدوة لجميع الذين يؤمنون في مكدونية وفي اخائية.
+					</ab>
+					<ab xml:id="b.1TH.001.008" type="verse">
+						لانه من قبلكم قد أذيعت كلمة الرب ليس في مكدونية واخائية فقط بل في كل مكان ايضا قد ذاع ايمانكم بالله حتى ليس لنا حاجة ان نتكلم شيئا.
+					</ab>
+					<ab xml:id="b.1TH.001.009" type="verse">
+						لانهم هم يخبرون عنا اي دخول كان لنا اليكم وكيف رجعتم الى الله من الاوثان لتعبدوا الله الحي الحقيقي
+					</ab>
+					<ab xml:id="b.1TH.001.010" type="verse">
+						وتنتظروا ابنه من السماء الذي اقامه من الاموات يسوع الذي ينقذنا من الغضب الآتي
+					</ab>
+				</div>
+				<div xml:id="b.1TH.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.1TH.002.001" type="verse">
+						لانكم انتم ايها الاخوة تعلمون دخولنا اليكم انه لم يكن باطلا
+					</ab>
+					<ab xml:id="b.1TH.002.002" type="verse">
+						بل بعدما تألمنا قبلا وبغي علينا كما تعلمون في فيلبي جاهرنا في الهنا ان نكلمكم بانجيل الله في جهاد كثير.
+					</ab>
+					<ab xml:id="b.1TH.002.003" type="verse">
+						لان وعظنا ليس عن ضلال ولا عن دنس ولا بمكر
+					</ab>
+					<ab xml:id="b.1TH.002.004" type="verse">
+						بل كما استحسنّا من الله ان نؤتمن على الانجيل هكذا نتكلم لا كاننا نرضي الناس بل الله الذي يختبر قلوبنا.
+					</ab>
+					<ab xml:id="b.1TH.002.005" type="verse">
+						فاننا لم نكن قط في كلام تملق كما تعلمون ولا في علة طمع. الله شاهد.
+					</ab>
+					<ab xml:id="b.1TH.002.006" type="verse">
+						ولا طلبنا مجدا من الناس لا منكم ولا من غيركم مع اننا قادرون ان نكون في وقار كرسل المسيح.
+					</ab>
+					<ab xml:id="b.1TH.002.007" type="verse">
+						بل كنا مترفقين في وسطكم كما تربي المرضعة اولادها
+					</ab>
+					<ab xml:id="b.1TH.002.008" type="verse">
+						هكذا اذ كنا حانّين اليكم كنا نرضى ان نعطيكم لا انجيل الله فقط بل انفسنا ايضا لانكم صرتم محبوبين الينا.
+					</ab>
+					<ab xml:id="b.1TH.002.009" type="verse">
+						فانكم تذكرون ايها الاخوة تعبنا وكدّنا. اذ كنا نكرز لكم بانجيل الله ونحن عاملون ليلا ونهارا كي لا نثقل على احد منكم.
+					</ab>
+					<ab xml:id="b.1TH.002.010" type="verse">
+						انتم شهود والله كيف بطهارة وببر وبلا لوم كنا بينكم انتم المؤمنين.
+					</ab>
+					<ab xml:id="b.1TH.002.011" type="verse">
+						كما تعلمون كيف كنا نعظ كل واحد منكم كالاب لاولاده ونشجعكم
+					</ab>
+					<ab xml:id="b.1TH.002.012" type="verse">
+						ونشهدكم لكي تسلكوا كما يحق لله الذي دعاكم الى ملكوته ومجده
+					</ab>
+					<ab xml:id="b.1TH.002.013" type="verse">
+						من اجل ذلك نحن ايضا نشكر الله بلا انقطاع لانكم اذ تسلمتم منا كلمة خبر من الله قبلتموها لا ككلمة اناس بل كما هي بالحقيقة ككلمة الله التي تعمل ايضا فيكم انتم المؤمنين.
+					</ab>
+					<ab xml:id="b.1TH.002.014" type="verse">
+						فانكم ايها الاخوة صرتم متمثلين بكنائس الله التي هي في اليهودية في المسيح يسوع لانكم تألمتم انتم ايضا من اهل عشيرتكم تلك الآلام عينها كما هم ايضا من اليهود
+					</ab>
+					<ab xml:id="b.1TH.002.015" type="verse">
+						الذين قتلوا الرب يسوع وانبياءهم واضطهدونا نحن. وهم غير مرضين للّه واضداد لجميع الناس
+					</ab>
+					<ab xml:id="b.1TH.002.016" type="verse">
+						يمنعوننا عن ان نكلم الامم لكي يخلصوا حتى يتمموا خطاياهم كل حين. ولكن قد ادركهم الغضب الى النهاية.
+					</ab>
+					<ab xml:id="b.1TH.002.017" type="verse">
+						واما نحن ايها الاخوة فاذ قد فقدناكم زمان ساعة بالوجه لا بالقلب اجتهدنا اكثر باشتهاء كثير ان نرى وجوهكم.
+					</ab>
+					<ab xml:id="b.1TH.002.018" type="verse">
+						لذلك اردنا ان نأتي اليكم انا بولس مرة ومرتين. وانما عاقنا الشيطان.
+					</ab>
+					<ab xml:id="b.1TH.002.019" type="verse">
+						لان من هو رجاؤنا وفرحنا واكليل افتخارنا. ام لستم انتم ايضا امام ربنا يسوع المسيح في مجيئه.
+					</ab>
+					<ab xml:id="b.1TH.002.020" type="verse">
+						لانكم انتم مجدنا وفرحنا
+					</ab>
+				</div>
+				<div xml:id="b.1TH.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.1TH.003.001" type="verse">
+						لذلك اذ لم نحتمل ايضا استحسنّا ان نترك في اثينا وحدنا
+					</ab>
+					<ab xml:id="b.1TH.003.002" type="verse">
+						فارسلنا تيموثاوس اخانا وخادم الله والعامل معنا في انجيل المسيح حتى يثبتكم ويعظكم لاجل ايمانكم
+					</ab>
+					<ab xml:id="b.1TH.003.003" type="verse">
+						كي لا يتزعزع احد في هذه الضيقات فانكم انتم تعلمون اننا موضوعون لهذا.
+					</ab>
+					<ab xml:id="b.1TH.003.004" type="verse">
+						لاننا لما كنا عندكم سبقنا فقلنا لكم اننا عتيدون ان نتضايق كما حصل ايضا وانتم تعلمون.
+					</ab>
+					<ab xml:id="b.1TH.003.005" type="verse">
+						من اجل هذا اذ لم احتمل ايضا ارسلت لكي اعرف ايمانكم لعل المجرب يكون قد جربكم فيصير تعبنا باطلا.
+					</ab>
+					<ab xml:id="b.1TH.003.006" type="verse">
+						واما الآن فاذ جاء الينا تيموثاوس من عندكم وبشرنا بايمانكم ومحبتكم وبان عندكم ذكرا لنا حسنا كل حين وانتم مشتاقون ان ترونا كما نحن ايضا ان نراكم
+					</ab>
+					<ab xml:id="b.1TH.003.007" type="verse">
+						فمن اجل هذا تعزينا ايها الاخوة من جهتكم في ضيقتنا وضرورتنا بايمانكم.
+					</ab>
+					<ab xml:id="b.1TH.003.008" type="verse">
+						لاننا الآن نعيش ان ثبتم انتم في الرب.
+					</ab>
+					<ab xml:id="b.1TH.003.009" type="verse">
+						لانه اي شكر نستطيع ان نعوض الى الله من جهتكم عن كل الفرح الذي نفرح به من اجلكم قدام الهنا.
+					</ab>
+					<ab xml:id="b.1TH.003.010" type="verse">
+						طالبين ليلا ونهارا اوفر طلب ان نرى وجوهكم ونكمل نقائص ايمانكم.
+					</ab>
+					<ab xml:id="b.1TH.003.011" type="verse">
+						والله نفسه ابونا وربنا يسوع المسيح يهدي طريقنا اليكم.
+					</ab>
+					<ab xml:id="b.1TH.003.012" type="verse">
+						والرب ينميكم ويزيدكم في المحبة بعضكم لبعض وللجميع كما نحن ايضا لكم
+					</ab>
+					<ab xml:id="b.1TH.003.013" type="verse">
+						لكي يثبّت قلوبكم بلا لوم في القداسة امام الله ابينا في مجيء ربنا يسوع المسيح مع جميع قديسيه
+					</ab>
+				</div>
+				<div xml:id="b.1TH.004" type="chapter">
+				<head>4</head>
+					<ab xml:id="b.1TH.004.001" type="verse">
+						فمن ثم ايها الاخوة نسألكم ونطلب اليكم في الرب يسوع انكم كما تسلمتم منا كيف يجب ان تسلكوا وترضوا الله تزدادون اكثر.
+					</ab>
+					<ab xml:id="b.1TH.004.002" type="verse">
+						لانكم تعلمون ايّة وصايا اعطيناكم بالرب يسوع.
+					</ab>
+					<ab xml:id="b.1TH.004.003" type="verse">
+						لان هذه هي ارادة الله قداستكم. ان تمتنعوا عن الزنى
+					</ab>
+					<ab xml:id="b.1TH.004.004" type="verse">
+						ان يعرف كل واحد منكم ان يقتني اناءه بقداسة وكرامة.
+					</ab>
+					<ab xml:id="b.1TH.004.005" type="verse">
+						لا في هوى شهوة كالامم الذين لا يعرفون الله.
+					</ab>
+					<ab xml:id="b.1TH.004.006" type="verse">
+						ان لا يتطاول احد ويطمع على اخيه في هذا الامر لان الرب منتقم لهذه كلها كما قلنا لكم قبلا وشهدنا.
+					</ab>
+					<ab xml:id="b.1TH.004.007" type="verse">
+						لان الله لم يدعنا للنجاسة بل في القداسة.
+					</ab>
+					<ab xml:id="b.1TH.004.008" type="verse">
+						اذا من يرذل لا يرذل انسانا بل الله الذي اعطانا ايضا روحه القدوس
+					</ab>
+					<ab xml:id="b.1TH.004.009" type="verse">
+						واما المحبة الاخوية فلا حاجة لكم ان اكتب اليكم عنها لانكم انفسكم متعلمون من الله ان يحب بعضكم بعضا.
+					</ab>
+					<ab xml:id="b.1TH.004.010" type="verse">
+						فانكم تفعلون ذلك ايضا لجميع الاخوة الذين في مكدونية كلها. وانما اطلب اليكم ايها الاخوة ان تزدادوا اكثر
+					</ab>
+					<ab xml:id="b.1TH.004.011" type="verse">
+						وان تحرصوا على ان تكونوا هادئين وتمارسوا اموركم الخاصة وتشتغلوا بايديكم انتم كما اوصيناكم
+					</ab>
+					<ab xml:id="b.1TH.004.012" type="verse">
+						لكي تسلكوا بلياقة عند الذين هم من خارج ولا تكون لكم حاجة الى احد
+					</ab>
+					<ab xml:id="b.1TH.004.013" type="verse">
+						ثم لا اريد ان تجهلوا ايها الاخوة من جهة الراقدين لكي لا تحزنوا كالباقين الذين لا رجاء لهم.
+					</ab>
+					<ab xml:id="b.1TH.004.014" type="verse">
+						لانه ان كنا نؤمن ان يسوع مات وقام فكذلك الراقدون بيسوع سيحضرهم الله ايضا معه.
+					</ab>
+					<ab xml:id="b.1TH.004.015" type="verse">
+						فاننا نقول لكم هذا بكلمة الرب اننا نحن الاحياء الباقين الى مجيء الرب لا نسبق الراقدين.
+					</ab>
+					<ab xml:id="b.1TH.004.016" type="verse">
+						لان الرب نفسه بهتاف بصوت رئيس ملائكة وبوق الله سوف ينزل من السماء والاموات في المسيح سيقومون اولا.
+					</ab>
+					<ab xml:id="b.1TH.004.017" type="verse">
+						ثم نحن الاحياء الباقين سنخطف جميعا معهم في السحب لملاقاة الرب في الهواء. وهكذا نكون كل حين مع الرب.
+					</ab>
+					<ab xml:id="b.1TH.004.018" type="verse">
+						لذلك عزوا بعضكم بعضا بهذا الكلام
+					</ab>
+				</div>
+				<div xml:id="b.1TH.005" type="chapter">
+				<head>5</head>
+					<ab xml:id="b.1TH.005.001" type="verse">
+						واما الازمنة والاوقات فلا حاجة لكم ايها الاخوة ان اكتب اليكم عنها.
+					</ab>
+					<ab xml:id="b.1TH.005.002" type="verse">
+						لانكم انتم تعلمون بالتحقيق ان يوم الرب كلص في الليل هكذا يجيء.
+					</ab>
+					<ab xml:id="b.1TH.005.003" type="verse">
+						لانه حينما يقولون سلام وامان حينئذ يفاجئهم هلاك بغتة كالمخاض للحبلى فلا ينجون.
+					</ab>
+					<ab xml:id="b.1TH.005.004" type="verse">
+						واما انتم ايها الاخوة فلستم في ظلمة حتى يدرككم ذلك اليوم كلص.
+					</ab>
+					<ab xml:id="b.1TH.005.005" type="verse">
+						جميعكم ابناء نور. وابناء نهار. لسنا من ليل ولا ظلمة.
+					</ab>
+					<ab xml:id="b.1TH.005.006" type="verse">
+						فلا ننم اذا كالباقين بل لنسهر ونصح.
+					</ab>
+					<ab xml:id="b.1TH.005.007" type="verse">
+						لان الذين ينامون فبالليل ينامون والذين يسكرون فبالليل يسكرون.
+					</ab>
+					<ab xml:id="b.1TH.005.008" type="verse">
+						واما نحن الذين من نهار فلنصح لابسين درع الايمان والمحبة وخوذة هي رجاء الخلاص.
+					</ab>
+					<ab xml:id="b.1TH.005.009" type="verse">
+						لان الله لم يجعلنا للغضب بل لاقتناء الخلاص بربنا يسوع المسيح
+					</ab>
+					<ab xml:id="b.1TH.005.010" type="verse">
+						الذي مات لاجلنا حتى اذا سهرنا او نمنا نحيا جميعا معه.
+					</ab>
+					<ab xml:id="b.1TH.005.011" type="verse">
+						لذلك عزوا بعضكم بعضا وابنوا احدكم الآخر كما تفعلون ايضا
+					</ab>
+					<ab xml:id="b.1TH.005.012" type="verse">
+						ثم نسألكم ايها الاخوة ان تعرفوا الذين يتعبون بينكم ويدبرونكم في الرب وينذرونكم
+					</ab>
+					<ab xml:id="b.1TH.005.013" type="verse">
+						وان تعتبروهم كثيرا جدا في المحبة من اجل عملهم. سالموا بعضكم بعضا.
+					</ab>
+					<ab xml:id="b.1TH.005.014" type="verse">
+						ونطلب اليكم ايها الاخوة انذروا الذين بلا ترتيب. شجعوا صغار النفوس. اسندوا الضعفاء. تأنوا على الجميع.
+					</ab>
+					<ab xml:id="b.1TH.005.015" type="verse">
+						انظروا ان لا يجازي احد احدا عن شر بشر بل كل حين اتبعوا الخير بعضكم لبعض وللجميع.
+					</ab>
+					<ab xml:id="b.1TH.005.016" type="verse">
+						افرحوا كل حين.
+					</ab>
+					<ab xml:id="b.1TH.005.017" type="verse">
+						صلّوا بلا انقطاع.
+					</ab>
+					<ab xml:id="b.1TH.005.018" type="verse">
+						اشكروا في كل شيء. لان هذه هي مشيئة الله في المسيح يسوع من جهتكم.
+					</ab>
+					<ab xml:id="b.1TH.005.019" type="verse">
+						لا تطفئوا الروح.
+					</ab>
+					<ab xml:id="b.1TH.005.020" type="verse">
+						لا تحتقروا النبوات.
+					</ab>
+					<ab xml:id="b.1TH.005.021" type="verse">
+						امتحنوا كل شيء. تمسكوا بالحسن.
+					</ab>
+					<ab xml:id="b.1TH.005.022" type="verse">
+						امتنعوا عن كل شبه شر.
+					</ab>
+					<ab xml:id="b.1TH.005.023" type="verse">
+						واله السلام نفسه يقدسكم بالتمام ولتحفظ روحكم ونفسكم وجسدكم كاملة بلا لوم عند مجيء ربنا يسوع المسيح.
+					</ab>
+					<ab xml:id="b.1TH.005.024" type="verse">
+						امين هو الذي يدعوكم الذي سيفعل ايضا
+					</ab>
+					<ab xml:id="b.1TH.005.025" type="verse">
+						ايها الاخوة صلّوا لاجلنا.
+					</ab>
+					<ab xml:id="b.1TH.005.026" type="verse">
+						سلموا على الاخوة جميعا بقبلة مقدسة.
+					</ab>
+					<ab xml:id="b.1TH.005.027" type="verse">
+						اناشدكم بالرب ان تقرأ هذه الرسالة على جميع الاخوة القديسين.
+					</ab>
+					<ab xml:id="b.1TH.005.028" type="verse">
+						نعمة ربنا يسوع المسيح معكم. آمين
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

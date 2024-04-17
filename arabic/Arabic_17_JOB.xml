@@ -1,0 +1,3407 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Job (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="42"/><measure commodity="verses" quantity="1070"/><measure commodity="bytes" quantity="2338179"/><measure commodity="characters" quantity="1298468"/><measure commodity="tokens" quantity="242465"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Job</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q4577">Q4577</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4072725-7">4072725-7</idno></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">old</term><term type="genre">wisdom</term><term type="division">Wisdom</term><term type="genre-multilabel">wisdom</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.JOB" type="book">
+				<div xml:id="b.JOB.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.JOB.001.001" type="verse">
+						كان رجل في ارض عوص اسمه ايوب. وكان هذا الرجل كاملا ومستقيما يتقي الله ويحيد عن الشر.
+					</ab>
+					<ab xml:id="b.JOB.001.002" type="verse">
+						وولد له سبعة بنين وثلاث بنات.
+					</ab>
+					<ab xml:id="b.JOB.001.003" type="verse">
+						وكانت مواشيه سبعة آلاف من الغنم وثلاثة آلاف جمل وخمس مئة فدان بقر وخمس مئة اتان وخدمه كثيرين جدا. فكان هذا الرجل اعظم كل بني المشرق.
+					</ab>
+					<ab xml:id="b.JOB.001.004" type="verse">
+						وكان بنوه يذهبون ويعملون وليمة في بيت كل واحد منهم في يومه ويرسلون ويستدعون اخواتهم الثلاث ليأكلن ويشربن معهم.
+					</ab>
+					<ab xml:id="b.JOB.001.005" type="verse">
+						وكان لما دارت ايام الوليمة ان ايوب ارسل فقدسهم وبكّر في الغد واصعد محرقات على عددهم كلهم. لان ايوب قال ربما اخطأ بنيّ وجدفوا على الله في قلوبهم. هكذا كان ايوب يفعل كل الايام
+					</ab>
+					<ab xml:id="b.JOB.001.006" type="verse">
+						وكان ذات يوم انه جاء بنو الله ليمثلوا امام الرب وجاء الشيطان ايضا في وسطهم.
+					</ab>
+					<ab xml:id="b.JOB.001.007" type="verse">
+						فقال الرب للشيطان من اين جئت. فاجاب الشيطان الرب وقال من الجولان في الارض ومن التمشي فيها.
+					</ab>
+					<ab xml:id="b.JOB.001.008" type="verse">
+						فقال الرب للشيطان هل جعلت قلبك على عبدي ايوب. لانه ليس مثله في الارض. رجل كامل ومستقيم يتقي الله ويحيد عن الشر.
+					</ab>
+					<ab xml:id="b.JOB.001.009" type="verse">
+						فاجاب الشيطان الرب وقال هل مجانا يتقي ايوب الله.
+					</ab>
+					<ab xml:id="b.JOB.001.010" type="verse">
+						أليس انك سيّجت حوله وحول بيته وحول كل ما له من كل ناحية. باركت اعمال يديه فانتشرت مواشيه في الارض.
+					</ab>
+					<ab xml:id="b.JOB.001.011" type="verse">
+						ولكن ابسط يدك الآن ومس كل ما له فانه في وجهك يجدف عليك.
+					</ab>
+					<ab xml:id="b.JOB.001.012" type="verse">
+						فقال الرب للشيطان هوذا كل ما له في يدك. وانما اليه لا تمد يدك. ثم خرج الشيطان من امام وجه الرب
+					</ab>
+					<ab xml:id="b.JOB.001.013" type="verse">
+						وكان ذات يوم وابناؤه وبناته ياكلون ويشربون خمرا في بيت اخيهم الاكبر
+					</ab>
+					<ab xml:id="b.JOB.001.014" type="verse">
+						ان رسولا جاء الى ايوب وقال. البقر كانت تحرث والاتن ترعى بجانبها
+					</ab>
+					<ab xml:id="b.JOB.001.015" type="verse">
+						فسقط عليها السبئيون واخذوها وضربوا الغلمان بحد السيف ونجوت انا وحدي لاخبرك.
+					</ab>
+					<ab xml:id="b.JOB.001.016" type="verse">
+						وبينما هو يتكلم اذ جاء آخر وقال. نار الله سقطت من السماء فاحرقت الغنم والغلمان وأكلتهم ونجوت انا وحدي لاخبرك.
+					</ab>
+					<ab xml:id="b.JOB.001.017" type="verse">
+						وبينما هو يتكلم اذ جاء آخر وقال. الكلدانيون عيّنوا ثلاث فرق فهجموا على الجمال واخذوها وضربوا الغلمان بحد السيف ونجوت انا وحدي لاخبرك.
+					</ab>
+					<ab xml:id="b.JOB.001.018" type="verse">
+						وبينما هو يتكلم اذ جاء آخر وقال. بنوك وبناتك كانوا ياكلون ويشربون خمرا في بيت اخيهم الاكبر
+					</ab>
+					<ab xml:id="b.JOB.001.019" type="verse">
+						واذا ريح شديدة جاءت من عبر القفر وصدمت زوايا البيت الاربع فسقط على الغلمان فماتوا ونجوت انا وحدي لاخبرك.
+					</ab>
+					<ab xml:id="b.JOB.001.020" type="verse">
+						فقام ايوب ومزّق جبّته وجزّ شعر راسه وخرّ على الارض وسجد
+					</ab>
+					<ab xml:id="b.JOB.001.021" type="verse">
+						وقال عريانا خرجت من بطن امي وعريانا اعود الى هناك. الرب اعطى والرب اخذ فليكن اسم الرب مباركا.
+					</ab>
+					<ab xml:id="b.JOB.001.022" type="verse">
+						في كل هذا لم يخطئ ايوب ولم ينسب لله جهالة
+					</ab>
+				</div>
+				<div xml:id="b.JOB.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.JOB.002.001" type="verse">
+						وكان ذات يوم انه جاء بنو الله ليمثلوا امام الرب وجاء الشيطان ايضا في وسطهم ليمثل امام الرب.
+					</ab>
+					<ab xml:id="b.JOB.002.002" type="verse">
+						فقال الرب للشيطان من اين جئت. فاجاب الشيطان الرب وقال من الجولان في الارض ومن التمشي فيها.
+					</ab>
+					<ab xml:id="b.JOB.002.003" type="verse">
+						فقال الرب للشيطان هل جعلت قلبك على عبدي ايوب. لانه ليس مثله في الارض. رجل كامل ومستقيم يتقي الله ويحيد عن الشر. والى الآن هو متمسك بكماله وقد هيّجتني عليه لابتلعه بلا سبب.
+					</ab>
+					<ab xml:id="b.JOB.002.004" type="verse">
+						فاجاب الشيطان الرب وقال. جلد بجلد وكل ما للانسان يعطيه لاجل نفسه.
+					</ab>
+					<ab xml:id="b.JOB.002.005" type="verse">
+						ولكن ابسط الآن يدك ومس عظمه ولحمه فانه في وجهك يجدّف عليك.
+					</ab>
+					<ab xml:id="b.JOB.002.006" type="verse">
+						فقال الرب للشيطان ها هو في يدك ولكن احفظ نفسه
+					</ab>
+					<ab xml:id="b.JOB.002.007" type="verse">
+						فخرج الشيطان من حضرة الرب وضرب ايوب بقرح رديء من باطن قدمه الى هامته.
+					</ab>
+					<ab xml:id="b.JOB.002.008" type="verse">
+						فاخذ لنفسه شقفة ليحتك بها وهو جالس في وسط الرماد.
+					</ab>
+					<ab xml:id="b.JOB.002.009" type="verse">
+						فقالت له امرأته انت متمسك بعد بكمالك. بارك الله ومت.
+					</ab>
+					<ab xml:id="b.JOB.002.010" type="verse">
+						فقال لها تتكلمين كلاما كاحدى الجاهلات. أالخير نقبل من عند الله والشر لا نقبل . ‎ في كل هذا لم يخطئ ايوب بشفتيه
+					</ab>
+					<ab xml:id="b.JOB.002.011" type="verse">
+						فلما سمع اصحاب ايوب الثلاثة بكل الشر الذي أتى عليه جاءوا كل واحد من مكانه. اليفاز التيماني وبلدد الشوحي وصوفر النعماتي وتواعدوا ان يأتوا ليرثوا له ويعّزوه.
+					</ab>
+					<ab xml:id="b.JOB.002.012" type="verse">
+						ورفعوا اعينهم من بعيد ولم يعرفوه فرفعوا اصواتهم وبكوا ومزّق كل واحد جبّته وذروا ترابا فوق رؤوسهم نحو السماء.
+					</ab>
+					<ab xml:id="b.JOB.002.013" type="verse">
+						وقعدوا معه على الارض سبعة ايام وسبع ليال ولم يكلمه احد بكلمة لانهم رأوا ان كآبته كانت عظيمة جدا
+					</ab>
+				</div>
+				<div xml:id="b.JOB.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.JOB.003.001" type="verse">
+						بعد هذا فتح ايوب فاه وسبّ يومه
+					</ab>
+					<ab xml:id="b.JOB.003.002" type="verse">
+						واخذ ايوب يتكلم فقال
+					</ab>
+					<ab xml:id="b.JOB.003.003" type="verse">
+						ليته هلك اليوم الذي ولدت فيه والليل الذي قال قد حبل برجل.
+					</ab>
+					<ab xml:id="b.JOB.003.004" type="verse">
+						ليكن ذلك اليوم ظلاما. لا يعتن به الله من فوق ولا يشرق عليه نهار.
+					</ab>
+					<ab xml:id="b.JOB.003.005" type="verse">
+						ليملكه الظلام وظل الموت. ليحل عليه سحاب. لترعبه كاسفات النهار.
+					</ab>
+					<ab xml:id="b.JOB.003.006" type="verse">
+						اما ذلك الليل فليمسكه الدجى ولا يفرح بين ايام السنة ولا يدخلنّ في عدد الشهور.
+					</ab>
+					<ab xml:id="b.JOB.003.007" type="verse">
+						هوذا ذلك الليل ليكن عاقرا. لا يسمع فيه هتاف.
+					</ab>
+					<ab xml:id="b.JOB.003.008" type="verse">
+						ليلعنه لاعنو اليوم المستعدون لايقاظ التنين.
+					</ab>
+					<ab xml:id="b.JOB.003.009" type="verse">
+						لتظلم نجوم عشائه. لينتظر النور ولا يكن ولا ير هدب الصبح.
+					</ab>
+					<ab xml:id="b.JOB.003.010" type="verse">
+						لانه لم يغلق ابواب بطن امي ولم يستر الشقاوة عن عينيّ.
+					</ab>
+					<ab xml:id="b.JOB.003.011" type="verse">
+						لم لم امت من الرحم. عندما خرجت من البطن لم لم اسلم الروح.
+					</ab>
+					<ab xml:id="b.JOB.003.012" type="verse">
+						لماذا اعانتني الركب ولم الثدي حتى ارضع.
+					</ab>
+					<ab xml:id="b.JOB.003.013" type="verse">
+						لاني قد كنت الآن مضطجعا ساكنا. حينئذ كنت نمت مستريحا
+					</ab>
+					<ab xml:id="b.JOB.003.014" type="verse">
+						مع ملوك ومشيري الارض الذين بنوا اهراما لانفسهم
+					</ab>
+					<ab xml:id="b.JOB.003.015" type="verse">
+						او مع رؤساء لهم ذهب المالئين بيوتهم فضة
+					</ab>
+					<ab xml:id="b.JOB.003.016" type="verse">
+						او كسقط مطمور فلم اكن. كأجنّة لم يروا نورا.
+					</ab>
+					<ab xml:id="b.JOB.003.017" type="verse">
+						هناك يكف المنافقون عن الشغب وهناك يستريح المتعبون.
+					</ab>
+					<ab xml:id="b.JOB.003.018" type="verse">
+						الاسرى يطمئنون جميعا. لا يسمعون صوت المسخّر
+					</ab>
+					<ab xml:id="b.JOB.003.019" type="verse">
+						الصغير كما الكبير هناك العبد حر من سيده
+					</ab>
+					<ab xml:id="b.JOB.003.020" type="verse">
+						لم يعطى لشقي نور وحياة لمري النفس
+					</ab>
+					<ab xml:id="b.JOB.003.021" type="verse">
+						الذين ينتظرون الموت وليس هو ويحفرون عليه اكثر من الكنوز
+					</ab>
+					<ab xml:id="b.JOB.003.022" type="verse">
+						المسرورين الى ان يبتهجوا الفرحين عندما يجدون قبرا.
+					</ab>
+					<ab xml:id="b.JOB.003.023" type="verse">
+						لرجل قد خفي عليه طريقه وقد سيج الله حوله.
+					</ab>
+					<ab xml:id="b.JOB.003.024" type="verse">
+						لانه مثل خبزي ياتي انيني ومثل المياه تنسكب زفرتي
+					</ab>
+					<ab xml:id="b.JOB.003.025" type="verse">
+						لاني ارتعابا ارتعبت فأتاني والذي فزعت منه جاء عليّ.
+					</ab>
+					<ab xml:id="b.JOB.003.026" type="verse">
+						لم اطمئن ولم اسكن ولم استرح وقد جاء الرجز
+					</ab>
+				</div>
+				<div xml:id="b.JOB.004" type="chapter">
+				<head>4</head>
+					<ab xml:id="b.JOB.004.001" type="verse">
+						فاجاب اليفاز التيماني وقال
+					</ab>
+					<ab xml:id="b.JOB.004.002" type="verse">
+						ان امتحن احد كلمة معك فهل تستاء. ولكن من يستطيع الامتناع عن الكلام.
+					</ab>
+					<ab xml:id="b.JOB.004.003" type="verse">
+						ها انت قد ارشدت كثيرين وشددت ايادي مرتخية.
+					</ab>
+					<ab xml:id="b.JOB.004.004" type="verse">
+						قد اقام كلامك العاثر وثبت الركب المرتعشة.
+					</ab>
+					<ab xml:id="b.JOB.004.005" type="verse">
+						والآن اذ جاء عليك ضجرت. اذ مسّك ارتعت.
+					</ab>
+					<ab xml:id="b.JOB.004.006" type="verse">
+						أليست تقواك هي معتمدك ورجاؤك كمال طرقك.
+					</ab>
+					<ab xml:id="b.JOB.004.007" type="verse">
+						اذكر من هلك وهو بري واين أبيد المستقيمون.
+					</ab>
+					<ab xml:id="b.JOB.004.008" type="verse">
+						كما قد رايت ان الحارثين اثما والزارعين شقاوة يحصدونها.
+					</ab>
+					<ab xml:id="b.JOB.004.009" type="verse">
+						بنسمة الله يبيدون وبريح انفه يفنون.
+					</ab>
+					<ab xml:id="b.JOB.004.010" type="verse">
+						زمجرة الاسد وصوت الزئير وانياب الاشبال تكسرت.
+					</ab>
+					<ab xml:id="b.JOB.004.011" type="verse">
+						الليث هالك لعدم الفريسة واشبال اللبوة تبددت
+					</ab>
+					<ab xml:id="b.JOB.004.012" type="verse">
+						ثم اليّ تسللت كلمة فقبلت اذني منها ركزا.
+					</ab>
+					<ab xml:id="b.JOB.004.013" type="verse">
+						في الهواجس من رؤى الليل عند وقوع سبات على الناس
+					</ab>
+					<ab xml:id="b.JOB.004.014" type="verse">
+						اصابني رعب ورعدة فرجفت كل عظامي.
+					</ab>
+					<ab xml:id="b.JOB.004.015" type="verse">
+						فمرّت روح على وجهي. اقشعر شعر جسدي.
+					</ab>
+					<ab xml:id="b.JOB.004.016" type="verse">
+						وقفت ولكني لم اعرف منظرها. شبه قدام عينيّ. سمعت صوتا منخفضا
+					</ab>
+					<ab xml:id="b.JOB.004.017" type="verse">
+						أالانسان ابرّ من الله ام الرجل اطهر من خالقه.
+					</ab>
+					<ab xml:id="b.JOB.004.018" type="verse">
+						هوذا عبيده لا يأتمنهم والى ملائكته ينسب حماقة.
+					</ab>
+					<ab xml:id="b.JOB.004.019" type="verse">
+						فكم بالحري سكان بيوت من طين الذين اساسهم في التراب ويسحقون مثل العث.
+					</ab>
+					<ab xml:id="b.JOB.004.020" type="verse">
+						بين الصباح والمساء يحطمون. بدون منتبه اليهم الى الابد يبيدون
+					</ab>
+					<ab xml:id="b.JOB.004.021" type="verse">
+						أما انتزعت منهم طنبهم. يموتون بلا حكمة
+					</ab>
+				</div>
+				<div xml:id="b.JOB.005" type="chapter">
+				<head>5</head>
+					<ab xml:id="b.JOB.005.001" type="verse">
+						ادع الآن. فهل لك من مجيب. والى اي القديسين تلتفت.
+					</ab>
+					<ab xml:id="b.JOB.005.002" type="verse">
+						لان الغيظ يقتل الغبي والغيرة تميت الاحمق.
+					</ab>
+					<ab xml:id="b.JOB.005.003" type="verse">
+						اني رأيت الغبي يتاصل وبغتة لعنت مربضه.
+					</ab>
+					<ab xml:id="b.JOB.005.004" type="verse">
+						بنوه بعيدون عن الامن وقد تحطموا في الباب ولا منقذ.
+					</ab>
+					<ab xml:id="b.JOB.005.005" type="verse">
+						الذين يأكل الجوعان حصيدهم ويأخذه حتى من الشوك ويشتف الضمآن ثروتهم.
+					</ab>
+					<ab xml:id="b.JOB.005.006" type="verse">
+						ان البلية لا تخرج من التراب والشقاوة لا تنبت من الارض
+					</ab>
+					<ab xml:id="b.JOB.005.007" type="verse">
+						ولكن الانسان مولود للمشقة كما ان الجوارح لارتفاع الجناح
+					</ab>
+					<ab xml:id="b.JOB.005.008" type="verse">
+						لكن كنت اطلب الى الله وعلى الله اجعل امري.
+					</ab>
+					<ab xml:id="b.JOB.005.009" type="verse">
+						الفاعل عظائم لا تفحص وعجائب لا تعد.
+					</ab>
+					<ab xml:id="b.JOB.005.010" type="verse">
+						المنزل مطرا على وجه الارض والمرسل المياه على البراري.
+					</ab>
+					<ab xml:id="b.JOB.005.011" type="verse">
+						الجاعل المتواضعين في العلى فيرتفع المحزونون الى امن.
+					</ab>
+					<ab xml:id="b.JOB.005.012" type="verse">
+						المبطل افكار المحتالين فلا تجري ايديهم قصدا.
+					</ab>
+					<ab xml:id="b.JOB.005.013" type="verse">
+						الآخذ الحكماء بحيلتهم فتتهور مشورة الماكرين.
+					</ab>
+					<ab xml:id="b.JOB.005.014" type="verse">
+						في النهار يصدمون ظلاما ويتلمّسون في الظهيرة كما في الليل.
+					</ab>
+					<ab xml:id="b.JOB.005.015" type="verse">
+						المنجي البائس من السيف من فمهم ومن يد القوي.
+					</ab>
+					<ab xml:id="b.JOB.005.016" type="verse">
+						فيكون للذليل رجاء وتسد الخطية فاها
+					</ab>
+					<ab xml:id="b.JOB.005.017" type="verse">
+						هوذا طوبى لرجل يؤدبه الله. فلا ترفض تأديب القدير.
+					</ab>
+					<ab xml:id="b.JOB.005.018" type="verse">
+						لانه هو يجرح ويعصب. يسحق ويداه تشفيان.
+					</ab>
+					<ab xml:id="b.JOB.005.019" type="verse">
+						في ست شدائد ينجيك وفي سبع لا يمسك سوء.
+					</ab>
+					<ab xml:id="b.JOB.005.020" type="verse">
+						في الجوع يفديك من الموت وفي الحرب من حد السيف.
+					</ab>
+					<ab xml:id="b.JOB.005.021" type="verse">
+						من سوط اللسان تختبأ فلا تخاف من الخراب اذا جاء.
+					</ab>
+					<ab xml:id="b.JOB.005.022" type="verse">
+						تضحك على الخراب والمحل ولا تخشى وحوش الارض.
+					</ab>
+					<ab xml:id="b.JOB.005.023" type="verse">
+						لانه مع حجارة الحقل عهدك ووحوش البرية تسالمك.
+					</ab>
+					<ab xml:id="b.JOB.005.024" type="verse">
+						فتعلم ان خيمتك آمنة وتتعهد مربضك ولا تفقد شيئا.
+					</ab>
+					<ab xml:id="b.JOB.005.025" type="verse">
+						وتعلم ان زرعك كثير وذريتك كعشب الارض.
+					</ab>
+					<ab xml:id="b.JOB.005.026" type="verse">
+						تدخل المدفن في شيخوخة كرفع الكدس في اوانه.
+					</ab>
+					<ab xml:id="b.JOB.005.027" type="verse">
+						ها ان ذا قد بحثنا عنه. كذا هو. فاسمعه واعلم انت لنفسك
+					</ab>
+				</div>
+				<div xml:id="b.JOB.006" type="chapter">
+				<head>6</head>
+					<ab xml:id="b.JOB.006.001" type="verse">
+						فاجاب ايوب وقال
+					</ab>
+					<ab xml:id="b.JOB.006.002" type="verse">
+						ليت كربي وزن ومصيبتي رفعت في الموازين جميعها.
+					</ab>
+					<ab xml:id="b.JOB.006.003" type="verse">
+						لانها الآن اثقل من رمل البحر. من اجل ذلك لغا كلامي.
+					</ab>
+					<ab xml:id="b.JOB.006.004" type="verse">
+						لان سهام القدير فيّ وحمتها شاربة روحي. اهوال الله مصطفة ضدي.
+					</ab>
+					<ab xml:id="b.JOB.006.005" type="verse">
+						هل ينهق الفراء على العشب او يخور الثور على علفه.
+					</ab>
+					<ab xml:id="b.JOB.006.006" type="verse">
+						هل يؤكل المسيخ بلا ملح او يوجد طعم في مرق البقلة.
+					</ab>
+					<ab xml:id="b.JOB.006.007" type="verse">
+						ما عافت نفسي ان تمسّها هذه صارت مثل خبزي الكريه
+					</ab>
+					<ab xml:id="b.JOB.006.008" type="verse">
+						يا ليت طلبتي تاتي ويعطيني الله رجائي.
+					</ab>
+					<ab xml:id="b.JOB.006.009" type="verse">
+						ان يرضى الله بان يسحقني ويطلق يده فيقطعني.
+					</ab>
+					<ab xml:id="b.JOB.006.010" type="verse">
+						فلا تزال تعزيتي وابتهاجي في عذاب لا يشفق اني لم اجحد كلام القدوس.
+					</ab>
+					<ab xml:id="b.JOB.006.011" type="verse">
+						ما هي قوتي حتى انتظر وما هي نهايتي حتى اصبّر نفسي.
+					</ab>
+					<ab xml:id="b.JOB.006.012" type="verse">
+						هل قوتي قوة الحجارة. هل لحمي نحاس.
+					</ab>
+					<ab xml:id="b.JOB.006.013" type="verse">
+						ألا انه ليست فيّ معونتي والمساعدة مطرودة عني
+					</ab>
+					<ab xml:id="b.JOB.006.014" type="verse">
+						حق المحزون معروف من صاحبه وان ترك خشية القدير.
+					</ab>
+					<ab xml:id="b.JOB.006.015" type="verse">
+						اما اخواني فقد غدروا مثل الغدير. مثل ساقية الوديان يعبرون.
+					</ab>
+					<ab xml:id="b.JOB.006.016" type="verse">
+						التي هي عكرة من البرد ويختفي فيها الجليد.
+					</ab>
+					<ab xml:id="b.JOB.006.017" type="verse">
+						اذا جرت انقطعت. اذا حميت جفت من مكانها.
+					</ab>
+					<ab xml:id="b.JOB.006.018" type="verse">
+						يعرّج السّفر عن طريقهم يدخلون التيه فيهلكون.
+					</ab>
+					<ab xml:id="b.JOB.006.019" type="verse">
+						نظرت قوافل تيماء. سيارة سبأ رجوها.
+					</ab>
+					<ab xml:id="b.JOB.006.020" type="verse">
+						خزوا في ما كانوا مطمئنين. جاءوا اليها فخجلوا.
+					</ab>
+					<ab xml:id="b.JOB.006.021" type="verse">
+						فالآن قد صرتم مثلها. رايتم ضربة ففزعتم.
+					</ab>
+					<ab xml:id="b.JOB.006.022" type="verse">
+						هل قلت اعطوني شيئا او من مالكم ارشوا من اجلي.
+					</ab>
+					<ab xml:id="b.JOB.006.023" type="verse">
+						او نجوني من يد الخصم او من يد العتاة افدوني.
+					</ab>
+					<ab xml:id="b.JOB.006.024" type="verse">
+						علموني فانا اسكت. وفهموني في اي شيء ضللت.
+					</ab>
+					<ab xml:id="b.JOB.006.025" type="verse">
+						ما اشد الكلام المستقيم واما التوبيخ منكم فعلى ماذا يبرهن.
+					</ab>
+					<ab xml:id="b.JOB.006.026" type="verse">
+						هل تحسبون ان توبخوا كلمات. وكلام اليائس للريح.
+					</ab>
+					<ab xml:id="b.JOB.006.027" type="verse">
+						بل تلقون على اليتيم وتحفرون حفرة لصاحبكم.
+					</ab>
+					<ab xml:id="b.JOB.006.028" type="verse">
+						والآن تفرسوا فيّ. فاني على وجوهكم لا اكذب.
+					</ab>
+					<ab xml:id="b.JOB.006.029" type="verse">
+						ارجعوا. لا يكوننّ ظلم. ارجعوا ايضا. فيه حقي.
+					</ab>
+					<ab xml:id="b.JOB.006.030" type="verse">
+						هل في لساني ظلم ام حنكي لا يميّز فسادا
+					</ab>
+				</div>
+				<div xml:id="b.JOB.007" type="chapter">
+				<head>7</head>
+					<ab xml:id="b.JOB.007.001" type="verse">
+						أليس جهاد للانسان على الارض وكايام الاجير ايامه.
+					</ab>
+					<ab xml:id="b.JOB.007.002" type="verse">
+						كما يتشوّق العبد الى الظل وكما يترجّى الاجير اجرته
+					</ab>
+					<ab xml:id="b.JOB.007.003" type="verse">
+						هكذا تعين لي اشهر سوء وليالي شقاء قسمت لي.
+					</ab>
+					<ab xml:id="b.JOB.007.004" type="verse">
+						اذا اضطجعت اقول متى اقوم. الليل يطول واشبع قلقا حتى الصبح.
+					</ab>
+					<ab xml:id="b.JOB.007.005" type="verse">
+						لبس لحمي الدود مع مدر التراب. جلدي كرش وساخ.
+					</ab>
+					<ab xml:id="b.JOB.007.006" type="verse">
+						ايامي اسرع من الوشيعة وتنتهي بغير رجاء
+					</ab>
+					<ab xml:id="b.JOB.007.007" type="verse">
+						اذكر ان حياتي انما هي ريح وعيني لا تعود ترى خيرا.
+					</ab>
+					<ab xml:id="b.JOB.007.008" type="verse">
+						لا تراني عين ناظري. عيناك عليّ ولست انا.
+					</ab>
+					<ab xml:id="b.JOB.007.009" type="verse">
+						السحاب يضمحل ويزول. هكذا الذي ينزل الى الهاوية لا يصعد.
+					</ab>
+					<ab xml:id="b.JOB.007.010" type="verse">
+						لا يرجع بعد الى بيته ولا يعرفه مكانه بعد.
+					</ab>
+					<ab xml:id="b.JOB.007.011" type="verse">
+						انا ايضا لا امنع فمي. اتكلم بضيق روحي. اشكو بمرارة نفسي.
+					</ab>
+					<ab xml:id="b.JOB.007.012" type="verse">
+						أبحر انا ام تنين حتى جعلت عليّ حارسا.
+					</ab>
+					<ab xml:id="b.JOB.007.013" type="verse">
+						ان قلت فراشي يعزيني مضجعي ينزع كربتي
+					</ab>
+					<ab xml:id="b.JOB.007.014" type="verse">
+						تريعني بالاحلام وترهبني برؤى
+					</ab>
+					<ab xml:id="b.JOB.007.015" type="verse">
+						فاختارت نفسي الخنق الموت على عظامي هذه.
+					</ab>
+					<ab xml:id="b.JOB.007.016" type="verse">
+						قد ذبت. لا الى الابد احيا. كف عني لان ايامي نفخة.
+					</ab>
+					<ab xml:id="b.JOB.007.017" type="verse">
+						ما هو الانسان حتى تعتبره وحتى تضع عليه قلبك
+					</ab>
+					<ab xml:id="b.JOB.007.018" type="verse">
+						وتتعهّده كل صباح وكل لحظة تمتحنه.
+					</ab>
+					<ab xml:id="b.JOB.007.019" type="verse">
+						حتى متى لا تلتفت عني ولا ترخيني ريثما ابلع ريقي.
+					</ab>
+					<ab xml:id="b.JOB.007.020" type="verse">
+						أأخطأت. ماذا افعل لك يا رقيب الناس. لماذا جعلتني عاثورا لنفسك حتى اكون على نفسي حملا.
+					</ab>
+					<ab xml:id="b.JOB.007.021" type="verse">
+						ولماذا لا تغفر ذنبي ولا تزيل اثمي لاني الآن اضطجع في التراب. تطلبني فلا اكون
+					</ab>
+				</div>
+				<div xml:id="b.JOB.008" type="chapter">
+				<head>8</head>
+					<ab xml:id="b.JOB.008.001" type="verse">
+						فاجاب بلدد الشوحي وقال
+					</ab>
+					<ab xml:id="b.JOB.008.002" type="verse">
+						الى متى تقول هذا وتكون اقوال فيك ريحا شديدة.
+					</ab>
+					<ab xml:id="b.JOB.008.003" type="verse">
+						هل الله يعوّج القضاء او القدير يعكس الحق.
+					</ab>
+					<ab xml:id="b.JOB.008.004" type="verse">
+						اذ اخطأ اليه بنوك دفعهم الى يد معصيتهم.
+					</ab>
+					<ab xml:id="b.JOB.008.005" type="verse">
+						فان بكرت انت الى الله وتضرعت الى القدير.
+					</ab>
+					<ab xml:id="b.JOB.008.006" type="verse">
+						ان كنت انت زكيا مستقيما فانه الآن يتنبه لك ويسلم مسكن برك.
+					</ab>
+					<ab xml:id="b.JOB.008.007" type="verse">
+						وان تكن اولاك صغيرة فآخرتك تكثر جدا
+					</ab>
+					<ab xml:id="b.JOB.008.008" type="verse">
+						اسأل القرون الاولى وتأكد مباحث آبائهم.
+					</ab>
+					<ab xml:id="b.JOB.008.009" type="verse">
+						لاننا نحن من امس ولا نعلم لان ايامنا على الارض ظل.
+					</ab>
+					<ab xml:id="b.JOB.008.010" type="verse">
+						فهلا يعلمونك. يقولون لك ومن قلوبهم يخرجون اقوالا قائلين
+					</ab>
+					<ab xml:id="b.JOB.008.011" type="verse">
+						هل ينمي البردي في غير الغمقة او تنبت الحلفاء بلا ماء.
+					</ab>
+					<ab xml:id="b.JOB.008.012" type="verse">
+						وهو بعد في نضارته لم يقطع ييبس قبل كل العشب.
+					</ab>
+					<ab xml:id="b.JOB.008.013" type="verse">
+						هكذا سبل كل الناسين الله ورجاء الفاجر يخيب
+					</ab>
+					<ab xml:id="b.JOB.008.014" type="verse">
+						فينقطع اعتماده ومتكله بيت العنكبوت.
+					</ab>
+					<ab xml:id="b.JOB.008.015" type="verse">
+						يستند الى بيته فلا يثبت. يتمسك به فلا يقوم.
+					</ab>
+					<ab xml:id="b.JOB.008.016" type="verse">
+						هو رطب تجاه الشمس وعلى جنته تنبت خراعيبه.
+					</ab>
+					<ab xml:id="b.JOB.008.017" type="verse">
+						واصوله مشتبكة في الرجمة فترى محل الحجارة.
+					</ab>
+					<ab xml:id="b.JOB.008.018" type="verse">
+						ان اقتلعه من مكانه يجحده قائلا ما رايتك.
+					</ab>
+					<ab xml:id="b.JOB.008.019" type="verse">
+						هذا هو فرح طريقه ومن التراب ينبت آخر
+					</ab>
+					<ab xml:id="b.JOB.008.020" type="verse">
+						هوذا الله لا يرفض الكامل ولا يأخذ بيد فاعلي الشر.
+					</ab>
+					<ab xml:id="b.JOB.008.021" type="verse">
+						عندما يملأ فاك ضحكا وشفتيك هتافا.
+					</ab>
+					<ab xml:id="b.JOB.008.022" type="verse">
+						يلبس مبغضوك خزيا. اما خيمة الاشرار فلا تكون
+					</ab>
+				</div>
+				<div xml:id="b.JOB.009" type="chapter">
+				<head>9</head>
+					<ab xml:id="b.JOB.009.001" type="verse">
+						فاجاب ايوب وقال
+					</ab>
+					<ab xml:id="b.JOB.009.002" type="verse">
+						صحيح. قد علمت انه كذا. فكيف يتبرر الانسان عند الله.
+					</ab>
+					<ab xml:id="b.JOB.009.003" type="verse">
+						ان شاء ان يحاجه لا يجيبه عن واحد من الف.
+					</ab>
+					<ab xml:id="b.JOB.009.004" type="verse">
+						هو حكيم القلب وشديد القوة. من تصلب عليه فسلم.
+					</ab>
+					<ab xml:id="b.JOB.009.005" type="verse">
+						المزحزح الجبال ولا تعلم. الذي يقلبها في غضبه
+					</ab>
+					<ab xml:id="b.JOB.009.006" type="verse">
+						المزعزع الارض من مقرها فتتزلزل اعمدتها
+					</ab>
+					<ab xml:id="b.JOB.009.007" type="verse">
+						الآمر الشمس فلا تشرق ويختم على النجوم.
+					</ab>
+					<ab xml:id="b.JOB.009.008" type="verse">
+						الباسط السموات وحده والماشي على اعالي البحر.
+					</ab>
+					<ab xml:id="b.JOB.009.009" type="verse">
+						صانع النعش والجبار والثريا ومخادع الجنوب.
+					</ab>
+					<ab xml:id="b.JOB.009.010" type="verse">
+						فاعل عظائم لا تفحص وعجائب لا تعد
+					</ab>
+					<ab xml:id="b.JOB.009.011" type="verse">
+						هوذا يمرّ عليّ ولا اراه ويجتاز فلا اشعر به.
+					</ab>
+					<ab xml:id="b.JOB.009.012" type="verse">
+						اذا خطف فمن يرده ومن يقول له ماذا تفعل.
+					</ab>
+					<ab xml:id="b.JOB.009.013" type="verse">
+						الله لا يرد غضبه. ينحني تحته اعوان رهب.
+					</ab>
+					<ab xml:id="b.JOB.009.014" type="verse">
+						كم بالاقل انا اجاوبه واختار كلامي معه.
+					</ab>
+					<ab xml:id="b.JOB.009.015" type="verse">
+						لاني وان تبررت لا اجاوب بل استرحم ديّاني.
+					</ab>
+					<ab xml:id="b.JOB.009.016" type="verse">
+						لو دعوت فاستجاب لي لما آمنت بانه سمع صوتي
+					</ab>
+					<ab xml:id="b.JOB.009.017" type="verse">
+						ذاك الذي يسحقني بالعاصفة ويكثر جروحي بلا سبب.
+					</ab>
+					<ab xml:id="b.JOB.009.018" type="verse">
+						لا يدعني آخذ نفسي ولكن يشبعني مرائر.
+					</ab>
+					<ab xml:id="b.JOB.009.019" type="verse">
+						ان كان من جهة قوة القوي يقول هانذا. وان كان من جهة القضاء يقول من يحاكمني.
+					</ab>
+					<ab xml:id="b.JOB.009.020" type="verse">
+						ان تبررت يحكم عليّ فمي. وان كنت كاملا يستذنبني
+					</ab>
+					<ab xml:id="b.JOB.009.021" type="verse">
+						كامل انا. لا ابالي بنفسي. رذلت حياتي.
+					</ab>
+					<ab xml:id="b.JOB.009.022" type="verse">
+						هي واحدة. لذلك قلت ان الكامل والشرير هو يفنيهما.
+					</ab>
+					<ab xml:id="b.JOB.009.023" type="verse">
+						اذا قتل السوط بغتة يستهزئ بتجربة الابرياء.
+					</ab>
+					<ab xml:id="b.JOB.009.024" type="verse">
+						الارض مسلّمة ليد الشرير. يغشي وجوه قضاتها. وان لم يكن هو فاذا من.
+					</ab>
+					<ab xml:id="b.JOB.009.025" type="verse">
+						ايامي اسرع من عدّاء. تفر ولا ترى خيرا.
+					</ab>
+					<ab xml:id="b.JOB.009.026" type="verse">
+						تمرّ مع سفن البردي. كنسر ينقض الى قنصه.
+					</ab>
+					<ab xml:id="b.JOB.009.027" type="verse">
+						ان قلت انسى كربتي اطلق وجهي واتبلج
+					</ab>
+					<ab xml:id="b.JOB.009.028" type="verse">
+						اخاف من كل اوجاعي عالما انك لا تبرئني.
+					</ab>
+					<ab xml:id="b.JOB.009.029" type="verse">
+						انا مستذنب فلماذا اتعب عبثا.
+					</ab>
+					<ab xml:id="b.JOB.009.030" type="verse">
+						ولو اغتسلت في الثلج ونظفت يدي بالاشنان
+					</ab>
+					<ab xml:id="b.JOB.009.031" type="verse">
+						فانك في النقع تغمسني حتى تكرهني ثيابي.
+					</ab>
+					<ab xml:id="b.JOB.009.032" type="verse">
+						لانه ليس هو انسانا مثلي فاجاوبه فنأتي جميعا الى المحاكمة.
+					</ab>
+					<ab xml:id="b.JOB.009.033" type="verse">
+						ليس بيننا مصالح يضع يده على كلينا.
+					</ab>
+					<ab xml:id="b.JOB.009.034" type="verse">
+						ليرفع عني عصاه ولا يبغتني رعبه
+					</ab>
+					<ab xml:id="b.JOB.009.035" type="verse">
+						اذا اتكلم ولا اخافه. لاني لست هكذا عند نفسي
+					</ab>
+				</div>
+				<div xml:id="b.JOB.010" type="chapter">
+				<head>10</head>
+					<ab xml:id="b.JOB.010.001" type="verse">
+						قد كرهت نفسي حياتي. اسيب شكواي. اتكلم في مرارة نفسي
+					</ab>
+					<ab xml:id="b.JOB.010.002" type="verse">
+						قائلا لله لا تستذنبني. فهمني لماذا تخاصمني.
+					</ab>
+					<ab xml:id="b.JOB.010.003" type="verse">
+						احسن عندك ان تظلم ان ترذل عمل يديك وتشرق على مشورة الاشرار.
+					</ab>
+					<ab xml:id="b.JOB.010.004" type="verse">
+						ألك عينا بشر ام كنظر الانسان تنظر.
+					</ab>
+					<ab xml:id="b.JOB.010.005" type="verse">
+						أأيامك كايام الانسان ام سنوك كايام الرجل
+					</ab>
+					<ab xml:id="b.JOB.010.006" type="verse">
+						حتى تبحث عن اثمي وتفتش على خطيتي.
+					</ab>
+					<ab xml:id="b.JOB.010.007" type="verse">
+						في علمك اني لست مذنبا ولا منقذ من يدك
+					</ab>
+					<ab xml:id="b.JOB.010.008" type="verse">
+						يداك كوّنتاني وصنعتاني كلي جميعا. أفتبتلعني.
+					</ab>
+					<ab xml:id="b.JOB.010.009" type="verse">
+						اذكر انك جبلتني كالطين. أفتعيدني الى التراب.
+					</ab>
+					<ab xml:id="b.JOB.010.010" type="verse">
+						ألم تصبّني كاللبن وخثّرتني كالجبن.
+					</ab>
+					<ab xml:id="b.JOB.010.011" type="verse">
+						كسوتني جلدا ولحما فنسجتني بعظام وعصب.
+					</ab>
+					<ab xml:id="b.JOB.010.012" type="verse">
+						منحتني حياة ورحمة وحفظت عنايتك روحي.
+					</ab>
+					<ab xml:id="b.JOB.010.013" type="verse">
+						لكنك كتمت هذه في قلبك. علمت ان هذا عندك.
+					</ab>
+					<ab xml:id="b.JOB.010.014" type="verse">
+						ان اخطأت تلاحظني ولا تبرئني من اثمي.
+					</ab>
+					<ab xml:id="b.JOB.010.015" type="verse">
+						ان اذنبت فويل لي. وان تبررت لا ارفع راسي. اني شبعان هوانا وناظر مذلتي.
+					</ab>
+					<ab xml:id="b.JOB.010.016" type="verse">
+						وان ارتفع تصطادني كاسد ثم تعود وتتجبر عليّ.
+					</ab>
+					<ab xml:id="b.JOB.010.017" type="verse">
+						تجدد شهودك تجاهي وتزيد غضبك عليّ. نوب وجيش ضدي
+					</ab>
+					<ab xml:id="b.JOB.010.018" type="verse">
+						فلماذا اخرجتني من الرحم. كنت قد اسلمت الروح ولم ترني عين
+					</ab>
+					<ab xml:id="b.JOB.010.019" type="verse">
+						فكنت كاني لم اكن فأقاد من الرحم الى القبر.
+					</ab>
+					<ab xml:id="b.JOB.010.020" type="verse">
+						أليست ايامي قليلة. اترك. كف عني فاتبلج قليلا
+					</ab>
+					<ab xml:id="b.JOB.010.021" type="verse">
+						قبل ان اذهب ولا اعود. الى ارض ظلمة وظل الموت
+					</ab>
+					<ab xml:id="b.JOB.010.022" type="verse">
+						ارض ظلام مثل دجى ظل الموت وبلا ترتيب واشراقها كالدجى
+					</ab>
+				</div>
+				<div xml:id="b.JOB.011" type="chapter">
+				<head>11</head>
+					<ab xml:id="b.JOB.011.001" type="verse">
+						فاجاب صوفر النعماتي وقال
+					</ab>
+					<ab xml:id="b.JOB.011.002" type="verse">
+						أكثرة الكلام لا يجاوب ام رجل مهذار يتبرر.
+					</ab>
+					<ab xml:id="b.JOB.011.003" type="verse">
+						أصلفك يفحم الناس ام تلخ وليس من يخزيك.
+					</ab>
+					<ab xml:id="b.JOB.011.004" type="verse">
+						اذ تقول تعليمي زكي وانا بار في عينيك.
+					</ab>
+					<ab xml:id="b.JOB.011.005" type="verse">
+						ولكن يا ليت الله يتكلم ويفتح شفتيه معك
+					</ab>
+					<ab xml:id="b.JOB.011.006" type="verse">
+						ويعلن لك خفيّات الحكمة انها مضاعفة الفهم فتعلم ان الله يغرمك باقل من اثمك
+					</ab>
+					<ab xml:id="b.JOB.011.007" type="verse">
+						أإلى عمق الله تتصل ام الى نهاية القدير تنتهي.
+					</ab>
+					<ab xml:id="b.JOB.011.008" type="verse">
+						هو اعلى من السموات فماذا عساك ان تفعل. اعمق من الهاوية فماذا تدري.
+					</ab>
+					<ab xml:id="b.JOB.011.009" type="verse">
+						اطول من الارض طوله واعرض من البحر.
+					</ab>
+					<ab xml:id="b.JOB.011.010" type="verse">
+						ان بطش او اغلق او جمع فمن يرده.
+					</ab>
+					<ab xml:id="b.JOB.011.011" type="verse">
+						لانه هو يعلم اناس السوء ويبصر الاثم فهل لا ينتبه.
+					</ab>
+					<ab xml:id="b.JOB.011.012" type="verse">
+						اما الرجل ففارغ عديم الفهم وكجحش الفراء يولد الانسان
+					</ab>
+					<ab xml:id="b.JOB.011.013" type="verse">
+						ان اعددت انت قلبك وبسطت اليه يديك
+					</ab>
+					<ab xml:id="b.JOB.011.014" type="verse">
+						ان ابعدت الاثم الذي في يدك ولا يسكن الظلم في خيمتك
+					</ab>
+					<ab xml:id="b.JOB.011.015" type="verse">
+						حينئذ ترفع وجهك بلا عيب وتكون ثابتا ولا تخاف.
+					</ab>
+					<ab xml:id="b.JOB.011.016" type="verse">
+						لانك تنسى المشقة. كمياه عبرت تذكرها.
+					</ab>
+					<ab xml:id="b.JOB.011.017" type="verse">
+						وفوق الظهيرة يقوم حظك. الظلام يتحول صباحا.
+					</ab>
+					<ab xml:id="b.JOB.011.018" type="verse">
+						وتطمئن لانه يوجد رجاء. تتجسس حولك وتضطجع آمنا.
+					</ab>
+					<ab xml:id="b.JOB.011.019" type="verse">
+						وتربض وليس من يزعج ويتضرع الى وجهك كثيرون.
+					</ab>
+					<ab xml:id="b.JOB.011.020" type="verse">
+						اما عيون الاشرار فتتلف ومناصهم يبيد ورجاؤهم تسليم النفس
+					</ab>
+				</div>
+				<div xml:id="b.JOB.012" type="chapter">
+				<head>12</head>
+					<ab xml:id="b.JOB.012.001" type="verse">
+						فاجاب ايوب وقال
+					</ab>
+					<ab xml:id="b.JOB.012.002" type="verse">
+						صحيح انكم انتم شعب ومعكم تموت الحكمة.
+					</ab>
+					<ab xml:id="b.JOB.012.003" type="verse">
+						غير انه لي فهم مثلكم. لست انا دونكم. ومن ليس عنده مثل هذه.
+					</ab>
+					<ab xml:id="b.JOB.012.004" type="verse">
+						رجلا سخرة لصاحبه صرت. دعا الله فاستجابه. سخرة هو الصديق الكامل.
+					</ab>
+					<ab xml:id="b.JOB.012.005" type="verse">
+						للمبتلي هوان في افكار المطمئن مهيّا لمن زلت قدمه.
+					</ab>
+					<ab xml:id="b.JOB.012.006" type="verse">
+						خيام المخربين مستريحة والذين يغيظون الله مطمئنون الذين ياتون بالههم في يدهم
+					</ab>
+					<ab xml:id="b.JOB.012.007" type="verse">
+						فاسأل البهائم فتعلمك وطيور السماء فتخبرك.
+					</ab>
+					<ab xml:id="b.JOB.012.008" type="verse">
+						او كلم الارض فتعلمك ويحدثك سمك البحر.
+					</ab>
+					<ab xml:id="b.JOB.012.009" type="verse">
+						من لا يعلم من كل هؤلاء ان يد الرب صنعت هذا.
+					</ab>
+					<ab xml:id="b.JOB.012.010" type="verse">
+						الذي بيده نفس كل حيّ وروح كل البشر.
+					</ab>
+					<ab xml:id="b.JOB.012.011" type="verse">
+						أفليست الاذن تمتحن الاقوال كما ان الحنك يستطعم طعامه.
+					</ab>
+					<ab xml:id="b.JOB.012.012" type="verse">
+						عند الشيب حكمة وطول الايام فهم
+					</ab>
+					<ab xml:id="b.JOB.012.013" type="verse">
+						عنده الحكمة والقدرة. له المشورة والفطنة
+					</ab>
+					<ab xml:id="b.JOB.012.014" type="verse">
+						هوذا يهدم فلا يبنى. يغلق على انسان فلا يفتح.
+					</ab>
+					<ab xml:id="b.JOB.012.015" type="verse">
+						يمنع المياه فتيبس . ‎ يطلقها فتقلب الارض.
+					</ab>
+					<ab xml:id="b.JOB.012.016" type="verse">
+						عنده العزّ والفهم . ‎ له المضل والمضل.
+					</ab>
+					<ab xml:id="b.JOB.012.017" type="verse">
+						يذهب بالمشيرين اسرى ويحمق القضاة.
+					</ab>
+					<ab xml:id="b.JOB.012.018" type="verse">
+						يحل مناطق الملوك ويشد احقاءهم بوثاق.
+					</ab>
+					<ab xml:id="b.JOB.012.019" type="verse">
+						يذهب بالكهنة اسرى ويقلب الاقوياء.
+					</ab>
+					<ab xml:id="b.JOB.012.020" type="verse">
+						يقطع كلام الامناء وينزع ذوق الشيوخ.
+					</ab>
+					<ab xml:id="b.JOB.012.021" type="verse">
+						يلقي هوانا على الشرفاء ويرخي منطقة الاشداء.
+					</ab>
+					<ab xml:id="b.JOB.012.022" type="verse">
+						يكشف العمائق من الظلام ويخرج ظل الموت الى النور.
+					</ab>
+					<ab xml:id="b.JOB.012.023" type="verse">
+						يكثر الامم ثم يبيدها. يوسع للامم ثم يجليها.
+					</ab>
+					<ab xml:id="b.JOB.012.024" type="verse">
+						ينزع عقول رؤساء شعب الارض ويضلهم في تيه بلا طريق.
+					</ab>
+					<ab xml:id="b.JOB.012.025" type="verse">
+						يتلمسون في الظلام وليس نور ويرنحهم مثل السكران
+					</ab>
+				</div>
+				<div xml:id="b.JOB.013" type="chapter">
+				<head>13</head>
+					<ab xml:id="b.JOB.013.001" type="verse">
+						هذا كله رأته عيني. سمعته اذني وفطنت به.
+					</ab>
+					<ab xml:id="b.JOB.013.002" type="verse">
+						ما تعرفونه عرفته انا ايضا. لست دونكم.
+					</ab>
+					<ab xml:id="b.JOB.013.003" type="verse">
+						ولكني اريد ان اكلم القدير وان أحاكم الى الله.
+					</ab>
+					<ab xml:id="b.JOB.013.004" type="verse">
+						اما انتم فملفقو كذب. اطباء بطالون كلكم.
+					</ab>
+					<ab xml:id="b.JOB.013.005" type="verse">
+						ليتكم تصمتون صمتا. يكون ذلك لكم حكمة.
+					</ab>
+					<ab xml:id="b.JOB.013.006" type="verse">
+						اسمعوا الآن حجتي واصغوا الى دعاوي شفتيّ.
+					</ab>
+					<ab xml:id="b.JOB.013.007" type="verse">
+						أتقولون لاجل الله ظلما وتتكلمون بغش لاجله.
+					</ab>
+					<ab xml:id="b.JOB.013.008" type="verse">
+						أتحابون وجهه ام عن الله تخاصمون.
+					</ab>
+					<ab xml:id="b.JOB.013.009" type="verse">
+						أخير لكم ان يفحصكم ام تخاتلونه كما يخاتل الانسان.
+					</ab>
+					<ab xml:id="b.JOB.013.010" type="verse">
+						توبيخا يوبخكم ان حابيتم الوجوه خفية.
+					</ab>
+					<ab xml:id="b.JOB.013.011" type="verse">
+						فهلا يرهبكم جلاله ويسقط عليكم رعبه.
+					</ab>
+					<ab xml:id="b.JOB.013.012" type="verse">
+						خطبكم امثال رماد وحصونكم حصون من طين
+					</ab>
+					<ab xml:id="b.JOB.013.013" type="verse">
+						اسكتوا عني فاتكلم انا وليصبني مهما اصاب.
+					</ab>
+					<ab xml:id="b.JOB.013.014" type="verse">
+						لماذا آخذ لحمي باسناني واضع نفسي في كفي.
+					</ab>
+					<ab xml:id="b.JOB.013.015" type="verse">
+						هوذا يقتلني. لا انتظر شيئا. فقط ازكي طريقي قدامه.
+					</ab>
+					<ab xml:id="b.JOB.013.016" type="verse">
+						فهذا يعود الى خلاصي ان الفاجر لا يأتي قدامه.
+					</ab>
+					<ab xml:id="b.JOB.013.017" type="verse">
+						سمعا اسمعوا اقوالي وتصريحي بمسامعكم.
+					</ab>
+					<ab xml:id="b.JOB.013.018" type="verse">
+						هانذا قد احسنت الدعوى. اعلم اني اتبرر.
+					</ab>
+					<ab xml:id="b.JOB.013.019" type="verse">
+						من هو الذي يخاصمني حتى اصمت الآن واسلم الروح
+					</ab>
+					<ab xml:id="b.JOB.013.020" type="verse">
+						انما أمرين لا تفعل بي فحينئذ لا اختفي من حضرتك.
+					</ab>
+					<ab xml:id="b.JOB.013.021" type="verse">
+						ابعد يديك عني ولا تدع هيبتك ترعبني
+					</ab>
+					<ab xml:id="b.JOB.013.022" type="verse">
+						ثم ادع فانا اجيب او اتكلم فتجاوبني.
+					</ab>
+					<ab xml:id="b.JOB.013.023" type="verse">
+						كم لي من الآثام والخطايا. اعلمني ذنبي وخطيتي.
+					</ab>
+					<ab xml:id="b.JOB.013.024" type="verse">
+						لماذا تحجب وجهك وتحسبني عدوا لك.
+					</ab>
+					<ab xml:id="b.JOB.013.025" type="verse">
+						اترعب ورقة مندفعة وتطارد قشا يابسا.
+					</ab>
+					<ab xml:id="b.JOB.013.026" type="verse">
+						لانك كتبت عليّ أمورا مرّة وورثتني اثام صباي
+					</ab>
+					<ab xml:id="b.JOB.013.027" type="verse">
+						فجعلت رجليّ في المقطرة ولاحظت جميع مسالكي وعلى اصول رجليّ نبشت.
+					</ab>
+					<ab xml:id="b.JOB.013.028" type="verse">
+						وانا كمتسوس يبلى كثوب اكله العث
+					</ab>
+				</div>
+				<div xml:id="b.JOB.014" type="chapter">
+				<head>14</head>
+					<ab xml:id="b.JOB.014.001" type="verse">
+						الانسان مولود المرأة قليل الايام وشبعان تعبا.
+					</ab>
+					<ab xml:id="b.JOB.014.002" type="verse">
+						يخرج كالزهر ثم ينحسم ويبرح كالظل ولا يقف.
+					</ab>
+					<ab xml:id="b.JOB.014.003" type="verse">
+						فعلى مثل هذا حدقت عينيك واياي احضرت الى المحاكمة معك.
+					</ab>
+					<ab xml:id="b.JOB.014.004" type="verse">
+						من يخرج الطاهر من النجس. لا احد.
+					</ab>
+					<ab xml:id="b.JOB.014.005" type="verse">
+						ان كانت ايامه محدودة وعدد اشهره عندك وقد عينت اجله فلا يتجاوزه
+					</ab>
+					<ab xml:id="b.JOB.014.006" type="verse">
+						فاقصر عنه ليسترح الى ان يسرّ كالاجير بانتهاء يومه
+					</ab>
+					<ab xml:id="b.JOB.014.007" type="verse">
+						لان للشجرة رجاء. ان قطعت تخلف ايضا ولا تعدم خراعيبها.
+					</ab>
+					<ab xml:id="b.JOB.014.008" type="verse">
+						ولو قدم في الارض اصلها ومات في التراب جذعها
+					</ab>
+					<ab xml:id="b.JOB.014.009" type="verse">
+						فمن رائحة الماء تفرخ وتنبت فروعا كالغرس.
+					</ab>
+					<ab xml:id="b.JOB.014.010" type="verse">
+						اما الرجل فيموت ويبلى. الانسان يسلم الروح فاين هو.
+					</ab>
+					<ab xml:id="b.JOB.014.011" type="verse">
+						قد تنفد المياه من البحرة والنهر ينشف ويجف
+					</ab>
+					<ab xml:id="b.JOB.014.012" type="verse">
+						والانسان يضطجع ولا يقوم. لا يستيقظون حتى لا تبقى السموات ولا ينتبهون من نومهم
+					</ab>
+					<ab xml:id="b.JOB.014.013" type="verse">
+						ليتك تواريني في الهاوية وتخفيني الى ان ينصرف غضبك وتعيّن لي اجلا فتذكرني.
+					</ab>
+					<ab xml:id="b.JOB.014.014" type="verse">
+						ان مات رجل أفيحيا. كل ايام جهادي اصبر الى ان يأتي بدلي.
+					</ab>
+					<ab xml:id="b.JOB.014.015" type="verse">
+						تدعو فانا اجيبك. تشتاق الى عمل يدك.
+					</ab>
+					<ab xml:id="b.JOB.014.016" type="verse">
+						اما الآن فتحصي خطواتي. ألا تحافظ على خطيتي.
+					</ab>
+					<ab xml:id="b.JOB.014.017" type="verse">
+						معصيتي مختوم عليها في صرّة وتلفّق عليّ فوق اثمي
+					</ab>
+					<ab xml:id="b.JOB.014.018" type="verse">
+						ان الجبل الساقط ينتثر والصخر يزحزح من مكانه.
+					</ab>
+					<ab xml:id="b.JOB.014.019" type="verse">
+						الحجارة تبليها المياه وتجرف سيولها تراب الارض. وكذلك انت تبيد رجاء الانسان.
+					</ab>
+					<ab xml:id="b.JOB.014.020" type="verse">
+						تتجبر عليه ابدا فيذهب. تغير وجهه وتطرده.
+					</ab>
+					<ab xml:id="b.JOB.014.021" type="verse">
+						يكرم بنوه ولا يعلم او يصغرون ولا يفهم بهم.
+					</ab>
+					<ab xml:id="b.JOB.014.022" type="verse">
+						انما على ذاته يتوجع لحمه وعلى ذاتها تنوح نفسه
+					</ab>
+				</div>
+				<div xml:id="b.JOB.015" type="chapter">
+				<head>15</head>
+					<ab xml:id="b.JOB.015.001" type="verse">
+						فاجاب اليفاز التيماني وقال
+					</ab>
+					<ab xml:id="b.JOB.015.002" type="verse">
+						ألعل الحكيم يجيب عن معرفة باطلة ويملأ بطنه من ريح شرقية.
+					</ab>
+					<ab xml:id="b.JOB.015.003" type="verse">
+						فيحتج بكلام لا يفيد وباحاديث لا ينتفع بها.
+					</ab>
+					<ab xml:id="b.JOB.015.004" type="verse">
+						اما انت فتنافي المخافة وتناقض التقوى لدى الله.
+					</ab>
+					<ab xml:id="b.JOB.015.005" type="verse">
+						لان فمك يذيع اثمك وتختار لسان المحتالين.
+					</ab>
+					<ab xml:id="b.JOB.015.006" type="verse">
+						ان فمك يستذنبك لا انا وشفتاك تشهدان عليك
+					</ab>
+					<ab xml:id="b.JOB.015.007" type="verse">
+						أصوّرت اول الناس ام أبدئت قبل التلال.
+					</ab>
+					<ab xml:id="b.JOB.015.008" type="verse">
+						هل تنصّت في مجلس الله او قصرت الحكمة على نفسك.
+					</ab>
+					<ab xml:id="b.JOB.015.009" type="verse">
+						ماذا تعرفه ولا نعرفه نحن وماذا تفهم وليس هو عندنا.
+					</ab>
+					<ab xml:id="b.JOB.015.010" type="verse">
+						عندنا الشيخ والاشيب اكبر اياما من ابيك.
+					</ab>
+					<ab xml:id="b.JOB.015.011" type="verse">
+						اقليلة عندك تعزيات الله والكلام معك بالرفق
+					</ab>
+					<ab xml:id="b.JOB.015.012" type="verse">
+						لماذا ياخذك قلبك ولماذا تختلج عيناك
+					</ab>
+					<ab xml:id="b.JOB.015.013" type="verse">
+						حتى ترد على الله وتخرج من فيك اقوالا.
+					</ab>
+					<ab xml:id="b.JOB.015.014" type="verse">
+						من هو الانسان حتى يزكو او مولود المرأة حتى يتبرر.
+					</ab>
+					<ab xml:id="b.JOB.015.015" type="verse">
+						هوذا قديسوه لا يأتمنهم والسموات غير طاهرة بعينيه.
+					</ab>
+					<ab xml:id="b.JOB.015.016" type="verse">
+						فبالحري مكروه وفاسد الانسان الشارب الاثم كالماء
+					</ab>
+					<ab xml:id="b.JOB.015.017" type="verse">
+						أوحي اليك اسمع لي فاحدث بما رأيته
+					</ab>
+					<ab xml:id="b.JOB.015.018" type="verse">
+						ما اخبر به حكماء عن آبائهم فلم يكتموه.
+					</ab>
+					<ab xml:id="b.JOB.015.019" type="verse">
+						الذين لهم وحدهم أعطيت الارض ولم يعبر بينهم غريب.
+					</ab>
+					<ab xml:id="b.JOB.015.020" type="verse">
+						الشرير هو يتلوى كل ايامه وكل عدد السنين المعدودة للعاتي.
+					</ab>
+					<ab xml:id="b.JOB.015.021" type="verse">
+						صوت رعوب في اذنيه في ساعة سلام ياتيه المخرب.
+					</ab>
+					<ab xml:id="b.JOB.015.022" type="verse">
+						لا يأمل الرجوع من الظلمة وهو مرتقب للسيف.
+					</ab>
+					<ab xml:id="b.JOB.015.023" type="verse">
+						تائه هو لاجل الخبز حيثما يجده ويعلم ان يوم الظلمة مهيأ بين يديه.
+					</ab>
+					<ab xml:id="b.JOB.015.024" type="verse">
+						يرهبه الضر والضيق. يتجبران عليه كملك مستعد للوغى.
+					</ab>
+					<ab xml:id="b.JOB.015.025" type="verse">
+						لانه مدّ على الله يده وعلى القدير تجبر
+					</ab>
+					<ab xml:id="b.JOB.015.026" type="verse">
+						عاديا عليه متصلب العنق باوقاف مجانه معبأة.
+					</ab>
+					<ab xml:id="b.JOB.015.027" type="verse">
+						لانه قد كسا وجهه سمنا وربى شحما على كليتيه
+					</ab>
+					<ab xml:id="b.JOB.015.028" type="verse">
+						فيسكن مدنا خربة بيوتا غير مسكونة عتيدة ان تصير رجما.
+					</ab>
+					<ab xml:id="b.JOB.015.029" type="verse">
+						لا يستغني ولا تثبت ثروته ولا يمتد في الارض مقتناه.
+					</ab>
+					<ab xml:id="b.JOB.015.030" type="verse">
+						لا تزول عنه الظلمة. خراعيبه تيبسها السموم وبنفخة فمه يزول.
+					</ab>
+					<ab xml:id="b.JOB.015.031" type="verse">
+						لا يتكل على السوء. يضل. لان السوء يكون اجرته.
+					</ab>
+					<ab xml:id="b.JOB.015.032" type="verse">
+						قبل يومه يتوفى وسعفه لا يخضرّ.
+					</ab>
+					<ab xml:id="b.JOB.015.033" type="verse">
+						يساقط كالجفنة حصرمه وينثر كالزيتون زهره.
+					</ab>
+					<ab xml:id="b.JOB.015.034" type="verse">
+						لان جماعة الفجار عاقر والنار تأكل خيام الرشوة.
+					</ab>
+					<ab xml:id="b.JOB.015.035" type="verse">
+						حبل شقاوة وولد اثما وبطنه أنشأ غشا
+					</ab>
+				</div>
+				<div xml:id="b.JOB.016" type="chapter">
+				<head>16</head>
+					<ab xml:id="b.JOB.016.001" type="verse">
+						فاجاب ايوب وقال
+					</ab>
+					<ab xml:id="b.JOB.016.002" type="verse">
+						قد سمعت كثيرا مثل هذا. معزون متعبون كلكم.
+					</ab>
+					<ab xml:id="b.JOB.016.003" type="verse">
+						هل من نهاية لكلام فارغ. او ماذا يهيجك حتى تجاوب.
+					</ab>
+					<ab xml:id="b.JOB.016.004" type="verse">
+						انا ايضا استطيع ان اتكلم مثلكم لو كانت انفسكم مكان نفسي وان اسرد عليكم اقوالا وأنغض راسي اليكم.
+					</ab>
+					<ab xml:id="b.JOB.016.005" type="verse">
+						بل كنت اشددكم بفمي وتعزية شفتيّ تمسككم
+					</ab>
+					<ab xml:id="b.JOB.016.006" type="verse">
+						ان تكلمت لم تمتنع كآبتي. وان سكت فماذا يذهب عني.
+					</ab>
+					<ab xml:id="b.JOB.016.007" type="verse">
+						انه الآن ضجّرني. خربت كل جماعتي.
+					</ab>
+					<ab xml:id="b.JOB.016.008" type="verse">
+						قبضت عليّ. وجد شاهد. قام عليّ هزالي يجاوب في وجهي.
+					</ab>
+					<ab xml:id="b.JOB.016.009" type="verse">
+						غضبه افترسني واضطهدني. حرّق عليّ اسنانه. عدوي يحدد عينيه عليّ.
+					</ab>
+					<ab xml:id="b.JOB.016.010" type="verse">
+						فغروا عليّ افواههم. لطموني على فكّي تعييرا. تعاونوا عليّ جميعا.
+					</ab>
+					<ab xml:id="b.JOB.016.011" type="verse">
+						دفعني الله الى الظالم وفي ايدي الاشرار طرحني.
+					</ab>
+					<ab xml:id="b.JOB.016.012" type="verse">
+						كنت مستريحا فزعزعني وامسك بقفاي فحطمني ونصبني له غرضا.
+					</ab>
+					<ab xml:id="b.JOB.016.013" type="verse">
+						احاطت بي رماته. شق كليتيّ ولم يشفق. سفك مرارتي على الارض.
+					</ab>
+					<ab xml:id="b.JOB.016.014" type="verse">
+						يقتحمني اقتحاما على اقتحام. يعدو عليّ كجبار.
+					</ab>
+					<ab xml:id="b.JOB.016.015" type="verse">
+						خطت مسحا على جلدي ودسست في التراب قرني.
+					</ab>
+					<ab xml:id="b.JOB.016.016" type="verse">
+						احمر وجهي من البكاء وعلى هدبي ظل الموت.
+					</ab>
+					<ab xml:id="b.JOB.016.017" type="verse">
+						مع انه لا ظلم في يدي وصلاتي خالصة
+					</ab>
+					<ab xml:id="b.JOB.016.018" type="verse">
+						يا ارض لا تغطي دمي ولا يكن مكان لصراخي.
+					</ab>
+					<ab xml:id="b.JOB.016.019" type="verse">
+						ايضا الآن هوذا في السموات شهيدي وشاهدي في الاعالي.
+					</ab>
+					<ab xml:id="b.JOB.016.020" type="verse">
+						المستهزئون بي هم اصحابي. لله تقطر عيني
+					</ab>
+					<ab xml:id="b.JOB.016.021" type="verse">
+						لكي يحاكم الانسان عند الله كابن آدم لدى صاحبه.
+					</ab>
+					<ab xml:id="b.JOB.016.022" type="verse">
+						اذا مضت سنون قليلة اسلك في طريق لا اعود منها
+					</ab>
+				</div>
+				<div xml:id="b.JOB.017" type="chapter">
+				<head>17</head>
+					<ab xml:id="b.JOB.017.001" type="verse">
+						روحي تلفت. ايامي انطفأت. انما القبور لي
+					</ab>
+					<ab xml:id="b.JOB.017.002" type="verse">
+						لولا المخاتلون عندي وعيني تبيت على مشاجراتهم.
+					</ab>
+					<ab xml:id="b.JOB.017.003" type="verse">
+						كن ضامني عند نفسك. من هو الذي يصفق يدي.
+					</ab>
+					<ab xml:id="b.JOB.017.004" type="verse">
+						لانك منعت قلبهم عن الفطنة. لاجل ذلك لا ترفعهم.
+					</ab>
+					<ab xml:id="b.JOB.017.005" type="verse">
+						الذي يسلم الاصحاب للسلب تتلف عيون بنيه.
+					</ab>
+					<ab xml:id="b.JOB.017.006" type="verse">
+						اوقفني مثلا للشعوب وصرت للبصق في الوجه.
+					</ab>
+					<ab xml:id="b.JOB.017.007" type="verse">
+						كلت عيني من الحزن واعضائي كلها كالظل.
+					</ab>
+					<ab xml:id="b.JOB.017.008" type="verse">
+						يتعجب المستقيمون من هذا والبريء ينتهض على الفاجر.
+					</ab>
+					<ab xml:id="b.JOB.017.009" type="verse">
+						اما الصدّيق فيستمسك بطريقه والطاهر اليدين يزداد قوة
+					</ab>
+					<ab xml:id="b.JOB.017.010" type="verse">
+						ولكن ارجعوا كلكم وتعالوا فلا اجد فيكم حكيما.
+					</ab>
+					<ab xml:id="b.JOB.017.011" type="verse">
+						ايامي قد عبرت. مقاصدي إرث قلبي قد انتزعت.
+					</ab>
+					<ab xml:id="b.JOB.017.012" type="verse">
+						يجعلون الليل نهارا نورا قريبا للظلمة.
+					</ab>
+					<ab xml:id="b.JOB.017.013" type="verse">
+						اذا رجوت الهاوية بيتا لي وفي الظلام مهدت فراشي
+					</ab>
+					<ab xml:id="b.JOB.017.014" type="verse">
+						وقلت للقبر انت ابي وللدود انت امي واختي
+					</ab>
+					<ab xml:id="b.JOB.017.015" type="verse">
+						فاين اذا آمالي. آمالي. من يعاينها.
+					</ab>
+					<ab xml:id="b.JOB.017.016" type="verse">
+						تهبط الى مغاليق الهاوية اذ ترتاح معا في التراب
+					</ab>
+				</div>
+				<div xml:id="b.JOB.018" type="chapter">
+				<head>18</head>
+					<ab xml:id="b.JOB.018.001" type="verse">
+						فاجاب بلدد الشوحي وقال
+					</ab>
+					<ab xml:id="b.JOB.018.002" type="verse">
+						الى متى تضعون اشراكا للكلام. تعقّلوا وبعد نتكلم.
+					</ab>
+					<ab xml:id="b.JOB.018.003" type="verse">
+						لماذا حسبنا كالبهيمة وتنجسنا في عيونكم.
+					</ab>
+					<ab xml:id="b.JOB.018.004" type="verse">
+						يا ايها المفترس نفسه في غيظه هل لاجلك تخلى الارض او يزحزح الصخر من مكانه
+					</ab>
+					<ab xml:id="b.JOB.018.005" type="verse">
+						نعم. نور الاشرار ينطفئ ولا يضيء لهيب ناره.
+					</ab>
+					<ab xml:id="b.JOB.018.006" type="verse">
+						النور يظلم في خيمته وسراجه فوقه ينطفئ.
+					</ab>
+					<ab xml:id="b.JOB.018.007" type="verse">
+						تقصر خطوات قوته وتصرعه مشورته.
+					</ab>
+					<ab xml:id="b.JOB.018.008" type="verse">
+						لان رجليه تدفعانه في المصلاة فيمشي الى شبكة.
+					</ab>
+					<ab xml:id="b.JOB.018.009" type="verse">
+						يمسك الفخ بعقبه وتتمكن منه الشرك.
+					</ab>
+					<ab xml:id="b.JOB.018.010" type="verse">
+						مطمورة في الارض حبالته ومصيدته في السبيل.
+					</ab>
+					<ab xml:id="b.JOB.018.011" type="verse">
+						ترهبه اهوال من حوله وتذعره عند رجليه.
+					</ab>
+					<ab xml:id="b.JOB.018.012" type="verse">
+						تكون قوته جائعة والبوار مهيأ بجانبه.
+					</ab>
+					<ab xml:id="b.JOB.018.013" type="verse">
+						ياكل اعضاء جسده يأكل اعضاءه بكر الموت.
+					</ab>
+					<ab xml:id="b.JOB.018.014" type="verse">
+						ينقطع عن خيمته عن اعتماده ويساق الى ملك الاهوال.
+					</ab>
+					<ab xml:id="b.JOB.018.015" type="verse">
+						يسكن في خيمته من ليس له. يذر على مربضه كبريت.
+					</ab>
+					<ab xml:id="b.JOB.018.016" type="verse">
+						من تحت تيبس اصوله ومن فوق يقطع فرعه.
+					</ab>
+					<ab xml:id="b.JOB.018.017" type="verse">
+						ذكره يبيد من الارض ولا اسم له على وجه البر.
+					</ab>
+					<ab xml:id="b.JOB.018.018" type="verse">
+						يدفع من النور الى الظلمة ومن المسكونة يطرد.
+					</ab>
+					<ab xml:id="b.JOB.018.019" type="verse">
+						لا نسل ولا عقب له بين شعبه ولا شارد في محاله.
+					</ab>
+					<ab xml:id="b.JOB.018.020" type="verse">
+						يتعجب من يومه المتأخرون ويقشعر الاقدمون.
+					</ab>
+					<ab xml:id="b.JOB.018.021" type="verse">
+						انما تلك مساكن فاعلي الشر وهذا مقام من لا يعرف الله
+					</ab>
+				</div>
+				<div xml:id="b.JOB.019" type="chapter">
+				<head>19</head>
+					<ab xml:id="b.JOB.019.001" type="verse">
+						فاجاب ايوب وقال
+					</ab>
+					<ab xml:id="b.JOB.019.002" type="verse">
+						حتى متى تعذبون نفسي وتسحقونني بالكلام.
+					</ab>
+					<ab xml:id="b.JOB.019.003" type="verse">
+						هذه عشر مرات اخزيتموني. لم تخجلوا من ان تحكروني.
+					</ab>
+					<ab xml:id="b.JOB.019.004" type="verse">
+						وهبني ضللت حقا. عليّ تستقر ضلالتي.
+					</ab>
+					<ab xml:id="b.JOB.019.005" type="verse">
+						ان كنتم بالحق تستكبرون عليّ فثبتوا عليّ عاري.
+					</ab>
+					<ab xml:id="b.JOB.019.006" type="verse">
+						فاعلموا اذا ان الله قد عوّجني ولف عليّ احبولته.
+					</ab>
+					<ab xml:id="b.JOB.019.007" type="verse">
+						ها اني اصرخ ظلما فلا أستجاب. ادعو وليس حكم.
+					</ab>
+					<ab xml:id="b.JOB.019.008" type="verse">
+						قد حوّط طريقي فلا اعبر وعلى سبلي جعل ظلاما.
+					</ab>
+					<ab xml:id="b.JOB.019.009" type="verse">
+						ازال عني كرامتي ونزع تاج راسي.
+					</ab>
+					<ab xml:id="b.JOB.019.010" type="verse">
+						هدمني من كل جهة فذهبت. وقلع مثل شجرة رجائي.
+					</ab>
+					<ab xml:id="b.JOB.019.011" type="verse">
+						واضرم عليّ غضبه وحسبني كاعدائه.
+					</ab>
+					<ab xml:id="b.JOB.019.012" type="verse">
+						معا جاءت غزاته واعدّوا عليّ طريقهم وحلّوا حول خيمتي.
+					</ab>
+					<ab xml:id="b.JOB.019.013" type="verse">
+						قد ابعد عني اخوتي. ومعارفي زاغوا عني.
+					</ab>
+					<ab xml:id="b.JOB.019.014" type="verse">
+						اقاربي قد خذلوني والذين عرفوني نسوني.
+					</ab>
+					<ab xml:id="b.JOB.019.015" type="verse">
+						نزلاء بيتي وامائي يحسبونني اجنبيا. صرت في اعينهم غريبا.
+					</ab>
+					<ab xml:id="b.JOB.019.016" type="verse">
+						عبدي دعوت فلم يجب. بفمي تضرعت اليه.
+					</ab>
+					<ab xml:id="b.JOB.019.017" type="verse">
+						نكهتي مكروهة عند امرأتي وخممت عند ابناء احشائي.
+					</ab>
+					<ab xml:id="b.JOB.019.018" type="verse">
+						الاولاد ايضا قد رذلوني. اذا قمت يتكلمون عليّ.
+					</ab>
+					<ab xml:id="b.JOB.019.019" type="verse">
+						كرهني كل رجالي والذين احببتهم انقلبوا عليّ.
+					</ab>
+					<ab xml:id="b.JOB.019.020" type="verse">
+						عظمي قد لصق بجلدي ولحمي ونجوت بجلد اسناني.
+					</ab>
+					<ab xml:id="b.JOB.019.021" type="verse">
+						تراءفوا تراءفوا انتم عليّ يا اصحابي لان يد الله قد مسّتني.
+					</ab>
+					<ab xml:id="b.JOB.019.022" type="verse">
+						لماذا تطاردونني كما الله ولا تشبعون من لحمي
+					</ab>
+					<ab xml:id="b.JOB.019.023" type="verse">
+						ليت كلماتي الآن تكتب. يا ليتها رسمت في سفر
+					</ab>
+					<ab xml:id="b.JOB.019.024" type="verse">
+						ونقرت الى الابد في الصخر بقلم حديد وبرصاص.
+					</ab>
+					<ab xml:id="b.JOB.019.025" type="verse">
+						اما انا فقد علمت ان وليّي حيّ والآخر على الارض يقوم
+					</ab>
+					<ab xml:id="b.JOB.019.026" type="verse">
+						وبعد ان يفنى جلدي هذا وبدون جسدي ارى الله
+					</ab>
+					<ab xml:id="b.JOB.019.027" type="verse">
+						الذي اراه انا لنفسي وعيناي تنظران وليس آخر. الى ذلك تتوق كليتاي في جوفي.
+					</ab>
+					<ab xml:id="b.JOB.019.028" type="verse">
+						فانكم تقولون لماذا نطارده. والكلام الاصلي يوجد عندي.
+					</ab>
+					<ab xml:id="b.JOB.019.029" type="verse">
+						خافوا على انفسكم من السيف لان الغيظ من آثام السيف. لكي تعلموا ما هو القضاء
+					</ab>
+				</div>
+				<div xml:id="b.JOB.020" type="chapter">
+				<head>20</head>
+					<ab xml:id="b.JOB.020.001" type="verse">
+						فاجاب صوفر النعماتي وقال
+					</ab>
+					<ab xml:id="b.JOB.020.002" type="verse">
+						من اجل ذلك هواجسي تجيبني ولهذا هيجاني فيّ.
+					</ab>
+					<ab xml:id="b.JOB.020.003" type="verse">
+						تعيير توبيخي اسمع. وروح من فهمي يجيبني
+					</ab>
+					<ab xml:id="b.JOB.020.004" type="verse">
+						أما علمت هذا من القديم منذ وضع الانسان على الارض
+					</ab>
+					<ab xml:id="b.JOB.020.005" type="verse">
+						ان هتاف الاشرار من قريب وفرح الفاجر الى لحظة.
+					</ab>
+					<ab xml:id="b.JOB.020.006" type="verse">
+						ولو بلغ السموات طوله ومسّ راسه السحاب.
+					</ab>
+					<ab xml:id="b.JOB.020.007" type="verse">
+						كجلّته الى الابد يبيد. الذين رأوه يقولون اين هو.
+					</ab>
+					<ab xml:id="b.JOB.020.008" type="verse">
+						كالحلم يطير فلا يوجد ويطرد كطيف الليل.
+					</ab>
+					<ab xml:id="b.JOB.020.009" type="verse">
+						عين ابصرته لا تعود تراه ومكانه لن يراه بعد.
+					</ab>
+					<ab xml:id="b.JOB.020.010" type="verse">
+						بنوه يترضون الفقراء ويداه تردان ثروته.
+					</ab>
+					<ab xml:id="b.JOB.020.011" type="verse">
+						عظامه ملآنة شبيبة ومعه في التراب تضطجع.
+					</ab>
+					<ab xml:id="b.JOB.020.012" type="verse">
+						ان حلا في فمه الشر واخفاه تحت لسانه
+					</ab>
+					<ab xml:id="b.JOB.020.013" type="verse">
+						اشفق عليه ولم يتركه بل حبسه وسط حنكه
+					</ab>
+					<ab xml:id="b.JOB.020.014" type="verse">
+						فخبزه في امعائه يتحول. مرارة اصلال في بطنه.
+					</ab>
+					<ab xml:id="b.JOB.020.015" type="verse">
+						قد بلع ثروة فيتقيأها. الله يطردها من بطنه.
+					</ab>
+					<ab xml:id="b.JOB.020.016" type="verse">
+						سمّ الاصلال يرضع. يقتله لسان الافعى.
+					</ab>
+					<ab xml:id="b.JOB.020.017" type="verse">
+						لا يرى الجداول انهار سواقي عسل ولبن.
+					</ab>
+					<ab xml:id="b.JOB.020.018" type="verse">
+						يرد تعبه ولا يبلعه. كمال تحت رجع. ولا يفرح.
+					</ab>
+					<ab xml:id="b.JOB.020.019" type="verse">
+						لانه رضض المساكين وتركهم واغتصب بيتا ولم يبنه
+					</ab>
+					<ab xml:id="b.JOB.020.020" type="verse">
+						لانه لم يعرف في بطنه قناعة لا ينجو بمشتهاه.
+					</ab>
+					<ab xml:id="b.JOB.020.021" type="verse">
+						ليست من اكله بقية لاجل ذلك لا يدوم خيره.
+					</ab>
+					<ab xml:id="b.JOB.020.022" type="verse">
+						مع ملء رغده يتضايق. تأتي عليه يد كل شقي.
+					</ab>
+					<ab xml:id="b.JOB.020.023" type="verse">
+						يكون عندما يملأ بطنه ان الله يرسل عليه حمو غضبه ويمطره عليه عند طعامه.
+					</ab>
+					<ab xml:id="b.JOB.020.024" type="verse">
+						يفر من سلاح حديد. تخرقه قوس نحاس.
+					</ab>
+					<ab xml:id="b.JOB.020.025" type="verse">
+						جذبه فخرج من بطنه والبارق من مرارته مرق. عليه رعوب.
+					</ab>
+					<ab xml:id="b.JOB.020.026" type="verse">
+						كل ظلمة مختبأة لذخائره. تأكله نار لم تنفخ. ترعى البقية في خيمته.
+					</ab>
+					<ab xml:id="b.JOB.020.027" type="verse">
+						السموات تعلن اثمه والارض تنهض عليه.
+					</ab>
+					<ab xml:id="b.JOB.020.028" type="verse">
+						تزول غلة بيته. تهراق في يوم غضبه.
+					</ab>
+					<ab xml:id="b.JOB.020.029" type="verse">
+						هذا نصيب الانسان الشرير من عند الله وميراث أمره من القدير
+					</ab>
+				</div>
+				<div xml:id="b.JOB.021" type="chapter">
+				<head>21</head>
+					<ab xml:id="b.JOB.021.001" type="verse">
+						فاجاب ايوب وقال
+					</ab>
+					<ab xml:id="b.JOB.021.002" type="verse">
+						اسمعوا قولي سمعا وليكن هذا تعزيتكم.
+					</ab>
+					<ab xml:id="b.JOB.021.003" type="verse">
+						احتملوني وانا اتكلم وبعد كلامي استهزئوا.
+					</ab>
+					<ab xml:id="b.JOB.021.004" type="verse">
+						اما انا فهل شكواي من انسان. وان كانت فلماذا لا تضيق روحي.
+					</ab>
+					<ab xml:id="b.JOB.021.005" type="verse">
+						تفرسوا فيّ وتعجبوا وضعوا اليد على الفم
+					</ab>
+					<ab xml:id="b.JOB.021.006" type="verse">
+						عندما اتذكر ارتاع واخذت بشري رعدة.
+					</ab>
+					<ab xml:id="b.JOB.021.007" type="verse">
+						لماذا تحيا الاشرار ويشيخون نعم ويتجبّرون قوة.
+					</ab>
+					<ab xml:id="b.JOB.021.008" type="verse">
+						نسلهم قائم امامهم معهم وذريتهم في اعينهم.
+					</ab>
+					<ab xml:id="b.JOB.021.009" type="verse">
+						بيوتهم آمنة من الخوف وليس عليهم عصا الله.
+					</ab>
+					<ab xml:id="b.JOB.021.010" type="verse">
+						ثورهم يلقح ولا يخطئ. بقرتهم تنتج ولا تسقط.
+					</ab>
+					<ab xml:id="b.JOB.021.011" type="verse">
+						يسرحون مثل الغنم رضّعهم واطفالهم ترقص.
+					</ab>
+					<ab xml:id="b.JOB.021.012" type="verse">
+						يحملون الدف والعود ويطربون بصوت المزمار.
+					</ab>
+					<ab xml:id="b.JOB.021.013" type="verse">
+						يقضون ايامهم بالخير. في لحظة يهبطون الى الهاوية.
+					</ab>
+					<ab xml:id="b.JOB.021.014" type="verse">
+						فيقولون للّه ابعد عنا. وبمعرفة طرقك لا نسرّ.
+					</ab>
+					<ab xml:id="b.JOB.021.015" type="verse">
+						من هو القدير حتى نعبده وماذا ننتفع ان التمسناه
+					</ab>
+					<ab xml:id="b.JOB.021.016" type="verse">
+						هوذا ليس في يدهم خيرهم. لتبعد عني مشورة الاشرار.
+					</ab>
+					<ab xml:id="b.JOB.021.017" type="verse">
+						كم ينطفئ سراج الاشرار ويأتي عليهم بوارهم او يقسم لهم اوجاعا في غضبه
+					</ab>
+					<ab xml:id="b.JOB.021.018" type="verse">
+						او يكونون كالتبن قدام الريح وكالعاصفة التي تسرقها الزوبعة.
+					</ab>
+					<ab xml:id="b.JOB.021.019" type="verse">
+						الله يخزن اثمه لبنيه. ليجازه نفسه فيعلم.
+					</ab>
+					<ab xml:id="b.JOB.021.020" type="verse">
+						لتنظر عيناه هلاكه ومن حمة القدير يشرب.
+					</ab>
+					<ab xml:id="b.JOB.021.021" type="verse">
+						فما هي مسرّته في بيته بعده وقد تعيّن عدد شهوره
+					</ab>
+					<ab xml:id="b.JOB.021.022" type="verse">
+						أالله يعلم معرفة وهو يقضي على العالين.
+					</ab>
+					<ab xml:id="b.JOB.021.023" type="verse">
+						هذا يموت في عين كماله. كله مطمئن وساكن.
+					</ab>
+					<ab xml:id="b.JOB.021.024" type="verse">
+						احواضه ملآنة لبنا ومخ عظامه طريء.
+					</ab>
+					<ab xml:id="b.JOB.021.025" type="verse">
+						وذلك يموت بنفس مرة ولم يذق خيرا.
+					</ab>
+					<ab xml:id="b.JOB.021.026" type="verse">
+						كلاهما يضطجعان معا في التراب والدود يغشاهما
+					</ab>
+					<ab xml:id="b.JOB.021.027" type="verse">
+						هوذا قد علمت افكاركم والنيات التي بها تظلمونني.
+					</ab>
+					<ab xml:id="b.JOB.021.028" type="verse">
+						لانكم تقولون اين بيت العاتي واين خيمة مساكن الاشرار.
+					</ab>
+					<ab xml:id="b.JOB.021.029" type="verse">
+						أفلم تسالوا عابري السبيل ولم تفطنوا لدلائلهم.
+					</ab>
+					<ab xml:id="b.JOB.021.030" type="verse">
+						انه ليوم البوار يمسك الشرير ليوم السخط يقادون.
+					</ab>
+					<ab xml:id="b.JOB.021.031" type="verse">
+						من يعلن طريقه لوجهه. ومن يجازيه على ما عمل.
+					</ab>
+					<ab xml:id="b.JOB.021.032" type="verse">
+						هو الى القبور يقاد وعلى المدفن يسهر.
+					</ab>
+					<ab xml:id="b.JOB.021.033" type="verse">
+						حلو له مدر الوادي. يزحف كل انسان وراءه وقدامه ما لا عدد له.
+					</ab>
+					<ab xml:id="b.JOB.021.034" type="verse">
+						فكيف تعزونني باطلا واجوبتكم بقيت خيانة
+					</ab>
+				</div>
+				<div xml:id="b.JOB.022" type="chapter">
+				<head>22</head>
+					<ab xml:id="b.JOB.022.001" type="verse">
+						فاجاب اليفاز التيماني وقال
+					</ab>
+					<ab xml:id="b.JOB.022.002" type="verse">
+						هل ينفع الانسان الله. بل ينفع نفسه الفطن.
+					</ab>
+					<ab xml:id="b.JOB.022.003" type="verse">
+						هل من مسرّة للقدير اذا تبررت او من فائدة اذا قوّمت طرقك.
+					</ab>
+					<ab xml:id="b.JOB.022.004" type="verse">
+						هل على تقواك يوبّخك او يدخل معك في المحاكمة.
+					</ab>
+					<ab xml:id="b.JOB.022.005" type="verse">
+						أليس شرك عظيما وآثامك لا نهاية لها.
+					</ab>
+					<ab xml:id="b.JOB.022.006" type="verse">
+						لانك ارتهنت اخاك بلا سبب وسلبت ثياب العراة.
+					</ab>
+					<ab xml:id="b.JOB.022.007" type="verse">
+						ماء لم تسق العطشان وعن الجوعان منعت خبزا
+					</ab>
+					<ab xml:id="b.JOB.022.008" type="verse">
+						اما صاحب القوة فله الارض والمترفّع الوجه ساكن فيها.
+					</ab>
+					<ab xml:id="b.JOB.022.009" type="verse">
+						الارامل ارسلت خاليات وذراع اليتامى انسحقت.
+					</ab>
+					<ab xml:id="b.JOB.022.010" type="verse">
+						لاجل ذلك حواليك فخاخ ويريعك رعب بغتة
+					</ab>
+					<ab xml:id="b.JOB.022.011" type="verse">
+						او ظلمة فلا ترى وفيض المياه يغطيك
+					</ab>
+					<ab xml:id="b.JOB.022.012" type="verse">
+						هوذا الله في علو السموات. وانظر راس الكواكب ما اعلاه.
+					</ab>
+					<ab xml:id="b.JOB.022.013" type="verse">
+						فقلت كيف يعلم الله. هل من وراء الضباب يقضي.
+					</ab>
+					<ab xml:id="b.JOB.022.014" type="verse">
+						السحاب ستر له فلا يرى وعلى دائرة السموات يتمشى.
+					</ab>
+					<ab xml:id="b.JOB.022.015" type="verse">
+						هل تحفظ طريق القدم الذي داسه رجال الاثم
+					</ab>
+					<ab xml:id="b.JOB.022.016" type="verse">
+						الذين قبض عليهم قبل الوقت. الغمر انصبّ على اساسهم.
+					</ab>
+					<ab xml:id="b.JOB.022.017" type="verse">
+						القائلين لله ابعد عنا. وماذا يفعل القدير لهم.
+					</ab>
+					<ab xml:id="b.JOB.022.018" type="verse">
+						وهو قد ملأ بيوتهم خيرا. لتبعد عني مشورة الاشرار.
+					</ab>
+					<ab xml:id="b.JOB.022.019" type="verse">
+						الابرار ينظرون ويفرحون والبريء يستهزئ بهم قائلين
+					</ab>
+					<ab xml:id="b.JOB.022.020" type="verse">
+						ألم يبد مقاومونا وبقيتهم قد اكلها النار
+					</ab>
+					<ab xml:id="b.JOB.022.021" type="verse">
+						تعرّف به واسلم. بذلك ياتيك خير.
+					</ab>
+					<ab xml:id="b.JOB.022.022" type="verse">
+						اقبل الشريعة من فيه وضع كلامه في قلبك.
+					</ab>
+					<ab xml:id="b.JOB.022.023" type="verse">
+						ان رجعت الى القدير تبنى. ان ابعدت ظلما من خيمتك
+					</ab>
+					<ab xml:id="b.JOB.022.024" type="verse">
+						والقيت التبر على التراب وذهب اوفير بين حصا الاودية.
+					</ab>
+					<ab xml:id="b.JOB.022.025" type="verse">
+						يكون القدير تبرك وفضة اتعاب لك.
+					</ab>
+					<ab xml:id="b.JOB.022.026" type="verse">
+						لانك حينئذ تتلذذ بالقدير وترفع الى الله وجهك.
+					</ab>
+					<ab xml:id="b.JOB.022.027" type="verse">
+						تصلّي له فيستمع لك ونذورك توفيها.
+					</ab>
+					<ab xml:id="b.JOB.022.028" type="verse">
+						وتجزم امرا فيثبت لك وعلى طرقك يضيء نور.
+					</ab>
+					<ab xml:id="b.JOB.022.029" type="verse">
+						اذا وضعوا تقول رفع. ويخلص المنخفض العينين.
+					</ab>
+					<ab xml:id="b.JOB.022.030" type="verse">
+						ينجي غير البريء وينجي بطهارة يديك
+					</ab>
+				</div>
+				<div xml:id="b.JOB.023" type="chapter">
+				<head>23</head>
+					<ab xml:id="b.JOB.023.001" type="verse">
+						فاجاب ايوب وقال
+					</ab>
+					<ab xml:id="b.JOB.023.002" type="verse">
+						اليوم ايضا شكواي تمرد. ضربتي اثقل من تنهدي.
+					</ab>
+					<ab xml:id="b.JOB.023.003" type="verse">
+						من يعطيني ان اجده فآتي الى كرسيه.
+					</ab>
+					<ab xml:id="b.JOB.023.004" type="verse">
+						احسن الدعوى امامه واملأ فمي حججا.
+					</ab>
+					<ab xml:id="b.JOB.023.005" type="verse">
+						فاعرف الاقوال التي بها يجيبني وافهم ما يقوله لي.
+					</ab>
+					<ab xml:id="b.JOB.023.006" type="verse">
+						أبكثرة قوة يخاصمني. كلا. ولكنه كان ينتبه اليّ.
+					</ab>
+					<ab xml:id="b.JOB.023.007" type="verse">
+						هنالك كان يحاجه المستقيم وكنت انجو الى الابد من قاضيّ.
+					</ab>
+					<ab xml:id="b.JOB.023.008" type="verse">
+						هانذا اذهب شرقا فليس هو هناك وغربا فلا اشعر به
+					</ab>
+					<ab xml:id="b.JOB.023.009" type="verse">
+						شمالا حيث عمله فلا انظره. يتعطف الجنوب فلا اراه
+					</ab>
+					<ab xml:id="b.JOB.023.010" type="verse">
+						لانه يعرف طريقي. اذا جربني اخرج كالذهب.
+					</ab>
+					<ab xml:id="b.JOB.023.011" type="verse">
+						بخطواته استمسكت رجلي حفظت طريقه ولم أحد.
+					</ab>
+					<ab xml:id="b.JOB.023.012" type="verse">
+						من وصية شفتيه لم ابرح. اكثر من فريضتي ذخرت كلام فيه.
+					</ab>
+					<ab xml:id="b.JOB.023.013" type="verse">
+						اما هو فوحده فمن يردّه. ونفسه تشتهي فيفعل.
+					</ab>
+					<ab xml:id="b.JOB.023.014" type="verse">
+						لانه يتمم المفروض عليّ وكثير مثل هذه عنده.
+					</ab>
+					<ab xml:id="b.JOB.023.015" type="verse">
+						من اجل ذلك ارتاع قدامه. اتأمل فارتعب منه.
+					</ab>
+					<ab xml:id="b.JOB.023.016" type="verse">
+						لان الله قد اضعف قلبي والقدير روّعني.
+					</ab>
+					<ab xml:id="b.JOB.023.017" type="verse">
+						لاني لم أقطع قبل الظلام ومن وجهي لم يغط الدجى
+					</ab>
+				</div>
+				<div xml:id="b.JOB.024" type="chapter">
+				<head>24</head>
+					<ab xml:id="b.JOB.024.001" type="verse">
+						لماذا اذ لم تختبئ الازمنة من القدير لا يرى عارفوه يومه.
+					</ab>
+					<ab xml:id="b.JOB.024.002" type="verse">
+						ينقلون التخوم. يغتصبون قطيعا ويرعونه.
+					</ab>
+					<ab xml:id="b.JOB.024.003" type="verse">
+						يستاقون حمار اليتامى ويرتهنون ثور الارملة.
+					</ab>
+					<ab xml:id="b.JOB.024.004" type="verse">
+						يصدّون الفقراء عن الطريق. مساكين الارض يختبئون جميعا.
+					</ab>
+					<ab xml:id="b.JOB.024.005" type="verse">
+						ها هم كالفراء في القفر يخرجون الى عملهم يبكرون للطعام. البادية لهم خبز لاولادهم.
+					</ab>
+					<ab xml:id="b.JOB.024.006" type="verse">
+						في الحقل يحصدون علفهم ويعللون كرم الشرير.
+					</ab>
+					<ab xml:id="b.JOB.024.007" type="verse">
+						يبيتون عراة بلا لبس وليس لهم كسوة في البرد.
+					</ab>
+					<ab xml:id="b.JOB.024.008" type="verse">
+						يبتلّون من مطر الجبال ولعدم الملجإ يعتنقون الصخر
+					</ab>
+					<ab xml:id="b.JOB.024.009" type="verse">
+						يخطفون اليتيم عن الثدي ومن المساكين يرتهنون.
+					</ab>
+					<ab xml:id="b.JOB.024.010" type="verse">
+						عراة يذهبون بلا لبس وجائعين يحملون حزما.
+					</ab>
+					<ab xml:id="b.JOB.024.011" type="verse">
+						يعصرون الزيت داخل اسوارهم. يدوسون المعاصر ويعطشون.
+					</ab>
+					<ab xml:id="b.JOB.024.012" type="verse">
+						من الوجع اناس يئنون ونفس الجرحى تستغيث والله لا ينتبه الى الظلم
+					</ab>
+					<ab xml:id="b.JOB.024.013" type="verse">
+						اولئك يكونون بين المتمردين على النور لا يعرفون طرقه ولا يلبثون في سبله.
+					</ab>
+					<ab xml:id="b.JOB.024.014" type="verse">
+						مع النور يقوم القاتل يقتل المسكين والفقير وفي الليل يكون كاللص.
+					</ab>
+					<ab xml:id="b.JOB.024.015" type="verse">
+						وعين الزاني تلاحظ العشاء. يقول لا تراقبني عين. فيجعل سترا على وجهه.
+					</ab>
+					<ab xml:id="b.JOB.024.016" type="verse">
+						ينقبون البيوت في الظلام. في النهار يغلقون على انفسهم. لا يعرفون النور.
+					</ab>
+					<ab xml:id="b.JOB.024.017" type="verse">
+						لانه سواء عليهم الصباح وظل الموت. لانهم يعلمون اهوال ظل الموت.
+					</ab>
+					<ab xml:id="b.JOB.024.018" type="verse">
+						خفيف هو على وجه المياه. ملعون نصيبهم في الارض. لا يتوجه الى طريق الكروم.
+					</ab>
+					<ab xml:id="b.JOB.024.019" type="verse">
+						القحط والقيظ يذهبان بمياه الثلج. كذا الهاوية بالذين اخطأوا.
+					</ab>
+					<ab xml:id="b.JOB.024.020" type="verse">
+						تنساه الرحم يستحليه الدود. لا يذكر بعد وينكسر الاثيم كشجرة.
+					</ab>
+					<ab xml:id="b.JOB.024.021" type="verse">
+						يسيء الى العاقر التي لم تلد ولا يحسن الى الارملة.
+					</ab>
+					<ab xml:id="b.JOB.024.022" type="verse">
+						يمسك الاعزاء بقوته. يقوم فلا يأمن احد بحياته.
+					</ab>
+					<ab xml:id="b.JOB.024.023" type="verse">
+						يعطيه طمأنينة فيتوكل ولكن عيناه على طرقهم.
+					</ab>
+					<ab xml:id="b.JOB.024.024" type="verse">
+						يترفعون قليلا ثم لا يكونون ويحطون. كالكل يجمعون وكرأس السنبلة يقطعون.
+					</ab>
+					<ab xml:id="b.JOB.024.025" type="verse">
+						وان لم يكن كذا فمن يكذبني ويجعل كلامي لا شيئا
+					</ab>
+				</div>
+				<div xml:id="b.JOB.025" type="chapter">
+				<head>25</head>
+					<ab xml:id="b.JOB.025.001" type="verse">
+						فاجاب بلدد الشوحي وقال
+					</ab>
+					<ab xml:id="b.JOB.025.002" type="verse">
+						السلطان والهيبة عنده. هو صانع السلام في اعاليه.
+					</ab>
+					<ab xml:id="b.JOB.025.003" type="verse">
+						هل من عدد لجنوده وعلى من لا يشرق نوره.
+					</ab>
+					<ab xml:id="b.JOB.025.004" type="verse">
+						فكيف يتبرر الانسان عند الله وكيف يزكو مولود المرأة.
+					</ab>
+					<ab xml:id="b.JOB.025.005" type="verse">
+						هوذا نفس القمر لا يضيء والكواكب غير نقية في عينيه.
+					</ab>
+					<ab xml:id="b.JOB.025.006" type="verse">
+						فكم بالحري الانسان الرمّة وابن آدم الدود
+					</ab>
+				</div>
+				<div xml:id="b.JOB.026" type="chapter">
+				<head>26</head>
+					<ab xml:id="b.JOB.026.001" type="verse">
+						فاجاب ايوب وقال
+					</ab>
+					<ab xml:id="b.JOB.026.002" type="verse">
+						كيف اعنت من لا قوة له وخلصت ذراعا لا عزّ لها.
+					</ab>
+					<ab xml:id="b.JOB.026.003" type="verse">
+						كيف اشرت على من لا حكمة له واظهرت الفهم بكثرة.
+					</ab>
+					<ab xml:id="b.JOB.026.004" type="verse">
+						لمن اعلنت اقوالا ونسمة من خرجت منك
+					</ab>
+					<ab xml:id="b.JOB.026.005" type="verse">
+						الأخيلة ترتعد من تحت المياه وسكانها.
+					</ab>
+					<ab xml:id="b.JOB.026.006" type="verse">
+						الهاوية عريانة قدامه والهلاك ليس له غطاء.
+					</ab>
+					<ab xml:id="b.JOB.026.007" type="verse">
+						يمد الشمال على الخلاء ويعلّق الارض على لا شيء.
+					</ab>
+					<ab xml:id="b.JOB.026.008" type="verse">
+						يصرّ المياه في سحبه فلا يتمزق الغيم تحتها.
+					</ab>
+					<ab xml:id="b.JOB.026.009" type="verse">
+						يحجب وجه كرسيه باسطا عليه سحابه.
+					</ab>
+					<ab xml:id="b.JOB.026.010" type="verse">
+						رسم حدّا على وجه المياه عند اتصال النور بالظلمة.
+					</ab>
+					<ab xml:id="b.JOB.026.011" type="verse">
+						اعمدة السموات ترتعد وترتاع من زجره.
+					</ab>
+					<ab xml:id="b.JOB.026.012" type="verse">
+						بقوته يزعج البحر وبفهمه يسحق رهب.
+					</ab>
+					<ab xml:id="b.JOB.026.013" type="verse">
+						بنفخته السموات مسفرة ويداه ابدأتا الحية الهاربة.
+					</ab>
+					<ab xml:id="b.JOB.026.014" type="verse">
+						ها هذه اطراف طرقه وما اخفض الكلام الذي نسمعه منه. واما رعد جبروته فمن يفهم
+					</ab>
+				</div>
+				<div xml:id="b.JOB.027" type="chapter">
+				<head>27</head>
+					<ab xml:id="b.JOB.027.001" type="verse">
+						وعاد ايوب ينطق بمثله فقال
+					</ab>
+					<ab xml:id="b.JOB.027.002" type="verse">
+						حيّ هو الله الذي نزع حقي والقدير الذي امرّ نفسي
+					</ab>
+					<ab xml:id="b.JOB.027.003" type="verse">
+						انه ما دامت نسمتي فيّ ونفخة الله في انفي
+					</ab>
+					<ab xml:id="b.JOB.027.004" type="verse">
+						لن تتكلم شفتاي اثما ولا يلفظ لساني بغش.
+					</ab>
+					<ab xml:id="b.JOB.027.005" type="verse">
+						حاشا لي ان ابرركم. حتى اسلم الروح لا اعزل كمالي عني.
+					</ab>
+					<ab xml:id="b.JOB.027.006" type="verse">
+						تمسكت ببري ولا ارخيه. قلبي لا يعير يوما من ايامي.
+					</ab>
+					<ab xml:id="b.JOB.027.007" type="verse">
+						ليكن عدوي كالشرير ومعاندي كفاعل الشر.
+					</ab>
+					<ab xml:id="b.JOB.027.008" type="verse">
+						لانه ما هو رجاء الفاجر عندما يقطعه عندما يسلب الله نفسه.
+					</ab>
+					<ab xml:id="b.JOB.027.009" type="verse">
+						أفيسمع الله صراخه اذا جاء عليه ضيق.
+					</ab>
+					<ab xml:id="b.JOB.027.010" type="verse">
+						ام يتلذذ بالقدير. هل يدعو الله في كل حين
+					</ab>
+					<ab xml:id="b.JOB.027.011" type="verse">
+						اني اعلمكم بيد الله. لا اكتم ما هو عند القدير.
+					</ab>
+					<ab xml:id="b.JOB.027.012" type="verse">
+						ها انتم كلكم قد رأيتم فلماذا تتبطلون تبطلا قائلين
+					</ab>
+					<ab xml:id="b.JOB.027.013" type="verse">
+						هذا نصيب الانسان الشرير من عند الله وميراث العتاة الذي ينالونه من القدير.
+					</ab>
+					<ab xml:id="b.JOB.027.014" type="verse">
+						ان كثر بنوه فللسيف وذريته لا تشبع خبزا.
+					</ab>
+					<ab xml:id="b.JOB.027.015" type="verse">
+						بقيته تدفن بالموتان وارامله لا تبكي.
+					</ab>
+					<ab xml:id="b.JOB.027.016" type="verse">
+						ان كنز فضة كالتراب واعدّ ملابس كالطين
+					</ab>
+					<ab xml:id="b.JOB.027.017" type="verse">
+						فهو يعدّ والبار يلبسه والبري يقسم الفضة.
+					</ab>
+					<ab xml:id="b.JOB.027.018" type="verse">
+						يبني بيته كالعث او كمظله صنعها الناطور.
+					</ab>
+					<ab xml:id="b.JOB.027.019" type="verse">
+						يضطجع غنيا ولكنه لا يضم. يفتح عينيه ولا يكون.
+					</ab>
+					<ab xml:id="b.JOB.027.020" type="verse">
+						الاهوال تدركه كالمياه. ليلا تختطفه الزوبعة
+					</ab>
+					<ab xml:id="b.JOB.027.021" type="verse">
+						تحمله الشرقية فيذهب وتجرفه من مكانه.
+					</ab>
+					<ab xml:id="b.JOB.027.022" type="verse">
+						يلقي الله عليه ولا يشفق. من يده يهرب هربا.
+					</ab>
+					<ab xml:id="b.JOB.027.023" type="verse">
+						يصفقون عليه بايديهم ويصفرون عليه من مكانه
+					</ab>
+				</div>
+				<div xml:id="b.JOB.028" type="chapter">
+				<head>28</head>
+					<ab xml:id="b.JOB.028.001" type="verse">
+						لانه يوجد للفضة معدن وموضع للذهب حيث يمحصونه.
+					</ab>
+					<ab xml:id="b.JOB.028.002" type="verse">
+						الحديد يستخرج من التراب والحجر يسكب نحاسا.
+					</ab>
+					<ab xml:id="b.JOB.028.003" type="verse">
+						قد جعل للظلمة نهاية والى كل طرف هو يفحص. حجر الظلمة وظل الموت.
+					</ab>
+					<ab xml:id="b.JOB.028.004" type="verse">
+						حفر منجما بعيدا عن السكان. بلا موطئ للقدم متدلّين بعيدين من الناس يتدلدلون.
+					</ab>
+					<ab xml:id="b.JOB.028.005" type="verse">
+						ارض يخرج منها الخبز اسفلها ينقلب كما بالنار.
+					</ab>
+					<ab xml:id="b.JOB.028.006" type="verse">
+						حجارتها هي موضع الياقوت الازرق وفيها تراب الذهب.
+					</ab>
+					<ab xml:id="b.JOB.028.007" type="verse">
+						سبيل لم يعرفه كاسر ولم تبصره عين باشق.
+					</ab>
+					<ab xml:id="b.JOB.028.008" type="verse">
+						ولم تدسه اجراء السبع ولم يعده الزائر.
+					</ab>
+					<ab xml:id="b.JOB.028.009" type="verse">
+						الى الصوان يمد يده. يقلب الجبال من اصولها.
+					</ab>
+					<ab xml:id="b.JOB.028.010" type="verse">
+						ينقر في الصخر سربا وعينه ترى كل ثمين.
+					</ab>
+					<ab xml:id="b.JOB.028.011" type="verse">
+						يمنع رشح الانهار وابرز الخفيات الى النور
+					</ab>
+					<ab xml:id="b.JOB.028.012" type="verse">
+						اما الحكمة فمن اين توجد واين هو مكان الفهم.
+					</ab>
+					<ab xml:id="b.JOB.028.013" type="verse">
+						لا يعرف الانسان قيمتها ولا توجد في ارض الاحياء.
+					</ab>
+					<ab xml:id="b.JOB.028.014" type="verse">
+						الغمر يقول ليست هي فيّ والبحر يقول ليست هي عندي.
+					</ab>
+					<ab xml:id="b.JOB.028.015" type="verse">
+						لا يعطى ذهب خالص بدلها ولا توزن فضة ثمنا لها.
+					</ab>
+					<ab xml:id="b.JOB.028.016" type="verse">
+						لا توزن بذهب اوفير او بالجزع الكريم او الياقوت الازرق.
+					</ab>
+					<ab xml:id="b.JOB.028.017" type="verse">
+						لا يعادلها الذهب ولا الزجاج ولا تبدل باناء ذهب ابريز.
+					</ab>
+					<ab xml:id="b.JOB.028.018" type="verse">
+						لا يذكر المرجان او البلور وتحصيل الحكمة خير من اللآلئ.
+					</ab>
+					<ab xml:id="b.JOB.028.019" type="verse">
+						لا يعادلها ياقوت كوش الاصفر ولا توزن بالذهب الخالص
+					</ab>
+					<ab xml:id="b.JOB.028.020" type="verse">
+						فمن اين تأتي الحكمة واين هو مكان الفهم.
+					</ab>
+					<ab xml:id="b.JOB.028.021" type="verse">
+						اذ أخفيت عن عيون كل حيّ وسترت عن طير السماء.
+					</ab>
+					<ab xml:id="b.JOB.028.022" type="verse">
+						الهلاك والموت يقولان بآذاننا قد سمعنا خبرها.
+					</ab>
+					<ab xml:id="b.JOB.028.023" type="verse">
+						الله يفهم طريقها وهو عالم بمكانها.
+					</ab>
+					<ab xml:id="b.JOB.028.024" type="verse">
+						لانه هو ينظر الى اقاصي الارض. تحت كل السموات يرى.
+					</ab>
+					<ab xml:id="b.JOB.028.025" type="verse">
+						ليجعل للريح وزنا ويعاير المياه بمقياس.
+					</ab>
+					<ab xml:id="b.JOB.028.026" type="verse">
+						لما جعل للمطر فريضة ومذهبا للصواعق
+					</ab>
+					<ab xml:id="b.JOB.028.027" type="verse">
+						حينئذ رآها واخبر بها هيأها وايضا بحث عنها
+					</ab>
+					<ab xml:id="b.JOB.028.028" type="verse">
+						وقال للانسان هوذا مخافة الرب هي الحكمة والحيدان عن الشر هو الفهم
+					</ab>
+				</div>
+				<div xml:id="b.JOB.029" type="chapter">
+				<head>29</head>
+					<ab xml:id="b.JOB.029.001" type="verse">
+						وعاد ايوب ينطق بمثله فقال
+					</ab>
+					<ab xml:id="b.JOB.029.002" type="verse">
+						يا ليتني كما في الشهور السالفة وكالايام التي حفظني الله فيها
+					</ab>
+					<ab xml:id="b.JOB.029.003" type="verse">
+						حين اضاء سراجه على راسي وبنوره سلكت الظلمة.
+					</ab>
+					<ab xml:id="b.JOB.029.004" type="verse">
+						كما كنت في ايام خريفي ورضا الله على خيمتي
+					</ab>
+					<ab xml:id="b.JOB.029.005" type="verse">
+						والقدير بعد معي وحولي غلماني
+					</ab>
+					<ab xml:id="b.JOB.029.006" type="verse">
+						اذ غسلت خطواتي باللبن والصخر سكب لي جداول زيت
+					</ab>
+					<ab xml:id="b.JOB.029.007" type="verse">
+						حين كنت اخرج الى الباب في القرية واهيّئ في الساحة مجلسي.
+					</ab>
+					<ab xml:id="b.JOB.029.008" type="verse">
+						رآني الغلمان فاختبأوا والاشياخ قاموا ووقفوا.
+					</ab>
+					<ab xml:id="b.JOB.029.009" type="verse">
+						العظماء امسكوا عن الكلام ووضعوا ايديهم على افواههم.
+					</ab>
+					<ab xml:id="b.JOB.029.010" type="verse">
+						صوت الشرفاء اختفى ولصقت ألسنتهم باحناكهم.
+					</ab>
+					<ab xml:id="b.JOB.029.011" type="verse">
+						لان الاذن سمعت فطوّبتني والعين رأت فشهدت لي.
+					</ab>
+					<ab xml:id="b.JOB.029.012" type="verse">
+						لاني انقذت المسكين المستغيث واليتيم ولا معين له.
+					</ab>
+					<ab xml:id="b.JOB.029.013" type="verse">
+						بركة الهالك حلت عليّ وجعلت قلب الارملة يسرّ.
+					</ab>
+					<ab xml:id="b.JOB.029.014" type="verse">
+						لبست البر فكساني. كجبّة وعمامة كان عدلي.
+					</ab>
+					<ab xml:id="b.JOB.029.015" type="verse">
+						كنت عيونا للعمي وارجلا للعرج.
+					</ab>
+					<ab xml:id="b.JOB.029.016" type="verse">
+						اب انا للفقراء ودعوى لم اعرفها فحصت عنها.
+					</ab>
+					<ab xml:id="b.JOB.029.017" type="verse">
+						هشمت اضراس الظالم ومن بين اسنانه خطفت الفريسة.
+					</ab>
+					<ab xml:id="b.JOB.029.018" type="verse">
+						فقلت اني في وكري اسلم الروح ومثل السمندل اكثر اياما.
+					</ab>
+					<ab xml:id="b.JOB.029.019" type="verse">
+						أصلي كان منبسطا الى المياه والطل بات على اغصاني.
+					</ab>
+					<ab xml:id="b.JOB.029.020" type="verse">
+						كرامتي بقيت حديثة عندي وقوسي تجددت في يدي.
+					</ab>
+					<ab xml:id="b.JOB.029.021" type="verse">
+						لي سمعوا وانتظروا ونصتوا عند مشورتي.
+					</ab>
+					<ab xml:id="b.JOB.029.022" type="verse">
+						بعد كلامي لم يثنّوا وقولي قطر عليهم.
+					</ab>
+					<ab xml:id="b.JOB.029.023" type="verse">
+						وانتظروني مثل المطر وفغروا افواههم كما للمطر المتأخر.
+					</ab>
+					<ab xml:id="b.JOB.029.024" type="verse">
+						ان ضحكت عليم لم يصدقوا ونور وجهي لم يعبسوا.
+					</ab>
+					<ab xml:id="b.JOB.029.025" type="verse">
+						كنت اختار طريقهم واجلس راسا واسكن كملك في جيش كمن يعزي النائحين
+					</ab>
+				</div>
+				<div xml:id="b.JOB.030" type="chapter">
+				<head>30</head>
+					<ab xml:id="b.JOB.030.001" type="verse">
+						واما الآن فقد ضحك علي اصاغري اياما الذين كنت استنكف من ان اجعل آبائهم مع كلاب غنمي.
+					</ab>
+					<ab xml:id="b.JOB.030.002" type="verse">
+						قوة ايديهم ايضا ما هي لي. فيهم عجزت الشيخوخة.
+					</ab>
+					<ab xml:id="b.JOB.030.003" type="verse">
+						في العوز والمحل مهزولون عارقون اليابسة التي هي منذ امس خراب وخربة.
+					</ab>
+					<ab xml:id="b.JOB.030.004" type="verse">
+						الذين يقطفون الملاح عند الشيح واصول الرّتم خبزهم.
+					</ab>
+					<ab xml:id="b.JOB.030.005" type="verse">
+						من الوسط يطردون. يصيحون عليهم كما على لص.
+					</ab>
+					<ab xml:id="b.JOB.030.006" type="verse">
+						للسكن في اودية مرعبة وثقب التراب والصخور.
+					</ab>
+					<ab xml:id="b.JOB.030.007" type="verse">
+						بين الشيح ينهقون. تحت العوسج ينكبّون.
+					</ab>
+					<ab xml:id="b.JOB.030.008" type="verse">
+						ابناء الحماقة بل ابناء اناس بلا اسم سيطوا من الارض
+					</ab>
+					<ab xml:id="b.JOB.030.009" type="verse">
+						اما الآن فصرت اغنيتهم واصبحت لهم مثلا.
+					</ab>
+					<ab xml:id="b.JOB.030.010" type="verse">
+						يكرهونني. يبتعدون عني وامام وجهي لم يمسكوا عن البسق.
+					</ab>
+					<ab xml:id="b.JOB.030.011" type="verse">
+						لانه اطلق العنان وقهرني فنزعوا الزمام قدامي.
+					</ab>
+					<ab xml:id="b.JOB.030.012" type="verse">
+						عن اليمين الفروخ يقومون يزيحون رجلي ويعدّون عليّ طرقهم للبوار.
+					</ab>
+					<ab xml:id="b.JOB.030.013" type="verse">
+						افسدوا سبلي. اعانوا على سقوطي. لا مساعد عليهم.
+					</ab>
+					<ab xml:id="b.JOB.030.014" type="verse">
+						ياتون كصدع عريض. تحت الهدّة يتدحرجون.
+					</ab>
+					<ab xml:id="b.JOB.030.015" type="verse">
+						انقلبت عليّ اهوال. طردت كالريح نعمتي فعبرت كالسحاب سعادتي
+					</ab>
+					<ab xml:id="b.JOB.030.016" type="verse">
+						فالآن انهالت نفسي عليّ واخذتني ايام المذلّة.
+					</ab>
+					<ab xml:id="b.JOB.030.017" type="verse">
+						الليل ينخر عظامي فيّ وعارقيّ لا تهجع.
+					</ab>
+					<ab xml:id="b.JOB.030.018" type="verse">
+						بكثرة الشدة تنكّر لبسي. مثل جيب قميصي حزمتني.
+					</ab>
+					<ab xml:id="b.JOB.030.019" type="verse">
+						قد طرحني في الوحل فاشبهت التراب والرماد.
+					</ab>
+					<ab xml:id="b.JOB.030.020" type="verse">
+						اليك اصرخ فما تستجيب لي. اقوم فما تنتبه اليّ.
+					</ab>
+					<ab xml:id="b.JOB.030.021" type="verse">
+						تحولت الى جاف من نحوي. بقدرة يدك تضطهدني.
+					</ab>
+					<ab xml:id="b.JOB.030.022" type="verse">
+						حملتني اركبتني الريح وذوبتني تشوها.
+					</ab>
+					<ab xml:id="b.JOB.030.023" type="verse">
+						لاني اعلم انك الى الموت تعيدني والى بيت ميعاد كل حيّ.
+					</ab>
+					<ab xml:id="b.JOB.030.024" type="verse">
+						ولكن في الخراب ألا يمد يدا. في البليّة ألا يستغيث عليها
+					</ab>
+					<ab xml:id="b.JOB.030.025" type="verse">
+						ألم ابك لمن عسر يومه. ألم تكتئب نفسي على المسكين.
+					</ab>
+					<ab xml:id="b.JOB.030.026" type="verse">
+						حينما ترجيت الخير جاء الشر. وانتظرت النور فجاء الدجى.
+					</ab>
+					<ab xml:id="b.JOB.030.027" type="verse">
+						امعائي تغلي ولا تكف. تقدمتني ايام المذلة.
+					</ab>
+					<ab xml:id="b.JOB.030.028" type="verse">
+						اسوددت لكن بلا شمس. قمت في الجماعة اصرخ.
+					</ab>
+					<ab xml:id="b.JOB.030.029" type="verse">
+						صرت اخا للذئاب وصاحبا لرئال النعام.
+					</ab>
+					<ab xml:id="b.JOB.030.030" type="verse">
+						حرش جلدي عليّ وعظامي احترّت من الحرارة فيّ.
+					</ab>
+					<ab xml:id="b.JOB.030.031" type="verse">
+						صار عودي للنوح ومزماري لصوت الباكين
+					</ab>
+				</div>
+				<div xml:id="b.JOB.031" type="chapter">
+				<head>31</head>
+					<ab xml:id="b.JOB.031.001" type="verse">
+						عهدا قطعت لعينيّ فكيف اتطلع في عذراء.
+					</ab>
+					<ab xml:id="b.JOB.031.002" type="verse">
+						وما هي قسمة الله من فوق ونصيب القدير من الاعالي.
+					</ab>
+					<ab xml:id="b.JOB.031.003" type="verse">
+						أليس البوار لعامل الشر والنكر لفاعلي الاثم.
+					</ab>
+					<ab xml:id="b.JOB.031.004" type="verse">
+						أليس هو ينظر طرقي ويحصي جميع خطواتي.
+					</ab>
+					<ab xml:id="b.JOB.031.005" type="verse">
+						ان كنت قد سلكت مع الكذب او اسرعت رجلي الى الغش.
+					</ab>
+					<ab xml:id="b.JOB.031.006" type="verse">
+						ليزنّي في ميزان الحق فيعرف الله كمالي.
+					</ab>
+					<ab xml:id="b.JOB.031.007" type="verse">
+						ان حادت خطواتي عن الطريق وذهب قلبي وراء عينيّ او لصق عيب بكفيّ
+					</ab>
+					<ab xml:id="b.JOB.031.008" type="verse">
+						أزرع وغيري يأكل وفروعي تستأصل
+					</ab>
+					<ab xml:id="b.JOB.031.009" type="verse">
+						ان غوي قلبي على امرأة او كمنت على باب قريبي
+					</ab>
+					<ab xml:id="b.JOB.031.010" type="verse">
+						فلتطحن امرأتي لآخر ولينحن عليها آخرون.
+					</ab>
+					<ab xml:id="b.JOB.031.011" type="verse">
+						لان هذه رذيلة وهي اثم يعرض للقضاة.
+					</ab>
+					<ab xml:id="b.JOB.031.012" type="verse">
+						لانها نار تأكل حتى الى الهلاك وتستأصل كل محصولي
+					</ab>
+					<ab xml:id="b.JOB.031.013" type="verse">
+						ان كنت رفضت حق عبدي وامتي في دعواهما عليّ
+					</ab>
+					<ab xml:id="b.JOB.031.014" type="verse">
+						فماذا كنت اصنع حين يقوم الله واذا افتقد فبماذا اجيبه.
+					</ab>
+					<ab xml:id="b.JOB.031.015" type="verse">
+						أوليس صانعي في البطن صانعه وقد صوّرنا واحد في الرحم.
+					</ab>
+					<ab xml:id="b.JOB.031.016" type="verse">
+						ان كنت منعت المساكين عن مرادهم او افنيت عيني الارملة
+					</ab>
+					<ab xml:id="b.JOB.031.017" type="verse">
+						او اكلت لقمتي وحدي فما اكل منها اليتيم.
+					</ab>
+					<ab xml:id="b.JOB.031.018" type="verse">
+						بل منذ صباي كبر عندي كأب ومن بطن امي هديتها
+					</ab>
+					<ab xml:id="b.JOB.031.019" type="verse">
+						ان كنت رأيت هالكا لعدم اللبس او فقيرا بلا كسوة
+					</ab>
+					<ab xml:id="b.JOB.031.020" type="verse">
+						ان لم تباركني حقواه وقد استدفأ بجزّة غنمي.
+					</ab>
+					<ab xml:id="b.JOB.031.021" type="verse">
+						ان كنت قد هززت يدي على اليتيم لما رأيت عوني في الباب
+					</ab>
+					<ab xml:id="b.JOB.031.022" type="verse">
+						فلتسقط عضدي من كتفي ولتنكسر ذراعي من قصبتها.
+					</ab>
+					<ab xml:id="b.JOB.031.023" type="verse">
+						لان البوار من الله رعب عليّ ومن جلاله لم استطع
+					</ab>
+					<ab xml:id="b.JOB.031.024" type="verse">
+						ان كنت قد جعلت الذهب عمدتي او قلت للابريز انت متكلي.
+					</ab>
+					<ab xml:id="b.JOB.031.025" type="verse">
+						ان كنت قد فرحت اذ كثرت ثروتي ولان يدي وجدت كثيرا.
+					</ab>
+					<ab xml:id="b.JOB.031.026" type="verse">
+						ان كنت قد نظرت الى النور حين ضاء او الى القمر يسير بالبهاء
+					</ab>
+					<ab xml:id="b.JOB.031.027" type="verse">
+						وغوي قلبي سرّا ولثم يدي فمي
+					</ab>
+					<ab xml:id="b.JOB.031.028" type="verse">
+						فهذا ايضا اثم يعرض للقضاة لاني اكون قد جحدت الله من فوق
+					</ab>
+					<ab xml:id="b.JOB.031.029" type="verse">
+						ان كنت قد فرحت ببليّة مبغضي او شمتّ حين اصابه سوء.
+					</ab>
+					<ab xml:id="b.JOB.031.030" type="verse">
+						بل لم ادع حنكي يخطئ في طلب نفسه بلعنة.
+					</ab>
+					<ab xml:id="b.JOB.031.031" type="verse">
+						ان كان اهل خيمتي لم يقولوا من ياتي باحد لم يشبع من طعامه.
+					</ab>
+					<ab xml:id="b.JOB.031.032" type="verse">
+						غريب لم يبت في الخارج. فتحت للمسافر ابوابي.
+					</ab>
+					<ab xml:id="b.JOB.031.033" type="verse">
+						ان كنت قد كتمت كالناس ذنبي لاخفاء اثمي في حضني
+					</ab>
+					<ab xml:id="b.JOB.031.034" type="verse">
+						اذ رهبت جمهورا غفيرا وروّعتني اهانة العشائر فكففت ولم اخرج من الباب
+					</ab>
+					<ab xml:id="b.JOB.031.035" type="verse">
+						من لي بمن يسمعني. هوذا امضائي ليجبني القدير. ومن لي بشكوى كتبها خصمي.
+					</ab>
+					<ab xml:id="b.JOB.031.036" type="verse">
+						فكنت احملها على كتفي. كنت اعصبها تاجا لي.
+					</ab>
+					<ab xml:id="b.JOB.031.037" type="verse">
+						كنت اخبره بعدد خطواتي وادنو منه كشريف ــ
+					</ab>
+					<ab xml:id="b.JOB.031.038" type="verse">
+						ان كانت ارضي قد صرخت عليّ وتباكت اتلامها جميعا
+					</ab>
+					<ab xml:id="b.JOB.031.039" type="verse">
+						ان كنت قد اكلت غلّتها بلا فضة او اطفأت انفس اصحابها
+					</ab>
+					<ab xml:id="b.JOB.031.040" type="verse">
+						فعوض الحنطة لينبت شوك وبدل الشعير زوان تمت اقوال ايوب
+					</ab>
+				</div>
+				<div xml:id="b.JOB.032" type="chapter">
+				<head>32</head>
+					<ab xml:id="b.JOB.032.001" type="verse">
+						فكف هؤلاء الرجال الثلاثة عن مجاوبة ايوب لكونه بارا في عيني نفسه
+					</ab>
+					<ab xml:id="b.JOB.032.002" type="verse">
+						فحمي غضب اليهو بن برخئيل البوزي من عشيرة رام. على ايوب حمي غضبه لانه حسب نفسه ابر من الله.
+					</ab>
+					<ab xml:id="b.JOB.032.003" type="verse">
+						وعلى اصحابه الثلاثة حمي غضبه لانهم لم يجدوا جوابا واستذنبوا ايوب.
+					</ab>
+					<ab xml:id="b.JOB.032.004" type="verse">
+						وكان اليهو قد صبر على ايوب بالكلام لانهم اكثر منه اياما.
+					</ab>
+					<ab xml:id="b.JOB.032.005" type="verse">
+						فلما رأى اليهو انه لا جواب في افواه الرجال الثلاثة حمي غضبه
+					</ab>
+					<ab xml:id="b.JOB.032.006" type="verse">
+						فاجاب اليهو بن برخئيل البوزي وقال انا صغير في الايام وانتم شيوخ. لاجل ذلك خفت وخشيت ان ابدي لكم رأيي.
+					</ab>
+					<ab xml:id="b.JOB.032.007" type="verse">
+						قلت الايام تتكلم وكثرة السنين تظهر حكمة.
+					</ab>
+					<ab xml:id="b.JOB.032.008" type="verse">
+						ولكن في الناس روحا ونسمة القدير تعقلهم.
+					</ab>
+					<ab xml:id="b.JOB.032.009" type="verse">
+						ليس الكثيرو الايام حكماء ولا الشيوخ يفهمون الحق.
+					</ab>
+					<ab xml:id="b.JOB.032.010" type="verse">
+						لذلك قلت اسمعوني انا ايضا ابدي رأيي.
+					</ab>
+					<ab xml:id="b.JOB.032.011" type="verse">
+						هانذا قد صبرت لكلامكم. اصغيت الى حججكم حتى فحصتم الاقوال.
+					</ab>
+					<ab xml:id="b.JOB.032.012" type="verse">
+						فتأملت فيكم واذ ليس من حجّ ايوب ولا جواب منكم لكلامه.
+					</ab>
+					<ab xml:id="b.JOB.032.013" type="verse">
+						فلا تقولوا قد وجدنا حكمة. الله يغلبه لا الانسان.
+					</ab>
+					<ab xml:id="b.JOB.032.014" type="verse">
+						فانه لم يوجه اليّ كلامه ولا ارد عليه انا بكلامكم.
+					</ab>
+					<ab xml:id="b.JOB.032.015" type="verse">
+						تحيروا. لم يجيبوا بعد. انتزع عنهم الكلام.
+					</ab>
+					<ab xml:id="b.JOB.032.016" type="verse">
+						فانتظرت لانهم لم يتكلموا لانهم وقفوا لم يجيبوا بعد.
+					</ab>
+					<ab xml:id="b.JOB.032.017" type="verse">
+						فاجيب انا ايضا حصتي وابدي انا ايضا رأيي.
+					</ab>
+					<ab xml:id="b.JOB.032.018" type="verse">
+						لاني ملآن اقوالا. روح باطني تضايقني.
+					</ab>
+					<ab xml:id="b.JOB.032.019" type="verse">
+						هوذا بطني كخمر لم تفتح كالزقاق الجديدة يكاد ينشق.
+					</ab>
+					<ab xml:id="b.JOB.032.020" type="verse">
+						اتكلم فافرج. افتح شفتيّ واجيب.
+					</ab>
+					<ab xml:id="b.JOB.032.021" type="verse">
+						لا احابينّ وجه رجل ولا أملث انسانا.
+					</ab>
+					<ab xml:id="b.JOB.032.022" type="verse">
+						لاني لا اعرف الملث. لانه عن قليل يأخذني صانعي
+					</ab>
+				</div>
+				<div xml:id="b.JOB.033" type="chapter">
+				<head>33</head>
+					<ab xml:id="b.JOB.033.001" type="verse">
+						ولكن اسمع الآن يا ايوب اقوالي واصغ الى كل كلامي.
+					</ab>
+					<ab xml:id="b.JOB.033.002" type="verse">
+						هانذا قد فتحت فمي. لساني نطق في حنكي.
+					</ab>
+					<ab xml:id="b.JOB.033.003" type="verse">
+						استقامة قلبي كلامي ومعرفة شفتيّ هما تنطقان بها خالصة.
+					</ab>
+					<ab xml:id="b.JOB.033.004" type="verse">
+						روح الله صنعني ونسمة القدير احيتني.
+					</ab>
+					<ab xml:id="b.JOB.033.005" type="verse">
+						ان استطعت فاجبني. احسن الدعوى امامي. انتصب.
+					</ab>
+					<ab xml:id="b.JOB.033.006" type="verse">
+						هانذا حسب قولك عوضا عن الله انا ايضا من الطين تقرصت.
+					</ab>
+					<ab xml:id="b.JOB.033.007" type="verse">
+						هوذا هيبتي لا ترهبك وجلالي لا يثقل عليك
+					</ab>
+					<ab xml:id="b.JOB.033.008" type="verse">
+						انك قد قلت في مسامعي وصوت اقوالك سمعت.
+					</ab>
+					<ab xml:id="b.JOB.033.009" type="verse">
+						قلت انا بريء بلا ذنب. زكي انا ولا اثم لي.
+					</ab>
+					<ab xml:id="b.JOB.033.010" type="verse">
+						هوذا يطلب عليّ علل عداوة. يحسبني عدوا له.
+					</ab>
+					<ab xml:id="b.JOB.033.011" type="verse">
+						وضع رجليّ في المقطرة. يراقب كل طرقي
+					</ab>
+					<ab xml:id="b.JOB.033.012" type="verse">
+						ها انك في هذا لم تصب. انا اجيبك. لان الله اعظم من الانسان.
+					</ab>
+					<ab xml:id="b.JOB.033.013" type="verse">
+						لماذا تخاصمه. لان كل اموره لا يجاوب عنها.
+					</ab>
+					<ab xml:id="b.JOB.033.014" type="verse">
+						لكن الله يتكلم مرة وباثنتين لا يلاحظ الانسان.
+					</ab>
+					<ab xml:id="b.JOB.033.015" type="verse">
+						في حلم في رؤيا الليل عند سقوط سبات على الناس في النعاس على المضجع
+					</ab>
+					<ab xml:id="b.JOB.033.016" type="verse">
+						حينئذ يكشف آذان الناس ويختم على تاديبهم.
+					</ab>
+					<ab xml:id="b.JOB.033.017" type="verse">
+						ليحول الانسان عن عمله ويكتم الكبرياء عن الرجل
+					</ab>
+					<ab xml:id="b.JOB.033.018" type="verse">
+						ليمنع نفسه عن الحفرة وحياته من الزوال بحربة الموت.
+					</ab>
+					<ab xml:id="b.JOB.033.019" type="verse">
+						ايضا يؤدب بالوجع على مضجعه ومخاصمة عظامه دائمة
+					</ab>
+					<ab xml:id="b.JOB.033.020" type="verse">
+						فتكره حياته خبزا ونفسه الطعام الشهي.
+					</ab>
+					<ab xml:id="b.JOB.033.021" type="verse">
+						فيبلى لحمه عن العيان وتنبري عظامه فلا ترى
+					</ab>
+					<ab xml:id="b.JOB.033.022" type="verse">
+						وتقرب نفسه الى القبر وحياته الى المميتين.
+					</ab>
+					<ab xml:id="b.JOB.033.023" type="verse">
+						ان وجد عنده مرسل وسيط واحد من الف ليعلن للانسان استقامته
+					</ab>
+					<ab xml:id="b.JOB.033.024" type="verse">
+						يترءاف عليه ويقول اطلقه عن الهبوط الى الحفرة قد وجدت فدية.
+					</ab>
+					<ab xml:id="b.JOB.033.025" type="verse">
+						يصير لحمه اغض من لحم الصبي ويعود الى ايام شبابه.
+					</ab>
+					<ab xml:id="b.JOB.033.026" type="verse">
+						يصلّي الى الله فيرضى عنه ويعاين وجهه بهتاف فيرد على الانسان بره.
+					</ab>
+					<ab xml:id="b.JOB.033.027" type="verse">
+						يغني بين الناس فيقول قد اخطأت وعوجت المستقيم ولم أجاز عليه.
+					</ab>
+					<ab xml:id="b.JOB.033.028" type="verse">
+						فدى نفسي من العبور الى الحفرة فترى حياتي النور
+					</ab>
+					<ab xml:id="b.JOB.033.029" type="verse">
+						هوذا كل هذه يفعلها الله مرتين وثلاثا بالانسان
+					</ab>
+					<ab xml:id="b.JOB.033.030" type="verse">
+						ليرد نفسه من الحفرة ليستنير بنور الاحياء.
+					</ab>
+					<ab xml:id="b.JOB.033.031" type="verse">
+						فاصغ يا ايوب واستمع لي. انصت فانا اتكلم.
+					</ab>
+					<ab xml:id="b.JOB.033.032" type="verse">
+						ان كان عندك كلام فاجبني. تكلم. فاني اريد تبريرك.
+					</ab>
+					<ab xml:id="b.JOB.033.033" type="verse">
+						والا فاستمع انت لي. انصت فاعلمك الحكمة
+					</ab>
+				</div>
+				<div xml:id="b.JOB.034" type="chapter">
+				<head>34</head>
+					<ab xml:id="b.JOB.034.001" type="verse">
+						فاجاب اليهو وقال
+					</ab>
+					<ab xml:id="b.JOB.034.002" type="verse">
+						اسمعوا اقوالي ايها الحكماء واصغوا لي ايها العارفون.
+					</ab>
+					<ab xml:id="b.JOB.034.003" type="verse">
+						لان الاذن تمتحن الاقوال كما ان الحنك يذوق طعاما.
+					</ab>
+					<ab xml:id="b.JOB.034.004" type="verse">
+						لنمتحن لانفسنا الحق ونعرف بين انفسنا ما هو طيب
+					</ab>
+					<ab xml:id="b.JOB.034.005" type="verse">
+						لان ايوب قال تبررت والله نزع حقي.
+					</ab>
+					<ab xml:id="b.JOB.034.006" type="verse">
+						عند محاكمتي اكذب. جرحي عديم الشفاء من دون ذنب.
+					</ab>
+					<ab xml:id="b.JOB.034.007" type="verse">
+						فاي انسان كايوب يشرب الهزء كالماء
+					</ab>
+					<ab xml:id="b.JOB.034.008" type="verse">
+						ويسير متحدا مع فاعلي الاثم وذاهبا مع اهل الشر.
+					</ab>
+					<ab xml:id="b.JOB.034.009" type="verse">
+						لانه قال لا ينتفع الانسان بكونه مرضيا عند الله
+					</ab>
+					<ab xml:id="b.JOB.034.010" type="verse">
+						لاجل ذلك اسمعوا لي يا ذوي الالباب. حاشا لله من الشر وللقدير من الظلم.
+					</ab>
+					<ab xml:id="b.JOB.034.011" type="verse">
+						لانه يجازي الانسان على فعله وينيل الرجل كطريقه.
+					</ab>
+					<ab xml:id="b.JOB.034.012" type="verse">
+						فحقا ان الله لا يفعل سوءا والقدير لا يعوج القضاء.
+					</ab>
+					<ab xml:id="b.JOB.034.013" type="verse">
+						من وكله بالارض ومن صنع المسكونه كلها.
+					</ab>
+					<ab xml:id="b.JOB.034.014" type="verse">
+						ان جعل عليه قلبه ان جمع الى نفسه روحه ونسمته
+					</ab>
+					<ab xml:id="b.JOB.034.015" type="verse">
+						يسلم الروح كل بشر جميعا ويعود الانسان الى التراب.
+					</ab>
+					<ab xml:id="b.JOB.034.016" type="verse">
+						فان كان لك فهم فاسمع هذا واصغ الى صوت كلماتي.
+					</ab>
+					<ab xml:id="b.JOB.034.017" type="verse">
+						ألعل من يبغض الحق يتسلط ام البار الكبير تستذنب.
+					</ab>
+					<ab xml:id="b.JOB.034.018" type="verse">
+						أيقال للملك يا لئيم وللندباء يا اشرار.
+					</ab>
+					<ab xml:id="b.JOB.034.019" type="verse">
+						الذي لا يحابي بوجوه الرؤساء ولا يعتبر موسعا دون فقير. لانهم جميعهم عمل يديه.
+					</ab>
+					<ab xml:id="b.JOB.034.020" type="verse">
+						بغتة يموتون وفي نصف الليل. يرتج الشعب ويزولون وينزع الاعزاء لا بيد.
+					</ab>
+					<ab xml:id="b.JOB.034.021" type="verse">
+						لان عينيه على طرق الانسان وهو يرى كل خطواته.
+					</ab>
+					<ab xml:id="b.JOB.034.022" type="verse">
+						لا ظلام ولا ظل موت حيث تختفي عمّال الاثم.
+					</ab>
+					<ab xml:id="b.JOB.034.023" type="verse">
+						لانه لا يلاحظ الانسان زمانا للدخول في المحاكمة مع الله.
+					</ab>
+					<ab xml:id="b.JOB.034.024" type="verse">
+						يحطم الاعزاء من دون فحص ويقيم آخرين مكانهم.
+					</ab>
+					<ab xml:id="b.JOB.034.025" type="verse">
+						لكنه يعرف اعمالهم ويقلّبهم ليلا فينسحقون.
+					</ab>
+					<ab xml:id="b.JOB.034.026" type="verse">
+						لكونهم اشرارا يصفقهم في مرأى الناظرين.
+					</ab>
+					<ab xml:id="b.JOB.034.027" type="verse">
+						لانهم انصرفوا من ورائه وكل طرقه لم يتأملوها.
+					</ab>
+					<ab xml:id="b.JOB.034.028" type="verse">
+						حتى بلّغوا اليه صراخ المسكين فسمع زعقة البائسين.
+					</ab>
+					<ab xml:id="b.JOB.034.029" type="verse">
+						اذا هو سكّن فمن يشغب واذا حجب وجهه فمن يراه سواء كان على امة او على انسان.
+					</ab>
+					<ab xml:id="b.JOB.034.030" type="verse">
+						حتى لا يملك الفاجر ولا يكون شركا للشعب
+					</ab>
+					<ab xml:id="b.JOB.034.031" type="verse">
+						ولكن هل للّه قال احتملت. لا اعود افسد.
+					</ab>
+					<ab xml:id="b.JOB.034.032" type="verse">
+						ما لم ابصره فأرنيه انت. ان كنت قد فعلت اثما فلا اعود افعله.
+					</ab>
+					<ab xml:id="b.JOB.034.033" type="verse">
+						هل كرأيك يجازيه قائلا لانك رفضت فانت تختار لا انا. وبما تعرفه تكلم.
+					</ab>
+					<ab xml:id="b.JOB.034.034" type="verse">
+						ذوو الالباب يقولون لي بل الرجل الحكيم الذي يسمعني يقول
+					</ab>
+					<ab xml:id="b.JOB.034.035" type="verse">
+						ان ايوب يتكلم بلا معرفة وكلامه ليس بتعقّل.
+					</ab>
+					<ab xml:id="b.JOB.034.036" type="verse">
+						فليت ايوب كان يمتحن الى الغاية من اجل اجوبته كاهل الاثم.
+					</ab>
+					<ab xml:id="b.JOB.034.037" type="verse">
+						لكنه اضاف الى خطيته معصية. يصفق بيننا ويكثر كلامه على الله
+					</ab>
+				</div>
+				<div xml:id="b.JOB.035" type="chapter">
+				<head>35</head>
+					<ab xml:id="b.JOB.035.001" type="verse">
+						فاجاب اليهو وقال
+					</ab>
+					<ab xml:id="b.JOB.035.002" type="verse">
+						أتحسب هذا حقا. قلت انا ابر من الله.
+					</ab>
+					<ab xml:id="b.JOB.035.003" type="verse">
+						لانك قلت ماذا يفيدك بماذا انتفع اكثر من خطيتي.
+					</ab>
+					<ab xml:id="b.JOB.035.004" type="verse">
+						انا ارد عليك كلاما وعلى اصحابك معك.
+					</ab>
+					<ab xml:id="b.JOB.035.005" type="verse">
+						انظر الى السموات وابصر ولاحظ الغمام انها اعلى منك.
+					</ab>
+					<ab xml:id="b.JOB.035.006" type="verse">
+						ان اخطأت فماذا فعلت به وان كثرت معاصيك فماذا عملت له.
+					</ab>
+					<ab xml:id="b.JOB.035.007" type="verse">
+						ان كنت بارا فماذا اعطيته او ماذا ياخذه من يدك.
+					</ab>
+					<ab xml:id="b.JOB.035.008" type="verse">
+						لرجل مثلك شرك ولابن آدم برك
+					</ab>
+					<ab xml:id="b.JOB.035.009" type="verse">
+						من كثرة المظالم يصرخون. يستغيثون من ذراع الاعزاء.
+					</ab>
+					<ab xml:id="b.JOB.035.010" type="verse">
+						ولم يقولوا اين الله صانعي مؤتي الاغاني في الليل.
+					</ab>
+					<ab xml:id="b.JOB.035.011" type="verse">
+						الذي يعلمنا اكثر من وحوش الارض ويجعلنا احكم من طيور السماء.
+					</ab>
+					<ab xml:id="b.JOB.035.012" type="verse">
+						ثم يصرخون من كبرياء الاشرار ولا يستجيب.
+					</ab>
+					<ab xml:id="b.JOB.035.013" type="verse">
+						ولكن الله لا يسمع كذبا والقدير لا ينظر اليه.
+					</ab>
+					<ab xml:id="b.JOB.035.014" type="verse">
+						فاذا قلت انك لست تراه فالدعوى قدامه فاصبر له.
+					</ab>
+					<ab xml:id="b.JOB.035.015" type="verse">
+						واما الآن فلأن غضبه لا يطالب ولا يبالي بكثرة الزلات
+					</ab>
+					<ab xml:id="b.JOB.035.016" type="verse">
+						فغر ايوب فاه بالباطل وكبر الكلام بلا معرفة
+					</ab>
+				</div>
+				<div xml:id="b.JOB.036" type="chapter">
+				<head>36</head>
+					<ab xml:id="b.JOB.036.001" type="verse">
+						وعاد اليهو فقال
+					</ab>
+					<ab xml:id="b.JOB.036.002" type="verse">
+						اصبر عليّ قليلا فابدي لك انه بعد لاجل الله كلام.
+					</ab>
+					<ab xml:id="b.JOB.036.003" type="verse">
+						أحمل معرفتي من بعيد وأنسب برا لصانعي.
+					</ab>
+					<ab xml:id="b.JOB.036.004" type="verse">
+						حقا لا يكذب كلامي. صحيح المعرفة عندك
+					</ab>
+					<ab xml:id="b.JOB.036.005" type="verse">
+						هوذا الله عزيز ولكنه لا يرذل احدا. عزيز قدرة القلب.
+					</ab>
+					<ab xml:id="b.JOB.036.006" type="verse">
+						لا يحيي الشرير بل يجري قضاء البائسين.
+					</ab>
+					<ab xml:id="b.JOB.036.007" type="verse">
+						لا يحوّل عينيه عن البار بل مع الملوك يجلسهم على الكرسي ابدا فيرتفعون.
+					</ab>
+					<ab xml:id="b.JOB.036.008" type="verse">
+						ان أوثقوا بالقيود ان أخذوا في حبالة الذل
+					</ab>
+					<ab xml:id="b.JOB.036.009" type="verse">
+						فيظهر لهم افعالهم ومعاصيهم لانهم تجبّروا
+					</ab>
+					<ab xml:id="b.JOB.036.010" type="verse">
+						ويفتح آذانهم للانذار ويامر بان يرجعوا عن الاثم.
+					</ab>
+					<ab xml:id="b.JOB.036.011" type="verse">
+						ان سمعوا واطاعوا قضوا ايامهم بالخير وسنيهم بالنّعم.
+					</ab>
+					<ab xml:id="b.JOB.036.012" type="verse">
+						وان لم يسمعوا فبحربة الموت يزولون ويموتون بعدم المعرفة.
+					</ab>
+					<ab xml:id="b.JOB.036.013" type="verse">
+						اما فجّار القلب فيذخرون غضبا. لا يستغيثون اذا هو قيّدهم.
+					</ab>
+					<ab xml:id="b.JOB.036.014" type="verse">
+						تموت نفسهم في الصبا وحياتهم بين المابونين.
+					</ab>
+					<ab xml:id="b.JOB.036.015" type="verse">
+						ينجّي البائس في ذلّه ويفتح آذانهم في الضيق
+					</ab>
+					<ab xml:id="b.JOB.036.016" type="verse">
+						وايضا يقودك من وجه الضيق الى رحب لا حصر فيه ويملأ مؤونة مائدتك دهنا.
+					</ab>
+					<ab xml:id="b.JOB.036.017" type="verse">
+						حجة الشرير اكملت فالحجة والقضاء يمسكانك.
+					</ab>
+					<ab xml:id="b.JOB.036.018" type="verse">
+						عند غضبه لعله يقودك بصفقة. فكثرة الفدية لا تفكّك.
+					</ab>
+					<ab xml:id="b.JOB.036.019" type="verse">
+						هل يعتبر غناك. لا التبر ولا جميع قوى الثروة.
+					</ab>
+					<ab xml:id="b.JOB.036.020" type="verse">
+						لا تشتاق الى الليل الذي يرفع شعوبا من مواضعهم.
+					</ab>
+					<ab xml:id="b.JOB.036.021" type="verse">
+						احذر. لا تلتفت الى الاثم لانك اخترت هذا على الذل
+					</ab>
+					<ab xml:id="b.JOB.036.022" type="verse">
+						هوذا الله يتعالى بقدرته. من مثله معلما.
+					</ab>
+					<ab xml:id="b.JOB.036.023" type="verse">
+						من فرض عليه طريقه او من يقول له قد فعلت شرا.
+					</ab>
+					<ab xml:id="b.JOB.036.024" type="verse">
+						اذكر ان تعظم عمله الذي يغني به الناس.
+					</ab>
+					<ab xml:id="b.JOB.036.025" type="verse">
+						كل انسان يبصر به. الناس ينظرونه من بعيد.
+					</ab>
+					<ab xml:id="b.JOB.036.026" type="verse">
+						هوذا الله عظيم ولا نعرفه وعدد سنيه لا يفحص.
+					</ab>
+					<ab xml:id="b.JOB.036.027" type="verse">
+						لانه يجذب قطار الماء. تسحّ مطرا من ضبابها.
+					</ab>
+					<ab xml:id="b.JOB.036.028" type="verse">
+						الذي تهطله السحب وتقطره على اناس كثيرين.
+					</ab>
+					<ab xml:id="b.JOB.036.029" type="verse">
+						فهل يعلل احد عن شق الغيم او قصيف مظلته.
+					</ab>
+					<ab xml:id="b.JOB.036.030" type="verse">
+						هوذا بسط نوره على نفسه ثم يتغطى باصول اليم.
+					</ab>
+					<ab xml:id="b.JOB.036.031" type="verse">
+						لانه بهذه يدين الشعوب ويرزق القوت بكثرة.
+					</ab>
+					<ab xml:id="b.JOB.036.032" type="verse">
+						يغطي كفّيه بالنور ويامره على العدو.
+					</ab>
+					<ab xml:id="b.JOB.036.033" type="verse">
+						يخبر به رعده المواشي ايضا بصعوده
+					</ab>
+				</div>
+				<div xml:id="b.JOB.037" type="chapter">
+				<head>37</head>
+					<ab xml:id="b.JOB.037.001" type="verse">
+						فلهذا اضطرب قلبي وخفق من موضعه.
+					</ab>
+					<ab xml:id="b.JOB.037.002" type="verse">
+						اسمعوا سماعا رعد صوته والزمزمة الخارجة من فيه.
+					</ab>
+					<ab xml:id="b.JOB.037.003" type="verse">
+						تحت كل السموات يطلقها كذا نوره الى اكناف الارض.
+					</ab>
+					<ab xml:id="b.JOB.037.004" type="verse">
+						بعد يزمجر صوت يرعد بصوت جلاله ولا يؤخرها اذ سمع صوته.
+					</ab>
+					<ab xml:id="b.JOB.037.005" type="verse">
+						الله يرعد بصوته عجبا. يصنع عظائم لا ندركها.
+					</ab>
+					<ab xml:id="b.JOB.037.006" type="verse">
+						لانه يقول للثلج اسقط على الارض. كذا لوابل المطر وابل امطار عزه.
+					</ab>
+					<ab xml:id="b.JOB.037.007" type="verse">
+						يختم على يد كل انسان ليعلم كل الناس خالقهم.
+					</ab>
+					<ab xml:id="b.JOB.037.008" type="verse">
+						فتدخل الحيوانات المآوي وتستقر في اوجرتها.
+					</ab>
+					<ab xml:id="b.JOB.037.009" type="verse">
+						من الجنوب تأتي الاعصار ومن الشمال البرد.
+					</ab>
+					<ab xml:id="b.JOB.037.010" type="verse">
+						من نسمة الله يجعل الجمد وتتضيق سعة المياه.
+					</ab>
+					<ab xml:id="b.JOB.037.011" type="verse">
+						ايضا بريّ يطرح الغيم. يبدد سحاب نوره.
+					</ab>
+					<ab xml:id="b.JOB.037.012" type="verse">
+						فهي مدورة متقلبة بادارته لتفعل كل ما يأمر به على وجه الارض المسكونة
+					</ab>
+					<ab xml:id="b.JOB.037.013" type="verse">
+						سواء كان للتأديب او لارضه او للرحمة يرسلها
+					</ab>
+					<ab xml:id="b.JOB.037.014" type="verse">
+						انصت الى هذا يا ايوب وقف وتأمل بعجائب الله.
+					</ab>
+					<ab xml:id="b.JOB.037.015" type="verse">
+						أتدرك انتباه الله اليها او اضاءة نور سحابه.
+					</ab>
+					<ab xml:id="b.JOB.037.016" type="verse">
+						أتدرك موازنة السحاب معجزات الكامل المعارف.
+					</ab>
+					<ab xml:id="b.JOB.037.017" type="verse">
+						كيف تسخن ثيابك اذا سكنت الارض من ريح الجنوب.
+					</ab>
+					<ab xml:id="b.JOB.037.018" type="verse">
+						هل صفّحت معه الجلد الممكّن كالمرآة المسبوكة.
+					</ab>
+					<ab xml:id="b.JOB.037.019" type="verse">
+						علّمنا ما نقول له اننا لا نحسن الكلام بسبب الظلمة.
+					</ab>
+					<ab xml:id="b.JOB.037.020" type="verse">
+						هل يقص عليه كلامي اذا تكلمت. هل ينطق الانسان لكي يبتلع.
+					</ab>
+					<ab xml:id="b.JOB.037.021" type="verse">
+						والآن لا يرى النور الباهر الذي هو في الجلد ثم تعبر الريح فتنقّيه.
+					</ab>
+					<ab xml:id="b.JOB.037.022" type="verse">
+						من الشمال يأتي ذهب. عند الله جلال مرهب.
+					</ab>
+					<ab xml:id="b.JOB.037.023" type="verse">
+						القدير لا ندركه. عظيم القوة والحق وكثير البر. لا يجاوب.
+					</ab>
+					<ab xml:id="b.JOB.037.024" type="verse">
+						لذلك فلتخفه الناس. كل حكيم القلب لا يراعي
+					</ab>
+				</div>
+				<div xml:id="b.JOB.038" type="chapter">
+				<head>38</head>
+					<ab xml:id="b.JOB.038.001" type="verse">
+						فاجاب الرب ايوب من العاصفة وقال
+					</ab>
+					<ab xml:id="b.JOB.038.002" type="verse">
+						من هذا الذي يظلم القضاء بكلام بلا معرفة.
+					</ab>
+					<ab xml:id="b.JOB.038.003" type="verse">
+						اشدد الآن حقويك كرجل. فاني اسألك فتعلمني.
+					</ab>
+					<ab xml:id="b.JOB.038.004" type="verse">
+						اين كنت حين اسست الارض. أخبر ان كان عندك فهم.
+					</ab>
+					<ab xml:id="b.JOB.038.005" type="verse">
+						من وضع قياسها. لانك تعلم. او من مدّ عليها مطمارا.
+					</ab>
+					<ab xml:id="b.JOB.038.006" type="verse">
+						على اي شيء قرّت قواعدها او من وضع حجر زاويتها
+					</ab>
+					<ab xml:id="b.JOB.038.007" type="verse">
+						عندما ترنمت كواكب الصبح معا وهتف جميع بني الله
+					</ab>
+					<ab xml:id="b.JOB.038.008" type="verse">
+						ومن حجز البحر بمصاريع حين اندفق فخرج من الرحم.
+					</ab>
+					<ab xml:id="b.JOB.038.009" type="verse">
+						اذ جعلت السحاب لباسه الضباب قماطه
+					</ab>
+					<ab xml:id="b.JOB.038.010" type="verse">
+						وجزمت عليه حدّي واقمت له مغاليق ومصاريع
+					</ab>
+					<ab xml:id="b.JOB.038.011" type="verse">
+						وقلت الى هنا تاتي ولا تتعدى وهنا تتخم كبرياء لججك
+					</ab>
+					<ab xml:id="b.JOB.038.012" type="verse">
+						هل في ايامك امرت الصبح. هل عرّفت الفجر موضعه
+					</ab>
+					<ab xml:id="b.JOB.038.013" type="verse">
+						ليمسك باكناف الارض فينفض الاشرار منها.
+					</ab>
+					<ab xml:id="b.JOB.038.014" type="verse">
+						تتحول كطين الخاتم وتقف كانها لابسة.
+					</ab>
+					<ab xml:id="b.JOB.038.015" type="verse">
+						ويمنع عن الاشرار نورهم وتنكسر الذراع المرتفعة
+					</ab>
+					<ab xml:id="b.JOB.038.016" type="verse">
+						هل انتهيت الى ينابيع البحر او في مقصورة الغمر تمشّيت.
+					</ab>
+					<ab xml:id="b.JOB.038.017" type="verse">
+						هل انكشفت لك ابواب الموت او عاينت ابواب ظل الموت.
+					</ab>
+					<ab xml:id="b.JOB.038.018" type="verse">
+						هل ادركت عرض الارض. اخبر ان عرفته كله
+					</ab>
+					<ab xml:id="b.JOB.038.019" type="verse">
+						اين الطريق الى حيث يسكن النور. والظلمة اين مقامها
+					</ab>
+					<ab xml:id="b.JOB.038.020" type="verse">
+						حتى تاخذها الى تخومها وتعرف سبل بيتها.
+					</ab>
+					<ab xml:id="b.JOB.038.021" type="verse">
+						تعلم لانك حينئذ كنت قد ولدت وعدد ايامك كثير
+					</ab>
+					<ab xml:id="b.JOB.038.022" type="verse">
+						أدخلت الى خزائن الثلج ام ابصرت مخازن البرد
+					</ab>
+					<ab xml:id="b.JOB.038.023" type="verse">
+						التي ابقيتها لوقت الضر ليوم القتال والحرب.
+					</ab>
+					<ab xml:id="b.JOB.038.024" type="verse">
+						في اي طريق يتوزع النور وتتفرق الشرقية على الارض.
+					</ab>
+					<ab xml:id="b.JOB.038.025" type="verse">
+						من فرّع قنوات للهطل وطريقا للصواعق
+					</ab>
+					<ab xml:id="b.JOB.038.026" type="verse">
+						ليمطر على ارض حيث لا انسان. على قفر لا احد فيه.
+					</ab>
+					<ab xml:id="b.JOB.038.027" type="verse">
+						ليروي البلقع والخلاء وينبت مخرج العشب
+					</ab>
+					<ab xml:id="b.JOB.038.028" type="verse">
+						هل للمطر اب ومن ولد مآجل الطل.
+					</ab>
+					<ab xml:id="b.JOB.038.029" type="verse">
+						من بطن من خرج الجمد. صقيع السماء من ولده.
+					</ab>
+					<ab xml:id="b.JOB.038.030" type="verse">
+						كحجر صارت المياه. أختبأت. وتلكد وجه الغمر
+					</ab>
+					<ab xml:id="b.JOB.038.031" type="verse">
+						هل تربط انت عقد الثريا او تفك ربط الجبّار.
+					</ab>
+					<ab xml:id="b.JOB.038.032" type="verse">
+						أتخرج المنازل في اوقاتها وتهدي النعش مع بناته
+					</ab>
+					<ab xml:id="b.JOB.038.033" type="verse">
+						هل عرفت سنن السموات او جعلت تسلطها على الارض.
+					</ab>
+					<ab xml:id="b.JOB.038.034" type="verse">
+						أترفع صوتك الى السحب فيغطيك فيض المياه.
+					</ab>
+					<ab xml:id="b.JOB.038.035" type="verse">
+						اترسل البروق فتذهب وتقول لك ها نحن.
+					</ab>
+					<ab xml:id="b.JOB.038.036" type="verse">
+						من وضع في الطخاء حكمة او من اظهر في الشّهب فطنة.
+					</ab>
+					<ab xml:id="b.JOB.038.037" type="verse">
+						من يحصي الغيوم بالحكمة ومن يسكب ازقاق السموات
+					</ab>
+					<ab xml:id="b.JOB.038.038" type="verse">
+						اذ ينسبك التراب سبكا ويتلاصق المدر
+					</ab>
+					<ab xml:id="b.JOB.038.039" type="verse">
+						اتصطاد للّبوة فريسة ام تشبع نفس الاشبال
+					</ab>
+					<ab xml:id="b.JOB.038.040" type="verse">
+						حين تجرمز في عريّسها وتجلس في عيصها للكمون.
+					</ab>
+					<ab xml:id="b.JOB.038.041" type="verse">
+						من يهيئ للغراب صيده اذ تنعب فراخه الى الله وتتردد لعدم القوت
+					</ab>
+				</div>
+				<div xml:id="b.JOB.039" type="chapter">
+				<head>39</head>
+					<ab xml:id="b.JOB.039.001" type="verse">
+						أتعرف وقت ولادة وعول الصخور او تلاحظ مخاض الايائل.
+					</ab>
+					<ab xml:id="b.JOB.039.002" type="verse">
+						أتحسب الشهور التي تكملها او تعلم ميقات ولادتهنّ.
+					</ab>
+					<ab xml:id="b.JOB.039.003" type="verse">
+						يبركن ويضعن اولادهنّ. يدفعن اوجاعهنّ.
+					</ab>
+					<ab xml:id="b.JOB.039.004" type="verse">
+						تبلغ اولادهنّ. تربو في البرية. تخرج ولا تعود اليهنّ
+					</ab>
+					<ab xml:id="b.JOB.039.005" type="verse">
+						من سرّح الفراء حرّا ومن فكّ ربط حمار الوحش.
+					</ab>
+					<ab xml:id="b.JOB.039.006" type="verse">
+						الذي جعلت البرية بيته والسباخ مسكنه.
+					</ab>
+					<ab xml:id="b.JOB.039.007" type="verse">
+						يضحك على جمهور القرية. لا يسمع زجر السائق.
+					</ab>
+					<ab xml:id="b.JOB.039.008" type="verse">
+						دائرة الجبال مرعاه وعلى كل خضرة يفتش
+					</ab>
+					<ab xml:id="b.JOB.039.009" type="verse">
+						أيرضى الثور الوحشي ان يخدمك ام يبيت عند معلفك.
+					</ab>
+					<ab xml:id="b.JOB.039.010" type="verse">
+						أتربط الثور الوحشي برباطه في التلم ام يمهد الاودية وراءك.
+					</ab>
+					<ab xml:id="b.JOB.039.011" type="verse">
+						أتثق به لان قوته عظيمة او تترك له تعبك.
+					</ab>
+					<ab xml:id="b.JOB.039.012" type="verse">
+						أتأتمنه انه يأتي بزرعك ويجمع الى بيدرك
+					</ab>
+					<ab xml:id="b.JOB.039.013" type="verse">
+						جناح النعامة يرفرف. أفهو منكب رأوف ام ريش.
+					</ab>
+					<ab xml:id="b.JOB.039.014" type="verse">
+						لانها تترك بيضها وتحميه في التراب
+					</ab>
+					<ab xml:id="b.JOB.039.015" type="verse">
+						وتنسى ان الرّجل تضغطه او حيوان البر يدوسه.
+					</ab>
+					<ab xml:id="b.JOB.039.016" type="verse">
+						تقسو على اولادها كانها ليست لها. باطل تعبها بلا اسف.
+					</ab>
+					<ab xml:id="b.JOB.039.017" type="verse">
+						لان الله قد انساها الحكمة ولم يقسم لها فهما.
+					</ab>
+					<ab xml:id="b.JOB.039.018" type="verse">
+						عندما تحوذ نفسها الى العلاء تضحك على الفرس وعلى راكبه
+					</ab>
+					<ab xml:id="b.JOB.039.019" type="verse">
+						هل انت تعطي الفرس قوته وتكسو عنقه عرفا
+					</ab>
+					<ab xml:id="b.JOB.039.020" type="verse">
+						أتوثبه كجرادة. نفخ منخره مرعب.
+					</ab>
+					<ab xml:id="b.JOB.039.021" type="verse">
+						يبحث في الوادي وينفز ببأس. يخرج للقاء الاسلحة.
+					</ab>
+					<ab xml:id="b.JOB.039.022" type="verse">
+						يضحك على الخوف ولا يرتاع ولا يرجع عن السيف.
+					</ab>
+					<ab xml:id="b.JOB.039.023" type="verse">
+						عليه تصل السهام وسنان الرمح والمزراق.
+					</ab>
+					<ab xml:id="b.JOB.039.024" type="verse">
+						في وثبه ورجزه يلتهم الارض ولا يؤمن انه صوت البوق.
+					</ab>
+					<ab xml:id="b.JOB.039.025" type="verse">
+						عند نفخ البوق يقول هه ومن بعيد يستروح القتال صياح القواد والهتاف
+					</ab>
+					<ab xml:id="b.JOB.039.026" type="verse">
+						أمن فهمك يستقل العقاب وينشر جناحيه نحو الجنوب.
+					</ab>
+					<ab xml:id="b.JOB.039.027" type="verse">
+						او بأمرك يحلّق النسر ويعلّي وكره.
+					</ab>
+					<ab xml:id="b.JOB.039.028" type="verse">
+						يسكن الصخر ويبيت على سن الصخر والمعقل.
+					</ab>
+					<ab xml:id="b.JOB.039.029" type="verse">
+						من هناك يتحسس قوته. تبصره عيناه من بعيد.
+					</ab>
+					<ab xml:id="b.JOB.039.030" type="verse">
+						فراخه تحسو الدم وحيثما تكن القتلى فهناك هو
+					</ab>
+				</div>
+				<div xml:id="b.JOB.040" type="chapter">
+				<head>40</head>
+					<ab xml:id="b.JOB.040.001" type="verse">
+						فاجاب الرب ايوب فقال
+					</ab>
+					<ab xml:id="b.JOB.040.002" type="verse">
+						هل يخاصم القدير موبّخه ام المحاجّ الله يجاوبه
+					</ab>
+					<ab xml:id="b.JOB.040.003" type="verse">
+						فاجاب ايوب الرب وقال
+					</ab>
+					<ab xml:id="b.JOB.040.004" type="verse">
+						ها انا حقير فماذا اجاوبك. وضعت يدي على فمي.
+					</ab>
+					<ab xml:id="b.JOB.040.005" type="verse">
+						مرة تكلمت فلا اجيب ومرتين فلا ازيد
+					</ab>
+					<ab xml:id="b.JOB.040.006" type="verse">
+						فاجاب الرب ايوب من العاصفة فقال
+					</ab>
+					<ab xml:id="b.JOB.040.007" type="verse">
+						الآن شدّ حقويك كرجل. اسألك فتعلمني.
+					</ab>
+					<ab xml:id="b.JOB.040.008" type="verse">
+						لعلك تناقض حكمي. تستذنبني لكي تتبرر انت.
+					</ab>
+					<ab xml:id="b.JOB.040.009" type="verse">
+						هل لك ذراع كما لله وبصوت مثل صوته ترعد.
+					</ab>
+					<ab xml:id="b.JOB.040.010" type="verse">
+						تزيّن الآن بالجلال والعزّ والبس المجد والبهاء.
+					</ab>
+					<ab xml:id="b.JOB.040.011" type="verse">
+						فرّق فيض غضبك وانظر كل متعظم واخفضه.
+					</ab>
+					<ab xml:id="b.JOB.040.012" type="verse">
+						انظر الى كل متعظم وذلّله ودس الاشرار في مكانهم.
+					</ab>
+					<ab xml:id="b.JOB.040.013" type="verse">
+						اطمرهم في التراب معا واحبس وجوههم في الظلام.
+					</ab>
+					<ab xml:id="b.JOB.040.014" type="verse">
+						فانا ايضا احمدك لان يمينك تخلصك
+					</ab>
+					<ab xml:id="b.JOB.040.015" type="verse">
+						هوذا بهيموث الذي صنعته معك. ياكل العشب مثل البقر.
+					</ab>
+					<ab xml:id="b.JOB.040.016" type="verse">
+						ها هي قوته في متنيه وشدته في عضل بطنه.
+					</ab>
+					<ab xml:id="b.JOB.040.017" type="verse">
+						يخفض ذنبه كارزة. عروق فخذيه مضفورة.
+					</ab>
+					<ab xml:id="b.JOB.040.018" type="verse">
+						عظامه انابيب نحاس. جرمها حديد ممطول.
+					</ab>
+					<ab xml:id="b.JOB.040.019" type="verse">
+						هو اول اعمال الله. الذي صنعه اعطاه سيفه.
+					</ab>
+					<ab xml:id="b.JOB.040.020" type="verse">
+						لان الجبال تخرج له مرعى وجميع وحوش البر تلعب هناك.
+					</ab>
+					<ab xml:id="b.JOB.040.021" type="verse">
+						تحت السدرات يضطجع في ستر القصب والغمقة.
+					</ab>
+					<ab xml:id="b.JOB.040.022" type="verse">
+						تظلله السدرات بظلها. يحيط به صفصاف السواقي.
+					</ab>
+					<ab xml:id="b.JOB.040.023" type="verse">
+						هوذا النهر يفيض فلا يفر هو. يطمئن ولو اندفق الاردن في فمه.
+					</ab>
+					<ab xml:id="b.JOB.040.024" type="verse">
+						هل يؤخذ من امامه. هل يثقب انفه بخزامة
+					</ab>
+				</div>
+				<div xml:id="b.JOB.041" type="chapter">
+				<head>41</head>
+					<ab xml:id="b.JOB.041.001" type="verse">
+						أتصطاد لوياثان بشص او تضغط لسانه بحبل.
+					</ab>
+					<ab xml:id="b.JOB.041.002" type="verse">
+						أتضع أسلة في خطمه ام تثقب فكّه بخزامة.
+					</ab>
+					<ab xml:id="b.JOB.041.003" type="verse">
+						أيكثر التضرعات اليك ام يتكلم معك باللين.
+					</ab>
+					<ab xml:id="b.JOB.041.004" type="verse">
+						هل يقطع معك عهدا فتتخذه عبدا مؤبدا.
+					</ab>
+					<ab xml:id="b.JOB.041.005" type="verse">
+						أتلعب معه كالعصفور او تربطه لاجل فتياتك.
+					</ab>
+					<ab xml:id="b.JOB.041.006" type="verse">
+						هل تحفر جماعة الصيادين لاجله حفرة او يقسمونه بين الكنعانيين.
+					</ab>
+					<ab xml:id="b.JOB.041.007" type="verse">
+						أتملأ جلده حرابا وراسه بإلال السمك.
+					</ab>
+					<ab xml:id="b.JOB.041.008" type="verse">
+						ضع يدك عليه. لا تعد تذكر القتال.
+					</ab>
+					<ab xml:id="b.JOB.041.009" type="verse">
+						هوذا الرجاء به كاذب. ألا يكبّ ايضا برؤيته.
+					</ab>
+					<ab xml:id="b.JOB.041.010" type="verse">
+						ليس من شجاع يوقظه فمن يقف اذا بوجهي.
+					</ab>
+					<ab xml:id="b.JOB.041.011" type="verse">
+						من تقدمني فاوفيه. ما تحت كل السموات هو لي
+					</ab>
+					<ab xml:id="b.JOB.041.012" type="verse">
+						لا اسكت عن اعضائه وخبر قوته وبهجة عدّته.
+					</ab>
+					<ab xml:id="b.JOB.041.013" type="verse">
+						من يكشف وجه لبسه ومن يدنو من مثنى لجمته.
+					</ab>
+					<ab xml:id="b.JOB.041.014" type="verse">
+						من يفتح مصراعي فمه. دائرة اسنانه مرعبة.
+					</ab>
+					<ab xml:id="b.JOB.041.015" type="verse">
+						فخره مجان مانعة محكّمة مضغوطة بخاتم
+					</ab>
+					<ab xml:id="b.JOB.041.016" type="verse">
+						الواحد يمسّ الآخر فالريح لا تدخل بينها.
+					</ab>
+					<ab xml:id="b.JOB.041.017" type="verse">
+						كل منها ملتصق بصاحبه متلكّدة لا تنفصل.
+					</ab>
+					<ab xml:id="b.JOB.041.018" type="verse">
+						عطاسه يبعث نورا وعيناه كهدب الصبح.
+					</ab>
+					<ab xml:id="b.JOB.041.019" type="verse">
+						من فيه تخرج مصابيح. شرار نار تتطاير منه.
+					</ab>
+					<ab xml:id="b.JOB.041.020" type="verse">
+						من منخريه يخرج دخان كانه من قدر منفوخ او من مرجل.
+					</ab>
+					<ab xml:id="b.JOB.041.021" type="verse">
+						نفسه يشعل جمرا ولهيب يخرج من فيه.
+					</ab>
+					<ab xml:id="b.JOB.041.022" type="verse">
+						في عنقه تبيت القوة وامامه يدوس الهول.
+					</ab>
+					<ab xml:id="b.JOB.041.023" type="verse">
+						مطاوي لحمه متلاصقة مسبوكة عليه لا تتحرك.
+					</ab>
+					<ab xml:id="b.JOB.041.024" type="verse">
+						قلبه صلب كالحجر وقاس كالرحى.
+					</ab>
+					<ab xml:id="b.JOB.041.025" type="verse">
+						عند نهوضه تفزع الاقوياء. من المخاوف يتيهون
+					</ab>
+					<ab xml:id="b.JOB.041.026" type="verse">
+						سيف الذي يلحقه لا يقوم ولا رمح ولا مزراق ولا درع.
+					</ab>
+					<ab xml:id="b.JOB.041.027" type="verse">
+						يحسب الحديد كالتبن والنحاس كالعود النخر.
+					</ab>
+					<ab xml:id="b.JOB.041.028" type="verse">
+						لا يستفزّه نبل القوس. حجارة المقلاع ترجع عنه كالقش.
+					</ab>
+					<ab xml:id="b.JOB.041.029" type="verse">
+						يحسب المقمعة كقش ويضحك على اهتزاز الرمح.
+					</ab>
+					<ab xml:id="b.JOB.041.030" type="verse">
+						تحته قطع خزف حادة. يمدد نورجا على الطين.
+					</ab>
+					<ab xml:id="b.JOB.041.031" type="verse">
+						يجعل العمق يغلي كالقدر ويجعل البحر كقدر عطارة.
+					</ab>
+					<ab xml:id="b.JOB.041.032" type="verse">
+						يضيء السبيل وراءه فيحسب اللج اشيب.
+					</ab>
+					<ab xml:id="b.JOB.041.033" type="verse">
+						ليس له في الارض نظير. صنع لعدم الخوف.
+					</ab>
+					<ab xml:id="b.JOB.041.034" type="verse">
+						يشرف على كل متعال. هو ملك على كل بني الكبرياء
+					</ab>
+				</div>
+				<div xml:id="b.JOB.042" type="chapter">
+				<head>42</head>
+					<ab xml:id="b.JOB.042.001" type="verse">
+						فاجاب ايوب الرب فقال
+					</ab>
+					<ab xml:id="b.JOB.042.002" type="verse">
+						قد علمت انك تستطيع كل شيء ولا يعسر عليك أمر.
+					</ab>
+					<ab xml:id="b.JOB.042.003" type="verse">
+						فمن ذا الذي يخفي القضاء بلا معرفة. ولكني قد نطقت بما لم افهم. بعجائب فوقي لم اعرفها.
+					</ab>
+					<ab xml:id="b.JOB.042.004" type="verse">
+						اسمع الآن وانا اتكلم. اسألك فتعلمني.
+					</ab>
+					<ab xml:id="b.JOB.042.005" type="verse">
+						بسمع الاذن قد سمعت عنك والآن رأتك عيني.
+					</ab>
+					<ab xml:id="b.JOB.042.006" type="verse">
+						لذلك ارفض واندم في التراب والرماد
+					</ab>
+					<ab xml:id="b.JOB.042.007" type="verse">
+						وكان بعدما تكلم الرب مع ايوب بهذا الكلام ان الرب قال لأليفاز التيماني قد احتمى غضبي عليك وعلى كلا صاحبيك لانكم لم تقولوا فيّ الصواب كعبدي ايوب.
+					</ab>
+					<ab xml:id="b.JOB.042.008" type="verse">
+						والآن فخذوا لانفسكم سبعة ثيران وسبعة كباش واذهبوا الى عبدي ايوب واصعدوا محرقة لاجل انفسكم وعبدي ايوب يصلي من اجلكم لاني ارفع وجهه لئلا اصنع معكم حسب حماقتكم لانكم لم تقولوا فيّ الصواب كعبدي ايوب.
+					</ab>
+					<ab xml:id="b.JOB.042.009" type="verse">
+						فذهب اليفاز التيماني وبلدد الشوحي وصوفر النعماتي وفعلوا كما قال الرب لهم ورفع الرب وجه ايوب.
+					</ab>
+					<ab xml:id="b.JOB.042.010" type="verse">
+						ورد الرب سبي ايوب لما صلى لاجل اصحابه وزاد الرب على كل ما كان لايوب ضعفا.
+					</ab>
+					<ab xml:id="b.JOB.042.011" type="verse">
+						فجاء اليه كل اخوته وكل اخواته وكل معارفه من قبل وأكلوا معه خبزا في بيته ورثوا له وعزّوه عن كل الشر الذي جلبه الرب عليه واعطاه كل منهم قسيطة واحدة وكل واحد قرطا من ذهب.
+					</ab>
+					<ab xml:id="b.JOB.042.012" type="verse">
+						وبارك الرب آخرة ايوب اكثر من اولاه وكان له اربعة عشر الفا من الغنم وستة آلاف من الابل والف فدان من البقر والف اتان.
+					</ab>
+					<ab xml:id="b.JOB.042.013" type="verse">
+						وكان له سبعة بنين وثلاث بنات.
+					</ab>
+					<ab xml:id="b.JOB.042.014" type="verse">
+						وسمّى اسم الاولى يميمة واسم الثانية قصيعة واسم الثالثة قرن هفّوك.
+					</ab>
+					<ab xml:id="b.JOB.042.015" type="verse">
+						ولم توجد نساء جميلات كبنات ايوب في كل الارض واعطاهنّ ابوهنّ ميراثا بين اخوتهنّ.
+					</ab>
+					<ab xml:id="b.JOB.042.016" type="verse">
+						وعاش ايوب بعد هذا مئة واربعين سنة ورأى بنيه وبني بنيه الى اربعة اجيال.
+					</ab>
+					<ab xml:id="b.JOB.042.017" type="verse">
+						ثم مات ايوب شيخا وشبعان الايام
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

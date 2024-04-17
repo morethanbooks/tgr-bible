@@ -1,0 +1,410 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>James (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="5"/><measure commodity="verses" quantity="108"/><measure commodity="bytes" quantity="128773"/><measure commodity="characters" quantity="71720"/><measure commodity="tokens" quantity="13444"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>James</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q131097">Q131097</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4028448-7">4028448-7</idno><author><name>James the Just</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q26925">Q26925</idno><idno type="gnd" corresp="https://d-nb.info/gnd/118711601">118711601</idno></author></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">new</term><term type="genre">letter</term><term type="division">Letters</term><term type="genre-multilabel">letter</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.JAM" type="book">
+				<div xml:id="b.JAM.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.JAM.001.001" type="verse">
+						يعقوب عبد الله والرب يسوع المسيح يهدي السلام الى الاثني عشر سبطا الذين في الشتات
+					</ab>
+					<ab xml:id="b.JAM.001.002" type="verse">
+						احسبوه كل فرح يا اخوتي حينما تقعون في تجارب متنوعة
+					</ab>
+					<ab xml:id="b.JAM.001.003" type="verse">
+						عالمين ان امتحان ايمانكم ينشئ صبرا.
+					</ab>
+					<ab xml:id="b.JAM.001.004" type="verse">
+						واما الصبر فليكن له عمل تام لكي تكونوا تامّين وكاملين غير ناقصين في شيء.
+					</ab>
+					<ab xml:id="b.JAM.001.005" type="verse">
+						وانما ان كان احد تعوزه حكمة فليطلب من الله الذي يعطي الجميع بسخاء ولا يعيّر فسيعطى له.
+					</ab>
+					<ab xml:id="b.JAM.001.006" type="verse">
+						ولكن ليطلب بايمان غير مرتاب البتة لان المرتاب يشبه موجا من البحر تخبطه الريح وتدفعه.
+					</ab>
+					<ab xml:id="b.JAM.001.007" type="verse">
+						فلا يظن ذلك الانسان انه ينال شيئا من عند الرب.
+					</ab>
+					<ab xml:id="b.JAM.001.008" type="verse">
+						رجل ذو رايين هو متقلقل في جميع طرقه.
+					</ab>
+					<ab xml:id="b.JAM.001.009" type="verse">
+						وليفتخر الاخ المتضع بارتفاعه.
+					</ab>
+					<ab xml:id="b.JAM.001.010" type="verse">
+						واما الغني فباتضاعه لانه كزهر العشب يزول.
+					</ab>
+					<ab xml:id="b.JAM.001.011" type="verse">
+						لان الشمس اشرقت بالحرّ فيبّست العشب فسقط زهره وفني جمال منظره. هكذا يذبل الغني ايضا في طرقه.
+					</ab>
+					<ab xml:id="b.JAM.001.012" type="verse">
+						طوبى للرجل الذي يحتمل التجربة. لانه اذا تزكى ينال اكليل الحياة الذي وعد به الرب للذين يحبونه
+					</ab>
+					<ab xml:id="b.JAM.001.013" type="verse">
+						لا يقل احد اذا جرّب اني أجرّب من قبل الله. لان الله غير مجرّب بالشرور وهو لا يجرّب احدا.
+					</ab>
+					<ab xml:id="b.JAM.001.014" type="verse">
+						ولكن كل واحد يجرّب اذا انجذب وانخدع من شهوته.
+					</ab>
+					<ab xml:id="b.JAM.001.015" type="verse">
+						ثم الشهوة اذا حبلت تلد خطية والخطية اذا كملت تنتج موتا.
+					</ab>
+					<ab xml:id="b.JAM.001.016" type="verse">
+						لا تضلّوا يا اخوتي الاحباء.
+					</ab>
+					<ab xml:id="b.JAM.001.017" type="verse">
+						كل عطية صالحة وكل موهبة تامة هي من فوق نازلة من عند ابي الانوار الذي ليس عنده تغيير ولا ظل دوران.
+					</ab>
+					<ab xml:id="b.JAM.001.018" type="verse">
+						شاء فولدنا بكلمة الحق لكي نكون باكورة من خلائقه
+					</ab>
+					<ab xml:id="b.JAM.001.019" type="verse">
+						اذا يا اخوتي الاحباء ليكن كل انسان مسرعا في الاستماع مبطئا في التكلم مبطئا في الغضب.
+					</ab>
+					<ab xml:id="b.JAM.001.020" type="verse">
+						لان غضب الانسان لا يصنع بر الله.
+					</ab>
+					<ab xml:id="b.JAM.001.021" type="verse">
+						لذلك اطرحوا كل نجاسة وكثرة شر فاقبلوا بوداعة الكلمة المغروسة القادرة ان تخلّص نفوسكم.
+					</ab>
+					<ab xml:id="b.JAM.001.022" type="verse">
+						ولكن كونوا عاملين بالكلمة لا سامعين فقط خادعين نفوسكم.
+					</ab>
+					<ab xml:id="b.JAM.001.023" type="verse">
+						لانه ان كان احد سامعا للكلمة وليس عاملا فذاك يشبه رجلا ناظرا وجه خلقته في مرآة.
+					</ab>
+					<ab xml:id="b.JAM.001.024" type="verse">
+						فانه نظر ذاته ومضى وللوقت نسي ما هو.
+					</ab>
+					<ab xml:id="b.JAM.001.025" type="verse">
+						ولكن من اطّلع على الناموس الكامل ناموس الحرية وثبت وصار ليس سامعا ناسيا بل عاملا بالكلمة فهذا يكون مغبوطا في عمله.
+					</ab>
+					<ab xml:id="b.JAM.001.026" type="verse">
+						ان كان احد فيكم يظن انه ديّن وهو ليس يلجم لسانه بل يخدع قلبه فديانة هذا باطلة.
+					</ab>
+					<ab xml:id="b.JAM.001.027" type="verse">
+						الديانة الطاهرة النقية عند الله الآب هي هذه افتقاد اليتامى والارامل في ضيقتهم وحفظ الانسان نفسه بلا دنس من العالم
+					</ab>
+				</div>
+				<div xml:id="b.JAM.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.JAM.002.001" type="verse">
+						يا اخوتي لا يكن لكم ايمان ربنا يسوع المسيح رب المجد في المحاباة.
+					</ab>
+					<ab xml:id="b.JAM.002.002" type="verse">
+						فانه ان دخل الى مجمعكم رجل بخواتم ذهب في لباس بهي ودخل ايضا فقير بلباس وسخ
+					</ab>
+					<ab xml:id="b.JAM.002.003" type="verse">
+						فنظرتم الى اللابس اللباس البهي وقلتم له اجلس انت هنا حسنا وقلتم للفقير قف انت هناك او اجلس هنا تحت موطئ قدميّ
+					</ab>
+					<ab xml:id="b.JAM.002.004" type="verse">
+						فهل لا ترتابون في انفسكم وتصيرون قضاة افكار شريرة.
+					</ab>
+					<ab xml:id="b.JAM.002.005" type="verse">
+						اسمعوا يا اخوتي الاحباء أما اختار الله فقراء هذا العالم اغنياء في الايمان وورثة الملكوت الذي وعد به الذين يحبونه.
+					</ab>
+					<ab xml:id="b.JAM.002.006" type="verse">
+						واما انتم فاهنتم الفقير. أليس الاغنياء يتسلطون عليكم وهم يجرّونكم الى المحاكم.
+					</ab>
+					<ab xml:id="b.JAM.002.007" type="verse">
+						أما هم يجدّفون على الاسم الحسن الذي دعي به عليكم.
+					</ab>
+					<ab xml:id="b.JAM.002.008" type="verse">
+						فان كنتم تكملون الناموس الملوكي حسب الكتاب. تحب قريبك كنفسك. فحسنا تفعلون.
+					</ab>
+					<ab xml:id="b.JAM.002.009" type="verse">
+						ولكن ان كنتم تحابون تفعلون خطية موبّخين من الناموس كمتعدّين.
+					</ab>
+					<ab xml:id="b.JAM.002.010" type="verse">
+						لان من حفظ كل الناموس وانما عثر في واحدة فقد صار مجرما في الكل
+					</ab>
+					<ab xml:id="b.JAM.002.011" type="verse">
+						لان الذي قال لا تزن قال ايضا لا تقتل. فان لم تزن ولكن قتلت فقد صرت متعديا الناموس.
+					</ab>
+					<ab xml:id="b.JAM.002.012" type="verse">
+						هكذا تكلموا وهكذا افعلوا كعتيدين ان تحاكموا بناموس الحرية.
+					</ab>
+					<ab xml:id="b.JAM.002.013" type="verse">
+						لان الحكم هو بلا رحمة لمن لم يعمل رحمة. والرحمة تفتخر على الحكم
+					</ab>
+					<ab xml:id="b.JAM.002.014" type="verse">
+						ما المنفعة يا اخوتي ان قال احد ان له ايمانا ولكن ليس له اعمال. هل يقدر الايمان ان يخلّصه.
+					</ab>
+					<ab xml:id="b.JAM.002.015" type="verse">
+						ان كان اخ واخت عريانين ومعتازين للقوت اليومي
+					</ab>
+					<ab xml:id="b.JAM.002.016" type="verse">
+						فقال لهما احدكم امضيا بسلام استدفيا واشبعا ولكن لم تعطوهما حاجات الجسد فما المنفعة ‎.
+					</ab>
+					<ab xml:id="b.JAM.002.017" type="verse">
+						هكذا الايمان ايضا ان لم يكن له اعمال ميت في ذاته.
+					</ab>
+					<ab xml:id="b.JAM.002.018" type="verse">
+						لكن يقول قائل انت لك ايمان وانا لي اعمال. أرني ايمانك بدون اعمالك وانا اريك باعمالي ايماني.
+					</ab>
+					<ab xml:id="b.JAM.002.019" type="verse">
+						انت تؤمن ان الله واحد. حسنا تفعل. والشياطين يؤمنون ويقشعرون
+					</ab>
+					<ab xml:id="b.JAM.002.020" type="verse">
+						ولكن هل تريد ان تعلم ايها الانسان الباطل ان الايمان بدون اعمال ميت.
+					</ab>
+					<ab xml:id="b.JAM.002.021" type="verse">
+						ألم يتبرر ابراهيم ابونا بالاعمال اذ قدم اسحق ابنه على المذبح
+					</ab>
+					<ab xml:id="b.JAM.002.022" type="verse">
+						فترى ان الايمان عمل مع اعماله وبالاعمال اكمل الايمان
+					</ab>
+					<ab xml:id="b.JAM.002.023" type="verse">
+						وتم الكتاب القائل فآمن ابراهيم بالله فحسب له برا ودعي خليل الله.
+					</ab>
+					<ab xml:id="b.JAM.002.024" type="verse">
+						ترون اذا انه بالاعمال يتبرر الانسان لا بالايمان وحده.
+					</ab>
+					<ab xml:id="b.JAM.002.025" type="verse">
+						كذلك راحاب الزانية ايضا أما تبررت بالاعمال اذ قبلت الرسل واخرجتهم في طريق آخر.
+					</ab>
+					<ab xml:id="b.JAM.002.026" type="verse">
+						لانه كما ان الجسد بدون روح ميت هكذا الايمان ايضا بدون اعمال ميت
+					</ab>
+				</div>
+				<div xml:id="b.JAM.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.JAM.003.001" type="verse">
+						لا تكونوا معلّمين كثيرين يا اخوتي عالمين اننا نأخذ دينونة اعظم
+					</ab>
+					<ab xml:id="b.JAM.003.002" type="verse">
+						لاننا في اشياء كثيرة نعثر جميعنا. ان كان احد لا يعثر في الكلام فذاك رجل كامل قادر ان يلجم كل الجسد ايضا.
+					</ab>
+					<ab xml:id="b.JAM.003.003" type="verse">
+						هوذا الخيل نضع اللجم في افواهها لكي تطاوعنا فندير جسمها كله.
+					</ab>
+					<ab xml:id="b.JAM.003.004" type="verse">
+						هوذا السفن ايضا وهي عظيمة بهذا المقدار وتسوقها رياح عاصفة تديرها دفة صغيرة جدا الى حيثما شاء قصد المدير.
+					</ab>
+					<ab xml:id="b.JAM.003.005" type="verse">
+						هكذا اللسان ايضا هو عضو صغير ويفتخر متعظما. هوذا نار قليلة اي وقود تحرق.
+					</ab>
+					<ab xml:id="b.JAM.003.006" type="verse">
+						فاللسان نار. عالم الاثم. هكذا جعل في اعضائنا اللسان الذي يدنس الجسم كله ويضرم دائرة الكون ويضرم من جهنم.
+					</ab>
+					<ab xml:id="b.JAM.003.007" type="verse">
+						لان كل طبع للوحوش والطيور والزحافات والبحريات يذلل وقد تذلل للطبع البشري.
+					</ab>
+					<ab xml:id="b.JAM.003.008" type="verse">
+						واما اللسان فلا يستطيع احد من الناس ان يذلله. هو شر لا يضبط مملوء سمّا مميتا.
+					</ab>
+					<ab xml:id="b.JAM.003.009" type="verse">
+						به نبارك الله الآب وبه نلعن الناس الذين قد تكوّنوا على شبه الله.
+					</ab>
+					<ab xml:id="b.JAM.003.010" type="verse">
+						من الفم الواحد تخرج بركة ولعنة. لا يصلح يا اخوتي ان تكون هذه الامور هكذا.
+					</ab>
+					<ab xml:id="b.JAM.003.011" type="verse">
+						ألعل ينبوعا ينبع من نفس عين واحدة العذب والمر.
+					</ab>
+					<ab xml:id="b.JAM.003.012" type="verse">
+						هل تقدر يا اخوتي تينة ان تصنع زيتونا او كرمة تينا. ولا كذلك ينبوع يصنع ماء مالحا وعذبا
+					</ab>
+					<ab xml:id="b.JAM.003.013" type="verse">
+						من هو حكيم وعالم بينكم فلير اعماله بالتصرف الحسن في وداعة الحكمة.
+					</ab>
+					<ab xml:id="b.JAM.003.014" type="verse">
+						ولكن ان كان لكم غيرة مرة وتحزب في قلوبكم فلا تفتخروا وتكذبوا على الحق.
+					</ab>
+					<ab xml:id="b.JAM.003.015" type="verse">
+						ليست هذه الحكمة نازلة من فوق بل هي ارضية نفسانية شيطانية.
+					</ab>
+					<ab xml:id="b.JAM.003.016" type="verse">
+						لانه حيث الغيرة والتحزب هناك التشويش وكل امر رديء.
+					</ab>
+					<ab xml:id="b.JAM.003.017" type="verse">
+						واما الحكمة التي من فوق فهي اولا طاهرة ثم مسالمة مترفقة مذعنة مملوءة رحمة واثمارا صالحة عديمة الريب والرياء.
+					</ab>
+					<ab xml:id="b.JAM.003.018" type="verse">
+						وثمر البر يزرع في السلام من الذين يفعلون السلام
+					</ab>
+				</div>
+				<div xml:id="b.JAM.004" type="chapter">
+				<head>4</head>
+					<ab xml:id="b.JAM.004.001" type="verse">
+						من اين الحروب والخصومات بينكم أليست من هنا من لذّاتكم المحاربة في اعضائكم.
+					</ab>
+					<ab xml:id="b.JAM.004.002" type="verse">
+						تشتهون ولستم تمتلكون. تقتلون وتحسدون ولستم تقدرون ان تنالوا. تخاصمون وتحاربون ولستم تمتلكون لانكم لا تطلبون.
+					</ab>
+					<ab xml:id="b.JAM.004.003" type="verse">
+						تطلبون ولستم تأخذون لانكم تطلبون رديّا لكي تنفقوا في لذّاتكم
+					</ab>
+					<ab xml:id="b.JAM.004.004" type="verse">
+						ايها الزناة والزواني أما تعلمون ان محبة العالم عداوة للّه. فمن اراد ان يكون محبا للعالم فقد صار عدوا للّه.
+					</ab>
+					<ab xml:id="b.JAM.004.005" type="verse">
+						ام تظنون ان الكتاب يقول باطلا. الروح الذي حل فينا يشتاق الى الحسد.
+					</ab>
+					<ab xml:id="b.JAM.004.006" type="verse">
+						ولكنه يعطي نعمة اعظم. لذلك يقول يقاوم الله المستكبرين واما المتواضعون فيعطيهم نعمة.
+					</ab>
+					<ab xml:id="b.JAM.004.007" type="verse">
+						فاخضعوا للّه. قاوموا ابليس فيهرب منكم.
+					</ab>
+					<ab xml:id="b.JAM.004.008" type="verse">
+						اقتربوا الى الله فيقترب اليكم. نقوا ايديكم ايها الخطاة وطهروا قلوبكم يا ذوي الرأيين.
+					</ab>
+					<ab xml:id="b.JAM.004.009" type="verse">
+						اكتئبوا ونوحوا وابكوا. ليتحول ضحككم الى نوح وفرحكم الى غم.
+					</ab>
+					<ab xml:id="b.JAM.004.010" type="verse">
+						اتضعوا قدام الرب فيرفعكم
+					</ab>
+					<ab xml:id="b.JAM.004.011" type="verse">
+						لا يذم بعضكم بعضا ايها الاخوة. الذي يذم اخاه ويدين اخاه يذم الناموس ويدين الناموس. وان كنت تدين الناموس فلست عاملا بالناموس بل ديانا له.
+					</ab>
+					<ab xml:id="b.JAM.004.012" type="verse">
+						واحد هو واضع الناموس القادر ان يخلّص ويهلك. فمن انت يا من تدين غيرك
+					</ab>
+					<ab xml:id="b.JAM.004.013" type="verse">
+						هلم الآن ايها القائلون نذهب اليوم او غدا الى هذه المدينة او تلك وهناك نصرف سنة واحدة ونتجر ونربح.
+					</ab>
+					<ab xml:id="b.JAM.004.014" type="verse">
+						انتم الذين لا تعرفون امر الغد. لانه ما هي حياتكم. انها بخار يظهر قليلا ثم يضمحل.
+					</ab>
+					<ab xml:id="b.JAM.004.015" type="verse">
+						عوض ان تقولوا ان شاء الرب وعشنا نفعل هذا او ذاك.
+					</ab>
+					<ab xml:id="b.JAM.004.016" type="verse">
+						واما الآن فانكم تفتخرون في تعظمكم. كل افتخار مثل هذا رديء.
+					</ab>
+					<ab xml:id="b.JAM.004.017" type="verse">
+						فمن يعرف ان يعمل حسنا ولا يعمل فذلك خطية له
+					</ab>
+				</div>
+				<div xml:id="b.JAM.005" type="chapter">
+				<head>5</head>
+					<ab xml:id="b.JAM.005.001" type="verse">
+						هلم الآن ايها الاغنياء ابكوا مولولين على شقاوتكم القادمة.
+					</ab>
+					<ab xml:id="b.JAM.005.002" type="verse">
+						غناكم قد تهرأ وثيابكم قد اكلها العث.
+					</ab>
+					<ab xml:id="b.JAM.005.003" type="verse">
+						ذهبكم وفضتكم قد صدئا وصدأهما يكون شهادة عليكم ويأكل لحومكم كنار. قد كنزتم في الايام الاخيرة.
+					</ab>
+					<ab xml:id="b.JAM.005.004" type="verse">
+						هوذا اجرة الفعلة الذين حصدوا حقولكم المبخوسة منكم تصرخ وصياح الحصادين قد دخل الى أذني رب الجنود.
+					</ab>
+					<ab xml:id="b.JAM.005.005" type="verse">
+						قد ترفهتم على الارض وتنعمتم وربيتم قلوبكم كما في يوم الذبح.
+					</ab>
+					<ab xml:id="b.JAM.005.006" type="verse">
+						حكمتم على البار. قتلتموه. لا يقاومكم
+					</ab>
+					<ab xml:id="b.JAM.005.007" type="verse">
+						فتأنوا ايها الاخوة الى مجيء الرب. هوذا الفلاح ينتظر ثمر الارض الثمين متأنيا عليه حتى ينال المطر المبكر والمتأخر.
+					</ab>
+					<ab xml:id="b.JAM.005.008" type="verse">
+						فتأنوا انتم وثبتوا قلوبكم لان مجيء الرب قد اقترب.
+					</ab>
+					<ab xml:id="b.JAM.005.009" type="verse">
+						لا يئن بعضكم على بعض ايها الاخوة لئلا تدانوا. هوذا الديان واقف قدام الباب.
+					</ab>
+					<ab xml:id="b.JAM.005.010" type="verse">
+						خذوا يا اخوتي مثالا لاحتمال المشقات والاناة الانبياء الذين تكلموا باسم الرب.
+					</ab>
+					<ab xml:id="b.JAM.005.011" type="verse">
+						ها نحن نطوّب الصابرين. قد سمعتم بصبر ايوب ورأيتم عاقبة الرب. لان الرب كثير الرحمة ورأوف
+					</ab>
+					<ab xml:id="b.JAM.005.012" type="verse">
+						ولكن قبل كل شيء يا اخوتي لا تحلفوا لا بالسماء ولا بالارض ولا بقسم آخر. بل لتكن نعمكم نعم ولاكم لا لئلا تقعوا تحت دينونة
+					</ab>
+					<ab xml:id="b.JAM.005.013" type="verse">
+						أعلى احد بينكم مشقات فليصلّ. أمسرور احد فليرتل.
+					</ab>
+					<ab xml:id="b.JAM.005.014" type="verse">
+						أمريض احد بينكم فليدع شيوخ الكنيسة فيصلّوا عليه ويدهنوه بزيت باسم الرب
+					</ab>
+					<ab xml:id="b.JAM.005.015" type="verse">
+						وصلاة الايمان تشفي المريض والرب يقيمه وان كان قد فعل خطية تغفر له.
+					</ab>
+					<ab xml:id="b.JAM.005.016" type="verse">
+						اعترفوا بعضكم لبعض بالزلات وصلّوا بعضكم لاجل بعض لكي تشفوا. طلبة البار تقتدر كثيرا في فعلها.
+					</ab>
+					<ab xml:id="b.JAM.005.017" type="verse">
+						كان ايليا انسانا تحت الآلام مثلنا وصلّى صلاة ان لا تمطر فلم تمطر على الارض ثلاث سنين وستة اشهر.
+					</ab>
+					<ab xml:id="b.JAM.005.018" type="verse">
+						ثم صلّى ايضا فاعطت السماء مطرا واخرجت الارض ثمرها
+					</ab>
+					<ab xml:id="b.JAM.005.019" type="verse">
+						ايها الاخوة ان ضل احد بينكم عن الحق فردّه احد
+					</ab>
+					<ab xml:id="b.JAM.005.020" type="verse">
+						فليعلم ان من رد خاطئا عن ضلال طريقه يخلّص نفسا من الموت ويستر كثرة من الخطايا ٍ
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

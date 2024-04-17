@@ -1,0 +1,149 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jude (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="1"/><measure commodity="verses" quantity="25"/><measure commodity="bytes" quantity="71876"/><measure commodity="characters" quantity="40056"/><measure commodity="tokens" quantity="7380"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Jude</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q131466">Q131466</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4028807-9">4028807-9</idno><author><name>Jude the Apostle</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q43945">Q43945</idno><idno type="gnd" corresp="https://d-nb.info/gnd/118713337">118713337</idno></author></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">new</term><term type="genre">letter</term><term type="division">Letters</term><term type="genre-multilabel">letter</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.JUD" type="book">
+				<div xml:id="b.JUD.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.JUD.001.001" type="verse">
+						يهوذا عبد يسوع المسيح واخو يعقوب الى المدعوين المقدسين في الله الآب والمحفوظين ليسوع المسيح
+					</ab>
+					<ab xml:id="b.JUD.001.002" type="verse">
+						لتكثر لكم الرحمة والسلام والمحبة
+					</ab>
+					<ab xml:id="b.JUD.001.003" type="verse">
+						ايها الاحباء اذ كنت اصنع كل الجهد لاكتب اليكم عن الخلاص المشترك اضطررت ان اكتب اليكم واعظا ان تجتهدوا لاجل الايمان المسلّم مرة للقديسين.
+					</ab>
+					<ab xml:id="b.JUD.001.004" type="verse">
+						لانه دخل خلسة اناس قد كتبوا منذ القديم لهذه الدينونة فجار يحوّلون نعمة الهنا الى الدعارة وينكرون السيد الوحيد الله وربنا يسوع المسيح
+					</ab>
+					<ab xml:id="b.JUD.001.005" type="verse">
+						فاريد ان اذكّركم ولو علمتم هذا مرة ان الرب بعدما خلّص الشعب من ارض مصر اهلك ايضا الذين لم يؤمنوا.
+					</ab>
+					<ab xml:id="b.JUD.001.006" type="verse">
+						والملائكة الذين لم يحفظوا رياستهم بل تركوا مسكنهم حفظهم الى دينونة اليوم العظيم بقيود ابدية تحت الظلام.
+					</ab>
+					<ab xml:id="b.JUD.001.007" type="verse">
+						كما ان سدوم وعمورة والمدن التي حولهما اذ زنت على طريق مثلهما ومضت وراء جسد آخر جعلت عبرة مكابدة عقاب نار ابدية.
+					</ab>
+					<ab xml:id="b.JUD.001.008" type="verse">
+						ولكن كذلك هؤلاء ايضا المحتلمون ينجسون الجسد ويتهاونون بالسيادة ويفترون على ذوي الامجاد.
+					</ab>
+					<ab xml:id="b.JUD.001.009" type="verse">
+						واما ميخائيل رئيس الملائكة فلما خاصم ابليس محاجا عن جسد موسى لم يجسر ان يورد حكم افتراء بل قال لينتهرك الرب.
+					</ab>
+					<ab xml:id="b.JUD.001.010" type="verse">
+						ولكن هؤلاء يفترون على ما لا يعلمون. واما ما يفهمونه بالطبيعة كالحيوانات غير الناطقة ففي ذلك يفسدون.
+					</ab>
+					<ab xml:id="b.JUD.001.011" type="verse">
+						ويل لهم لانهم سلكوا طريق قايين وانصبوا الى ضلالة بلعام لاجل اجرة وهلكوا في مشاجرة قورح.
+					</ab>
+					<ab xml:id="b.JUD.001.012" type="verse">
+						هؤلاء صخور في ولائمكم المحبية صانعين ولائم معا بلا خوف راعين انفسهم. غيوم بلا ماء تحملها الرياح اشجار خريفية بلا ثمر ميتة مضاعفا مقتلعة.
+					</ab>
+					<ab xml:id="b.JUD.001.013" type="verse">
+						امواج بحر هائجة مزبدة بخزيهم. نجوم تائهة محفوظ لها قتام الظلام الى الابد.
+					</ab>
+					<ab xml:id="b.JUD.001.014" type="verse">
+						وتنبأ عن هؤلاء ايضا اخنوخ السابع من آدم قائلا هوذا قد جاء الرب في ربوات قديسيه
+					</ab>
+					<ab xml:id="b.JUD.001.015" type="verse">
+						ليصنع دينونة على الجميع ويعاقب جميع فجارهم على جميع اعمال فجورهم التي فجروا بها وعلى جميع الكلمات الصعبة التي تكلم بها عليه خطاة فجار.
+					</ab>
+					<ab xml:id="b.JUD.001.016" type="verse">
+						هؤلاء هم مدمدمون متشكون سالكون بحسب شهواتهم وفمهم يتكلم بعظائم يحابون بالوجوه من اجل المنفعة.
+					</ab>
+					<ab xml:id="b.JUD.001.017" type="verse">
+						واما انتم ايها الاحباء فاذكروا الاقوال التي قالها سابقا رسل ربنا يسوع المسيح.
+					</ab>
+					<ab xml:id="b.JUD.001.018" type="verse">
+						فانهم قالوا لكم انه في الزمان الاخير سيكون قوم مستهزئون سالكين بحسب شهوات فجورهم.
+					</ab>
+					<ab xml:id="b.JUD.001.019" type="verse">
+						هؤلاء هم المعتزلون بانفسهم نفسانيون لا روح لهم
+					</ab>
+					<ab xml:id="b.JUD.001.020" type="verse">
+						واما انتم ايها الاحباء فابنوا انفسكم على ايمانكم الاقدس مصلّين في الروح القدس
+					</ab>
+					<ab xml:id="b.JUD.001.021" type="verse">
+						واحفظوا انفسكم في محبة الله منتظرين رحمة ربنا يسوع المسيح للحياة الابدية.
+					</ab>
+					<ab xml:id="b.JUD.001.022" type="verse">
+						وارحموا البعض مميّزين
+					</ab>
+					<ab xml:id="b.JUD.001.023" type="verse">
+						وخلّصوا البعض بالخوف مختطفين من النار مبغضين حتى الثوب المدنس من الجسد
+					</ab>
+					<ab xml:id="b.JUD.001.024" type="verse">
+						والقادر ان يحفظكم غير عاثرين ويوقفكم امام مجده بلا عيب في الابتهاج
+					</ab>
+					<ab xml:id="b.JUD.001.025" type="verse">
+						الاله الحكيم الوحيد مخلّصنا له المجد والعظمة والقدرة والسلطان الآن والى كل الدهور. آمين
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

@@ -1,0 +1,218 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titus (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="3"/><measure commodity="verses" quantity="46"/><measure commodity="bytes" quantity="178075"/><measure commodity="characters" quantity="99116"/><measure commodity="tokens" quantity="18702"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Titus</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q131493">Q131493</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4075944-1">4075944-1</idno></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">new</term><term type="genre">letter</term><term type="division">Letters</term><term type="genre-multilabel">letter</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.TIT" type="book">
+				<div xml:id="b.TIT.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.TIT.001.001" type="verse">
+						بولس عبد الله ورسول يسوع المسيح لاجل ايمان مختاري الله ومعرفة الحق الذي هو حسب التقوى
+					</ab>
+					<ab xml:id="b.TIT.001.002" type="verse">
+						على رجاء الحياة الابدية التي وعد بها الله المنزه عن الكذب قبل الازمنة الازلية
+					</ab>
+					<ab xml:id="b.TIT.001.003" type="verse">
+						وانما اظهر كلمته في اوقاتها الخاصة بالكرازة التي اؤتمنت انا عليها بحسب امر مخلّصنا الله
+					</ab>
+					<ab xml:id="b.TIT.001.004" type="verse">
+						الى تيطس الابن الصريح حسب الايمان المشترك نعمة ورحمة وسلام من الله الآب والرب يسوع المسيح مخلّصنا
+					</ab>
+					<ab xml:id="b.TIT.001.005" type="verse">
+						من اجل هذا تركتك في كريت لكي تكمل ترتيب الامور الناقصة وتقيم في كل مدينة شيوخا كما اوصيتك.
+					</ab>
+					<ab xml:id="b.TIT.001.006" type="verse">
+						ان كان احد بلا لوم بعل امرأة واحدة له اولاد مؤمنون ليسوا في شكاية الخلاعة ولا متمردين.
+					</ab>
+					<ab xml:id="b.TIT.001.007" type="verse">
+						لانه يجب ان يكون الاسقف بلا لوم كوكيل الله غير معجب بنفسه ولا غضوب ولا مدمن الخمر ولا ضرّاب ولا طامع في الربح القبيح
+					</ab>
+					<ab xml:id="b.TIT.001.008" type="verse">
+						بل مضيفا للغرباء محبا للخير متعقلا بارا ورعا ضابطا لنفسه
+					</ab>
+					<ab xml:id="b.TIT.001.009" type="verse">
+						ملازما للكلمة الصادقة التي بحسب التعليم لكي يكون قادرا ان يعظ بالتعليم الصحيح ويوبّخ المناقضين.
+					</ab>
+					<ab xml:id="b.TIT.001.010" type="verse">
+						فانه يوجد كثيرون متمردين يتكلمون بالباطل ويخدعون العقول ولا سيما الذين من الختان
+					</ab>
+					<ab xml:id="b.TIT.001.011" type="verse">
+						الذين يجب سد افواههم فانهم يقلبون بيوتا بجملتها معلّمين ما لا يجب من اجل الربح القبيح.
+					</ab>
+					<ab xml:id="b.TIT.001.012" type="verse">
+						قال واحد منهم. وهو نبي لهم خاص. الكريتيون دائما كذابون وحوش رديّة بطون بطالة.
+					</ab>
+					<ab xml:id="b.TIT.001.013" type="verse">
+						هذه الشهادة صادقة. فلهذا السبب وبخهم بصرامة لكي يكونوا اصحاء في الايمان
+					</ab>
+					<ab xml:id="b.TIT.001.014" type="verse">
+						لا يصغون الى خرافات يهودية ووصايا اناس مرتدين عن الحق.
+					</ab>
+					<ab xml:id="b.TIT.001.015" type="verse">
+						كل شيء طاهر للطاهرين واما للنجسين وغير المؤمنين فليس شيء طاهرا بل قد تنجس ذهنهم ايضا وضميرهم.
+					</ab>
+					<ab xml:id="b.TIT.001.016" type="verse">
+						يعترفون بانهم يعرفون الله ولكنهم بالاعمال ينكرونه اذ هم رجسون غير طائعين ومن جهة كل عمل صالح مرفوضون
+					</ab>
+				</div>
+				<div xml:id="b.TIT.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.TIT.002.001" type="verse">
+						واما انت فتكلم بما يليق بالتعليم الصحيح.
+					</ab>
+					<ab xml:id="b.TIT.002.002" type="verse">
+						ان يكون الاشياخ صاحين ذوي وقار متعقلين اصحاء في الايمان والمحبة والصبر.
+					</ab>
+					<ab xml:id="b.TIT.002.003" type="verse">
+						كذلك العجائز في سيرة تليق بالقداسة غير ثالبات غير مستعبدات للخمر الكثير معلمات الصلاح
+					</ab>
+					<ab xml:id="b.TIT.002.004" type="verse">
+						لكي ينصحن الحدثات ان يكنّ محبات لرجالهنّ ويحببن اولادهنّ
+					</ab>
+					<ab xml:id="b.TIT.002.005" type="verse">
+						متعقلات عفيفات ملازمات بيوتهنّ صالحات خاضعات لرجالهنّ لكي لا يجدف على كلمة الله.
+					</ab>
+					<ab xml:id="b.TIT.002.006" type="verse">
+						كذلك عظ الاحداث ان يكونوا متعقلين
+					</ab>
+					<ab xml:id="b.TIT.002.007" type="verse">
+						مقدما نفسك في كل شيء قدوة للاعمال الحسنة ومقدما في التعليم نقاوة ووقارا وإخلاصا
+					</ab>
+					<ab xml:id="b.TIT.002.008" type="verse">
+						وكلاما صحيحا غير ملوم لكي يخزى المضاد اذ ليس له شيء رديء يقوله عنكم.
+					</ab>
+					<ab xml:id="b.TIT.002.009" type="verse">
+						والعبيد ان يخضعوا لسادتهم ويرضوهم في كل شيء غير مناقضين
+					</ab>
+					<ab xml:id="b.TIT.002.010" type="verse">
+						غير مختلسين بل مقدمين كل امانة صالحة لكي يزيّنوا تعليم مخلّصنا الله في كل شيء.
+					</ab>
+					<ab xml:id="b.TIT.002.011" type="verse">
+						لانه قد ظهرت نعمة الله المخلّصة لجميع الناس
+					</ab>
+					<ab xml:id="b.TIT.002.012" type="verse">
+						معلّمة ايانا ان ننكر الفجور والشهوات العالمية ونعيش بالتعقل والبر والتقوى في العالم الحاضر
+					</ab>
+					<ab xml:id="b.TIT.002.013" type="verse">
+						منتظرين الرجاء المبارك وظهور مجد الله العظيم ومخلّصنا يسوع المسيح
+					</ab>
+					<ab xml:id="b.TIT.002.014" type="verse">
+						الذي بذل نفسه لاجلنا لكي يفدينا من كل اثم ويطهر لنفسه شعبا خاصّا غيورا في اعمال حسنة.
+					</ab>
+					<ab xml:id="b.TIT.002.015" type="verse">
+						تكلم بهذه وعظ ووبّخ بكل سلطان. لا يستهن بك احد
+					</ab>
+				</div>
+				<div xml:id="b.TIT.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.TIT.003.001" type="verse">
+						ذكّرهم ان يخضعوا للرياسات والسلاطين ويطيعوا ويكونوا مستعدين لكل عمل صالح.
+					</ab>
+					<ab xml:id="b.TIT.003.002" type="verse">
+						ولا يطعنوا في احد ويكونوا غير مخاصمين حلماء مظهرين كل وداعة لجميع الناس.
+					</ab>
+					<ab xml:id="b.TIT.003.003" type="verse">
+						لاننا كنا نحن ايضا قبلا اغبياء غير طائعين ضالين مستعبدين لشهوات ولذّات مختلفة عائشين في الخبث والحسد ممقوتين مبغضين بعضنا بعضا.
+					</ab>
+					<ab xml:id="b.TIT.003.004" type="verse">
+						ولكن حين ظهر لطف مخلّصنا الله واحسانه
+					</ab>
+					<ab xml:id="b.TIT.003.005" type="verse">
+						لا باعمال في بر عملناها نحن بل بمقتضى رحمته خلّصنا بغسل الميلاد الثاني وتجديد الروح القدس
+					</ab>
+					<ab xml:id="b.TIT.003.006" type="verse">
+						الذي سكبه بغنى علينا بيسوع المسيح مخلّصنا
+					</ab>
+					<ab xml:id="b.TIT.003.007" type="verse">
+						حتى اذا تبررنا بنعمته نصير ورثة حسب رجاء الحياة الابدية.
+					</ab>
+					<ab xml:id="b.TIT.003.008" type="verse">
+						صادقة هي الكلمة. واريد ان تقرر هذه الامور لكي يهتم الذين آمنوا بالله ان يمارسوا اعمالا حسنة. فان هذه الامور هي الحسنة والنافعة للناس.
+					</ab>
+					<ab xml:id="b.TIT.003.009" type="verse">
+						واما المباحثات الغبية والانساب والخصومات والمنازعات الناموسية فاجتنبها لانها غير نافعة وباطلة.
+					</ab>
+					<ab xml:id="b.TIT.003.010" type="verse">
+						الرجل المبتدع بعد الانذار مرة ومرتين اعرض عنه
+					</ab>
+					<ab xml:id="b.TIT.003.011" type="verse">
+						عالما ان مثل هذا قد انحرف وهو يخطئ محكوما عليه من نفسه
+					</ab>
+					<ab xml:id="b.TIT.003.012" type="verse">
+						حينما ارسل اليك ارتيماس او تيخيكس بادر ان تأتي اليّ الى نيكوبوليس لاني عزمت ان اشتي هناك.
+					</ab>
+					<ab xml:id="b.TIT.003.013" type="verse">
+						جهز زيناس الناموسي وابلّوس باجتهاد للسفر حتى لا يعوزهما شيء.
+					</ab>
+					<ab xml:id="b.TIT.003.014" type="verse">
+						وليتعلّم من لنا ايضا ان يمارسوا اعمالا حسنة للحاجات الضرورية حتى لا يكونوا بلا ثمر.
+					</ab>
+					<ab xml:id="b.TIT.003.015" type="verse">
+						يسلم عليك الذين معي جميعا. سلم على الذين يحبوننا في الايمان. النعمة مع جميعكم. آمين
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

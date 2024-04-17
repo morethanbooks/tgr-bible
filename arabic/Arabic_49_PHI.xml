@@ -1,0 +1,395 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Philippians (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="4"/><measure commodity="verses" quantity="104"/><measure commodity="bytes" quantity="246771"/><measure commodity="characters" quantity="137246"/><measure commodity="tokens" quantity="25921"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Philippians</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q51613">Q51613</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4075939-8">4075939-8</idno><author><name>Paul the Apostle</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q9200">Q9200</idno><idno type="gnd" corresp="https://d-nb.info/gnd/118641549">118641549</idno></author></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">new</term><term type="genre">letter</term><term type="division">Letters</term><term type="genre-multilabel">letter</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.PHI" type="book">
+				<div xml:id="b.PHI.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.PHI.001.001" type="verse">
+						بولس وتيموثاوس عبدا يسوع المسيح الى جميع القديسين في المسيح يسوع الذين في فيلبي مع اساقفة وشمامسة.
+					</ab>
+					<ab xml:id="b.PHI.001.002" type="verse">
+						نعمة لكم وسلام من الله ابينا والرب يسوع المسيح
+					</ab>
+					<ab xml:id="b.PHI.001.003" type="verse">
+						اشكر الهي عند كل ذكري اياكم
+					</ab>
+					<ab xml:id="b.PHI.001.004" type="verse">
+						دائما في كل ادعيتي مقدما الطلبة لاجل جميعكم بفرح
+					</ab>
+					<ab xml:id="b.PHI.001.005" type="verse">
+						لسبب مشاركتكم في الانجيل من اول يوم الى الآن
+					</ab>
+					<ab xml:id="b.PHI.001.006" type="verse">
+						واثقا بهذا عينه ان الذي ابتدأ فيكم عملا صالحا يكمل الى يوم يسوع المسيح.
+					</ab>
+					<ab xml:id="b.PHI.001.007" type="verse">
+						كما يحق لي ان افتكر هذا من جهة جميعكم لاني حافظكم في قلبي في وثقي وفي المحاماة عن الانجيل وتثبيته انتم الذين جميعكم شركائي في النعمة.
+					</ab>
+					<ab xml:id="b.PHI.001.008" type="verse">
+						فان الله شاهد لي كيف اشتاق الى جميعكم في احشاء يسوع المسيح.
+					</ab>
+					<ab xml:id="b.PHI.001.009" type="verse">
+						وهذا اصلّيه ان تزداد محبتكم ايضا اكثر فاكثر في المعرفة وفي كل فهم
+					</ab>
+					<ab xml:id="b.PHI.001.010" type="verse">
+						حتى تميّزوا الامور المتخالفة لكي تكونوا مخلصين وبلا عثرة الى يوم المسيح
+					</ab>
+					<ab xml:id="b.PHI.001.011" type="verse">
+						مملوئين من ثمر البر الذي بيسوع المسيح لمجد الله وحمده
+					</ab>
+					<ab xml:id="b.PHI.001.012" type="verse">
+						ثم اريد ان تعلموا ايها الاخوة ان اموري قد آلت اكثر الى تقدم الانجيل
+					</ab>
+					<ab xml:id="b.PHI.001.013" type="verse">
+						حتى ان وثقي صارت ظاهرة في المسيح في كل دار الولاية وفي باقي الاماكن اجمع.
+					</ab>
+					<ab xml:id="b.PHI.001.014" type="verse">
+						واكثر الاخوة وهم واثقون في الرب بوثقي يجترئون اكثر على التكلم بالكلمة بلا خوف.
+					</ab>
+					<ab xml:id="b.PHI.001.015" type="verse">
+						اما قوم فعن حسد وخصام يكرزون بالمسيح واما قوم فعن مسرة.
+					</ab>
+					<ab xml:id="b.PHI.001.016" type="verse">
+						فهؤلاء عن تحزب ينادون بالمسيح لا عن اخلاص ظانين انهم يضيفون الى وثقي ضيقا.
+					</ab>
+					<ab xml:id="b.PHI.001.017" type="verse">
+						واولئك عن محبة عالمين اني موضوع لحماية الانجيل.
+					</ab>
+					<ab xml:id="b.PHI.001.018" type="verse">
+						فماذا. غير انه على كل وجه سواء كان بعلّة ام بحق ينادى بالمسيح وبهذا انا افرح. بل سافرح ايضا
+					</ab>
+					<ab xml:id="b.PHI.001.019" type="verse">
+						لاني اعلم ان هذا يأول لي الى خلاص بطلبتكم وموازرة روح يسوع المسيح
+					</ab>
+					<ab xml:id="b.PHI.001.020" type="verse">
+						حسب انتظاري ورجائي اني لا اخزى في شيء بل بكل مجاهرة كما في كل حين كذلك الآن يتعظم المسيح في جسدي سواء كان بحياة ام بموت.
+					</ab>
+					<ab xml:id="b.PHI.001.021" type="verse">
+						لان لي الحياة هي المسيح والموت هو ربح.
+					</ab>
+					<ab xml:id="b.PHI.001.022" type="verse">
+						ولكن ان كانت الحياة في الجسد هي لي ثمر عملي فماذا اختار لست ادري.
+					</ab>
+					<ab xml:id="b.PHI.001.023" type="verse">
+						فاني محصور من الاثنين. لي اشتهاء ان انطلق واكون مع المسيح. ذاك افضل جدا.
+					</ab>
+					<ab xml:id="b.PHI.001.024" type="verse">
+						ولكن ان ابقى في الجسد الزم من اجلكم.
+					</ab>
+					<ab xml:id="b.PHI.001.025" type="verse">
+						فاذ انا واثق بهذا اعلم اني امكث وابقى مع جميعكم لاجل تقدمكم وفرحكم في الايمان
+					</ab>
+					<ab xml:id="b.PHI.001.026" type="verse">
+						لكي يزداد افتخاركم في المسيح يسوع فيّ بواسطة حضوري ايضا عندكم
+					</ab>
+					<ab xml:id="b.PHI.001.027" type="verse">
+						فقط عيشوا كما يحق لانجيل المسيح حتى اذا جئت ورأيتكم او كنت غائبا اسمع اموركم انكم تثبتون في روح واحد مجاهدين معا بنفس واحدة لايمان الانجيل
+					</ab>
+					<ab xml:id="b.PHI.001.028" type="verse">
+						غير مخوّفين بشيء من المقاومين الامر الذي هو لهم بيّنة للهلاك واما لكم فللخلاص وذلك من الله.
+					</ab>
+					<ab xml:id="b.PHI.001.029" type="verse">
+						لانه قد وهب لكم لاجل المسيح لا ان تؤمنوا به فقط بل ايضا ان تتألموا لاجله.
+					</ab>
+					<ab xml:id="b.PHI.001.030" type="verse">
+						اذ لكم الجهاد عينه الذي رأيتموه فيّ والآن تسمعون فيّ
+					</ab>
+				</div>
+				<div xml:id="b.PHI.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.PHI.002.001" type="verse">
+						فان كان وعظ ما في المسيح ان كانت تسلية ما للمحبة ان كانت شركة ما في الروح ان كانت احشاء ورأفة
+					</ab>
+					<ab xml:id="b.PHI.002.002" type="verse">
+						فتمموا فرحي حتى تفتكروا فكرا واحدا ولكم محبة واحدة بنفس واحدة مفتكرين شيئا واحدا
+					</ab>
+					<ab xml:id="b.PHI.002.003" type="verse">
+						لا شيئا بتحزب او بعجب بل بتواضع حاسبين بعضكم البعض افضل من انفسهم.
+					</ab>
+					<ab xml:id="b.PHI.002.004" type="verse">
+						لا تنظروا كل واحد الى ما هو لنفسه بل كل واحد الى ما هو لآخرين ايضا.
+					</ab>
+					<ab xml:id="b.PHI.002.005" type="verse">
+						فليكن فيكم هذا الفكر الذي في المسيح يسوع ايضا
+					</ab>
+					<ab xml:id="b.PHI.002.006" type="verse">
+						الذي اذ كان في صورة الله لم يحسب خلسة ان يكون معادلا للّه
+					</ab>
+					<ab xml:id="b.PHI.002.007" type="verse">
+						لكنه اخلى نفسه آخذا صورة عبد صائرا في شبه الناس.
+					</ab>
+					<ab xml:id="b.PHI.002.008" type="verse">
+						واذ وجد في الهيئة كانسان وضع نفسه واطاع حتى الموت موت الصليب.
+					</ab>
+					<ab xml:id="b.PHI.002.009" type="verse">
+						لذلك رفعه الله ايضا واعطاه اسما فوق كل اسم
+					</ab>
+					<ab xml:id="b.PHI.002.010" type="verse">
+						لكي تجثو باسم يسوع كل ركبة ممن في السماء ومن على الارض ومن تحت الارض
+					</ab>
+					<ab xml:id="b.PHI.002.011" type="verse">
+						ويعترف كل لسان ان يسوع المسيح هو رب لمجد الله الآب
+					</ab>
+					<ab xml:id="b.PHI.002.012" type="verse">
+						اذا يا احبائي كما اطعتم كل حين ليس كما في حضوري فقط بل الآن بالأولى جدا في غيابي تمموا خلاصكم بخوف ورعدة
+					</ab>
+					<ab xml:id="b.PHI.002.013" type="verse">
+						لان الله هو العامل فيكم ان تريدوا وان تعملوا من اجل المسرّة.
+					</ab>
+					<ab xml:id="b.PHI.002.014" type="verse">
+						افعلوا كل شيء بلا دمدمة ولا مجادلة
+					</ab>
+					<ab xml:id="b.PHI.002.015" type="verse">
+						لكي تكونوا بلا لوم وبسطاء اولادا للّه بلا عيب في وسط جيل معوج وملتو تضيئون بينهم كانوار في العالم
+					</ab>
+					<ab xml:id="b.PHI.002.016" type="verse">
+						متمسكين بكلمة الحياة لافتخاري في يوم المسيح باني لم اسع باطلا ولا تعبت باطلا.
+					</ab>
+					<ab xml:id="b.PHI.002.017" type="verse">
+						لكنني وان كنت انسكب ايضا على ذبيحة ايمانكم وخدمته اسرّ وافرح معكم اجمعين.
+					</ab>
+					<ab xml:id="b.PHI.002.018" type="verse">
+						وبهذا عينه كونوا انتم مسرورين ايضا وافرحوا معي
+					</ab>
+					<ab xml:id="b.PHI.002.019" type="verse">
+						على اني ارجو في الرب يسوع ان ارسل اليكم سريعا تيموثاوس لكي تطيب نفسي اذا عرفت احوالكم.
+					</ab>
+					<ab xml:id="b.PHI.002.020" type="verse">
+						لان ليس لي احد آخر نظير نفسي يهتم باحوالكم بإخلاص.
+					</ab>
+					<ab xml:id="b.PHI.002.021" type="verse">
+						اذ الجميع يطلبون ما هو لانفسهم لا ما هو ليسوع المسيح.
+					</ab>
+					<ab xml:id="b.PHI.002.022" type="verse">
+						واما اختباره فانتم تعرفون انه كولد مع اب خدم معي لاجل الانجيل.
+					</ab>
+					<ab xml:id="b.PHI.002.023" type="verse">
+						هذا ارجو ان ارسله اول ما ارى احوالي حالا.
+					</ab>
+					<ab xml:id="b.PHI.002.024" type="verse">
+						وأثق بالرب اني انا ايضا سآتي اليكم سريعا.
+					</ab>
+					<ab xml:id="b.PHI.002.025" type="verse">
+						ولكني حسبت من اللازم ان ارسل اليكم ابفرودتس اخي والعامل معي والمتجند معي ورسولكم والخادم لحاجتي.
+					</ab>
+					<ab xml:id="b.PHI.002.026" type="verse">
+						اذ كان مشتاقا الى جميعكم ومغموما لانكم سمعتم انه كان مريضا.
+					</ab>
+					<ab xml:id="b.PHI.002.027" type="verse">
+						فانه مرض قريبا من الموت لكن الله رحمه وليس اياه وحده بل اياي ايضا لئلا يكون لي حزن على حزن.
+					</ab>
+					<ab xml:id="b.PHI.002.028" type="verse">
+						فارسلته اليكم باوفر سرعة حتى اذا رأيتموه تفرحون ايضا واكون انا اقل حزنا.
+					</ab>
+					<ab xml:id="b.PHI.002.029" type="verse">
+						فاقبلوه في الرب بكل فرح وليكن مثله مكرّما عندكم.
+					</ab>
+					<ab xml:id="b.PHI.002.030" type="verse">
+						لانه من اجل عمل المسيح قارب الموت مخاطرا بنفسه لكي يجبر نقصان خدمتكم لي
+					</ab>
+				</div>
+				<div xml:id="b.PHI.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.PHI.003.001" type="verse">
+						اخيرا يا اخوتي افرحوا في الرب. كتابة هذه الامور اليكم ليست عليّ ثقيلة واما لكم فهي مؤمّنة.
+					</ab>
+					<ab xml:id="b.PHI.003.002" type="verse">
+						انظروا الكلاب انظروا فعلة الشر انظروا القطع.
+					</ab>
+					<ab xml:id="b.PHI.003.003" type="verse">
+						لاننا نحن الختان الذين نعبد الله بالروح ونفتخر في المسيح يسوع ولا نتكل على الجسد.
+					</ab>
+					<ab xml:id="b.PHI.003.004" type="verse">
+						مع ان لي ان اتكل على الجسد ايضا. ان ظن واحد آخر ان يتكل على الجسد فانا بالأولى.
+					</ab>
+					<ab xml:id="b.PHI.003.005" type="verse">
+						من جهة الختان مختون في اليوم الثامن من جنس اسرائيل من سبط بنيامين عبراني من العبرانيين. من جهة الناموس فريسي.
+					</ab>
+					<ab xml:id="b.PHI.003.006" type="verse">
+						من جهة الغيرة مضطهد الكنيسة. من جهة البر الذي في الناموس بلا لوم.
+					</ab>
+					<ab xml:id="b.PHI.003.007" type="verse">
+						لكن ما كان لي ربحا فهذا قد حسبته من اجل المسيح خسارة.
+					</ab>
+					<ab xml:id="b.PHI.003.008" type="verse">
+						بل اني احسب كل شيء ايضا خسارة من اجل فضل معرفة المسيح يسوع ربي الذي من اجله خسرت كل الاشياء وانا احسبها نفاية لكي اربح المسيح
+					</ab>
+					<ab xml:id="b.PHI.003.009" type="verse">
+						واوجد فيه وليس لي بري الذي من الناموس بل الذي بايمان المسيح البر الذي من الله بالايمان.
+					</ab>
+					<ab xml:id="b.PHI.003.010" type="verse">
+						لاعرفه وقوة قيامته وشركة آلامه متشبها بموته.
+					</ab>
+					<ab xml:id="b.PHI.003.011" type="verse">
+						لعلي ابلغ الى قيامة الاموات.
+					</ab>
+					<ab xml:id="b.PHI.003.012" type="verse">
+						ليس اني قد نلت او صرت كاملا ولكني اسعى لعلي ادرك الذي لاجله ادركني ايضا المسيح يسوع.
+					</ab>
+					<ab xml:id="b.PHI.003.013" type="verse">
+						ايها الاخوة انا لست احسب نفسي اني قد ادركت. ولكني افعل شيئا واحدا اذ انا انسى ما هو وراء وامتد الى ما هو قدام
+					</ab>
+					<ab xml:id="b.PHI.003.014" type="verse">
+						اسعى نحو الغرض لاجل جعالة دعوة الله العليا في المسيح يسوع.
+					</ab>
+					<ab xml:id="b.PHI.003.015" type="verse">
+						فليفتكر هذا جميع الكاملين منا وان افتكرتم شيئا بخلافه فالله سيعلن لكم هذا ايضا.
+					</ab>
+					<ab xml:id="b.PHI.003.016" type="verse">
+						واما ما قد ادركناه فلنسلك بحسب ذلك القانون عينه ونفتكر ذلك عينه
+					</ab>
+					<ab xml:id="b.PHI.003.017" type="verse">
+						كونوا متمثلين بي معا ايها الاخوة ولاحظوا الذين يسيرون هكذا كما نحن عندكم قدوة.
+					</ab>
+					<ab xml:id="b.PHI.003.018" type="verse">
+						لان كثيرين يسيرون ممن كنت اذكرهم لكم مرارا والآن اذكرهم ايضا باكيا وهم اعداء صليب المسيح
+					</ab>
+					<ab xml:id="b.PHI.003.019" type="verse">
+						الذين نهايتهم الهلاك الذين الههم بطنهم ومجدهم في خزيهم الذين يفتكرون في الارضيات.
+					</ab>
+					<ab xml:id="b.PHI.003.020" type="verse">
+						فان سيرتنا نحن هي في السموات التي منها ايضا ننتظر مخلّصا هو الرب يسوع المسيح
+					</ab>
+					<ab xml:id="b.PHI.003.021" type="verse">
+						الذي سيغيّر شكل جسد تواضعنا ليكون على صورة جسد مجده بحسب عمل استطاعته ان يخضع لنفسه كل شيء
+					</ab>
+				</div>
+				<div xml:id="b.PHI.004" type="chapter">
+				<head>4</head>
+					<ab xml:id="b.PHI.004.001" type="verse">
+						اذا يا اخوتي الاحباء والمشتاق اليهم يا سروري واكليلي اثبتوا هكذا في الرب ايها الاحباء
+					</ab>
+					<ab xml:id="b.PHI.004.002" type="verse">
+						اطلب الى افودية واطلب الى سنتيخي ان تفتكرا فكرا واحدا في الرب.
+					</ab>
+					<ab xml:id="b.PHI.004.003" type="verse">
+						نعم اسألك انت ايضا يا شريكي المخلص ساعد هاتين اللتين جاهدتا معي في الانجيل مع اكليمندس ايضا وباقي العاملين معي الذين اسماؤهم في سفر الحياة
+					</ab>
+					<ab xml:id="b.PHI.004.004" type="verse">
+						افرحوا في الرب كل حين واقول ايضا افرحوا.
+					</ab>
+					<ab xml:id="b.PHI.004.005" type="verse">
+						ليكن حلمكم معروفا عند جميع الناس. الرب قريب.
+					</ab>
+					<ab xml:id="b.PHI.004.006" type="verse">
+						لا تهتموا بشيء بل في كل شيء بالصلاة والدعاء مع الشكر لتعلم طلباتكم لدى الله.
+					</ab>
+					<ab xml:id="b.PHI.004.007" type="verse">
+						وسلام الله الذي يفوق كل عقل يحفظ قلوبكم وافكاركم في المسيح يسوع
+					</ab>
+					<ab xml:id="b.PHI.004.008" type="verse">
+						اخيرا ايها الاخوة كل ما هو حق كل ما هو جليل كل ما هو عادل كل ما هو طاهر كل ما هو مسرّ كل ما صيته حسن ان كانت فضيلة وان كان مدح ففي هذه افتكروا.
+					</ab>
+					<ab xml:id="b.PHI.004.009" type="verse">
+						وما تعلمتموه وتسلمتموه وسمعتموه ورأيتموه فيّ فهذا افعلوا واله السلام يكون معكم
+					</ab>
+					<ab xml:id="b.PHI.004.010" type="verse">
+						ثم اني فرحت بالرب جدا لانكم الآن قد ازهر ايضا مرة اعتناؤكم بي الذي كنتم تعتنونه ولكن لم تكن لكم فرصة.
+					</ab>
+					<ab xml:id="b.PHI.004.011" type="verse">
+						ليس اني اقول من جهة احتياج فاني قد تعلمت ان اكون مكتفيا بما انا فيه.
+					</ab>
+					<ab xml:id="b.PHI.004.012" type="verse">
+						اعرف ان اتضع واعرف ايضا ان استفضل. في كل شيء وفي جميع الاشياء قد تدربت ان اشبع وان اجوع وان استفضل وان انقص.
+					</ab>
+					<ab xml:id="b.PHI.004.013" type="verse">
+						استطيع كل شيء في المسيح الذي يقويني.
+					</ab>
+					<ab xml:id="b.PHI.004.014" type="verse">
+						غير انكم فعلتم حسنا اذ اشتركتم في ضيقتي.
+					</ab>
+					<ab xml:id="b.PHI.004.015" type="verse">
+						وانتم ايضا تعلمون ايها الفيلبيون انه في بداءة الانجيل لما خرجت من مكدونية لم تشاركني كنيسة واحدة في حساب العطاء والاخذ الا انتم وحدكم.
+					</ab>
+					<ab xml:id="b.PHI.004.016" type="verse">
+						فانكم في تسالونيكي ايضا ارسلتم اليّ مرة ومرتين لحاجتي.
+					</ab>
+					<ab xml:id="b.PHI.004.017" type="verse">
+						ليس اني اطلب العطية بل اطلب الثمر المتكاثر لحسابكم.
+					</ab>
+					<ab xml:id="b.PHI.004.018" type="verse">
+						ولكني قد استوفيت كل شيء واستفضلت. قد امتلأت اذ قبلت من ابفرودتس الاشياء التي من عندكم نسيم رائحة طيبة ذبيحة مقبولة مرضية عند الله.
+					</ab>
+					<ab xml:id="b.PHI.004.019" type="verse">
+						فيملأ الهي كل احتياجكم بحسب غناه في المجد في المسيح يسوع.
+					</ab>
+					<ab xml:id="b.PHI.004.020" type="verse">
+						وللّه وابينا المجد الى دهر الداهرين. آمين
+					</ab>
+					<ab xml:id="b.PHI.004.021" type="verse">
+						سلموا على كل قديس في المسيح يسوع. يسلم عليكم الاخوة الذين معي.
+					</ab>
+					<ab xml:id="b.PHI.004.022" type="verse">
+						يسلم عليكم جميع القديسين ولا سيما الذين من بيت قيصر.
+					</ab>
+					<ab xml:id="b.PHI.004.023" type="verse">
+						نعمة ربنا يسوع المسيح مع جميعكم آمين. كتبت الى اهل فيلبي من رومية على يد ابفرودتس
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

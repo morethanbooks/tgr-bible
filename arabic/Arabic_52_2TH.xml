@@ -1,0 +1,221 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>2 Thessalonians (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="3"/><measure commodity="verses" quantity="47"/><measure commodity="bytes" quantity="209672"/><measure commodity="characters" quantity="116631"/><measure commodity="tokens" quantity="21984"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>2 Thessalonians</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q131107">Q131107</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4115517-8">4115517-8</idno></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">new</term><term type="genre">letter</term><term type="division">Letters</term><term type="genre-multilabel">letter</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.2TH" type="book">
+				<div xml:id="b.2TH.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.2TH.001.001" type="verse">
+						بولس وسلوانس وتيموثاوس الى كنيسة التسالونيكيين في الله ابينا والرب يسوع المسيح
+					</ab>
+					<ab xml:id="b.2TH.001.002" type="verse">
+						نعمة لكم وسلام من الله ابينا والرب يسوع المسيح
+					</ab>
+					<ab xml:id="b.2TH.001.003" type="verse">
+						ينبغي لنا ان نشكر الله كل حين من جهتكم ايها الاخوة كما يحق لان ايمانكم ينمو كثيرا ومحبة كل واحد منكم جميعا بعضكم لبعض تزداد
+					</ab>
+					<ab xml:id="b.2TH.001.004" type="verse">
+						حتى اننا نحن انفسنا نفتخر بكم في كل كنائس الله من اجل صبركم وايمانكم في جميع اضطهاداتكم والضيقات التي تحتملونها
+					</ab>
+					<ab xml:id="b.2TH.001.005" type="verse">
+						بينة على قضاء الله العادل انكم تؤهلون لملكوت الله الذي لاجله تتألمون ايضا.
+					</ab>
+					<ab xml:id="b.2TH.001.006" type="verse">
+						اذ هو عادل عند الله ان الذين يضايقونكم يجازيهم ضيقا
+					</ab>
+					<ab xml:id="b.2TH.001.007" type="verse">
+						واياكم الذين تتضايقون راحة معنا عند استعلان الرب يسوع من السماء مع ملائكة قوته
+					</ab>
+					<ab xml:id="b.2TH.001.008" type="verse">
+						في نار لهيب معطيا نقمة للذين لا يعرفون الله والذين لا يطيعون انجيل ربنا يسوع المسيح
+					</ab>
+					<ab xml:id="b.2TH.001.009" type="verse">
+						الذين سيعاقبون بهلاك ابدي من وجه الرب ومن مجد قوته
+					</ab>
+					<ab xml:id="b.2TH.001.010" type="verse">
+						متى جاء ليتمجد في قديسيه ويتعجب منه في جميع المؤمنين. لان شهادتنا عندكم صدقت. في ذلك اليوم.
+					</ab>
+					<ab xml:id="b.2TH.001.011" type="verse">
+						الامر الذي لاجله نصلّي ايضا كل حين من جهتكم ان يؤهلكم الهنا للدعوة ويكمل كل مسرة الصلاح وعمل الايمان بقوة
+					</ab>
+					<ab xml:id="b.2TH.001.012" type="verse">
+						لكي يتمجد اسم ربنا يسوع المسيح فيكم وانتم فيه بنعمة الهنا والرب يسوع المسيح
+					</ab>
+				</div>
+				<div xml:id="b.2TH.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.2TH.002.001" type="verse">
+						ثم نسالكم ايها الاخوة من جهة مجيء ربنا يسوع المسيح واجتماعنا اليه
+					</ab>
+					<ab xml:id="b.2TH.002.002" type="verse">
+						ان لا تتزعزعوا سريعا عن ذهنكم ولا ترتاعوا لا بروح ولا بكلمة ولا برسالة كانها منا اي ان يوم المسيح قد حضر.
+					</ab>
+					<ab xml:id="b.2TH.002.003" type="verse">
+						لا يخدعنكم احد على طريقة ما. لانه لا ياتي ان لم يات الارتداد اولا ويستعلن انسان الخطية ابن الهلاك
+					</ab>
+					<ab xml:id="b.2TH.002.004" type="verse">
+						المقاوم والمرتفع على كل ما يدعى الها او معبودا حتى انه يجلس في هيكل الله كاله مظهرا نفسه انه اله.
+					</ab>
+					<ab xml:id="b.2TH.002.005" type="verse">
+						أما تذكرون اني وانا بعد عندكم كنت اقول لكم هذا.
+					</ab>
+					<ab xml:id="b.2TH.002.006" type="verse">
+						والآن تعلمون ما يحجز حتى يستعلن في وقته.
+					</ab>
+					<ab xml:id="b.2TH.002.007" type="verse">
+						لان سرّ الاثم الآن يعمل فقط الى ان يرفع من الوسط الذي يحجز الآن
+					</ab>
+					<ab xml:id="b.2TH.002.008" type="verse">
+						وحينئذ سيستعلن الاثيم الذي الرب يبيده بنفخة فمه ويبطله بظهور مجيئه.
+					</ab>
+					<ab xml:id="b.2TH.002.009" type="verse">
+						الذي مجيئه بعمل الشيطان بكل قوة وبآيات وعجائب كاذبة
+					</ab>
+					<ab xml:id="b.2TH.002.010" type="verse">
+						وبكل خديعة الاثم في الهالكين لانهم لم يقبلوا محبة الحق حتى يخلصوا.
+					</ab>
+					<ab xml:id="b.2TH.002.011" type="verse">
+						ولاجل هذا سيرسل اليهم الله عمل الضلال حتى يصدقوا الكذب
+					</ab>
+					<ab xml:id="b.2TH.002.012" type="verse">
+						لكي يدان جميع الذين لم يصدقوا الحق بل سروا بالاثم
+					</ab>
+					<ab xml:id="b.2TH.002.013" type="verse">
+						واما نحن فينبغي لنا ان نشكر الله كل حين لاجلكم ايها الاخوة المحبوبون من الرب ان الله اختاركم من البدء للخلاص بتقديس الروح وتصديق الحق.
+					</ab>
+					<ab xml:id="b.2TH.002.014" type="verse">
+						الامر الذي دعاكم اليه بانجيلنا لاقتناء مجد ربنا يسوع المسيح.
+					</ab>
+					<ab xml:id="b.2TH.002.015" type="verse">
+						فاثبتوا اذا ايها الاخوة وتمسكوا بالتعاليم التي تعلمتموها سواء كان بالكلام ام برسالتنا.
+					</ab>
+					<ab xml:id="b.2TH.002.016" type="verse">
+						وربنا نفسه يسوع المسيح والله ابونا الذي احبنا واعطانا عزاء ابديا ورجاء صالحا بالنعمة
+					</ab>
+					<ab xml:id="b.2TH.002.017" type="verse">
+						يعزي قلوبكم ويثبتكم في كل كلام وعمل صالح
+					</ab>
+				</div>
+				<div xml:id="b.2TH.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.2TH.003.001" type="verse">
+						اخيرا ايها الاخوة صّلوا لاجلنا لكي تجري كلمة الرب وتتمجد كما عندكم ايضا.
+					</ab>
+					<ab xml:id="b.2TH.003.002" type="verse">
+						ولكي ننقذ من الناس الاردياء الاشرار. لان الايمان ليس للجميع.
+					</ab>
+					<ab xml:id="b.2TH.003.003" type="verse">
+						امين هو الرب الذي سيثبتكم ويحفظكم من الشرير.
+					</ab>
+					<ab xml:id="b.2TH.003.004" type="verse">
+						ونثق بالرب من جهتكم انكم تفعلون ما نوصيكم به وستفعلون ايضا.
+					</ab>
+					<ab xml:id="b.2TH.003.005" type="verse">
+						والرب يهدي قلوبكم الى محبة الله والى صبر المسيح
+					</ab>
+					<ab xml:id="b.2TH.003.006" type="verse">
+						ثم نوصيكم ايها الاخوة باسم ربنا يسوع المسيح ان تتجنبوا كل اخ يسلك بلا ترتيب وليس حسب التعليم الذي اخذه منا.
+					</ab>
+					<ab xml:id="b.2TH.003.007" type="verse">
+						اذ انتم تعرفون كيف يجب ان يتمثل بنا لاننا لم نسلك بلا ترتيب بينكم
+					</ab>
+					<ab xml:id="b.2TH.003.008" type="verse">
+						ولا اكلنا خبزا مجانا من احد بل كنا نشتغل بتعب وكد ليلا ونهارا لكي لا نثقل على احد منكم.
+					</ab>
+					<ab xml:id="b.2TH.003.009" type="verse">
+						ليس ان لا سلطان لنا بل لكي نعطيكم انفسنا قدوة حتى تتمثلوا بنا.
+					</ab>
+					<ab xml:id="b.2TH.003.010" type="verse">
+						فاننا ايضا حين كنا عندكم اوصيناكم بهذا انه ان كان احد لا يريد ان يشتغل فلا ياكل ايضا.
+					</ab>
+					<ab xml:id="b.2TH.003.011" type="verse">
+						لاننا نسمع ان قوما يسلكون بينكم بلا ترتيب لا يشتغلون شيئا بل هم فضوليون.
+					</ab>
+					<ab xml:id="b.2TH.003.012" type="verse">
+						فمثل هؤلاء نوصيهم ونعظهم بربنا يسوع المسيح ان يشتغلوا بهدوء ويأكلوا خبز انفسهم.
+					</ab>
+					<ab xml:id="b.2TH.003.013" type="verse">
+						اما انتم ايها الاخوة فلا تفشلوا في عمل الخير.
+					</ab>
+					<ab xml:id="b.2TH.003.014" type="verse">
+						وان كان احد لا يطيع كلامنا بالرسالة فسموا هذا ولا تخالطوه لكي يخجل.
+					</ab>
+					<ab xml:id="b.2TH.003.015" type="verse">
+						ولكن لا تحسبوه كعدو بل انذروه كأخ.
+					</ab>
+					<ab xml:id="b.2TH.003.016" type="verse">
+						ورب السلام نفسه يعطيكم السلام دائما من كل وجه. الرب مع جميعكم
+					</ab>
+					<ab xml:id="b.2TH.003.017" type="verse">
+						السلام بيدي انا بولس الذي هو علامة في كل رسالة. هكذا انا اكتب.
+					</ab>
+					<ab xml:id="b.2TH.003.018" type="verse">
+						نعمة ربنا يسوع المسيح مع جميعكم. آمين
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

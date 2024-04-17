@@ -1,0 +1,248 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Malachi (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="4"/><measure commodity="verses" quantity="55"/><measure commodity="bytes" quantity="1061044"/><measure commodity="characters" quantity="590066"/><measure commodity="tokens" quantity="111508"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Malachi</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q51675">Q51675</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4037207-8">4037207-8</idno><author><name>Malachi</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q5767200">Q5767200</idno><idno type="gnd" corresp="https://d-nb.info/gnd/118640828">118640828</idno></author></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">old</term><term type="genre">prophecy</term><term type="division">Prophetic</term><term type="genre-multilabel">prophecy</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.MAL" type="book">
+				<div xml:id="b.MAL.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.MAL.001.001" type="verse">
+						وحي كلمة الرب لاسرائيل عن يد ملاخي
+					</ab>
+					<ab xml:id="b.MAL.001.002" type="verse">
+						احببتكم قال الرب. وقلتم بم احببتنا. أليس عيسو اخا ليعقوب يقول الرب واحببت يعقوب
+					</ab>
+					<ab xml:id="b.MAL.001.003" type="verse">
+						وابغضت عيسو وجعلت جباله خرابا وميراثه لذئاب البرية.
+					</ab>
+					<ab xml:id="b.MAL.001.004" type="verse">
+						لان ادوم قال قد هدمنا فنعود ونبني الخرب. هكذا قال رب الجنود هم يبنون وانا اهدم ويدعونهم تخوم الشر والشعب الذي غضب عليه الرب الى الابد.
+					</ab>
+					<ab xml:id="b.MAL.001.005" type="verse">
+						فترى اعينكم وتقولون ليتعظم الرب من عند تخم اسرائيل
+					</ab>
+					<ab xml:id="b.MAL.001.006" type="verse">
+						الابن يكرم اباه والعبد يكرم سيده. فان كنت انا ابا فاين كرامتي وان كنت سيدا فاين هيبتي قال لكم رب الجنود ايها الكهنة المحتقرون اسمي. وتقولون بما احتقرنا اسمك.
+					</ab>
+					<ab xml:id="b.MAL.001.007" type="verse">
+						تقربون خبزا نجسا على مذبحي. وتقولون بم نجّسناك. بقولكم ان مائدة الرب محتقرة.
+					</ab>
+					<ab xml:id="b.MAL.001.008" type="verse">
+						وان قربتم الاعمى ذبيحة أفليس ذلك شرا وان قربتم الاعرج والسقيم أفليس ذلك شرا. قرّبه لواليك أفيرضى عليك او يرفع وجهك قال رب الجنود.
+					</ab>
+					<ab xml:id="b.MAL.001.009" type="verse">
+						والآن ترضّوا وجه الله فيتراءف علينا. هذه كانت من يدكم. هل يرفع وجهكم قال رب الجنود
+					</ab>
+					<ab xml:id="b.MAL.001.010" type="verse">
+						من فيكم يغلق الباب بل لا توقدون على مذبحي مجانا. ليست لي مسرّة بكم قال رب الجنود ولا اقبل تقدمة من يدكم.
+					</ab>
+					<ab xml:id="b.MAL.001.011" type="verse">
+						لانه من مشرق الشمس الى مغربها اسمي عظيم بين الامم وفي كل مكان يقرب لاسمي بخور وتقدمة طاهرة لان اسمي عظيم بين الامم قال رب الجنود.
+					</ab>
+					<ab xml:id="b.MAL.001.012" type="verse">
+						اما انتم فمنجسوه بقولكم ان مائدة الرب تنجّست وثمرتها محتقر طعامها.
+					</ab>
+					<ab xml:id="b.MAL.001.013" type="verse">
+						وقلتم ما هذه المشقّة وتأففتم عليه قال رب الجنود وجئتم بالمغتصب والاعرج والسقيم فاتيتم بالتقدمة. فهل اقبلها من يدكم قال الرب.
+					</ab>
+					<ab xml:id="b.MAL.001.014" type="verse">
+						وملعون الماكر الذي يوجد في قطيعه ذكر وينذر ويذبح للسيد عائبا. لاني انا ملك عظيم قال رب الجنود واسمي مهيب بين الامم
+					</ab>
+				</div>
+				<div xml:id="b.MAL.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.MAL.002.001" type="verse">
+						والآن اليكم هذه الوصية ايها الكهنة.
+					</ab>
+					<ab xml:id="b.MAL.002.002" type="verse">
+						ان كنتم لا تسمعون ولا تجعلون في القلب لتعطوا مجدا لاسمي قال رب الجنود فاني ارسل عليكم اللعن وألعن بركاتكم بل قد لعنتها لانكم لستم جاعلين في القلب.
+					</ab>
+					<ab xml:id="b.MAL.002.003" type="verse">
+						هانذا انتهر لكم الزرع وامدّ الفرث على وجوهكم فرث اعيادكم فتنزعون معه.
+					</ab>
+					<ab xml:id="b.MAL.002.004" type="verse">
+						فتعلمون اني ارسلت اليكم هذه الوصية لكون عهدي مع لاوي قال رب الجنود.
+					</ab>
+					<ab xml:id="b.MAL.002.005" type="verse">
+						كان عهدي معه للحياة والسلام واعطيته اياهما للتقوى فاتقاني ومن اسمي ارتاع هو.
+					</ab>
+					<ab xml:id="b.MAL.002.006" type="verse">
+						شريعة الحق كانت في فيه واثم لم يوجد في شفتيه. سلك معي في السلام والاستقامة وارجع كثيرين عن الاثم.
+					</ab>
+					<ab xml:id="b.MAL.002.007" type="verse">
+						لان شفتي الكاهن تحفظان معرفة ومن فمه يطلبون الشريعة لانه رسول رب الجنود.
+					</ab>
+					<ab xml:id="b.MAL.002.008" type="verse">
+						اما انتم فحدتم عن الطريق واعثرتم كثيرين بالشريعة. افسدتم عهد لاوي قال رب الجنود.
+					</ab>
+					<ab xml:id="b.MAL.002.009" type="verse">
+						فانا ايضا صيّرتكم محتقرين ودنيئين عند كل الشعب كما انكم لم تحفظوا طرقي بل حابيتم في الشريعة
+					</ab>
+					<ab xml:id="b.MAL.002.010" type="verse">
+						أليس اب واحد لكلنا. أليس اله واحد خلقنا. فلم نغدر الرجل باخيه لتدنيس عهد آبائنا.
+					</ab>
+					<ab xml:id="b.MAL.002.011" type="verse">
+						غدر يهوذا وعمل الرجس في اسرائيل وفي اورشليم. لان يهوذا قد نجّس قدس الرب الذي احبه وتزوج بنت اله غريب.
+					</ab>
+					<ab xml:id="b.MAL.002.012" type="verse">
+						يقطع الرب الرجل الذي يفعل هذا الساهر والمجيب من خيام يعقوب ومن يقرّب تقدمة لرب الجنود.
+					</ab>
+					<ab xml:id="b.MAL.002.013" type="verse">
+						وقد فعلتم هذا ثانية مغطين مذبح الرب بالدموع بالبكاء والصراخ فلا تراعى التقدمة بعد ولا يقبل المرضي من يدكم.
+					</ab>
+					<ab xml:id="b.MAL.002.014" type="verse">
+						فقلتم لماذا. من اجل ان الرب هو الشاهد بينك وبين امرأة شبابك التي انت غدرت بها وهي قرينتك وامرأة عهدك.
+					</ab>
+					<ab xml:id="b.MAL.002.015" type="verse">
+						أفلم يفعل واحد وله بقية الروح. ولماذا الواحد. طالبا زرع الله. فاحذروا لروحكم ولا يغدر احد بامرأة شبابه.
+					</ab>
+					<ab xml:id="b.MAL.002.016" type="verse">
+						لانه يكره الطلاق قال الرب اله اسرائيل وان يغطي احد الظلم بثوبه قال رب الجنود. فاحذروا لروحكم لئلا تغدروا
+					</ab>
+					<ab xml:id="b.MAL.002.017" type="verse">
+						لقد اتعبتم الرب بكلامكم. وقلتم بم اتعبناه. بقولكم كل من يفعل الشر فهو صالح في عيني الرب وهو يسرّ بهم. او اين اله العدل
+					</ab>
+				</div>
+				<div xml:id="b.MAL.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.MAL.003.001" type="verse">
+						هانذا ارسل ملاكي فيهيء الطريق امامي ويأتي بغتة الى هيكله السيد الذي تطلبونه وملاك العهد الذي تسرّون به هوذا يأتي قال رب الجنود.
+					</ab>
+					<ab xml:id="b.MAL.003.002" type="verse">
+						ومن يحتمل يوم مجيئه ومن يثبت عند ظهوره. لانه مثل نار الممحص ومثل اشنان القصّار.
+					</ab>
+					<ab xml:id="b.MAL.003.003" type="verse">
+						فيجلس ممحصا ومنقيا للفضة فينقي بني لاوي ويصفيهم كالذهب والفضة ليكونوا مقربين للرب تقدمة بالبر.
+					</ab>
+					<ab xml:id="b.MAL.003.004" type="verse">
+						فتكون تقدمة يهوذا واورشليم مرضية للرب كما في ايام القدم وكما في السنين القديمة.
+					</ab>
+					<ab xml:id="b.MAL.003.005" type="verse">
+						واقترب اليكم للحكم واكون شاهدا سريعا على السحرة وعلى الفاسقين وعلى الحالفين زورا وعلى السالبين اجرة الاجير والارملة واليتيم ومن يصدّ الغريب ولا يخشاني قال رب الجنود.
+					</ab>
+					<ab xml:id="b.MAL.003.006" type="verse">
+						لاني انا الرب لا اتغيّر فانتم يا بني يعقوب لم تفنوا
+					</ab>
+					<ab xml:id="b.MAL.003.007" type="verse">
+						من ايام آبائكم حدتم عن فرائضي ولم تحفظوها. ارجعوا اليّ ارجع اليكم قال رب الجنود. فقلتم بماذا نرجع.
+					</ab>
+					<ab xml:id="b.MAL.003.008" type="verse">
+						أيسلب الانسان الله. فانكم سلبتموني. فقلتم بم سلبناك. في العشور والتقدمة.
+					</ab>
+					<ab xml:id="b.MAL.003.009" type="verse">
+						قد لعنتم لعنا واياي انتم سالبون هذه الامة كلها.
+					</ab>
+					<ab xml:id="b.MAL.003.010" type="verse">
+						هاتوا جميع العشور الى الخزنة ليكون في بيتي طعام وجربوني بهذا قال رب الجنود ان كنت لا افتح لكم كوى السموات وافيض عليكم بركة حتى لا توسع.
+					</ab>
+					<ab xml:id="b.MAL.003.011" type="verse">
+						وانتهر من اجلكم الآكل فلا يفسد لكم ثمر الارض ولا يعقر لكم الكرم في الحقل قال رب الجنود.
+					</ab>
+					<ab xml:id="b.MAL.003.012" type="verse">
+						ويطوّبكم كل الامم لانكم تكونون ارض مسرّة قال رب الجنود
+					</ab>
+					<ab xml:id="b.MAL.003.013" type="verse">
+						اقوالكم اشتدّت عليّ قال الرب. وقلتم ماذا قلنا عليك.
+					</ab>
+					<ab xml:id="b.MAL.003.014" type="verse">
+						قلتم عبادة الله باطلة وما المنفعة من اننا حفظنا شعائره واننا سلكنا بالحزن قدام رب الجنود.
+					</ab>
+					<ab xml:id="b.MAL.003.015" type="verse">
+						والآن نحن مطوّبون المستكبرين وايضا فاعلو الشر يبنون بل جربوا الله ونجوا
+					</ab>
+					<ab xml:id="b.MAL.003.016" type="verse">
+						حينئذ كلّم متّقو الرب كل واحد قريبه والرب اصغى وسمع وكتب امامه سفر تذكرة للذين اتقوا الرب وللمفكرين في اسمه.
+					</ab>
+					<ab xml:id="b.MAL.003.017" type="verse">
+						ويكونون لي قال رب الجنود في اليوم الذي انا صانع خاصة واشفق عليهم كما يشفق الانسان على ابنه الذي يخدمه.
+					</ab>
+					<ab xml:id="b.MAL.003.018" type="verse">
+						فتعودون وتميزون بين الصدّيق والشرير بين من يعبد الله ومن لا يعبده
+					</ab>
+				</div>
+				<div xml:id="b.MAL.004" type="chapter">
+				<head>4</head>
+					<ab xml:id="b.MAL.004.001" type="verse">
+						فهوذا ياتي اليوم المتقد كالتنور وكل المستكبرين وكل فاعلي الشر يكونون قشا ويحرقهم اليوم الآتي قال رب الجنود فلا يبقي لهم اصلا ولا فرعا
+					</ab>
+					<ab xml:id="b.MAL.004.002" type="verse">
+						ولكم ايها المتّقون اسمي تشرق شمس البرّ والشفاء في اجنحتها فتخرجون وتنشأون كعجول الصيرة.
+					</ab>
+					<ab xml:id="b.MAL.004.003" type="verse">
+						وتدوسون الاشرار لانهم يكونون رمادا تحت بطون اقدامكم يوم افعل هذا قال رب الجنود
+					</ab>
+					<ab xml:id="b.MAL.004.004" type="verse">
+						اذكروا شريعة موسى عبدي التي أمرته بها في حوريب على كل اسرائيل الفرائض والاحكام
+					</ab>
+					<ab xml:id="b.MAL.004.005" type="verse">
+						هانذا ارسل اليكم ايليا النبي قبل مجيء يوم الرب اليوم العظيم والمخوف.
+					</ab>
+					<ab xml:id="b.MAL.004.006" type="verse">
+						فيرد قلب الآباء على الابناء وقلب الابناء على آبائهم لئلا آتي واضرب الارض بلعن
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

@@ -1,0 +1,332 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>2 Timothy (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="4"/><measure commodity="verses" quantity="83"/><measure commodity="bytes" quantity="188526"/><measure commodity="characters" quantity="104908"/><measure commodity="tokens" quantity="19788"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>2 Timothy</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q131489">Q131489</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4122519-3">4122519-3</idno></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">new</term><term type="genre">letter</term><term type="division">Letters</term><term type="genre-multilabel">letter</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.2TI" type="book">
+				<div xml:id="b.2TI.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.2TI.001.001" type="verse">
+						بولس رسول يسوع المسيح بمشيئة الله لاجل وعد الحياة التي في يسوع المسيح
+					</ab>
+					<ab xml:id="b.2TI.001.002" type="verse">
+						الى تيموثاوس الابن الحبيب. نعمة ورحمة وسلام من الله الآب والمسيح يسوع ربنا
+					</ab>
+					<ab xml:id="b.2TI.001.003" type="verse">
+						اني اشكر الله الذي اعبده من اجدادي بضمير طاهر كما اذكرك بلا انقطاع في طلباتي ليلا ونهارا
+					</ab>
+					<ab xml:id="b.2TI.001.004" type="verse">
+						مشتاقا ان اراك ذاكرا دموعك لكي امتلئ فرحا
+					</ab>
+					<ab xml:id="b.2TI.001.005" type="verse">
+						اذ اتذكر الايمان العديم الرياء الذي فيك الذي سكن اولا في جدتك لوئيس وامك افنيكي ولكني موقن انه فيك ايضا.
+					</ab>
+					<ab xml:id="b.2TI.001.006" type="verse">
+						فلهذا السبب اذكّرك ان تضرم ايضا موهبة الله التي فيك بوضع يديّ.
+					</ab>
+					<ab xml:id="b.2TI.001.007" type="verse">
+						لان الله لم يعطنا روح الفشل بل روح القوة والمحبة والنصح
+					</ab>
+					<ab xml:id="b.2TI.001.008" type="verse">
+						فلا تخجل بشهادة ربنا ولا بي انا اسيره بل اشترك في احتمال المشقات لاجل الانجيل بحسب قوة الله
+					</ab>
+					<ab xml:id="b.2TI.001.009" type="verse">
+						الذي خلّصنا ودعانا دعوة مقدسة لا بمقتضى اعمالنا بل بمقتضى القصد والنعمة التي أعطيت لنا في المسيح يسوع قبل الازمنة الازلية
+					</ab>
+					<ab xml:id="b.2TI.001.010" type="verse">
+						وانما أظهرت الآن بظهور مخلّصنا يسوع المسيح الذي ابطل الموت وانار الحياة والخلود بواسطة الانجيل
+					</ab>
+					<ab xml:id="b.2TI.001.011" type="verse">
+						الذي جعلت انا له كارزا ورسولا ومعلّما للامم.
+					</ab>
+					<ab xml:id="b.2TI.001.012" type="verse">
+						لهذا السبب احتمل هذه الامور ايضا لكنني لست اخجل لانني عالم بمن آمنت وموقن انه قادر ان يحفظ وديعتي الى ذلك اليوم
+					</ab>
+					<ab xml:id="b.2TI.001.013" type="verse">
+						تمسك بصورة الكلام الصحيح الذي سمعته مني في الايمان والمحبة التي في المسيح يسوع.
+					</ab>
+					<ab xml:id="b.2TI.001.014" type="verse">
+						احفظ الوديعة الصالحة بالروح القدس الساكن فينا
+					</ab>
+					<ab xml:id="b.2TI.001.015" type="verse">
+						انت تعلم هذا ان جميع الذين في اسيا ارتدّوا عني الذين منهم فيجلّس وهرموجانس.
+					</ab>
+					<ab xml:id="b.2TI.001.016" type="verse">
+						ليعط الرب رحمة لبيت انيسيفورس لانه مرارا كثيرة اراحني ولم يخجل بسلسلتي
+					</ab>
+					<ab xml:id="b.2TI.001.017" type="verse">
+						بل لما كان في رومية طلبني باوفر اجتهاد فوجدني.
+					</ab>
+					<ab xml:id="b.2TI.001.018" type="verse">
+						ليعطه الرب ان يجد رحمة من الرب في ذلك اليوم. وكل ما كان يخدم في افسس انت تعرفه جيدا
+					</ab>
+				</div>
+				<div xml:id="b.2TI.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.2TI.002.001" type="verse">
+						فتقوّ انت يا ابني بالنعمة التي في المسيح يسوع.
+					</ab>
+					<ab xml:id="b.2TI.002.002" type="verse">
+						وما سمعته مني بشهود كثيرين اودعه اناسا امناء يكونون اكفاء ان يعلّموا آخرين ايضا.
+					</ab>
+					<ab xml:id="b.2TI.002.003" type="verse">
+						فاشترك انت في احتمال المشقات كجندي صالح ليسوع المسيح.
+					</ab>
+					<ab xml:id="b.2TI.002.004" type="verse">
+						ليس احد وهو يتجند يرتبك باعمال الحياة لكي يرضي من جنّده.
+					</ab>
+					<ab xml:id="b.2TI.002.005" type="verse">
+						وايضا ان كان احد يجاهد لا يكلّل ان لم يجاهد قانونيا.
+					</ab>
+					<ab xml:id="b.2TI.002.006" type="verse">
+						يجب ان الحرّاث الذي يتعب يشترك هو اولا في الاثمار.
+					</ab>
+					<ab xml:id="b.2TI.002.007" type="verse">
+						افهم ما اقول. فليعطك الرب فهما في كل شيء.
+					</ab>
+					<ab xml:id="b.2TI.002.008" type="verse">
+						اذكر يسوع المسيح المقام من الاموات من نسل داود بحسب انجيلي
+					</ab>
+					<ab xml:id="b.2TI.002.009" type="verse">
+						الذي فيه احتمل المشقات حتى القيود كمذنب. لكن كلمة الله لا تقيّد.
+					</ab>
+					<ab xml:id="b.2TI.002.010" type="verse">
+						لاجل ذلك انا اصبر على كل شيء لاجل المختارين لكي يحصلوا هم ايضا على الخلاص الذي في المسيح يسوع مع مجد ابدي.
+					</ab>
+					<ab xml:id="b.2TI.002.011" type="verse">
+						صادقة هي الكلمة انه ان كنا قد متنا معه فسنحيا ايضا معه.
+					</ab>
+					<ab xml:id="b.2TI.002.012" type="verse">
+						ان كنا نصبر فسنملك ايضا معه. ان كنا ننكره فهو ايضا سينكرنا.
+					</ab>
+					<ab xml:id="b.2TI.002.013" type="verse">
+						ان كنا غير امناء فهو يبقى امينا لن يقدر ان ينكر نفسه
+					</ab>
+					<ab xml:id="b.2TI.002.014" type="verse">
+						فكّر بهذه الامور مناشدا قدام الرب ان لا يتماحكوا بالكلام. الامر غير النافع لشيء. لهدم السامعين.
+					</ab>
+					<ab xml:id="b.2TI.002.015" type="verse">
+						اجتهد ان تقيم نفسك للّه مزكّى عاملا لا يخزى مفصّلا كلمة الحق بالاستقامة.
+					</ab>
+					<ab xml:id="b.2TI.002.016" type="verse">
+						واما الاقوال الباطلة الدنسة فاجتنبها لانهم يتقدمون الى اكثر فجور.
+					</ab>
+					<ab xml:id="b.2TI.002.017" type="verse">
+						وكلمتهم ترعى كآكلة. الذين منهم هيمينايس وفيليتس
+					</ab>
+					<ab xml:id="b.2TI.002.018" type="verse">
+						اللذان زاغا عن الحق قائلين ان القيامة قد صارت فيقلبان ايمان قوم.
+					</ab>
+					<ab xml:id="b.2TI.002.019" type="verse">
+						ولكن اساس الله الراسخ قد ثبت اذ له هذا الختم. يعلم الرب الذين هم له. وليتجنب الاثم كل من يسمّي اسم المسيح.
+					</ab>
+					<ab xml:id="b.2TI.002.020" type="verse">
+						ولكن في بيت كبير ليس آنية من ذهب وفضة فقط بل من خشب وخزف ايضا وتلك للكرامة وهذه للهوان.
+					</ab>
+					<ab xml:id="b.2TI.002.021" type="verse">
+						فان طهّر احد نفسه من هذه يكون اناء للكرامة مقدسا نافعا للسيد مستعدا لكل عمل صالح
+					</ab>
+					<ab xml:id="b.2TI.002.022" type="verse">
+						اما الشهوات الشبابية فاهرب منها واتبع البر والايمان والمحبة والسلام مع الذين يدعون الرب من قلب نقي.
+					</ab>
+					<ab xml:id="b.2TI.002.023" type="verse">
+						والمباحثات الغبية والسخيفة اجتنبها عالما انها تولّد خصومات.
+					</ab>
+					<ab xml:id="b.2TI.002.024" type="verse">
+						وعبد الرب لا يجب ان يخاصم بل يكون مترفقا بالجميع صالحا للتعليم صبورا على المشقات
+					</ab>
+					<ab xml:id="b.2TI.002.025" type="verse">
+						مؤدبا بالوداعة المقاومين عسى ان يعطيهم الله توبة لمعرفة الحق
+					</ab>
+					<ab xml:id="b.2TI.002.026" type="verse">
+						فيستفيقوا من فخ ابليس اذ قد اقتنصهم لارادته
+					</ab>
+				</div>
+				<div xml:id="b.2TI.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.2TI.003.001" type="verse">
+						ولكن اعلم هذا انه في الايام الاخيرة ستأتي ازمنة صعبة.
+					</ab>
+					<ab xml:id="b.2TI.003.002" type="verse">
+						لان الناس يكونون محبين لانفسهم محبين للمال متعظمين مستكبرين مجدّفين غير طائعين لوالديهم غير شاكرين دنسين
+					</ab>
+					<ab xml:id="b.2TI.003.003" type="verse">
+						بلا حنو بلا رضى ثالبين عديمي النزاهة شرسين غير محبين للصلاح
+					</ab>
+					<ab xml:id="b.2TI.003.004" type="verse">
+						خائنين مقتحمين متصلفين محبين للذات دون محبة لله
+					</ab>
+					<ab xml:id="b.2TI.003.005" type="verse">
+						لهم صورة التقوى ولكنهم منكرون قوّتها. فاعرض عن هؤلاء.
+					</ab>
+					<ab xml:id="b.2TI.003.006" type="verse">
+						فانه من هؤلاء هم الذين يدخلون البيوت ويسبون نسيّات محمّلات خطايا منساقات بشهوات مختلفة
+					</ab>
+					<ab xml:id="b.2TI.003.007" type="verse">
+						يتعلمن في كل حين ولا يستطعن ان يقبلن الى معرفة الحق ابدا.
+					</ab>
+					<ab xml:id="b.2TI.003.008" type="verse">
+						وكما قاوم ينّيس ويمبريس موسى كذلك هؤلاء ايضا يقاومون الحق. اناس فاسدة اذهانهم ومن جهة الايمان مرفوضون.
+					</ab>
+					<ab xml:id="b.2TI.003.009" type="verse">
+						لكنهم لا يتقدمون اكثر لان حمقهم سيكون واضحا للجميع كما كان حمق ذينك ايضا
+					</ab>
+					<ab xml:id="b.2TI.003.010" type="verse">
+						واما انت فقد تبعت تعليمي وسيرتي وقصدي وايماني واناتي ومحبتي وصبري
+					</ab>
+					<ab xml:id="b.2TI.003.011" type="verse">
+						واضطهاداتي وآلامي مثل ما اصابني في انطاكية وايقونية ولسترة. ايّة اضطهادات احتملت. ومن الجميع انقذني الرب.
+					</ab>
+					<ab xml:id="b.2TI.003.012" type="verse">
+						وجميع الذين يريدون ان يعيشوا بالتقوى في المسيح يسوع يضطهدون.
+					</ab>
+					<ab xml:id="b.2TI.003.013" type="verse">
+						ولكن الناس الاشرار المزوّرين سيتقدمون الى اردأ مضلّين ومضلّين.
+					</ab>
+					<ab xml:id="b.2TI.003.014" type="verse">
+						واما انت فاثبت على ما تعلمت وايقنت عارفا ممن تعلمت.
+					</ab>
+					<ab xml:id="b.2TI.003.015" type="verse">
+						وانك منذ الطفولية تعرف الكتب المقدسة القادرة ان تحكّمك للخلاص بالايمان الذي في المسيح يسوع.
+					</ab>
+					<ab xml:id="b.2TI.003.016" type="verse">
+						كل الكتاب هو موحى به من الله ونافع للتعليم والتوبيخ للتقويم والتأديب الذي في البر
+					</ab>
+					<ab xml:id="b.2TI.003.017" type="verse">
+						لكي يكون انسان الله كاملا متأهبا لكل عمل صالح
+					</ab>
+				</div>
+				<div xml:id="b.2TI.004" type="chapter">
+				<head>4</head>
+					<ab xml:id="b.2TI.004.001" type="verse">
+						انا اناشدك اذا امام الله والرب يسوع المسيح العتيد ان يدين الاحياء والاموات عند ظهوره وملكوته
+					</ab>
+					<ab xml:id="b.2TI.004.002" type="verse">
+						اكرز بالكلمة اعكف على ذلك في وقت مناسب وغير مناسب. وبّخ انتهر عظ بكل اناة وتعليم.
+					</ab>
+					<ab xml:id="b.2TI.004.003" type="verse">
+						لانه سيكون وقت لا يحتملون فيه التعليم الصحيح بل حسب شهواتهم الخاصة يجمعون لهم معلّمين مستحكة مسامعهم
+					</ab>
+					<ab xml:id="b.2TI.004.004" type="verse">
+						فيصرفون مسامعهم عن الحق وينحرفون الى الخرافات.
+					</ab>
+					<ab xml:id="b.2TI.004.005" type="verse">
+						واما انت فاصح في كل شيء. احتمل المشقات. اعمل عمل المبشر. تمم خدمتك
+					</ab>
+					<ab xml:id="b.2TI.004.006" type="verse">
+						فاني انا الآن اسكب سكيبا ووقت انحلالي قد حضر.
+					</ab>
+					<ab xml:id="b.2TI.004.007" type="verse">
+						قد جاهدت الجهاد الحسن اكملت السعي حفظت الايمان
+					</ab>
+					<ab xml:id="b.2TI.004.008" type="verse">
+						واخيرا قد وضع لي اكليل البر الذي يهبه لي في ذلك اليوم الرب الديان العادل وليس لي فقط بل لجميع الذين يحبون ظهوره ايضا
+					</ab>
+					<ab xml:id="b.2TI.004.009" type="verse">
+						بادر ان تجيء اليّ سريعا
+					</ab>
+					<ab xml:id="b.2TI.004.010" type="verse">
+						لان ديماس قد تركني اذ احب العالم الحاضر وذهب الى تسالونيكي وكريسكيس الى غلاطية وتيطس الى دلماطية.
+					</ab>
+					<ab xml:id="b.2TI.004.011" type="verse">
+						لوقا وحده معي. خذ مرقس واحضره معك لانه نافع لي للخدمة.
+					</ab>
+					<ab xml:id="b.2TI.004.012" type="verse">
+						اما تيخيكس فقد ارسلته الى افسس.
+					</ab>
+					<ab xml:id="b.2TI.004.013" type="verse">
+						الرداء الذي تركته في ترواس عند كاربس احضره متى جئت والكتب ايضا ولا سيما الرقوق.
+					</ab>
+					<ab xml:id="b.2TI.004.014" type="verse">
+						اسكندر النحّاس اظهر لي شرورا كثيرة. ليجازه الرب حسب اعماله.
+					</ab>
+					<ab xml:id="b.2TI.004.015" type="verse">
+						فاحتفظ منه انت ايضا لانه قاوم اقوالنا جدا.
+					</ab>
+					<ab xml:id="b.2TI.004.016" type="verse">
+						في احتجاجي الاول لم يحضر احد معي بل الجميع تركوني. لا يحسب عليهم.
+					</ab>
+					<ab xml:id="b.2TI.004.017" type="verse">
+						ولكن الرب وقف معي وقواني لكي تتم بي الكرازة ويسمع جميع الامم فأنقذت من فم الاسد.
+					</ab>
+					<ab xml:id="b.2TI.004.018" type="verse">
+						وسينقذني الرب من كل عمل رديء ويخلّصني لملكوته السماوي. الذي له المجد الى دهر الدهور. آمين
+					</ab>
+					<ab xml:id="b.2TI.004.019" type="verse">
+						سلم على فرسكا واكيلا وبيت انيسيفورس.
+					</ab>
+					<ab xml:id="b.2TI.004.020" type="verse">
+						اراستس بقي في كورنثوس. واما تروفيمس فتركته في ميليتس مريضا.
+					</ab>
+					<ab xml:id="b.2TI.004.021" type="verse">
+						بادر ان تجيء قبل الشتاء. يسلم عليك افبولس وبوديس ولينس وكلافدية والاخوة جميعا.
+					</ab>
+					<ab xml:id="b.2TI.004.022" type="verse">
+						الرب يسوع المسيح مع روحك. النعمة معكم. آمين
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

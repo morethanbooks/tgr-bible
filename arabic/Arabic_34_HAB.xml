@@ -1,0 +1,248 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Habakkuk (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="3"/><measure commodity="verses" quantity="56"/><measure commodity="bytes" quantity="1115634"/><measure commodity="characters" quantity="620402"/><measure commodity="tokens" quantity="117179"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Habakkuk</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q179760">Q179760</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4022705-4">4022705-4</idno><author><name>Habakkuk</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q135106">Q135106</idno><idno type="gnd" corresp="https://d-nb.info/gnd/118639439">118639439</idno></author></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">old</term><term type="genre">prophecy</term><term type="division">Prophetic</term><term type="genre-multilabel">prophecy</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.HAB" type="book">
+				<div xml:id="b.HAB.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.HAB.001.001" type="verse">
+						الوحي الذي رآه حبقوق النبي ـــ
+					</ab>
+					<ab xml:id="b.HAB.001.002" type="verse">
+						حتى متى يا رب ادعو وانت لا تسمع اصرخ اليك من الظلم وانت لا تخلّص.
+					</ab>
+					<ab xml:id="b.HAB.001.003" type="verse">
+						لم تريني اثما وتبصر جورا. وقدامي اغتصاب وظلم ويحدث خصام وترفع المخاصمة نفسها.
+					</ab>
+					<ab xml:id="b.HAB.001.004" type="verse">
+						لذلك جمدت الشريعة ولا يخرج الحكم بتّة لان الشرير يحيط بالصدّيق فلذلك يخرج الحكم معوّجا
+					</ab>
+					<ab xml:id="b.HAB.001.005" type="verse">
+						انظروا بين الامم وابصروا وتحيّروا حيرة. لاني عامل عملا في ايامكم لا تصدقون به ان أخبر به.
+					</ab>
+					<ab xml:id="b.HAB.001.006" type="verse">
+						فهانذا مقيم الكلدانيين الامّة المرّة القاحمة السالكة في رحاب الارض لتملك مساكن ليست لها.
+					</ab>
+					<ab xml:id="b.HAB.001.007" type="verse">
+						هي هائلة ومخوفة. من قبل نفسها يخرج حكمها وجلالها.
+					</ab>
+					<ab xml:id="b.HAB.001.008" type="verse">
+						وخيلها اسرع من النمور وأحدّ من ذئاب المساء وفرسانها ينتشرون وفرسانها يأتون من بعيد ويطيرون كالنسر المسرع الى الأكل.
+					</ab>
+					<ab xml:id="b.HAB.001.009" type="verse">
+						ياتون كلهم للظلم. منظر وجوههم الى قدام ويجمعون سبيا كالرمل.
+					</ab>
+					<ab xml:id="b.HAB.001.010" type="verse">
+						وهي تسخر من الملوك والرؤساء ضحكة لها. وتضحك على كل حصن وتكوّم التراب وتاخذه.
+					</ab>
+					<ab xml:id="b.HAB.001.011" type="verse">
+						ثم تتعدّى روحها فتعبر وتأثم. هذه قوتها الهها
+					</ab>
+					<ab xml:id="b.HAB.001.012" type="verse">
+						ألست انت منذ الازل يا رب الهي قدوسي. لا نموت. يا رب للحكم جعلتها ويا صخر للتأديب اسستها.
+					</ab>
+					<ab xml:id="b.HAB.001.013" type="verse">
+						عيناك اطهر من ان تنظرا الشر ولا تستطيع النظر الى الجور فلم تنظر الى الناهبين وتصمت حين يبلع الشرير من هو ابرّ منه.
+					</ab>
+					<ab xml:id="b.HAB.001.014" type="verse">
+						وتجعل الناس كسمك البحر كدبابات لا سلطان لها.
+					</ab>
+					<ab xml:id="b.HAB.001.015" type="verse">
+						تطلع الكل بشصّها وتصطادهم بشبكتها وتجمعهم في مصيدتها فلذلك تفرح وتبتهج.
+					</ab>
+					<ab xml:id="b.HAB.001.016" type="verse">
+						لذلك تذبح لشبكتها وتبخّر لمصيدتها لانه بهما سمن نصيبها وطعامها مسمّن.
+					</ab>
+					<ab xml:id="b.HAB.001.017" type="verse">
+						أفلأجل هذا تفرغ شبكتها ولا تعفو عن قتل الامم دائما
+					</ab>
+				</div>
+				<div xml:id="b.HAB.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.HAB.002.001" type="verse">
+						على مرصدي اقف وعلى الحصن انتصب واراقب لارى ماذا يقول لي وماذا اجيب عن شكواي.
+					</ab>
+					<ab xml:id="b.HAB.002.002" type="verse">
+						فاجابني الرب وقال اكتب الرؤيا وانقشها على الالواح لكي يركض قارئها.
+					</ab>
+					<ab xml:id="b.HAB.002.003" type="verse">
+						لان الرؤيا بعد الى الميعاد وفي النهاية تتكلم ولا تكذب. ان توانت فانتظرها لانها ستاتي اتيانا ولا تتأخر
+					</ab>
+					<ab xml:id="b.HAB.002.004" type="verse">
+						هوذا منتفخة غير مستقيمة نفسه فيه. والبار بايمانه يحيا.
+					</ab>
+					<ab xml:id="b.HAB.002.005" type="verse">
+						وحقا ان الخمر غادرة. الرجل متكبر ولا يهدأ. الذي قد وسّع نفسه كالهاوية وهو كالموت فلا يشبع بل يجمع الى نفسه كل الامم ويضم الى نفسه جميع الشعوب.
+					</ab>
+					<ab xml:id="b.HAB.002.006" type="verse">
+						فهلا ينطق هؤلاء كلهم بهجو عليه ولغز شماتة به ويقولون ويل للمكثّر ما ليس له. الى متى. وللمثقّل نفسه رهونا.
+					</ab>
+					<ab xml:id="b.HAB.002.007" type="verse">
+						ألا يقوم بغتة مقارضوك ويستيقظ مزعزعوك فتكون غنيمة لهم.
+					</ab>
+					<ab xml:id="b.HAB.002.008" type="verse">
+						لانك سلبت امما كثيرة فبقية الشعوب كلها تسلبك لدماء الناس وظلم الارض والمدينة وجميع الساكنين فيها
+					</ab>
+					<ab xml:id="b.HAB.002.009" type="verse">
+						ويل للمكسب بيته كسبا شريرا ليجعل عشّه في العلو لينجو من كف الشر.
+					</ab>
+					<ab xml:id="b.HAB.002.010" type="verse">
+						تآمرت الخزي لبيتك. ابادة شعوب كثيرة وانت مخطئ لنفسك.
+					</ab>
+					<ab xml:id="b.HAB.002.011" type="verse">
+						لان الحجر يصرخ من الحائط فيجيبه الجائز من الخشب
+					</ab>
+					<ab xml:id="b.HAB.002.012" type="verse">
+						ويل للباني مدينة بالدماء وللمؤسس قرية بالاثم.
+					</ab>
+					<ab xml:id="b.HAB.002.013" type="verse">
+						أليس من قبل رب الجنود ان الشعوب يتعبون للنار والامم للباطل يعيون.
+					</ab>
+					<ab xml:id="b.HAB.002.014" type="verse">
+						لان الارض تمتلئ من معرفة مجد الرب كما تغطي المياه البحر
+					</ab>
+					<ab xml:id="b.HAB.002.015" type="verse">
+						ويل لمن يسقي صاحبه سافحا حموك ومسكرا ايضا للنظر الى عوراتهم.
+					</ab>
+					<ab xml:id="b.HAB.002.016" type="verse">
+						قد شبعت خزيا عوضا عن المجد. فاشرب انت ايضا واكشف غرلتك. تدور اليك كاس يمين الرب. وقياء الخزي على مجدك.
+					</ab>
+					<ab xml:id="b.HAB.002.017" type="verse">
+						لان ظلم لبنان يغطيك واغتصاب البهائم الذي روّعها لاجل دماء الناس وظلم الارض والمدينة وجميع الساكنين فيها
+					</ab>
+					<ab xml:id="b.HAB.002.018" type="verse">
+						ماذا نفع التمثال المنحوت حتى نحته صانعه او المسبوك ومعلّم الكذب حتى ان الصانع صنعة يتكل عليها فيصنع اوثانا بكما.
+					</ab>
+					<ab xml:id="b.HAB.002.019" type="verse">
+						ويل للقائل للعود استيقظ وللحجر الاصم انتبه. أهو يعلّم. ها هو مطلي بالذهب والفضة ولا روح البتة في داخله.
+					</ab>
+					<ab xml:id="b.HAB.002.020" type="verse">
+						اما الرب ففي هيكل قدسه. فاسكتي قدامه يا كل الارض
+					</ab>
+				</div>
+				<div xml:id="b.HAB.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.HAB.003.001" type="verse">
+						صلاة لحبقوق النبي على الشجويّة
+					</ab>
+					<ab xml:id="b.HAB.003.002" type="verse">
+						يا رب قد سمعت خبرك فجزعت. يا رب عملك في وسط السنين أحيه. في وسط السنين عرّف. في الغضب اذكر الرحمة
+					</ab>
+					<ab xml:id="b.HAB.003.003" type="verse">
+						الله جاء من تيمان والقدوس من جبل فاران. سلاه. جلاله غطى السموات والارض امتلأت من تسبيحه.
+					</ab>
+					<ab xml:id="b.HAB.003.004" type="verse">
+						وكان لمعان كالنور. له من يده شعاع وهناك استتار قدرته.
+					</ab>
+					<ab xml:id="b.HAB.003.005" type="verse">
+						قدامه ذهب الوبأ وعند رجليه خرجت الحمّى.
+					</ab>
+					<ab xml:id="b.HAB.003.006" type="verse">
+						وقف وقاس الارض. نظر فرجف الامم ودكّت الجبال الدهرية وخسفت اكام القدم. مسالك الازل له.
+					</ab>
+					<ab xml:id="b.HAB.003.007" type="verse">
+						رأيت خيام كوشان تحت بلية. رجفت شقق ارض مديان.
+					</ab>
+					<ab xml:id="b.HAB.003.008" type="verse">
+						هل على الانهار حمي يا رب هل على الانهار غضبك او على البحر سخطك حتى انك ركبت خيلك مركباتك مركبات الخلاص.
+					</ab>
+					<ab xml:id="b.HAB.003.009" type="verse">
+						عرّيت قوسك تعرية. سباعيّات سهام كلمتك. سلاه. شققت الارض انهارا.
+					</ab>
+					<ab xml:id="b.HAB.003.010" type="verse">
+						ابصرتك ففزعت الجبال. سيل المياه طما. اعطت اللجّة صوتها. رفعت يديها الى العلاء.
+					</ab>
+					<ab xml:id="b.HAB.003.011" type="verse">
+						الشمس والقمر وقفا في بروجهما لنور سهامك الطائرة للمعان برق مجدك.
+					</ab>
+					<ab xml:id="b.HAB.003.012" type="verse">
+						بغضب خطرت في الارض. بسخط دست الامم.
+					</ab>
+					<ab xml:id="b.HAB.003.013" type="verse">
+						خرجت لخلاص شعبك لخلاص مسيحك. سحقت راس بيت الشرير معرّيا الاساس حتى العنق. سلاه.
+					</ab>
+					<ab xml:id="b.HAB.003.014" type="verse">
+						ثقبت بسهامه راس قبائله. عصفوا لتشتيتي. ابتهاجهم كما لأكل المسكين في الخفية.
+					</ab>
+					<ab xml:id="b.HAB.003.015" type="verse">
+						سلكت البحر بخيلك كوم المياه الكثيرة
+					</ab>
+					<ab xml:id="b.HAB.003.016" type="verse">
+						سمعت فارتعدت احشائي. من الصوت رجفت شفتاي. دخل النخر في عظامي وارتعدت في مكاني لاستريح في يوم الضيق عند صعود الشعب الذي يزحمنا.
+					</ab>
+					<ab xml:id="b.HAB.003.017" type="verse">
+						فمع انه لا يزهر التين ولا يكون حمل في الكروم يكذب عمل الزيتونة والحقول لا تصنع طعاما ينقطع الغنم من الحظيرة ولا بقر في المذاود
+					</ab>
+					<ab xml:id="b.HAB.003.018" type="verse">
+						فاني ابتهج بالرب وافرح باله خلاصي.
+					</ab>
+					<ab xml:id="b.HAB.003.019" type="verse">
+						الرب السيد قوّتي ويجعل قدميّ كالايائل ويمشيني على مرتفعاتي. لرئيس المغنين على آلاتي ذوات الاوتار
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

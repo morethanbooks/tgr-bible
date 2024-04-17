@@ -1,0 +1,401 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>1 Peter (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="5"/><measure commodity="verses" quantity="105"/><measure commodity="bytes" quantity="114983"/><measure commodity="characters" quantity="64047"/><measure commodity="tokens" quantity="11983"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>1 Peter</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q131119">Q131119</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4076022-4">4076022-4</idno><author><name>Peter</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q33923">Q33923</idno><idno type="gnd" corresp="https://d-nb.info/gnd/118593323">118593323</idno></author></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">new</term><term type="genre">letter</term><term type="division">Letters</term><term type="genre-multilabel">letter</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.1PE" type="book">
+				<div xml:id="b.1PE.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.1PE.001.001" type="verse">
+						بطرس رسول يسوع المسيح الى المتغربين من شتات بنتس وغلاطية وكبدوكية واسيا وبيثينية المختارين
+					</ab>
+					<ab xml:id="b.1PE.001.002" type="verse">
+						بمقتضى علم الله الآب السابق في تقديس الروح للطاعة ورشّ دم يسوع المسيح. لتكثر لكم النعمة والسلام
+					</ab>
+					<ab xml:id="b.1PE.001.003" type="verse">
+						مبارك الله ابو ربنا يسوع المسيح الذي حسب رحمته الكثيرة ولدنا ثانية لرجاء حيّ بقيامة يسوع المسيح من الاموات
+					</ab>
+					<ab xml:id="b.1PE.001.004" type="verse">
+						لميراث لا يفنى ولا يتدنس ولا يضمحل محفوظ في السموات لاجلكم
+					</ab>
+					<ab xml:id="b.1PE.001.005" type="verse">
+						انتم الذين بقوة الله محروسون بايمان لخلاص مستعد ان يعلن في الزمان الاخير.
+					</ab>
+					<ab xml:id="b.1PE.001.006" type="verse">
+						الذي به تبتهجون مع انكم الآن ان كان يجب تحزنون يسيرا بتجارب متنوعة
+					</ab>
+					<ab xml:id="b.1PE.001.007" type="verse">
+						لكي تكون تزكية ايمانكم وهي اثمن من الذهب الفاني مع انه يمتحن بالنار توجد للمدح والكرامة والمجد عند استعلان يسوع المسيح
+					</ab>
+					<ab xml:id="b.1PE.001.008" type="verse">
+						ذلك وان لم تروه تحبونه. ذلك وان كنتم لا ترونه الآن لكن تؤمنون به فتبتهجون بفرح لا ينطق به ومجيد
+					</ab>
+					<ab xml:id="b.1PE.001.009" type="verse">
+						نائلين غاية ايمانكم خلاص النفوس.
+					</ab>
+					<ab xml:id="b.1PE.001.010" type="verse">
+						الخلاص الذي فتش وبحث عنه انبياء. الذين تنبأوا عن النعمة التي لاجلكم
+					</ab>
+					<ab xml:id="b.1PE.001.011" type="verse">
+						باحثين اي وقت او ما الوقت الذي كان يدل عليه روح المسيح الذي فيهم اذ سبق فشهد بالآلام التي للمسيح والامجاد التي بعدها.
+					</ab>
+					<ab xml:id="b.1PE.001.012" type="verse">
+						الذين أعلن لهم انهم ليس لانفسهم بل لنا كانوا يخدمون بهذه الامور التي أخبرتم بها انتم الآن بواسطة الذين بشروكم في الروح القدس المرسل من السماء التي تشتهي الملائكة ان تطّلع عليها
+					</ab>
+					<ab xml:id="b.1PE.001.013" type="verse">
+						لذلك منطقوا احقاء ذهنكم صاحين فالقوا رجاءكم بالتمام على النعمة التي يؤتى بها اليكم عند استعلان يسوع المسيح.
+					</ab>
+					<ab xml:id="b.1PE.001.014" type="verse">
+						كاولاد الطاعة لا تشاكلوا شهواتكم السابقة في جهالتكم.
+					</ab>
+					<ab xml:id="b.1PE.001.015" type="verse">
+						بل نظير القدوس الذي دعاكم كونوا انتم ايضا قديسين في كل سيرة.
+					</ab>
+					<ab xml:id="b.1PE.001.016" type="verse">
+						لانه مكتوب كونوا قديسين لاني انا قدوس.
+					</ab>
+					<ab xml:id="b.1PE.001.017" type="verse">
+						وان كنتم تدعون ابا الذي يحكم بغير محاباة حسب عمل كل واحد فسيروا زمان غربتكم بخوف
+					</ab>
+					<ab xml:id="b.1PE.001.018" type="verse">
+						عالمين انكم افتديتم لا باشياء تفنى بفضة او ذهب من سيرتكم الباطلة التي تقلدتموها من الآباء
+					</ab>
+					<ab xml:id="b.1PE.001.019" type="verse">
+						بل بدم كريم كما من حمل بلا عيب ولا دنس دم المسيح
+					</ab>
+					<ab xml:id="b.1PE.001.020" type="verse">
+						معروفا سابقا قبل تأسيس العالم ولكن قد أظهر في الازمنة الاخيرة من اجلكم.
+					</ab>
+					<ab xml:id="b.1PE.001.021" type="verse">
+						انتم الذين به تؤمنون بالله الذي اقامه من الاموات واعطاه مجدا حتى ان ايمانكم ورجاءكم هما في الله.
+					</ab>
+					<ab xml:id="b.1PE.001.022" type="verse">
+						طهّروا نفوسكم في طاعة الحق بالروح للمحبة الاخوية العديمة الرياء فاحبوا بعضكم بعضا من قلب طاهر بشدة.
+					</ab>
+					<ab xml:id="b.1PE.001.023" type="verse">
+						مولودين ثانية لا من زرع يفنى بل مما لا يفنى بكلمة الله الحية الباقية الى الابد.
+					</ab>
+					<ab xml:id="b.1PE.001.024" type="verse">
+						لان كل جسد كعشب وكل مجد انسان كزهر عشب. العشب يبس وزهره سقط
+					</ab>
+					<ab xml:id="b.1PE.001.025" type="verse">
+						واما كلمة الرب فتثبت الى الابد. وهذه هي الكلمة التي بشرتم بها
+					</ab>
+				</div>
+				<div xml:id="b.1PE.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.1PE.002.001" type="verse">
+						فاطرحوا كل خبث وكل مكر والرياء والحسد وكل مذمة
+					</ab>
+					<ab xml:id="b.1PE.002.002" type="verse">
+						وكاطفال مولودين الآن اشتهوا اللبن العقلي العديم الغش لكي تنموا به
+					</ab>
+					<ab xml:id="b.1PE.002.003" type="verse">
+						ان كنتم قد ذقتم ان الرب صالح.
+					</ab>
+					<ab xml:id="b.1PE.002.004" type="verse">
+						الذي اذ تأتون اليه حجرا حيّا مرفوضا من الناس ولكن مختار من الله كريم
+					</ab>
+					<ab xml:id="b.1PE.002.005" type="verse">
+						كونوا انتم ايضا مبنيين كحجارة حية بيتا روحيا كهنوتا مقدسا لتقديم ذبائح روحية مقبولة عند الله بيسوع المسيح.
+					</ab>
+					<ab xml:id="b.1PE.002.006" type="verse">
+						لذلك يتضمن ايضا في الكتاب هانذا اضع في صهيون حجر زاوية مختارا كريما والذي يؤمن به لن يخزى.
+					</ab>
+					<ab xml:id="b.1PE.002.007" type="verse">
+						فلكم انتم الذين تؤمنون الكرامة واما للذين لا يطيعون فالحجر الذي رفضه البناؤون هو قد صار راس الزاوية
+					</ab>
+					<ab xml:id="b.1PE.002.008" type="verse">
+						وحجر صدمة وصخرة عثرة. الذين يعثرون غير طائعين للكلمة الامر الذي جعلوا له.
+					</ab>
+					<ab xml:id="b.1PE.002.009" type="verse">
+						واما انتم فجنس مختار وكهنوت ملوكي امة مقدسة شعب اقتناء لكي تخبروا بفضائل الذي دعاكم من الظلمة الى نوره العجيب.
+					</ab>
+					<ab xml:id="b.1PE.002.010" type="verse">
+						الذين قبلا لم تكونوا شعبا واما الآن فانتم شعب الله. الذين كنتم غير مرحومين واما الآن فمرحومون
+					</ab>
+					<ab xml:id="b.1PE.002.011" type="verse">
+						ايها الاحباء اطلب اليكم كغرباء ونزلاء ان تمتنعوا عن الشهوات الجسدية التي تحارب النفس
+					</ab>
+					<ab xml:id="b.1PE.002.012" type="verse">
+						وان تكون سيرتكم بين الامم حسنة لكي يكونوا في ما يفترون عليكم كفاعلي شر يمجدون الله في يوم الافتقاد من اجل اعمالكم الحسنة التي يلاحظونها.
+					</ab>
+					<ab xml:id="b.1PE.002.013" type="verse">
+						فاخضعوا لكل ترتيب بشري من اجل الرب. ان كان للملك فكمن هو فوق الكل
+					</ab>
+					<ab xml:id="b.1PE.002.014" type="verse">
+						او للولاة فكمرسلين منه للانتقام من فاعلي الشر وللمدح لفاعلي الخير.
+					</ab>
+					<ab xml:id="b.1PE.002.015" type="verse">
+						لان هكذا هي مشيئة الله ان تفعلوا الخير فتسكّتوا جهالة الناس الاغبياء.
+					</ab>
+					<ab xml:id="b.1PE.002.016" type="verse">
+						كاحرار وليس كالذين الحرية عندهم سترة للشر بل كعبيد الله.
+					</ab>
+					<ab xml:id="b.1PE.002.017" type="verse">
+						اكرموا الجميع. احبوا الاخوة. خافوا الله. اكرموا الملك
+					</ab>
+					<ab xml:id="b.1PE.002.018" type="verse">
+						ايها الخدام كونوا خاضعين بكل هيبة للسادة ليس للصالحين المترفقين فقط بل للعنفاء ايضا.
+					</ab>
+					<ab xml:id="b.1PE.002.019" type="verse">
+						لان هذا فضل ان كان احد من اجل ضمير نحو الله يحتمل احزانا متألما بالظلم.
+					</ab>
+					<ab xml:id="b.1PE.002.020" type="verse">
+						لانه اي مجد هو ان كنتم تلطمون مخطئين فتصبرون. بل ان كنتم تتألمون عاملين الخير فتصبرون فهذا فضل عند الله
+					</ab>
+					<ab xml:id="b.1PE.002.021" type="verse">
+						لانكم لهذا دعيتم فان المسيح ايضا تألم لاجلنا تاركا لنا مثالا لكي تتبعوا خطواته.
+					</ab>
+					<ab xml:id="b.1PE.002.022" type="verse">
+						الذي لم يفعل خطية ولا وجد في فمه مكر
+					</ab>
+					<ab xml:id="b.1PE.002.023" type="verse">
+						الذي اذ شتم لم يكن يشتم عوضا واذ تألم لم يكن يهدد بل كان يسلم لمن يقضي بعدل.
+					</ab>
+					<ab xml:id="b.1PE.002.024" type="verse">
+						الذي حمل هو نفسه خطايانا في جسده على الخشبة لكي نموت عن الخطايا فنحيا للبر. الذي بجلدته شفيتم.
+					</ab>
+					<ab xml:id="b.1PE.002.025" type="verse">
+						لانكم كنتم كخراف ضالة لكنكم رجعتم الآن الى راعي نفوسكم واسقفها
+					</ab>
+				</div>
+				<div xml:id="b.1PE.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.1PE.003.001" type="verse">
+						كذلكنّ ايتها النساء كنّ خاضعات لرجالكنّ حتى وان كان البعض لا يطيعون الكلمة يربحون بسيرة النساء بدون كلمة
+					</ab>
+					<ab xml:id="b.1PE.003.002" type="verse">
+						ملاحظين سيرتكنّ الطاهرة بخوف.
+					</ab>
+					<ab xml:id="b.1PE.003.003" type="verse">
+						ولا تكن زينتكنّ الزينة الخارجية من ضفر الشعر والتحلي بالذهب ولبس الثياب
+					</ab>
+					<ab xml:id="b.1PE.003.004" type="verse">
+						بل انسان القلب الخفي في العديمة الفساد زينة الروح الوديع الهادئ الذي هو قدام الله كثير الثمن.
+					</ab>
+					<ab xml:id="b.1PE.003.005" type="verse">
+						فانه هكذا كانت قديما النساء القديسات ايضا المتوكلات على الله يزيّن انفسهن خاضعات لرجالهن
+					</ab>
+					<ab xml:id="b.1PE.003.006" type="verse">
+						كما كانت سارة تطيع ابراهيم داعية اياه سيدها. التي صرتنّ اولادها صانعات خيرا وغير خائفات خوفا البتة
+					</ab>
+					<ab xml:id="b.1PE.003.007" type="verse">
+						كذلكم ايها الرجال كونوا ساكنين بحسب الفطنة مع الاناء النسائي كالاضعف معطين اياهنّ كرامة كالوارثات ايضا معكم نعمة الحياة لكي لا تعاق صلواتكم.
+					</ab>
+					<ab xml:id="b.1PE.003.008" type="verse">
+						والنهاية كونوا جميعا متحدي الرأي بحس واحد ذوي محبة اخوية مشفقين لطفاء
+					</ab>
+					<ab xml:id="b.1PE.003.009" type="verse">
+						غير مجازين عن شر بشر او عن شتيمة بشتيمة بل بالعكس مباركين عالمين انكم لهذا دعيتم لكي ترثوا بركة.
+					</ab>
+					<ab xml:id="b.1PE.003.010" type="verse">
+						لان من اراد ان يحب الحياة ويرى اياما صالحة فليكفف لسانه عن الشر وشفتيه ان تتكلما بالمكر
+					</ab>
+					<ab xml:id="b.1PE.003.011" type="verse">
+						ليعرض عن الشر ويصنع الخير ليطلب السلام ويجدّ في اثره
+					</ab>
+					<ab xml:id="b.1PE.003.012" type="verse">
+						لان عيني الرب على الابرار واذنيه الى طلبتهم. ولكن وجه الرب ضد فاعلي الشر
+					</ab>
+					<ab xml:id="b.1PE.003.013" type="verse">
+						فمن يؤذيكم ان كنتم متمثلين بالخير.
+					</ab>
+					<ab xml:id="b.1PE.003.014" type="verse">
+						ولكن وان تألمتم من اجل البر فطوباكم. واما خوفهم فلا تخافوه ولا تضطربوا
+					</ab>
+					<ab xml:id="b.1PE.003.015" type="verse">
+						بل قدسوا الرب الاله في قلوبكم مستعدين دائما لمجاوبة كل من يسألكم عن سبب الرجاء الذي فيكم بوداعة وخوف
+					</ab>
+					<ab xml:id="b.1PE.003.016" type="verse">
+						ولكم ضمير صالح لكي يكون الذين يشتمون سيرتكم الصالحة في المسيح يخزون في ما يفترون عليكم كفاعلي شر.
+					</ab>
+					<ab xml:id="b.1PE.003.017" type="verse">
+						لان تألمكم ان شاءت مشيئة الله وانتم صانعون خيرا افضل منه وانتم صانعون شرا.
+					</ab>
+					<ab xml:id="b.1PE.003.018" type="verse">
+						فان المسيح ايضا تألم مرة واحدة من اجل الخطايا البار من اجل الاثمة لكي يقربنا الى الله مماتا في الجسد ولكن محيى في الروح
+					</ab>
+					<ab xml:id="b.1PE.003.019" type="verse">
+						الذي فيه ايضا ذهب فكرز للارواح التي في السجن
+					</ab>
+					<ab xml:id="b.1PE.003.020" type="verse">
+						اذ عصت قديما حين كانت اناة الله تنتظر مرة في ايام نوح اذ كان الفلك يبنى الذي فيه خلص قليلون اي ثماني انفس بالماء.
+					</ab>
+					<ab xml:id="b.1PE.003.021" type="verse">
+						الذي مثاله يخلّصنا نحن الآن اي المعمودية لا ازالة وسخ الجسد بل سؤال ضمير صالح عن الله بقيامة يسوع المسيح
+					</ab>
+					<ab xml:id="b.1PE.003.022" type="verse">
+						الذي هو في يمين الله اذ قد مضى الى السماء وملائكة وسلاطين وقوات مخضعة له
+					</ab>
+				</div>
+				<div xml:id="b.1PE.004" type="chapter">
+				<head>4</head>
+					<ab xml:id="b.1PE.004.001" type="verse">
+						فاذ قد تألم المسيح لاجلنا بالجسد تسلحوا انتم ايضا بهذه النية. فان من تألم في الجسد كفّ عن الخطية
+					</ab>
+					<ab xml:id="b.1PE.004.002" type="verse">
+						لكي لا يعيش ايضا الزمان الباقي في الجسد لشهوات الناس بل لارادة الله.
+					</ab>
+					<ab xml:id="b.1PE.004.003" type="verse">
+						لان زمان الحياة الذي مضى يكفينا لنكون قد عملنا ارادة الامم سالكين في الدعارة والشهوات وادمان الخمر والبطر والمنادمات وعبادة الاوثان المحرمة
+					</ab>
+					<ab xml:id="b.1PE.004.004" type="verse">
+						الامر الذي فيه يستغربون انكم لستم تركضون معهم الى فيض هذه الخلاعة عينها مجدفين
+					</ab>
+					<ab xml:id="b.1PE.004.005" type="verse">
+						الذين سوف يعطون حسابا للذي هو على استعداد ان يدين الاحياء والاموات.
+					</ab>
+					<ab xml:id="b.1PE.004.006" type="verse">
+						فانه لاجل هذا بشر الموتى ايضا لكي يدانوا حسب الناس بالجسد ولكن ليحيوا حسب الله بالروح
+					</ab>
+					<ab xml:id="b.1PE.004.007" type="verse">
+						وانما نهاية كل شيء قد اقتربت. فتعقلوا واصحوا للصلوات.
+					</ab>
+					<ab xml:id="b.1PE.004.008" type="verse">
+						ولكن قبل كل شيء لتكن محبتكم بعضكم لبعض شديدة لان المحبة تستر كثرة من الخطايا.
+					</ab>
+					<ab xml:id="b.1PE.004.009" type="verse">
+						كونوا مضيفين بعضكم بعضا بلا دمدمة.
+					</ab>
+					<ab xml:id="b.1PE.004.010" type="verse">
+						ليكن كل واحد بحسب ما اخذ موهبة يخدم بها بعضكم بعضا كوكلاء صالحين على نعمة الله المتنوعة.
+					</ab>
+					<ab xml:id="b.1PE.004.011" type="verse">
+						ان كان يتكلم احد فكاقوال الله. وان كان يخدم احد فكانه من قوة يمنحها الله لكي يتمجد الله في كل شيء بيسوع المسيح الذي له المجد والسلطان الى ابد الآبدين. آمين
+					</ab>
+					<ab xml:id="b.1PE.004.012" type="verse">
+						ايها الاحباء لا تستغربوا البلوى المحرقة التي بينكم حادثة لاجل امتحانكم كانه اصابكم امر غريب
+					</ab>
+					<ab xml:id="b.1PE.004.013" type="verse">
+						بل كما اشتركتم في آلام المسيح افرحوا لكي تفرحوا في استعلان مجده ايضا مبتهجين
+					</ab>
+					<ab xml:id="b.1PE.004.014" type="verse">
+						ان عيّرتم باسم المسيح فطوبى لكم لان روح المجد والله يحل عليكم. اما من جهتهم فيجدّف عليه واما من جهتكم فيمجد.
+					</ab>
+					<ab xml:id="b.1PE.004.015" type="verse">
+						فلا يتألم احدكم كقاتل او سارق او فاعل شر او متداخل في امور غيره.
+					</ab>
+					<ab xml:id="b.1PE.004.016" type="verse">
+						ولكن ان كان كمسيحي فلا يخجل بل يمجد الله من هذا القبيل.
+					</ab>
+					<ab xml:id="b.1PE.004.017" type="verse">
+						لانه الوقت لابتداء القضاء من بيت الله. فان كان اولا منا فما هي نهاية الذين لا يطيعون انجيل الله.
+					</ab>
+					<ab xml:id="b.1PE.004.018" type="verse">
+						وان كان البار بالجهد يخلص فالفاجر والخاطئ اين يظهران.
+					</ab>
+					<ab xml:id="b.1PE.004.019" type="verse">
+						فاذا الذين يتألمون بحسب مشيئة الله فليستودعوا انفسهم كما لخالق امين في عمل الخير
+					</ab>
+				</div>
+				<div xml:id="b.1PE.005" type="chapter">
+				<head>5</head>
+					<ab xml:id="b.1PE.005.001" type="verse">
+						اطلب الى الشيوخ الذين بينكم انا الشيخ رفيقهم والشاهد لآلام المسيح وشريك المجد العتيد ان يعلن
+					</ab>
+					<ab xml:id="b.1PE.005.002" type="verse">
+						ارعوا رعية الله التي بينكم نظّارا لا عن اضطرار بل بالاختيار ولا لربح قبيح بل بنشاط.
+					</ab>
+					<ab xml:id="b.1PE.005.003" type="verse">
+						ولا كمن يسود على الانصبة بل صائرين امثلة للرعية
+					</ab>
+					<ab xml:id="b.1PE.005.004" type="verse">
+						ومتى ظهر رئيس الرعاة تنالون اكليل المجد الذي لا يبلى
+					</ab>
+					<ab xml:id="b.1PE.005.005" type="verse">
+						كذلك ايها الاحداث اخضعوا للشيوخ وكونوا جميعا خاضعين بعضكم لبعض وتسربلوا بالتواضع لان الله يقاوم المستكبرين واما المتواضعون فيعطيهم نعمة.
+					</ab>
+					<ab xml:id="b.1PE.005.006" type="verse">
+						فتواضعوا تحت يد الله القوية لكي يرفعكم في حينه
+					</ab>
+					<ab xml:id="b.1PE.005.007" type="verse">
+						ملقين كل همكم عليه لانه هو يعتني بكم
+					</ab>
+					<ab xml:id="b.1PE.005.008" type="verse">
+						اصحوا واسهروا لان ابليس خصمكم كأسد زائر يجول ملتمسا من يبتلعه هو.
+					</ab>
+					<ab xml:id="b.1PE.005.009" type="verse">
+						فقاوموه راسخين في الايمان عالمين ان نفس هذه الآلام تجرى على اخوتكم الذين في العالم
+					</ab>
+					<ab xml:id="b.1PE.005.010" type="verse">
+						واله كل نعمة الذي دعانا الى مجده الابدي في المسيح يسوع بعدما تألمتم يسيرا هو يكملكم ويثبتكم ويقويكم ويمكنكم
+					</ab>
+					<ab xml:id="b.1PE.005.011" type="verse">
+						له المجد والسلطان الى ابد الآبدين. آمين
+					</ab>
+					<ab xml:id="b.1PE.005.012" type="verse">
+						بيد سلوانس الاخ الامين كما اظن كتبت اليكم بكلمات قليلة واعظا وشاهدا ان هذه هي نعمة الله الحقيقية التي فيها تقومون.
+					</ab>
+					<ab xml:id="b.1PE.005.013" type="verse">
+						تسلم عليكم التي في بابل المختارة معكم ومرقس ابني.
+					</ab>
+					<ab xml:id="b.1PE.005.014" type="verse">
+						سلموا بعضكم على بعض بقبلة المحبة. سلام لكم جميعكم الذين في المسيح يسوع. آمين
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

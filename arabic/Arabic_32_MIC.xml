@@ -1,0 +1,407 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Micah (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="7"/><measure commodity="verses" quantity="105"/><measure commodity="bytes" quantity="1137678"/><measure commodity="characters" quantity="632646"/><measure commodity="tokens" quantity="119436"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>Micah</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q178076">Q178076</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4039110-3">4039110-3</idno><author><name>Micah</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q2804969">Q2804969</idno><idno type="gnd" corresp="https://d-nb.info/gnd/118641085">118641085</idno></author></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">old</term><term type="genre">prophecy</term><term type="division">Prophetic</term><term type="genre-multilabel">prophecy</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.MIC" type="book">
+				<div xml:id="b.MIC.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.MIC.001.001" type="verse">
+						قول الرب الذي صار الى ميخا المورشتي في ايام يوثام وآحاز وحزقيا ملوك يهوذا الذي رآه على السامرة واورشليم
+					</ab>
+					<ab xml:id="b.MIC.001.002" type="verse">
+						اسمعوا ايها الشعوب جميعكم اصغي ايتها الارض وملأها وليكن السيد الرب شاهدا عليكم السيد من هيكل قدسه.
+					</ab>
+					<ab xml:id="b.MIC.001.003" type="verse">
+						فانه هوذا الرب يخرج من مكانه وينزل ويمشي على شوامخ الارض.
+					</ab>
+					<ab xml:id="b.MIC.001.004" type="verse">
+						فتذوب الجبال تحته وتنشقّ الوديان كالشمع قدام النار. كالماء المنصب في منحدر.
+					</ab>
+					<ab xml:id="b.MIC.001.005" type="verse">
+						كل هذا من اجل اثم يعقوب ومن اجل خطية بيت اسرائيل. ما هو ذنب يعقوب. أليس هو السامرة. وما هي مرتفعات يهوذا. أليست هي اورشليم.
+					</ab>
+					<ab xml:id="b.MIC.001.006" type="verse">
+						فاجعل السامرة خربة في البرية مغارس للكروم والقي حجارتها الى الوادي واكشف أسسها.
+					</ab>
+					<ab xml:id="b.MIC.001.007" type="verse">
+						وجميع تماثيلها المنحوتة تحطم وكل اعقارها تحرق بالنار وجميع اصنامها اجعلها خرابا لانها من عقر الزانية جمعتها والى عقر الزانية تعود
+					</ab>
+					<ab xml:id="b.MIC.001.008" type="verse">
+						من اجل ذلك انوح واولول. امشي حافيا وعريانا. اصنع نحيبا كبنات آوى ونوحا كرعال النعام.
+					</ab>
+					<ab xml:id="b.MIC.001.009" type="verse">
+						لان جراحاتها عديمة الشفاء لانها قد أتت الى يهوذا وصلت الى باب شعبي الى اورشليم
+					</ab>
+					<ab xml:id="b.MIC.001.010" type="verse">
+						لا تخبروا في جتّ لا تبكوا في عكّاء. تمرّغي في التراب في بيت عفرة.
+					</ab>
+					<ab xml:id="b.MIC.001.011" type="verse">
+						اعبري يا ساكنة شافير عريانة وخجلة. الساكنة في صانان لا تخرج. نوح بيت هأيصل يأخذ عندكم مقامه.
+					</ab>
+					<ab xml:id="b.MIC.001.012" type="verse">
+						لان الساكنة في ماروث اغتمّت لاجل خيراتها لان شرا قد نزل من عند الرب الى باب اورشليم.
+					</ab>
+					<ab xml:id="b.MIC.001.013" type="verse">
+						شدّي المركبة بالجواد يا ساكنة لاخيش. هي اول خطية لابنة صهيون لانه فيك وجدت ذنوب اسرائيل.
+					</ab>
+					<ab xml:id="b.MIC.001.014" type="verse">
+						لذلك تعطين اطلاقا لمورشة جتّ. تصير بيوت اكزيب كاذبة لملوك اسرائيل.
+					</ab>
+					<ab xml:id="b.MIC.001.015" type="verse">
+						آتي اليك ايضا بالوارث يا ساكنة مريشة. يأتي الى عدلام مجد اسرائيل.
+					</ab>
+					<ab xml:id="b.MIC.001.016" type="verse">
+						كوني قرعاء وجزّي من اجل بني تنعمك. وسّعي قرعتك كالنسر لانهم قد انتفوا عنك
+					</ab>
+				</div>
+				<div xml:id="b.MIC.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.MIC.002.001" type="verse">
+						ويل للمفتكرين بالبطل والصانعين الشر على مضاجعهم. في نور الصباح يفعلونه لانه في قدرة يدهم.
+					</ab>
+					<ab xml:id="b.MIC.002.002" type="verse">
+						فانهم يشتهون الحقول ويغتصبونها والبيوت ويأخذونها ويظلمون الرجل وبيته والانسان وميراثه.
+					</ab>
+					<ab xml:id="b.MIC.002.003" type="verse">
+						لذلك هكذا قال الرب. هانذا افتكر على هذه العشيرة بشر لا تزيلون منه اعناقكم ولا تسلكون بالتشامخ لانه زمان رديء
+					</ab>
+					<ab xml:id="b.MIC.002.004" type="verse">
+						في ذلك اليوم ينطق عليكم بهجو ويرثى بمرثاة ويقال خربنا خرابا. بدل نصيب شعبي. كيف ينزعه عني. يقسم للمرتدّ حقولنا.
+					</ab>
+					<ab xml:id="b.MIC.002.005" type="verse">
+						لذلك لا يكون لك من يلقي حبلا في نصيب بين جماعة الرب
+					</ab>
+					<ab xml:id="b.MIC.002.006" type="verse">
+						يتنبأون قائلين لا تتنبأوا. لا يتنبأون عن هذه الأمور لا يزول العار
+					</ab>
+					<ab xml:id="b.MIC.002.007" type="verse">
+						ايها المسمى بيت يعقوب هل قصرت روح الرب. أهذه افعاله. أليست اقوالي صالحة نحو من يسلك بالاستقامة.
+					</ab>
+					<ab xml:id="b.MIC.002.008" type="verse">
+						ولكن بالامس قام شعبي كعدوّ. تنزعون الرداء عن الثوب من المجتازين بالطمأنينة ومن الراجعين من القتال.
+					</ab>
+					<ab xml:id="b.MIC.002.009" type="verse">
+						تطردون نساء شعبي من بيت تنعّمهنّ تاخذون عن اطفالهنّ زينتي الى الابد
+					</ab>
+					<ab xml:id="b.MIC.002.010" type="verse">
+						قوموا واذهبوا لانه ليست هذه هي الراحة. من اجل نجاسة تهلك والهلاك شديد.
+					</ab>
+					<ab xml:id="b.MIC.002.011" type="verse">
+						لو كان احد وهو سالك بالريح والكذب يكذب قائلا اتنبأ لك عن الخمر والمسكر لكان هو نبيّ هذا الشعب
+					</ab>
+					<ab xml:id="b.MIC.002.012" type="verse">
+						اني اجمع جميعك يا يعقوب. اضمّ بقية اسرائيل. اضعهم معا كغنم الحظيرة كقطيع في وسط مرعاه يضجّ من الناس.
+					</ab>
+					<ab xml:id="b.MIC.002.013" type="verse">
+						قد صعد الفاتك امامهم. يقتحمون ويعبرون من الباب ويخرجون منه ويجتاز ملكهم امامهم والرب في راسهم
+					</ab>
+				</div>
+				<div xml:id="b.MIC.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.MIC.003.001" type="verse">
+						وقلت اسمعوا يا رؤساء يعقوب وقضاة بيت اسرائيل. أليس لكم ان تعرفوا الحق.
+					</ab>
+					<ab xml:id="b.MIC.003.002" type="verse">
+						المبغضين الخير والمحبين الشر النازعين جلودهم عنهم ولحمهم عن عظامهم.
+					</ab>
+					<ab xml:id="b.MIC.003.003" type="verse">
+						والذين ياكلون لحم شعبي ويكشطون جلدهم عنهم ويهشمون عظامهم ويشققون كما في القدر وكاللحم في وسط المقلى.
+					</ab>
+					<ab xml:id="b.MIC.003.004" type="verse">
+						حينئذ يصرخون الى الرب فلا يجيبهم بل يستر وجهه عنهم في ذلك الوقت كما اساءوا اعمالهم
+					</ab>
+					<ab xml:id="b.MIC.003.005" type="verse">
+						هكذا قال الرب على الانبياء الذين يضلّون شعبي الذين ينهشون باسنانهم وينادون سلام. والذي لا يجعل في افواههم شيئا يفتحون عليه حربا.
+					</ab>
+					<ab xml:id="b.MIC.003.006" type="verse">
+						لذلك تكون لكم ليلة بلا رؤيا. ظلام لكم بدون عرافة. وتغيب الشمس عن الانبياء ويظلم عليهم النهار.
+					</ab>
+					<ab xml:id="b.MIC.003.007" type="verse">
+						فيخزى الراؤون ويخجل العرافون ويغطّون كلهم شواربهم لانه ليس جواب من الله.
+					</ab>
+					<ab xml:id="b.MIC.003.008" type="verse">
+						لكنني انا ملآن قوّة روح الرب وحقا وبأسا لاخبر يعقوب بذنبه واسرائيل بخطيته
+					</ab>
+					<ab xml:id="b.MIC.003.009" type="verse">
+						اسمعوا هذا يا رؤساء بيت يعقوب وقضاة بيت اسرائيل الذين يكرهون الحق ويعوّجون كل مستقيم.
+					</ab>
+					<ab xml:id="b.MIC.003.010" type="verse">
+						الذين يبنون صهيون بالدماء واورشليم بالظلم.
+					</ab>
+					<ab xml:id="b.MIC.003.011" type="verse">
+						رؤساؤها يقضون بالرشوة وكهنتها يعلّمون بالأجرة وانبياؤها يعرفون بالفضة وهم يتوكلون على الرب قائلين أليس الرب في وسطنا. لا يأتي علينا شر.
+					</ab>
+					<ab xml:id="b.MIC.003.012" type="verse">
+						لذلك بسببكم تفلح صهيون كحقل وتصير اورشليم خربا وجبل البيت شوامخ وعر
+					</ab>
+				</div>
+				<div xml:id="b.MIC.004" type="chapter">
+				<head>4</head>
+					<ab xml:id="b.MIC.004.001" type="verse">
+						ويكون في آخر الايام ان جبل بيت الرب يكون ثابتا في راس الجبال ويرتفع فوق التلال وتجري اليه شعوب.
+					</ab>
+					<ab xml:id="b.MIC.004.002" type="verse">
+						وتسير امم كثيرة ويقولون هلم نصعد الى جبل الرب والى بيت اله يعقوب فيعلمنا من طرقه ونسلك في سبله لانه من صهيون تخرج الشريعة ومن اورشليم كلمة الرب.
+					</ab>
+					<ab xml:id="b.MIC.004.003" type="verse">
+						فيقضي بين شعوب كثيرين ينصف لامم قوّية بعيدة فيطبعون سيوفهم سككا ورماحهم مناجل. لا ترفع امة على امة سيفا ولا يتعلمون الحرب في ما بعد.
+					</ab>
+					<ab xml:id="b.MIC.004.004" type="verse">
+						بل يجلسون كل واحد تحت كرمته وتحت تينته ولا يكون من يرعب لان فم رب الجنود تكلم.
+					</ab>
+					<ab xml:id="b.MIC.004.005" type="verse">
+						لان جميع الشعوب يسلكون كل واحد باسم الهه ونحن نسلك باسم الرب الهنا الى الدهر والابد
+					</ab>
+					<ab xml:id="b.MIC.004.006" type="verse">
+						في ذلك اليوم يقول الرب اجمع الظالعة واضم المطرودة والتي اضررت بها
+					</ab>
+					<ab xml:id="b.MIC.004.007" type="verse">
+						واجعل الظالعة بقيّة والمقصاة امة قوية ويملك الرب عليهم في جبل صهيون من الآن الى الابد.
+					</ab>
+					<ab xml:id="b.MIC.004.008" type="verse">
+						وانت يا برج القطيع اكمة بنت صهيون اليك يأتي. ويجيء الحكم الاول ملك بنت اورشليم
+					</ab>
+					<ab xml:id="b.MIC.004.009" type="verse">
+						الآن لماذا تصرخين صراخا. أليس فيك ملك ام هلك مشيرك حتى اخذك وجع كالوالدة.
+					</ab>
+					<ab xml:id="b.MIC.004.010" type="verse">
+						تلوّي ادفعي يا بنت صهيون كالوالدة لانك الآن تخرجين من المدينة وتسكنين في البرية وتأتين الى بابل. هناك تنقذين. هناك يفديك الرب من يد اعدائك
+					</ab>
+					<ab xml:id="b.MIC.004.011" type="verse">
+						والآن قد اجتمعت عليك امم كثيرة الذين يقولون لتتدنّس ولتتفرس عيوننا في صهيون.
+					</ab>
+					<ab xml:id="b.MIC.004.012" type="verse">
+						وهم لا يعرفون افكار الرب ولا يفهمون قصده انه قد جمعهم كحزم الى البيدر.
+					</ab>
+					<ab xml:id="b.MIC.004.013" type="verse">
+						قومي ودوسي يا بنت صهيون لاني اجعل قرنك حديدا واظلافك اجعلها نحاسا فتسحقين شعوبا كثيرين واحرّم غنيمتهم للرب وثروتهم لسيد كل الارض
+					</ab>
+				</div>
+				<div xml:id="b.MIC.005" type="chapter">
+				<head>5</head>
+					<ab xml:id="b.MIC.005.001" type="verse">
+						الآن تتجيّشين يا بنت الجيوش. قد اقام علينا مترسة. يضربون قاضي اسرائيل بقضيب على خده.
+					</ab>
+					<ab xml:id="b.MIC.005.002" type="verse">
+						اما انت يا بيت لحم افراتة وانت صغيرة ان تكوني بين الوف يهوذا فمنك يخرج لي الذي يكون متسلطا على اسرائيل ومخارجه منذ القديم منذ ايام الازل.
+					</ab>
+					<ab xml:id="b.MIC.005.003" type="verse">
+						لذلك يسلّمهم الى حينما تكون قد ولدت والدة ثم ترجع بقية اخوته الى بني اسرائيل.
+					</ab>
+					<ab xml:id="b.MIC.005.004" type="verse">
+						ويقف ويرعى بقدرة الرب بعظمة اسم الرب الهه ويثبتون. لانه الآن يتعظم الى اقاصي الارض.
+					</ab>
+					<ab xml:id="b.MIC.005.005" type="verse">
+						ويكون هذا سلاما. اذا دخل اشور في ارضنا واذا داس في قصورنا نقيم عليه سبعة رعاة وثمانية من امراء الناس.
+					</ab>
+					<ab xml:id="b.MIC.005.006" type="verse">
+						فيرعون ارض اشور بالسيف وارض نمرود في ابوابها فينقذ من اشور اذا دخل ارضنا واذا داس تخومنا.
+					</ab>
+					<ab xml:id="b.MIC.005.007" type="verse">
+						وتكون بقية يعقوب في وسط شعوب كثيرين كالندى من عند الرب كالوابل على العشب الذي لا ينتظر انسانا ولا يصبر لبني البشر.
+					</ab>
+					<ab xml:id="b.MIC.005.008" type="verse">
+						وتكون بقية يعقوب بين الامم في وسط شعوب كثيرين كالاسد بين وحوش الوعر كشبل الاسد بين قطعان الغنم الذي اذا عبر يدوس ويفترس وليس من ينقذ.
+					</ab>
+					<ab xml:id="b.MIC.005.009" type="verse">
+						لترتفع يدك على مبغضيك وينقرض كل اعدائك
+					</ab>
+					<ab xml:id="b.MIC.005.010" type="verse">
+						ويكون في ذلك اليوم يقول الرب اني اقطع خيلك من وسطك وابيد مركباتك.
+					</ab>
+					<ab xml:id="b.MIC.005.011" type="verse">
+						واقطع مدن ارضك واهدم كل حصونك.
+					</ab>
+					<ab xml:id="b.MIC.005.012" type="verse">
+						واقطع السحر من يدك ولا يكون لك عائفون.
+					</ab>
+					<ab xml:id="b.MIC.005.013" type="verse">
+						واقطع تماثيلك المنحوتة وانصابك من وسطك فلا تسجد لعمل يديك في ما بعد.
+					</ab>
+					<ab xml:id="b.MIC.005.014" type="verse">
+						واقلع سواريك من وسطك وابيد مدنك.
+					</ab>
+					<ab xml:id="b.MIC.005.015" type="verse">
+						وبغضب وغيظ انتقم من الامم الذين لم يسمعوا
+					</ab>
+				</div>
+				<div xml:id="b.MIC.006" type="chapter">
+				<head>6</head>
+					<ab xml:id="b.MIC.006.001" type="verse">
+						اسمعوا ما قاله الرب. قم خاصم لدى الجبال ولتسمع التلال صوتك.
+					</ab>
+					<ab xml:id="b.MIC.006.002" type="verse">
+						اسمعي خصومة الرب ايتها الجبال ويا أسس الارض الدائمة. فان للرب خصومة مع شعبه وهو يحاكم اسرائيل
+					</ab>
+					<ab xml:id="b.MIC.006.003" type="verse">
+						يا شعبي ماذا صنعت بك وبماذا اضجرتك. اشهد عليّ.
+					</ab>
+					<ab xml:id="b.MIC.006.004" type="verse">
+						اني اصعدتك من ارض مصر وفككتك من بيت العبودية وارسلت امامك موسى وهرون ومريم.
+					</ab>
+					<ab xml:id="b.MIC.006.005" type="verse">
+						يا شعبي اذكر بماذا تآمر بالاق ملك موآب وبماذا اجابه بلعام بن بعور ــ من شطّيم الى الجلجال ــ لكي تعرف اجادة الرب
+					</ab>
+					<ab xml:id="b.MIC.006.006" type="verse">
+						بم اتقدم الى الرب وانحني للاله العلي. هل اتقدم بمحرقات بعجول ابناء سنة.
+					</ab>
+					<ab xml:id="b.MIC.006.007" type="verse">
+						هل يسرّ الرب بالوف الكباش بربوات انهار زيت. هل اعطي بكري عن معصيتي ثمرة جسدي عن خطية نفسي.
+					</ab>
+					<ab xml:id="b.MIC.006.008" type="verse">
+						قد اخبرك ايها الانسان ما هو صالح. وماذا يطلبه منك الرب ألا ان تصنع الحق وتحب الرحمة وتسلك متواضعا مع الهك
+					</ab>
+					<ab xml:id="b.MIC.006.009" type="verse">
+						صوت الرب ينادي للمدينة والحكمة ترى اسمك. اسمعوا للقضيب ومن رسمه.
+					</ab>
+					<ab xml:id="b.MIC.006.010" type="verse">
+						أفي بيت الشرير بعد كنوز شر وإيفة ناقصة ملعونة.
+					</ab>
+					<ab xml:id="b.MIC.006.011" type="verse">
+						هل اتزكى مع موازين الشر ومع كيس معايير الغش.
+					</ab>
+					<ab xml:id="b.MIC.006.012" type="verse">
+						فان اغنياءها ملآنون ظلما وسكانها يتكلمون بالكذب ولسانهم في فمهم غاشّ.
+					</ab>
+					<ab xml:id="b.MIC.006.013" type="verse">
+						فانا قد جعلت جروحك عديمة الشفاء مخربا من اجل خطاياك.
+					</ab>
+					<ab xml:id="b.MIC.006.014" type="verse">
+						انت تأكل ولا تشبع وجوعك في جوفك. وتعزّل ولا تنجي والذي تنجيه ادفعه الى السيف.
+					</ab>
+					<ab xml:id="b.MIC.006.015" type="verse">
+						انت تزرع ولا تحصد. انت تدوس زيتونا ولا تدهن بزيت وسلافة ولا تشرب خمرا.
+					</ab>
+					<ab xml:id="b.MIC.006.016" type="verse">
+						وتحفظ فرائض عمري وجميع اعمال بيت اخآب. وتسلكون بمشوراتهم لكي اسلمك للخراب وسكانها للصفير فتحملون عار شعبي
+					</ab>
+				</div>
+				<div xml:id="b.MIC.007" type="chapter">
+				<head>7</head>
+					<ab xml:id="b.MIC.007.001" type="verse">
+						ويل لي لاني صرت كجنى الصيف كخصاصة القطاف لا عنقود للأكل ولا باكورة تينة اشتهتها نفسي.
+					</ab>
+					<ab xml:id="b.MIC.007.002" type="verse">
+						قد باد التقي من الارض وليس مستقيم بين الناس. جميعهم يكمنون للدماء يصطادون بعضهم بعضا بشبكة.
+					</ab>
+					<ab xml:id="b.MIC.007.003" type="verse">
+						اليدان الى الشر مجتهدتان. الرئيس طالب والقاضي بالهدية والكبير متكلم بهوى نفسه فيعكّشونها.
+					</ab>
+					<ab xml:id="b.MIC.007.004" type="verse">
+						احسنهم مثل العوسج واعدلهم من سياج الشوك. يوم مراقبيك عقابك قد جاء. الآن يكون ارتباكهم
+					</ab>
+					<ab xml:id="b.MIC.007.005" type="verse">
+						لا تأتمنوا صاحبا لا تثقوا بصديق. احفظ ابواب فمك عن المضطجعة في حضنك.
+					</ab>
+					<ab xml:id="b.MIC.007.006" type="verse">
+						لان الابن مستهين بالأب والبنت قائمة على امها والكنة على حماتها واعداء الانسان اهل بيته
+					</ab>
+					<ab xml:id="b.MIC.007.007" type="verse">
+						ولكنني اراقب الرب اصبر لاله خلاصي. يسمعني الهي.
+					</ab>
+					<ab xml:id="b.MIC.007.008" type="verse">
+						لا تشمتي بي يا عدوّتي. اذا سقطت اقوم. اذا جلست في الظلمة فالرب نور لي.
+					</ab>
+					<ab xml:id="b.MIC.007.009" type="verse">
+						احتمل غضب الرب لاني اخطأت اليه حتى يقيم دعواي ويجري حقي. سيخرجني الى النور سانظر برّه.
+					</ab>
+					<ab xml:id="b.MIC.007.010" type="verse">
+						وترى عدوتي فيغطيها الخزي القائلة لي اين هو الرب الهك. عيناي ستنظران اليها. الآن تصير للدوس كطين الأزقة
+					</ab>
+					<ab xml:id="b.MIC.007.011" type="verse">
+						يوم بناء حيطانك ذلك اليوم يبعد الميعاد.
+					</ab>
+					<ab xml:id="b.MIC.007.012" type="verse">
+						هو يوم يأتون اليك من اشور ومدن مصر ومن مصر الى النهر. ومن البحر الى البحر. ومن الجبل الى الجبل.
+					</ab>
+					<ab xml:id="b.MIC.007.013" type="verse">
+						ولكن تصير الارض خربة بسبب سكانها من اجل ثمر افعالهم
+					</ab>
+					<ab xml:id="b.MIC.007.014" type="verse">
+						ارع بعصاك شعبك غنم ميراثك ساكنة وحدها في وعر في وسط الكرمل. لترع في باشان وجلعاد كايام القدم.
+					</ab>
+					<ab xml:id="b.MIC.007.015" type="verse">
+						كايام خروجك من ارض مصر أريه عجائب.
+					</ab>
+					<ab xml:id="b.MIC.007.016" type="verse">
+						ينظر الامم ويخجلون من كل بطشهم. يضعون ايديهم على افواههم وتصمّ آذانهم.
+					</ab>
+					<ab xml:id="b.MIC.007.017" type="verse">
+						يلحسون التراب كالحية. كزواحف الارض يخرجون بالرعدة من حصونهم يأتون بالرعب الى الرب الهنا ويخافون منك
+					</ab>
+					<ab xml:id="b.MIC.007.018" type="verse">
+						من هو اله مثلك غافر الاثم وصافح عن الذنب لبقية ميراثه. لا يحفظ الى الابد غضبه فانه يسرّ بالرأفة.
+					</ab>
+					<ab xml:id="b.MIC.007.019" type="verse">
+						يعود يرحمنا يدوس آثامنا وتطرح في اعماق البحر جميع خطاياهم.
+					</ab>
+					<ab xml:id="b.MIC.007.020" type="verse">
+						تصنع الامانة ليعقوب والرأفة لابراهيم اللتين حلفت لآبائنا منذ ايام القدم
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>

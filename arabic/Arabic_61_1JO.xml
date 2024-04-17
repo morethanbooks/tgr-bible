@@ -1,0 +1,401 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>1 John (Arabic)</title>
+            <respStmt>
+               <resp>Constructed in accordance to CES standards.</resp>
+               <name corresp="https://orcid.org/0000-0001-7708-0051" xml:id="CC">Christos Christodoulopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>Converted in to TEI.</resp>
+               <name corresp="https://orcid.org/0000-0002-1129-5604" xml:id="JCT">José Calvo Tello</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+         <measure commodity="chapters" quantity="5"/><measure commodity="verses" quantity="105"/><measure commodity="bytes" quantity="90022"/><measure commodity="characters" quantity="50238"/><measure commodity="tokens" quantity="9431"/></extent>
+         <publicationStmt>
+            <publisher>Multi-lingual corpus of the Bible</publisher>
+            <distributor ref="https://github.com/christos-c/bible-corpus">GitHub</distributor>
+            <date when="2015-10-17"/>
+            <availability>
+               <licence resp="#CC" target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Bible Database</title>
+               <ref target="http://bibledatabase.com"/>
+            </bibl>
+         <bibl type="work"><title>1 John</title><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q131101">Q131101</idno><idno type="gnd" corresp="https://d-nb.info/gnd/4114079-5">4114079-5</idno><author><name>John the Evangelist</name><idno type="wikidata" corresp="https://www.wikidata.org/wiki/Q328804">Q328804</idno><idno type="gnd" corresp="https://d-nb.info/gnd/118557815">118557815</idno></author></bibl></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Corpus Encoding Standard, Version 2.0 (Corpus Encoding Standard, Version 2.0attributes_)</p>
+           <correction method="silent" status="medium"><p/></correction>
+           <segmentation><p>Marked up to the level of chapter and verse.</p></segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ar">Arabic<idno type="iso639">ara</idno></language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="writingSystem">utf-8</term>
+              <term type="script">Arabic</term>
+              <term type="languageFamiliy">Afro-Asiatic</term>
+              <term type="languageGenus">Semitic</term>
+              <term type="languageSubgenus">Central</term>
+              <term type="languageSpeakers">206,000,000</term>
+           <term type="testament">new</term><term type="genre">letter</term><term type="division">Letters</term><term type="genre-multilabel">letter</term></keywords>
+           <keywords scheme="http://uri.gbv.de/terminology/bk/">
+              <term type="basicClassification" key="11.31">Bible text. Bible translations</term>
+           <term type="basicClassification" key="18.74">Arabic language and literature</term></keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change resp="#CC">Corpus Encoding Standard, Version 2.0</change>
+        <change resp="#CC">Marked up to the level of chapter and verse.</change>
+        <change resp="#CC" when="2015-10-17">Uploaded in GitHub.</change>
+        <change resp="#JCT" when="2024-02-28">Converted to TEI.</change>
+     <change resp="#JCT" when="2024-04-05">The number of tokens in the element measure[@type='tokens'] was obtained using the regular expression '[\s\W]+'.</change></revisionDesc>
+  </teiHeader>
+
+
+	<text>
+		<body xml:lang="ar"><div xml:id="b.1JO" type="book">
+				<div xml:id="b.1JO.001" type="chapter">
+				<head>1</head>
+					<ab xml:id="b.1JO.001.001" type="verse">
+						الذي كان من البدء الذي سمعناه الذي رأيناه بعيوننا الذي شاهدناه ولمسته ايدينا من جهة كلمة الحياة.
+					</ab>
+					<ab xml:id="b.1JO.001.002" type="verse">
+						فان الحياة أظهرت وقد رأينا ونشهد ونخبركم بالحياة الابدية التي كانت عند الآب وأظهرت لنا.
+					</ab>
+					<ab xml:id="b.1JO.001.003" type="verse">
+						الذي رأيناه وسمعناه نخبركم به لكي يكون لكم ايضا شركة معنا. واما شركتنا نحن فهي مع الآب ومع ابنه يسوع المسيح.
+					</ab>
+					<ab xml:id="b.1JO.001.004" type="verse">
+						ونكتب اليكم هذا لكي يكون فرحكم كاملا
+					</ab>
+					<ab xml:id="b.1JO.001.005" type="verse">
+						وهذا هو الخبر الذي سمعناه منه ونخبركم به ان الله نور وليس فيه ظلمة البتة.
+					</ab>
+					<ab xml:id="b.1JO.001.006" type="verse">
+						ان قلنا ان لنا شركة معه وسلكنا في الظلمة نكذب ولسنا نعمل الحق
+					</ab>
+					<ab xml:id="b.1JO.001.007" type="verse">
+						ولكن ان سلكنا في النور كما هو في النور فلنا شركة بعضنا مع بعض ودم يسوع المسيح ابنه يطهرنا من كل خطية.
+					</ab>
+					<ab xml:id="b.1JO.001.008" type="verse">
+						ان قلنا انه ليس لنا خطية نضل انفسنا وليس الحق فينا.
+					</ab>
+					<ab xml:id="b.1JO.001.009" type="verse">
+						ان اعترفنا بخطايانا فهو امين وعادل حتى يغفر لنا خطايانا ويطهرنا من كل اثم.
+					</ab>
+					<ab xml:id="b.1JO.001.010" type="verse">
+						ان قلنا اننا لم نخطئ نجعله كاذبا وكلمته ليست فينا
+					</ab>
+				</div>
+				<div xml:id="b.1JO.002" type="chapter">
+				<head>2</head>
+					<ab xml:id="b.1JO.002.001" type="verse">
+						يا اولادي اكتب اليكم هذا لكي لا تخطئوا. وان اخطأ احد فلنا شفيع عند الآب يسوع المسيح البار
+					</ab>
+					<ab xml:id="b.1JO.002.002" type="verse">
+						وهو كفارة لخطايانا. ليس لخطايانا فقط بل لخطايا كل العالم ايضا
+					</ab>
+					<ab xml:id="b.1JO.002.003" type="verse">
+						وبهذا نعرف اننا قد عرفناه ان حفظنا وصاياه.
+					</ab>
+					<ab xml:id="b.1JO.002.004" type="verse">
+						من قال قد عرفته وهو لا يحفظ وصاياه فهو كاذب وليس الحق فيه.
+					</ab>
+					<ab xml:id="b.1JO.002.005" type="verse">
+						واما من حفظ كلمته فحقا في هذا قد تكملت محبة الله. بهذا نعرف اننا فيه.
+					</ab>
+					<ab xml:id="b.1JO.002.006" type="verse">
+						من قال انه ثابت فيه ينبغي انه كما سلك ذاك هكذا يسلك هو ايضا.
+					</ab>
+					<ab xml:id="b.1JO.002.007" type="verse">
+						ايها الاخوة لست اكتب اليكم وصية جديدة بل وصية قديمة كانت عندكم من البدء. الوصية القديمة هي الكلمة التي سمعتموها من البدء.
+					</ab>
+					<ab xml:id="b.1JO.002.008" type="verse">
+						ايضا وصية جديدة اكتب اليكم ما هو حق فيه وفيكم ان الظلمة قد مضت والنور الحقيقي الآن يضيء.
+					</ab>
+					<ab xml:id="b.1JO.002.009" type="verse">
+						من قال انه في النور وهو يبغض اخاه فهو الى الآن في الظلمة.
+					</ab>
+					<ab xml:id="b.1JO.002.010" type="verse">
+						من يحب اخاه يثبت في النور وليس فيه عثرة.
+					</ab>
+					<ab xml:id="b.1JO.002.011" type="verse">
+						واما من يبغض اخاه فهو في الظلمة وفي الظلمة يسلك ولا يعلم اين يمضي لان الظلمة اعمت عينيه
+					</ab>
+					<ab xml:id="b.1JO.002.012" type="verse">
+						اكتب اليكم ايها الاولاد لانه قد غفرت لكم الخطايا من اجل اسمه
+					</ab>
+					<ab xml:id="b.1JO.002.013" type="verse">
+						اكتب اليكم ايها الآباء لانكم قد عرفتم الذي من البدء. اكتب اليكم ايها الاحداث لانكم قد غلبتم الشرير. اكتب اليكم ايها الاولاد لانكم قد عرفتم الآب.
+					</ab>
+					<ab xml:id="b.1JO.002.014" type="verse">
+						كتبت اليكم ايها الآباء لانكم قد عرفتم الذي من البدء. كتبت اليكم ايها الاحداث لانكم اقوياء وكلمة الله ثابتة فيكم وقد غلبتم الشرير.
+					</ab>
+					<ab xml:id="b.1JO.002.015" type="verse">
+						لا تحبوا العالم ولا الاشياء التي في العالم. ان احب احد العالم فليست فيه محبة الآب.
+					</ab>
+					<ab xml:id="b.1JO.002.016" type="verse">
+						لان كل ما في العالم شهوة الجسد وشهوة العيون وتعظم المعيشة ليس من الآب بل من العالم.
+					</ab>
+					<ab xml:id="b.1JO.002.017" type="verse">
+						والعالم يمضي وشهوته واما الذي يصنع مشيئة الله فيثبت الى الابد
+					</ab>
+					<ab xml:id="b.1JO.002.018" type="verse">
+						ايها الاولاد هي الساعة الاخيرة. وكما سمعتم ان ضد المسيح يأتي قد صار الآن اضداد للمسيح كثيرون. من هنا نعلم انها الساعة الاخيرة
+					</ab>
+					<ab xml:id="b.1JO.002.019" type="verse">
+						منا خرجوا لكنهم لم يكونوا منا لانهم لو كانوا منا لبقوا معنا لكن ليظهروا انهم ليسوا جميعهم منا.
+					</ab>
+					<ab xml:id="b.1JO.002.020" type="verse">
+						واما انتم فلكم مسحة من القدوس وتعلمون كل شيء.
+					</ab>
+					<ab xml:id="b.1JO.002.021" type="verse">
+						لم اكتب اليكم لانكم لستم تعلمون الحق بل لانكم تعلمونه وان كل كذب ليس من الحق.
+					</ab>
+					<ab xml:id="b.1JO.002.022" type="verse">
+						من هو الكذاب الا الذي ينكر ان يسوع هو المسيح. هذا هو ضد المسيح الذي ينكر الآب والابن.
+					</ab>
+					<ab xml:id="b.1JO.002.023" type="verse">
+						كل من ينكر الابن ليس له الآب ايضا ومن يعترف بالابن فله الآب ايضا
+					</ab>
+					<ab xml:id="b.1JO.002.024" type="verse">
+						اما انتم فما سمعتموه من البدء فليثبت اذا فيكم. ان ثبت فيكم ما سمعتموه من البدء فانتم ايضا تثبتون في الابن وفي الآب.
+					</ab>
+					<ab xml:id="b.1JO.002.025" type="verse">
+						وهذا هو الوعد الذي وعدنا هو به الحياة الابدية.
+					</ab>
+					<ab xml:id="b.1JO.002.026" type="verse">
+						كتبت اليكم هذا عن الذين يضلونكم.
+					</ab>
+					<ab xml:id="b.1JO.002.027" type="verse">
+						واما انتم فالمسحة التي اخذتموها منه ثابتة فيكم ولا حاجة بكم الى ان يعلّمكم احد بل كما تعلّمكم هذه المسحة عينها عن كل شيء وهي حق وليست كذبا. كما علّمتكم تثبتون فيه
+					</ab>
+					<ab xml:id="b.1JO.002.028" type="verse">
+						والآن ايها الاولاد اثبتوا فيه حتى اذا أظهر يكون لنا ثقة ولا نخجل منه في مجيئه.
+					</ab>
+					<ab xml:id="b.1JO.002.029" type="verse">
+						ان علمتم انه بار هو فاعلموا ان كل من يصنع البر مولود منه
+					</ab>
+				</div>
+				<div xml:id="b.1JO.003" type="chapter">
+				<head>3</head>
+					<ab xml:id="b.1JO.003.001" type="verse">
+						انظروا اية محبة اعطانا الآب حتى ندعى اولاد الله. من اجل هذا لا يعرفنا العالم لانه لا يعرفه.
+					</ab>
+					<ab xml:id="b.1JO.003.002" type="verse">
+						ايها الاحباء الآن نحن اولاد الله ولم يظهر بعد ماذا سنكون. ولكن نعلم انه اذا أظهر نكون مثله لاننا سنراه كما هو.
+					</ab>
+					<ab xml:id="b.1JO.003.003" type="verse">
+						وكل من عنده هذا الرجاء به يطهر نفسه كما هو طاهر.
+					</ab>
+					<ab xml:id="b.1JO.003.004" type="verse">
+						كل من يفعل الخطية يفعل التعدي ايضا. والخطية هي التعدي.
+					</ab>
+					<ab xml:id="b.1JO.003.005" type="verse">
+						وتعلمون ان ذاك أظهر لكي يرفع خطايانا وليس فيه خطية.
+					</ab>
+					<ab xml:id="b.1JO.003.006" type="verse">
+						كل من يثبت فيه لا يخطئ. كل من يخطئ لم يبصره ولا عرفه
+					</ab>
+					<ab xml:id="b.1JO.003.007" type="verse">
+						ايها الاولاد لا يضلّكم احد. من يفعل البر فهو بار كما ان ذاك بار
+					</ab>
+					<ab xml:id="b.1JO.003.008" type="verse">
+						من يفعل الخطية فهو من ابليس لان ابليس من البدء يخطئ. لاجل هذا أظهر ابن الله لكي ينقض اعمال ابليس.
+					</ab>
+					<ab xml:id="b.1JO.003.009" type="verse">
+						كل من هو مولود من الله لا يفعل خطية لان زرعه يثبت فيه ولا يستطيع ان يخطئ لانه مولود من الله.
+					</ab>
+					<ab xml:id="b.1JO.003.010" type="verse">
+						بهذا اولاد الله ظاهرون واولاد ابليس. كل من لا يفعل البر فليس من الله وكذا من لا يحب اخاه.
+					</ab>
+					<ab xml:id="b.1JO.003.011" type="verse">
+						لان هذا هو الخبر الذي سمعتموه من البدء ان يحب بعضنا بعضا.
+					</ab>
+					<ab xml:id="b.1JO.003.012" type="verse">
+						ليس كما كان قايين من الشرير وذبح اخاه. ولماذا ذبحه. لان اعماله كانت شريرة واعمال اخيه بارة
+					</ab>
+					<ab xml:id="b.1JO.003.013" type="verse">
+						لا تتعجبوا يا اخوتي ان كان العالم يبغضكم.
+					</ab>
+					<ab xml:id="b.1JO.003.014" type="verse">
+						نحن نعلم اننا قد انتقلنا من الموت الى الحياة لاننا نحب الاخوة. من لا يحب اخاه يبق في الموت.
+					</ab>
+					<ab xml:id="b.1JO.003.015" type="verse">
+						كل من يبغض اخاه فهو قاتل نفس. وانتم تعلمون ان كل قاتل نفس ليس له حياة ابدية ثابتة فيه.
+					</ab>
+					<ab xml:id="b.1JO.003.016" type="verse">
+						بهذا قد عرفنا المحبة ان ذاك وضع نفسه لاجلنا فنحن ينبغي لنا ان نضع نفوسنا لاجل الاخوة.
+					</ab>
+					<ab xml:id="b.1JO.003.017" type="verse">
+						واما من كان له معيشة العالم ونظر اخاه محتاجا واغلق احشاءه عنه فكيف تثبت محبة الله فيه.
+					</ab>
+					<ab xml:id="b.1JO.003.018" type="verse">
+						يا اولادي لا نحب بالكلام ولا باللسان بل بالعمل والحق.
+					</ab>
+					<ab xml:id="b.1JO.003.019" type="verse">
+						وبهذا نعرف اننا من الحق ونسكن قلوبنا قدامه.
+					</ab>
+					<ab xml:id="b.1JO.003.020" type="verse">
+						لانه ان لامتنا قلوبنا فالله اعظم من قلوبنا ويعلم كل شيء
+					</ab>
+					<ab xml:id="b.1JO.003.021" type="verse">
+						ايها الاحباء ان لم تلمنا قلوبنا فلنا ثقة من نحو الله
+					</ab>
+					<ab xml:id="b.1JO.003.022" type="verse">
+						ومهما سألنا ننال منه لاننا نحفظ وصاياه ونعمل الاعمال المرضية امامه.
+					</ab>
+					<ab xml:id="b.1JO.003.023" type="verse">
+						وهذه هي وصيته ان نؤمن باسم ابنه يسوع المسيح ونحب بعضنا بعضا كما اعطانا وصية.
+					</ab>
+					<ab xml:id="b.1JO.003.024" type="verse">
+						ومن يحفظ وصاياه يثبت فيه وهو فيه. وبهذا نعرف انه يثبت فينا من الروح الذي اعطانا
+					</ab>
+				</div>
+				<div xml:id="b.1JO.004" type="chapter">
+				<head>4</head>
+					<ab xml:id="b.1JO.004.001" type="verse">
+						ايها الاحباء لا تصدقوا كل روح بل امتحنوا الارواح هل هي من الله لان انبياء كذبة كثيرين قد خرجوا الى العالم.
+					</ab>
+					<ab xml:id="b.1JO.004.002" type="verse">
+						بهذا تعرفون روح الله. كل روح يعترف بيسوع المسيح انه قد جاء في الجسد فهو من الله.
+					</ab>
+					<ab xml:id="b.1JO.004.003" type="verse">
+						وكل روح لا يعترف بيسوع المسيح انه قد جاء في الجسد فليس من الله. وهذا هو روح ضد المسيح الذي سمعتم انه يأتي والآن هو في العالم.
+					</ab>
+					<ab xml:id="b.1JO.004.004" type="verse">
+						انتم من الله ايها الاولاد وقد غلبتموهم لان الذي فيكم اعظم من الذي في العالم.
+					</ab>
+					<ab xml:id="b.1JO.004.005" type="verse">
+						هم من العالم. من اجل ذلك يتكلمون من العالم والعالم يسمع لهم.
+					</ab>
+					<ab xml:id="b.1JO.004.006" type="verse">
+						نحن من الله فمن يعرف الله يسمع لنا ومن ليس من الله لا يسمع لنا. من هذا نعرف روح الحق وروح الضلال.
+					</ab>
+					<ab xml:id="b.1JO.004.007" type="verse">
+						ايها الاحباء لنحب بعضنا بعضا لان المحبة هي من الله وكل من يحب فقد ولد من الله ويعرف الله.
+					</ab>
+					<ab xml:id="b.1JO.004.008" type="verse">
+						ومن لا يحب لم يعرف الله لان الله محبة.
+					</ab>
+					<ab xml:id="b.1JO.004.009" type="verse">
+						بهذا أظهرت محبة الله فينا ان الله قد ارسل ابنه الوحيد الى العالم لكي نحيا به.
+					</ab>
+					<ab xml:id="b.1JO.004.010" type="verse">
+						في هذه هي المحبة ليس اننا نحن احببنا الله بل انه هو احبنا وارسل ابنه كفارة لخطايانا
+					</ab>
+					<ab xml:id="b.1JO.004.011" type="verse">
+						ايها الاحباء ان كان الله قد احبنا هكذا ينبغي لنا ايضا ان يحب بعضنا بعضا.
+					</ab>
+					<ab xml:id="b.1JO.004.012" type="verse">
+						الله لم ينظره احد قط. ان احب بعضنا بعضا فالله يثبت فينا ومحبته قد تكملت فينا.
+					</ab>
+					<ab xml:id="b.1JO.004.013" type="verse">
+						بهذا نعرف اننا نثبت فيه وهو فينا انه قد اعطانا من روحه.
+					</ab>
+					<ab xml:id="b.1JO.004.014" type="verse">
+						ونحن قد نظرنا ونشهد ان الآب قد ارسل الابن مخلّصا للعالم.
+					</ab>
+					<ab xml:id="b.1JO.004.015" type="verse">
+						من اعترف ان يسوع هو ابن الله فالله يثبت فيه وهو في الله.
+					</ab>
+					<ab xml:id="b.1JO.004.016" type="verse">
+						ونحن قد عرفنا وصدقنا المحبة التي للّه فينا. الله محبة ومن يثبت في المحبة يثبت في الله والله فيه.
+					</ab>
+					<ab xml:id="b.1JO.004.017" type="verse">
+						بهذا تكملت المحبة فينا ان يكون لنا ثقة في يوم الدين لانه كما هو في هذا العالم هكذا نحن ايضا.
+					</ab>
+					<ab xml:id="b.1JO.004.018" type="verse">
+						لا خوف في المحبة بل المحبة الكاملة تطرح الخوف الى خارج لان الخوف له عذاب واما من خاف فلم يتكمل في المحبة.
+					</ab>
+					<ab xml:id="b.1JO.004.019" type="verse">
+						نحن نحبه لانه هو احبنا اولا.
+					</ab>
+					<ab xml:id="b.1JO.004.020" type="verse">
+						ان قال احد اني احب الله وابغض اخاه فهو كاذب. لان من لا يحب اخاه الذي ابصره كيف يقدر ان يحب الله الذي لم يبصره.
+					</ab>
+					<ab xml:id="b.1JO.004.021" type="verse">
+						ولنا هذه الوصية منه ان من يحب الله يحب اخاه ايضا
+					</ab>
+				</div>
+				<div xml:id="b.1JO.005" type="chapter">
+				<head>5</head>
+					<ab xml:id="b.1JO.005.001" type="verse">
+						كل من يؤمن ان يسوع هو المسيح فقد ولد من الله. وكل من يحب الوالد يحب المولود منه ايضا.
+					</ab>
+					<ab xml:id="b.1JO.005.002" type="verse">
+						بهذا نعرف اننا نحب اولاد الله اذا احببنا الله وحفظنا وصاياه.
+					</ab>
+					<ab xml:id="b.1JO.005.003" type="verse">
+						فان هذه هي محبة الله ان نحفظ وصاياه. ووصاياه ليست ثقيلة.
+					</ab>
+					<ab xml:id="b.1JO.005.004" type="verse">
+						لان كل من ولد من الله يغلب العالم. وهذه هي الغلبة التي تغلب العالم ايماننا.
+					</ab>
+					<ab xml:id="b.1JO.005.005" type="verse">
+						من هو الذي يغلب العالم الا الذي يؤمن ان يسوع هو ابن الله
+					</ab>
+					<ab xml:id="b.1JO.005.006" type="verse">
+						هذا هو الذي أتى بماء ودم يسوع المسيح. لا بالماء فقط بل بالماء والدم. والروح هو الذي يشهد لان الروح هو الحق.
+					</ab>
+					<ab xml:id="b.1JO.005.007" type="verse">
+						فان الذين يشهدون في السماء هم ثلاثة الآب والكلمة والروح القدس وهؤلاء الثلاثة هم واحد.
+					</ab>
+					<ab xml:id="b.1JO.005.008" type="verse">
+						والذين يشهدون في الارض هم ثلاثة الروح والماء والدم والثلاثة هم في الواحد.
+					</ab>
+					<ab xml:id="b.1JO.005.009" type="verse">
+						ان كنا نقبل شهادة الناس فشهادة الله اعظم لان هذه هي شهادة الله التي قد شهد بها عن ابنه.
+					</ab>
+					<ab xml:id="b.1JO.005.010" type="verse">
+						من يؤمن بابن الله فعنده الشهادة في نفسه. من لا يصدق الله فقد جعله كاذبا لانه لم يؤمن بالشهادة التي قد شهد بها الله عن ابنه.
+					</ab>
+					<ab xml:id="b.1JO.005.011" type="verse">
+						وهذه هي الشهادة ان الله اعطانا حياة ابدية وهذه الحياة هي في ابنه.
+					</ab>
+					<ab xml:id="b.1JO.005.012" type="verse">
+						من له الابن فله الحياة ومن ليس له ابن الله فليست له الحياة
+					</ab>
+					<ab xml:id="b.1JO.005.013" type="verse">
+						كتبت هذا اليكم انتم المؤمنين باسم ابن الله لكي تعلموا ان لكم حياة ابدية ولكي تؤمنوا باسم ابن الله.
+					</ab>
+					<ab xml:id="b.1JO.005.014" type="verse">
+						وهذه هي الثقة التي لنا عنده انه ان طلبنا شيئا حسب مشيئته يسمع لنا.
+					</ab>
+					<ab xml:id="b.1JO.005.015" type="verse">
+						وان كنا نعلم انه مهما طلبنا يسمع لنا نعلم ان لنا الطلبات التي طلبناها منه.
+					</ab>
+					<ab xml:id="b.1JO.005.016" type="verse">
+						ان رأى احد اخاه يخطئ خطية ليست للموت يطلب فيعطيه حياة للذين يخطئون ليس للموت. توجد خطية للموت. ليس لاجل هذه اقول ان يطلب.
+					</ab>
+					<ab xml:id="b.1JO.005.017" type="verse">
+						كل اثم هو خطية وتوجد خطية ليست للموت.
+					</ab>
+					<ab xml:id="b.1JO.005.018" type="verse">
+						نعلم ان كل من ولد من الله لا يخطئ بل المولود من الله يحفظ نفسه والشرير لا يمسه.
+					</ab>
+					<ab xml:id="b.1JO.005.019" type="verse">
+						نعلم اننا نحن من الله والعالم كله قد وضع في الشرير.
+					</ab>
+					<ab xml:id="b.1JO.005.020" type="verse">
+						ونعلم ان ابن الله قد جاء واعطانا بصيرة لنعرف الحق. ونحن في الحق في ابنه يسوع المسيح. هذا هو الاله الحق والحياة الابدية.
+					</ab>
+					<ab xml:id="b.1JO.005.021" type="verse">
+						ايها الاولاد احفظوا انفسكم من الاصنام. آمين
+					</ab>
+				</div>
+			</div>
+			</body></text>
+</TEI>
